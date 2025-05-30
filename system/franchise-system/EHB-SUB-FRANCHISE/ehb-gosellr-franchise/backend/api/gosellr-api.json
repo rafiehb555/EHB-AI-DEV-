@@ -1,0 +1,21 @@
+{
+  "base_url": "http://localhost:5002/api",
+  "endpoints": [
+    {
+      "path": "/franchise",
+      "method": "GET",
+      "description": "Get all franchises"
+    },
+    {
+      "path": "/franchise/:id",
+      "method": "GET",
+      "description": "Get franchise by ID"
+    },
+    {
+      "path": "/franchise/:id/analytics",
+      "method": "GET",
+      "description": "Get franchise analytics"
+    }
+  ],
+  "authentication": "JWT token required for all endpoints"
+}

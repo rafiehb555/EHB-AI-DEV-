@@ -1,0 +1,22 @@
+{
+  "campaigns": [
+    {
+      "id": 1,
+      "name": "Summer Sale",
+      "roi": 3.7
+    },
+    {
+      "id": 2,
+      "name": "Holiday Special",
+      "roi": 4.2
+    },
+    {
+      "id": 3,
+      "name": "New Customer Discount",
+      "roi": 2.9
+    }
+  ],
+  "email_open_rate": 24.5,
+  "social_engagement": 14.3,
+  "ad_click_through": 2.1
+}

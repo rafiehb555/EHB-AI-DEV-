@@ -1,0 +1,12 @@
+{
+  "name": "ehb-ai-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "agent/index.js",
+  "scripts": {
+    "dev": "node agent/index.js"
+  },
+  "dependencies": {
+    "openai": "^4.20.0"
+  }
+}

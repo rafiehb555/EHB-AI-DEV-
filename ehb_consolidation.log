@@ -1,0 +1,627 @@
+[2025-05-14 02:35:12] ==================================================
+[2025-05-14 02:35:12] Starting EHB Project Organization and Consolidation Process
+[2025-05-14 02:35:12] ==================================================
+[2025-05-14 02:35:12] Created directory: /home/runner/workspace/attached_assets/processed
+[2025-05-14 02:35:12] Looking for zip files in: /home/runner/workspace/attached_assets/*.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-20.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-19.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-18.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-17.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-16.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-15.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-14.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-13.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-12.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-11.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-10.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-9.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-8.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-7.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-6.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-5.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-4.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-3.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-2.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-1.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-31.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-30.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-29.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-28.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-27.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-26.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-25.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-24.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-23.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-22.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-21.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/SmartAccessControl-Phase-15.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/APK-BuildFlow-Phase-14.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-MobileSync-Phase-13.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/VoiceGPT-AIAgent-Phase-12.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/DashboardCommandAgent-Phase-11.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/SmartAIAgent-Phase-10.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/AI-Dashboard-Final-Phase-9.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/TestPassFail-Phase-8.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/AutoCardGen-Phase-7.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/ReferralTree-Phase-6.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/SQLBadgeSystem-Phase-5.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/VoiceModuleGen-Phase-4.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/AICodingChat-Phase-3.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/CodeSuggest-Phase-2.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/ModuleBuilder-Phase-1.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AutoDashboard-System.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Agent-Phase-1.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Dev-BaseFiles.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-AI-Agent.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-Free-Agent-Package.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase2.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase1.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase4.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase3.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase10.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase9.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase8.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase7.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase6.zip
+[2025-05-14 02:35:12] Found zip file: /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase5.zip
+[2025-05-14 02:35:12] Found 61 ZIP files to process
+[2025-05-14 02:35:12] Processing ZIP file 1 of 61: EHB-AI-Dev-Phase-20.zip
+[2025-05-14 02:35:12] Created directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing EHB-AI-Dev-Phase-20
+[2025-05-14 02:35:12] Extracted 4 files from EHB-AI-Dev-Phase-20.zip to temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Identified EHB-AI-Dev-Phase-20 as type unknown, target: EHB-AI-Dev-Phase-20
+[2025-05-14 02:35:12] Created directory: EHB-AI-Dev-Phase-20
+[2025-05-14 02:35:12] Copied 2 files/directories from EHB-AI-Dev-Phase-20 to EHB-AI-Dev-Phase-20
+[2025-05-14 02:35:12] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-20.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-20.zip
+[2025-05-14 02:35:12] Removed directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing ZIP file 2 of 61: EHB-AI-Dev-Phase-19.zip
+[2025-05-14 02:35:12] Created directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing EHB-AI-Dev-Phase-19
+[2025-05-14 02:35:12] Extracted 5 files from EHB-AI-Dev-Phase-19.zip to temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Identified EHB-AI-Dev-Phase-19 as type unknown, target: EHB-AI-Dev-Phase-19
+[2025-05-14 02:35:12] Created directory: EHB-AI-Dev-Phase-19
+[2025-05-14 02:35:12] Copied 3 files/directories from EHB-AI-Dev-Phase-19 to EHB-AI-Dev-Phase-19
+[2025-05-14 02:35:12] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-19.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-19.zip
+[2025-05-14 02:35:12] Removed directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing ZIP file 3 of 61: EHB-AI-Dev-Phase-18.zip
+[2025-05-14 02:35:12] Created directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing EHB-AI-Dev-Phase-18
+[2025-05-14 02:35:12] Extracted 5 files from EHB-AI-Dev-Phase-18.zip to temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Identified EHB-AI-Dev-Phase-18 as type unknown, target: EHB-AI-Dev-Phase-18
+[2025-05-14 02:35:12] Created directory: EHB-AI-Dev-Phase-18
+[2025-05-14 02:35:12] Copied 3 files/directories from EHB-AI-Dev-Phase-18 to EHB-AI-Dev-Phase-18
+[2025-05-14 02:35:12] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-18.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-18.zip
+[2025-05-14 02:35:12] Removed directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing ZIP file 4 of 61: EHB-AI-Dev-Phase-17.zip
+[2025-05-14 02:35:12] Created directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing EHB-AI-Dev-Phase-17
+[2025-05-14 02:35:12] Extracted 5 files from EHB-AI-Dev-Phase-17.zip to temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Identified EHB-AI-Dev-Phase-17 as type unknown, target: EHB-AI-Dev-Phase-17
+[2025-05-14 02:35:12] Created directory: EHB-AI-Dev-Phase-17
+[2025-05-14 02:35:12] Copied 3 files/directories from EHB-AI-Dev-Phase-17 to EHB-AI-Dev-Phase-17
+[2025-05-14 02:35:12] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-17.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-17.zip
+[2025-05-14 02:35:12] Removed directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing ZIP file 5 of 61: EHB-AI-Dev-Phase-16.zip
+[2025-05-14 02:35:12] Created directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing EHB-AI-Dev-Phase-16
+[2025-05-14 02:35:12] Extracted 5 files from EHB-AI-Dev-Phase-16.zip to temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Identified EHB-AI-Dev-Phase-16 as type unknown, target: EHB-AI-Dev-Phase-16
+[2025-05-14 02:35:12] Created directory: EHB-AI-Dev-Phase-16
+[2025-05-14 02:35:12] Copied 3 files/directories from EHB-AI-Dev-Phase-16 to EHB-AI-Dev-Phase-16
+[2025-05-14 02:35:12] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-16.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-16.zip
+[2025-05-14 02:35:12] Removed directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing ZIP file 6 of 61: EHB-AI-Dev-Phase-15.zip
+[2025-05-14 02:35:12] Created directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing EHB-AI-Dev-Phase-15
+[2025-05-14 02:35:12] Extracted 5 files from EHB-AI-Dev-Phase-15.zip to temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Identified EHB-AI-Dev-Phase-15 as type unknown, target: EHB-AI-Dev-Phase-15
+[2025-05-14 02:35:12] Created directory: EHB-AI-Dev-Phase-15
+[2025-05-14 02:35:12] Copied 3 files/directories from EHB-AI-Dev-Phase-15 to EHB-AI-Dev-Phase-15
+[2025-05-14 02:35:12] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-15.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-15.zip
+[2025-05-14 02:35:12] Removed directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing ZIP file 7 of 61: EHB-AI-Dev-Phase-14.zip
+[2025-05-14 02:35:12] Created directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing EHB-AI-Dev-Phase-14
+[2025-05-14 02:35:12] Extracted 6 files from EHB-AI-Dev-Phase-14.zip to temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Identified EHB-AI-Dev-Phase-14 as type unknown, target: EHB-AI-Dev-Phase-14
+[2025-05-14 02:35:12] Created directory: EHB-AI-Dev-Phase-14
+[2025-05-14 02:35:12] Copied 3 files/directories from EHB-AI-Dev-Phase-14 to EHB-AI-Dev-Phase-14
+[2025-05-14 02:35:12] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-14.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-14.zip
+[2025-05-14 02:35:12] Removed directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing ZIP file 8 of 61: EHB-AI-Dev-Phase-13.zip
+[2025-05-14 02:35:12] Created directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing EHB-AI-Dev-Phase-13
+[2025-05-14 02:35:12] Extracted 7 files from EHB-AI-Dev-Phase-13.zip to temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Identified EHB-AI-Dev-Phase-13 as type unknown, target: EHB-AI-Dev-Phase-13
+[2025-05-14 02:35:12] Created directory: EHB-AI-Dev-Phase-13
+[2025-05-14 02:35:12] Copied 3 files/directories from EHB-AI-Dev-Phase-13 to EHB-AI-Dev-Phase-13
+[2025-05-14 02:35:12] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-13.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-13.zip
+[2025-05-14 02:35:12] Removed directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing ZIP file 9 of 61: EHB-AI-Dev-Phase-12.zip
+[2025-05-14 02:35:12] Created directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing EHB-AI-Dev-Phase-12
+[2025-05-14 02:35:12] Extracted 7 files from EHB-AI-Dev-Phase-12.zip to temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Identified EHB-AI-Dev-Phase-12 as type unknown, target: EHB-AI-Dev-Phase-12
+[2025-05-14 02:35:12] Created directory: EHB-AI-Dev-Phase-12
+[2025-05-14 02:35:12] Copied 3 files/directories from EHB-AI-Dev-Phase-12 to EHB-AI-Dev-Phase-12
+[2025-05-14 02:35:12] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-12.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-12.zip
+[2025-05-14 02:35:12] Removed directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing ZIP file 10 of 61: EHB-AI-Dev-Phase-11.zip
+[2025-05-14 02:35:12] Created directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Processing EHB-AI-Dev-Phase-11
+[2025-05-14 02:35:12] Extracted 7 files from EHB-AI-Dev-Phase-11.zip to temp_extract/extract_1747190112
+[2025-05-14 02:35:12] Identified EHB-AI-Dev-Phase-11 as type unknown, target: EHB-AI-Dev-Phase-11
+[2025-05-14 02:35:12] Created directory: EHB-AI-Dev-Phase-11
+[2025-05-14 02:35:13] Copied 3 files/directories from EHB-AI-Dev-Phase-11 to EHB-AI-Dev-Phase-11
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-11.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-11.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190112
+[2025-05-14 02:35:13] Processing ZIP file 11 of 61: EHB-AI-Dev-Phase-10.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-10
+[2025-05-14 02:35:13] Extracted 7 files from EHB-AI-Dev-Phase-10.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-10 as type unknown, target: EHB-AI-Dev-Phase-10
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-10
+[2025-05-14 02:35:13] Copied 4 files/directories from EHB-AI-Dev-Phase-10 to EHB-AI-Dev-Phase-10
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-10.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-10.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 12 of 61: EHB-AI-Dev-Phase-9.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-9
+[2025-05-14 02:35:13] Extracted 6 files from EHB-AI-Dev-Phase-9.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-9 as type unknown, target: EHB-AI-Dev-Phase-9
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-9
+[2025-05-14 02:35:13] Copied 3 files/directories from EHB-AI-Dev-Phase-9 to EHB-AI-Dev-Phase-9
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-9.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-9.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 13 of 61: EHB-AI-Dev-Phase-8.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-8
+[2025-05-14 02:35:13] Extracted 11 files from EHB-AI-Dev-Phase-8.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-8 as type unknown, target: EHB-AI-Dev-Phase-8
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-8
+[2025-05-14 02:35:13] Copied 4 files/directories from EHB-AI-Dev-Phase-8 to EHB-AI-Dev-Phase-8
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-8.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-8.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 14 of 61: EHB-AI-Dev-Phase-7.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-7
+[2025-05-14 02:35:13] Extracted 8 files from EHB-AI-Dev-Phase-7.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-7 as type unknown, target: EHB-AI-Dev-Phase-7
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-7
+[2025-05-14 02:35:13] Copied 4 files/directories from EHB-AI-Dev-Phase-7 to EHB-AI-Dev-Phase-7
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-7.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-7.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 15 of 61: EHB-AI-Dev-Phase-6.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-6
+[2025-05-14 02:35:13] Extracted 11 files from EHB-AI-Dev-Phase-6.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-6 as type unknown, target: EHB-AI-Dev-Phase-6
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-6
+[2025-05-14 02:35:13] Copied 4 files/directories from EHB-AI-Dev-Phase-6 to EHB-AI-Dev-Phase-6
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-6.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-6.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 16 of 61: EHB-AI-Dev-Phase-5.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-5
+[2025-05-14 02:35:13] Extracted 14 files from EHB-AI-Dev-Phase-5.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-5 as type unknown, target: EHB-AI-Dev-Phase-5
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-5
+[2025-05-14 02:35:13] Copied 5 files/directories from EHB-AI-Dev-Phase-5 to EHB-AI-Dev-Phase-5
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-5.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-5.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 17 of 61: EHB-AI-Dev-Phase-4.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-4
+[2025-05-14 02:35:13] Extracted 14 files from EHB-AI-Dev-Phase-4.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-4 as type unknown, target: EHB-AI-Dev-Phase-4
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-4
+[2025-05-14 02:35:13] Copied 5 files/directories from EHB-AI-Dev-Phase-4 to EHB-AI-Dev-Phase-4
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-4.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-4.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 18 of 61: EHB-AI-Dev-Phase-3.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-3
+[2025-05-14 02:35:13] Extracted 11 files from EHB-AI-Dev-Phase-3.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-3 as type unknown, target: EHB-AI-Dev-Phase-3
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-3
+[2025-05-14 02:35:13] Copied 4 files/directories from EHB-AI-Dev-Phase-3 to EHB-AI-Dev-Phase-3
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-3.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-3.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 19 of 61: EHB-AI-Dev-Phase-2.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-2
+[2025-05-14 02:35:13] Extracted 12 files from EHB-AI-Dev-Phase-2.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-2 as type unknown, target: EHB-AI-Dev-Phase-2
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-2
+[2025-05-14 02:35:13] Copied 4 files/directories from EHB-AI-Dev-Phase-2 to EHB-AI-Dev-Phase-2
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-2.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-2.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 20 of 61: EHB-AI-Dev-Phase-1.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-1
+[2025-05-14 02:35:13] Extracted 8 files from EHB-AI-Dev-Phase-1.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-1 as type unknown, target: EHB-AI-Dev-Phase-1
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-1
+[2025-05-14 02:35:13] Copied 4 files/directories from EHB-AI-Dev-Phase-1 to EHB-AI-Dev-Phase-1
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-1.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-1.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 21 of 61: EHB-AI-Dev-Phase-31.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-31
+[2025-05-14 02:35:13] Extracted 6 files from EHB-AI-Dev-Phase-31.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-31 as type unknown, target: EHB-AI-Dev-Phase-31
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-31
+[2025-05-14 02:35:13] Copied 5 files/directories from EHB-AI-Dev-Phase-31 to EHB-AI-Dev-Phase-31
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-31.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-31.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 22 of 61: EHB-AI-Dev-Phase-30.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-30
+[2025-05-14 02:35:13] Extracted 6 files from EHB-AI-Dev-Phase-30.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-30 as type unknown, target: EHB-AI-Dev-Phase-30
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-30
+[2025-05-14 02:35:13] Copied 5 files/directories from EHB-AI-Dev-Phase-30 to EHB-AI-Dev-Phase-30
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-30.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-30.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 23 of 61: EHB-AI-Dev-Phase-29.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-29
+[2025-05-14 02:35:13] Extracted 6 files from EHB-AI-Dev-Phase-29.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-29 as type unknown, target: EHB-AI-Dev-Phase-29
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-29
+[2025-05-14 02:35:13] Copied 5 files/directories from EHB-AI-Dev-Phase-29 to EHB-AI-Dev-Phase-29
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-29.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-29.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 24 of 61: EHB-AI-Dev-Phase-28.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-28
+[2025-05-14 02:35:13] Extracted 7 files from EHB-AI-Dev-Phase-28.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-28 as type unknown, target: EHB-AI-Dev-Phase-28
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-28
+[2025-05-14 02:35:13] Copied 5 files/directories from EHB-AI-Dev-Phase-28 to EHB-AI-Dev-Phase-28
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-28.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-28.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 25 of 61: EHB-AI-Dev-Phase-27.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-27
+[2025-05-14 02:35:13] Extracted 8 files from EHB-AI-Dev-Phase-27.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-27 as type unknown, target: EHB-AI-Dev-Phase-27
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-27
+[2025-05-14 02:35:13] Copied 5 files/directories from EHB-AI-Dev-Phase-27 to EHB-AI-Dev-Phase-27
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-27.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-27.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 26 of 61: EHB-AI-Dev-Phase-26.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-26
+[2025-05-14 02:35:13] Extracted 7 files from EHB-AI-Dev-Phase-26.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-26 as type unknown, target: EHB-AI-Dev-Phase-26
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-26
+[2025-05-14 02:35:13] Copied 5 files/directories from EHB-AI-Dev-Phase-26 to EHB-AI-Dev-Phase-26
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-26.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-26.zip
+[2025-05-14 02:35:13] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing ZIP file 27 of 61: EHB-AI-Dev-Phase-25.zip
+[2025-05-14 02:35:13] Created directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Processing EHB-AI-Dev-Phase-25
+[2025-05-14 02:35:13] Extracted 7 files from EHB-AI-Dev-Phase-25.zip to temp_extract/extract_1747190113
+[2025-05-14 02:35:13] Identified EHB-AI-Dev-Phase-25 as type unknown, target: EHB-AI-Dev-Phase-25
+[2025-05-14 02:35:13] Created directory: EHB-AI-Dev-Phase-25
+[2025-05-14 02:35:13] Copied 5 files/directories from EHB-AI-Dev-Phase-25 to EHB-AI-Dev-Phase-25
+[2025-05-14 02:35:13] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-25.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-25.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190113
+[2025-05-14 02:35:14] Processing ZIP file 28 of 61: EHB-AI-Dev-Phase-24.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing EHB-AI-Dev-Phase-24
+[2025-05-14 02:35:14] Extracted 7 files from EHB-AI-Dev-Phase-24.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified EHB-AI-Dev-Phase-24 as type unknown, target: EHB-AI-Dev-Phase-24
+[2025-05-14 02:35:14] Created directory: EHB-AI-Dev-Phase-24
+[2025-05-14 02:35:14] Copied 5 files/directories from EHB-AI-Dev-Phase-24 to EHB-AI-Dev-Phase-24
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-24.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-24.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 29 of 61: EHB-AI-Dev-Phase-23.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing EHB-AI-Dev-Phase-23
+[2025-05-14 02:35:14] Extracted 5 files from EHB-AI-Dev-Phase-23.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified EHB-AI-Dev-Phase-23 as type unknown, target: EHB-AI-Dev-Phase-23
+[2025-05-14 02:35:14] Created directory: EHB-AI-Dev-Phase-23
+[2025-05-14 02:35:14] Copied 3 files/directories from EHB-AI-Dev-Phase-23 to EHB-AI-Dev-Phase-23
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-23.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-23.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 30 of 61: EHB-AI-Dev-Phase-22.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing EHB-AI-Dev-Phase-22
+[2025-05-14 02:35:14] Extracted 6 files from EHB-AI-Dev-Phase-22.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified EHB-AI-Dev-Phase-22 as type unknown, target: EHB-AI-Dev-Phase-22
+[2025-05-14 02:35:14] Created directory: EHB-AI-Dev-Phase-22
+[2025-05-14 02:35:14] Copied 3 files/directories from EHB-AI-Dev-Phase-22 to EHB-AI-Dev-Phase-22
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-22.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-22.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 31 of 61: EHB-AI-Dev-Phase-21.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing EHB-AI-Dev-Phase-21
+[2025-05-14 02:35:14] Extracted 5 files from EHB-AI-Dev-Phase-21.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified EHB-AI-Dev-Phase-21 as type unknown, target: EHB-AI-Dev-Phase-21
+[2025-05-14 02:35:14] Created directory: EHB-AI-Dev-Phase-21
+[2025-05-14 02:35:14] Copied 3 files/directories from EHB-AI-Dev-Phase-21 to EHB-AI-Dev-Phase-21
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-Phase-21.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-Phase-21.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 32 of 61: SmartAccessControl-Phase-15.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing SmartAccessControl-Phase-15
+[2025-05-14 02:35:14] Extracted 1 files from SmartAccessControl-Phase-15.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified SmartAccessControl-Phase-15 as type unknown, target: SmartAccessControl-Phase-15
+[2025-05-14 02:35:14] Created directory: SmartAccessControl-Phase-15
+[2025-05-14 02:35:14] Copied 0 files/directories from SmartAccessControl-Phase-15 to SmartAccessControl-Phase-15
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/SmartAccessControl-Phase-15.zip to /home/runner/workspace/attached_assets/processed/SmartAccessControl-Phase-15.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 33 of 61: APK-BuildFlow-Phase-14.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing APK-BuildFlow-Phase-14
+[2025-05-14 02:35:14] Extracted 1 files from APK-BuildFlow-Phase-14.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified APK-BuildFlow-Phase-14 as type frontend, target: frontend
+[2025-05-14 02:35:14] Created directory: frontend
+[2025-05-14 02:35:14] Copied 0 files/directories from APK-BuildFlow-Phase-14 to frontend
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/APK-BuildFlow-Phase-14.zip to /home/runner/workspace/attached_assets/processed/APK-BuildFlow-Phase-14.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 34 of 61: EHB-MobileSync-Phase-13.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing EHB-MobileSync-Phase-13
+[2025-05-14 02:35:14] Extracted 1 files from EHB-MobileSync-Phase-13.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified EHB-MobileSync-Phase-13 as type unknown, target: EHB-MobileSync-Phase-13
+[2025-05-14 02:35:14] Created directory: EHB-MobileSync-Phase-13
+[2025-05-14 02:35:14] Copied 0 files/directories from EHB-MobileSync-Phase-13 to EHB-MobileSync-Phase-13
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/EHB-MobileSync-Phase-13.zip to /home/runner/workspace/attached_assets/processed/EHB-MobileSync-Phase-13.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 35 of 61: VoiceGPT-AIAgent-Phase-12.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing VoiceGPT-AIAgent-Phase-12
+[2025-05-14 02:35:14] Extracted 1 files from VoiceGPT-AIAgent-Phase-12.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified VoiceGPT-AIAgent-Phase-12 as type unknown, target: VoiceGPT-AIAgent-Phase-12
+[2025-05-14 02:35:14] Created directory: VoiceGPT-AIAgent-Phase-12
+[2025-05-14 02:35:14] Copied 0 files/directories from VoiceGPT-AIAgent-Phase-12 to VoiceGPT-AIAgent-Phase-12
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/VoiceGPT-AIAgent-Phase-12.zip to /home/runner/workspace/attached_assets/processed/VoiceGPT-AIAgent-Phase-12.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 36 of 61: DashboardCommandAgent-Phase-11.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing DashboardCommandAgent-Phase-11
+[2025-05-14 02:35:14] Extracted 7 files from DashboardCommandAgent-Phase-11.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified DashboardCommandAgent-Phase-11 as type unknown, target: DashboardCommandAgent-Phase-11
+[2025-05-14 02:35:14] Created directory: DashboardCommandAgent-Phase-11
+[2025-05-14 02:35:14] Copied 5 files/directories from DashboardCommandAgent-Phase-11 to DashboardCommandAgent-Phase-11
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/DashboardCommandAgent-Phase-11.zip to /home/runner/workspace/attached_assets/processed/DashboardCommandAgent-Phase-11.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 37 of 61: SmartAIAgent-Phase-10.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing SmartAIAgent-Phase-10
+[2025-05-14 02:35:14] Extracted 7 files from SmartAIAgent-Phase-10.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified SmartAIAgent-Phase-10 as type unknown, target: SmartAIAgent-Phase-10
+[2025-05-14 02:35:14] Created directory: SmartAIAgent-Phase-10
+[2025-05-14 02:35:14] Copied 5 files/directories from SmartAIAgent-Phase-10 to SmartAIAgent-Phase-10
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/SmartAIAgent-Phase-10.zip to /home/runner/workspace/attached_assets/processed/SmartAIAgent-Phase-10.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 38 of 61: AI-Dashboard-Final-Phase-9.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing AI-Dashboard-Final-Phase-9
+[2025-05-14 02:35:14] Extracted 7 files from AI-Dashboard-Final-Phase-9.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified AI-Dashboard-Final-Phase-9 as type unknown, target: AI-Dashboard-Final-Phase-9
+[2025-05-14 02:35:14] Created directory: AI-Dashboard-Final-Phase-9
+[2025-05-14 02:35:14] Copied 5 files/directories from AI-Dashboard-Final-Phase-9 to AI-Dashboard-Final-Phase-9
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/AI-Dashboard-Final-Phase-9.zip to /home/runner/workspace/attached_assets/processed/AI-Dashboard-Final-Phase-9.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 39 of 61: TestPassFail-Phase-8.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing TestPassFail-Phase-8
+[2025-05-14 02:35:14] Extracted 7 files from TestPassFail-Phase-8.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified TestPassFail-Phase-8 as type unknown, target: TestPassFail-Phase-8
+[2025-05-14 02:35:14] Created directory: TestPassFail-Phase-8
+[2025-05-14 02:35:14] Copied 5 files/directories from TestPassFail-Phase-8 to TestPassFail-Phase-8
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/TestPassFail-Phase-8.zip to /home/runner/workspace/attached_assets/processed/TestPassFail-Phase-8.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 40 of 61: AutoCardGen-Phase-7.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing AutoCardGen-Phase-7
+[2025-05-14 02:35:14] Extracted 7 files from AutoCardGen-Phase-7.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified AutoCardGen-Phase-7 as type unknown, target: AutoCardGen-Phase-7
+[2025-05-14 02:35:14] Created directory: AutoCardGen-Phase-7
+[2025-05-14 02:35:14] Copied 5 files/directories from AutoCardGen-Phase-7 to AutoCardGen-Phase-7
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/AutoCardGen-Phase-7.zip to /home/runner/workspace/attached_assets/processed/AutoCardGen-Phase-7.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 41 of 61: ReferralTree-Phase-6.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ReferralTree-Phase-6
+[2025-05-14 02:35:14] Extracted 7 files from ReferralTree-Phase-6.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified ReferralTree-Phase-6 as type unknown, target: ReferralTree-Phase-6
+[2025-05-14 02:35:14] Created directory: ReferralTree-Phase-6
+[2025-05-14 02:35:14] Copied 5 files/directories from ReferralTree-Phase-6 to ReferralTree-Phase-6
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/ReferralTree-Phase-6.zip to /home/runner/workspace/attached_assets/processed/ReferralTree-Phase-6.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 42 of 61: SQLBadgeSystem-Phase-5.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing SQLBadgeSystem-Phase-5
+[2025-05-14 02:35:14] Extracted 7 files from SQLBadgeSystem-Phase-5.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified SQLBadgeSystem-Phase-5 as type unknown, target: SQLBadgeSystem-Phase-5
+[2025-05-14 02:35:14] Created directory: SQLBadgeSystem-Phase-5
+[2025-05-14 02:35:14] Copied 5 files/directories from SQLBadgeSystem-Phase-5 to SQLBadgeSystem-Phase-5
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/SQLBadgeSystem-Phase-5.zip to /home/runner/workspace/attached_assets/processed/SQLBadgeSystem-Phase-5.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 43 of 61: VoiceModuleGen-Phase-4.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing VoiceModuleGen-Phase-4
+[2025-05-14 02:35:14] Extracted 7 files from VoiceModuleGen-Phase-4.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified VoiceModuleGen-Phase-4 as type unknown, target: VoiceModuleGen-Phase-4
+[2025-05-14 02:35:14] Created directory: VoiceModuleGen-Phase-4
+[2025-05-14 02:35:14] Copied 5 files/directories from VoiceModuleGen-Phase-4 to VoiceModuleGen-Phase-4
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/VoiceModuleGen-Phase-4.zip to /home/runner/workspace/attached_assets/processed/VoiceModuleGen-Phase-4.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 44 of 61: AICodingChat-Phase-3.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing AICodingChat-Phase-3
+[2025-05-14 02:35:14] Extracted 7 files from AICodingChat-Phase-3.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified AICodingChat-Phase-3 as type unknown, target: AICodingChat-Phase-3
+[2025-05-14 02:35:14] Created directory: AICodingChat-Phase-3
+[2025-05-14 02:35:14] Copied 5 files/directories from AICodingChat-Phase-3 to AICodingChat-Phase-3
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/AICodingChat-Phase-3.zip to /home/runner/workspace/attached_assets/processed/AICodingChat-Phase-3.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 45 of 61: CodeSuggest-Phase-2.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing CodeSuggest-Phase-2
+[2025-05-14 02:35:14] Extracted 7 files from CodeSuggest-Phase-2.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified CodeSuggest-Phase-2 as type unknown, target: CodeSuggest-Phase-2
+[2025-05-14 02:35:14] Created directory: CodeSuggest-Phase-2
+[2025-05-14 02:35:14] Copied 5 files/directories from CodeSuggest-Phase-2 to CodeSuggest-Phase-2
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/CodeSuggest-Phase-2.zip to /home/runner/workspace/attached_assets/processed/CodeSuggest-Phase-2.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 46 of 61: ModuleBuilder-Phase-1.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ModuleBuilder-Phase-1
+[2025-05-14 02:35:14] Extracted 7 files from ModuleBuilder-Phase-1.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified ModuleBuilder-Phase-1 as type frontend, target: frontend
+[2025-05-14 02:35:14] Copied 5 files/directories from ModuleBuilder-Phase-1 to frontend
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/ModuleBuilder-Phase-1.zip to /home/runner/workspace/attached_assets/processed/ModuleBuilder-Phase-1.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 47 of 61: EHB-AutoDashboard-System.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing EHB-AutoDashboard-System
+[2025-05-14 02:35:14] Extracted 2 files from EHB-AutoDashboard-System.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified EHB-AutoDashboard-System as type unknown, target: EHB-AutoDashboard-System
+[2025-05-14 02:35:14] Created directory: EHB-AutoDashboard-System
+[2025-05-14 02:35:14] Copied 1 files/directories from EHB-AutoDashboard-System to EHB-AutoDashboard-System
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/EHB-AutoDashboard-System.zip to /home/runner/workspace/attached_assets/processed/EHB-AutoDashboard-System.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 48 of 61: EHB-AI-Agent-Phase-1.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing EHB-AI-Agent-Phase-1
+[2025-05-14 02:35:14] Extracted 5 files from EHB-AI-Agent-Phase-1.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified EHB-AI-Agent-Phase-1 as type unknown, target: EHB-AI-Agent-Phase-1
+[2025-05-14 02:35:14] Created directory: EHB-AI-Agent-Phase-1
+[2025-05-14 02:35:14] Copied 3 files/directories from EHB-AI-Agent-Phase-1 to EHB-AI-Agent-Phase-1
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/EHB-AI-Agent-Phase-1.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Agent-Phase-1.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 49 of 61: EHB-AI-Dev-BaseFiles.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing EHB-AI-Dev-BaseFiles
+[2025-05-14 02:35:14] Extracted 3 files from EHB-AI-Dev-BaseFiles.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified EHB-AI-Dev-BaseFiles as type unknown, target: EHB-AI-Dev-BaseFiles
+[2025-05-14 02:35:14] Created directory: EHB-AI-Dev-BaseFiles
+[2025-05-14 02:35:14] Copied 2 files/directories from EHB-AI-Dev-BaseFiles to EHB-AI-Dev-BaseFiles
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/EHB-AI-Dev-BaseFiles.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Dev-BaseFiles.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 50 of 61: EHB-AI-Agent.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing EHB-AI-Agent
+[2025-05-14 02:35:14] Extracted 4 files from EHB-AI-Agent.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified EHB-AI-Agent as type backend, target: EHB-AI-Agent
+[2025-05-14 02:35:14] Created directory: EHB-AI-Agent
+[2025-05-14 02:35:14] Copied 2 files/directories from EHB-AI-Agent to EHB-AI-Agent
+[2025-05-14 02:35:14] Moved /home/runner/workspace/attached_assets/EHB-AI-Agent.zip to /home/runner/workspace/attached_assets/processed/EHB-AI-Agent.zip
+[2025-05-14 02:35:14] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing ZIP file 51 of 61: EHB-Free-Agent-Package.zip
+[2025-05-14 02:35:14] Created directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Processing EHB-Free-Agent-Package
+[2025-05-14 02:35:14] Extracted 26 files from EHB-Free-Agent-Package.zip to temp_extract/extract_1747190114
+[2025-05-14 02:35:14] Identified EHB-Free-Agent-Package as type unknown, target: EHB-Free-Agent-Package
+[2025-05-14 02:35:14] Created directory: EHB-Free-Agent-Package
+[2025-05-14 02:35:15] Copied 9 files/directories from EHB-Free-Agent-Package to EHB-Free-Agent-Package
+[2025-05-14 02:35:15] Moved /home/runner/workspace/attached_assets/EHB-Free-Agent-Package.zip to /home/runner/workspace/attached_assets/processed/EHB-Free-Agent-Package.zip
+[2025-05-14 02:35:15] Removed directory: temp_extract/extract_1747190114
+[2025-05-14 02:35:15] Processing ZIP file 52 of 61: EHB-Free-Agent-Phase2.zip
+[2025-05-14 02:35:15] Created directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing EHB-Free-Agent-Phase2
+[2025-05-14 02:35:15] Extracted 9 files from EHB-Free-Agent-Phase2.zip to temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Identified EHB-Free-Agent-Phase2 as type unknown, target: EHB-Free-Agent-Phase2
+[2025-05-14 02:35:15] Created directory: EHB-Free-Agent-Phase2
+[2025-05-14 02:35:15] Copied 2 files/directories from EHB-Free-Agent-Phase2 to EHB-Free-Agent-Phase2
+[2025-05-14 02:35:15] Moved /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase2.zip to /home/runner/workspace/attached_assets/processed/EHB-Free-Agent-Phase2.zip
+[2025-05-14 02:35:15] Removed directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing ZIP file 53 of 61: EHB-Free-Agent-Phase1.zip
+[2025-05-14 02:35:15] Created directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing EHB-Free-Agent-Phase1
+[2025-05-14 02:35:15] Extracted 13 files from EHB-Free-Agent-Phase1.zip to temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Identified EHB-Free-Agent-Phase1 as type unknown, target: EHB-Free-Agent-Phase1
+[2025-05-14 02:35:15] Created directory: EHB-Free-Agent-Phase1
+[2025-05-14 02:35:15] Copied 6 files/directories from EHB-Free-Agent-Phase1 to EHB-Free-Agent-Phase1
+[2025-05-14 02:35:15] Moved /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase1.zip to /home/runner/workspace/attached_assets/processed/EHB-Free-Agent-Phase1.zip
+[2025-05-14 02:35:15] Removed directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing ZIP file 54 of 61: EHB-Free-Agent-Phase4.zip
+[2025-05-14 02:35:15] Created directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing EHB-Free-Agent-Phase4
+[2025-05-14 02:35:15] Extracted 9 files from EHB-Free-Agent-Phase4.zip to temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Identified EHB-Free-Agent-Phase4 as type unknown, target: EHB-Free-Agent-Phase4
+[2025-05-14 02:35:15] Created directory: EHB-Free-Agent-Phase4
+[2025-05-14 02:35:15] Copied 3 files/directories from EHB-Free-Agent-Phase4 to EHB-Free-Agent-Phase4
+[2025-05-14 02:35:15] Moved /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase4.zip to /home/runner/workspace/attached_assets/processed/EHB-Free-Agent-Phase4.zip
+[2025-05-14 02:35:15] Removed directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing ZIP file 55 of 61: EHB-Free-Agent-Phase3.zip
+[2025-05-14 02:35:15] Created directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing EHB-Free-Agent-Phase3
+[2025-05-14 02:35:15] Extracted 9 files from EHB-Free-Agent-Phase3.zip to temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Identified EHB-Free-Agent-Phase3 as type unknown, target: EHB-Free-Agent-Phase3
+[2025-05-14 02:35:15] Created directory: EHB-Free-Agent-Phase3
+[2025-05-14 02:35:15] Copied 3 files/directories from EHB-Free-Agent-Phase3 to EHB-Free-Agent-Phase3
+[2025-05-14 02:35:15] Moved /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase3.zip to /home/runner/workspace/attached_assets/processed/EHB-Free-Agent-Phase3.zip
+[2025-05-14 02:35:15] Removed directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing ZIP file 56 of 61: EHB-Free-Agent-Phase10.zip
+[2025-05-14 02:35:15] Created directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing EHB-Free-Agent-Phase10
+[2025-05-14 02:35:15] Extracted 8 files from EHB-Free-Agent-Phase10.zip to temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Identified EHB-Free-Agent-Phase10 as type unknown, target: EHB-Free-Agent-Phase10
+[2025-05-14 02:35:15] Created directory: EHB-Free-Agent-Phase10
+[2025-05-14 02:35:15] Copied 2 files/directories from EHB-Free-Agent-Phase10 to EHB-Free-Agent-Phase10
+[2025-05-14 02:35:15] Moved /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase10.zip to /home/runner/workspace/attached_assets/processed/EHB-Free-Agent-Phase10.zip
+[2025-05-14 02:35:15] Removed directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing ZIP file 57 of 61: EHB-Free-Agent-Phase9.zip
+[2025-05-14 02:35:15] Created directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing EHB-Free-Agent-Phase9
+[2025-05-14 02:35:15] Extracted 8 files from EHB-Free-Agent-Phase9.zip to temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Identified EHB-Free-Agent-Phase9 as type unknown, target: EHB-Free-Agent-Phase9
+[2025-05-14 02:35:15] Created directory: EHB-Free-Agent-Phase9
+[2025-05-14 02:35:15] Copied 2 files/directories from EHB-Free-Agent-Phase9 to EHB-Free-Agent-Phase9
+[2025-05-14 02:35:15] Moved /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase9.zip to /home/runner/workspace/attached_assets/processed/EHB-Free-Agent-Phase9.zip
+[2025-05-14 02:35:15] Removed directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing ZIP file 58 of 61: EHB-Free-Agent-Phase8.zip
+[2025-05-14 02:35:15] Created directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing EHB-Free-Agent-Phase8
+[2025-05-14 02:35:15] Extracted 8 files from EHB-Free-Agent-Phase8.zip to temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Identified EHB-Free-Agent-Phase8 as type unknown, target: EHB-Free-Agent-Phase8
+[2025-05-14 02:35:15] Created directory: EHB-Free-Agent-Phase8
+[2025-05-14 02:35:15] Copied 2 files/directories from EHB-Free-Agent-Phase8 to EHB-Free-Agent-Phase8
+[2025-05-14 02:35:15] Moved /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase8.zip to /home/runner/workspace/attached_assets/processed/EHB-Free-Agent-Phase8.zip
+[2025-05-14 02:35:15] Removed directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing ZIP file 59 of 61: EHB-Free-Agent-Phase7.zip
+[2025-05-14 02:35:15] Created directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing EHB-Free-Agent-Phase7
+[2025-05-14 02:35:15] Extracted 8 files from EHB-Free-Agent-Phase7.zip to temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Identified EHB-Free-Agent-Phase7 as type unknown, target: EHB-Free-Agent-Phase7
+[2025-05-14 02:35:15] Created directory: EHB-Free-Agent-Phase7
+[2025-05-14 02:35:15] Copied 2 files/directories from EHB-Free-Agent-Phase7 to EHB-Free-Agent-Phase7
+[2025-05-14 02:35:15] Moved /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase7.zip to /home/runner/workspace/attached_assets/processed/EHB-Free-Agent-Phase7.zip
+[2025-05-14 02:35:15] Removed directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing ZIP file 60 of 61: EHB-Free-Agent-Phase6.zip
+[2025-05-14 02:35:15] Created directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing EHB-Free-Agent-Phase6
+[2025-05-14 02:35:15] Extracted 8 files from EHB-Free-Agent-Phase6.zip to temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Identified EHB-Free-Agent-Phase6 as type unknown, target: EHB-Free-Agent-Phase6
+[2025-05-14 02:35:15] Created directory: EHB-Free-Agent-Phase6
+[2025-05-14 02:35:15] Copied 2 files/directories from EHB-Free-Agent-Phase6 to EHB-Free-Agent-Phase6
+[2025-05-14 02:35:15] Moved /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase6.zip to /home/runner/workspace/attached_assets/processed/EHB-Free-Agent-Phase6.zip
+[2025-05-14 02:35:15] Removed directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing ZIP file 61 of 61: EHB-Free-Agent-Phase5.zip
+[2025-05-14 02:35:15] Created directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processing EHB-Free-Agent-Phase5
+[2025-05-14 02:35:15] Extracted 8 files from EHB-Free-Agent-Phase5.zip to temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Identified EHB-Free-Agent-Phase5 as type unknown, target: EHB-Free-Agent-Phase5
+[2025-05-14 02:35:15] Created directory: EHB-Free-Agent-Phase5
+[2025-05-14 02:35:15] Copied 2 files/directories from EHB-Free-Agent-Phase5 to EHB-Free-Agent-Phase5
+[2025-05-14 02:35:15] Moved /home/runner/workspace/attached_assets/EHB-Free-Agent-Phase5.zip to /home/runner/workspace/attached_assets/processed/EHB-Free-Agent-Phase5.zip
+[2025-05-14 02:35:15] Removed directory: temp_extract/extract_1747190115
+[2025-05-14 02:35:15] Processed 61 ZIP files successfully
+[2025-05-14 02:35:15] Starting consolidation process
+[2025-05-14 02:35:15] Created directory: /home/runner/workspace/consolidated_ehb_system
+[2025-05-14 02:35:15] Starting consolidation process to /home/runner/workspace/consolidated_ehb_system
+[2025-05-14 02:35:15] Created directory: /home/runner/workspace/consolidated_ehb_system/frontend/styles
+[2025-05-14 02:35:15] Created directory: /home/runner/workspace/consolidated_ehb_system/backend/middleware
+[2025-05-14 02:35:15] Created directory: /home/runner/workspace/consolidated_ehb_system/admin/panels
+[2025-05-14 02:35:16] Created directory: /home/runner/workspace/consolidated_ehb_system/admin/AgentControlPanel
+[2025-05-14 02:35:16] Created directory: /home/runner/workspace/consolidated_ehb_system/admin/AgentControlPanel/components
+[2025-05-14 02:35:16] Consolidated 339 files into /home/runner/workspace/consolidated_ehb_system
+[2025-05-14 02:35:16] Consolidation completed successfully
+[2025-05-14 02:35:16] Cleaning up empty directories

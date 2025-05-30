@@ -1,0 +1,97 @@
+Great — let’s now proceed with the next most important step:
+
+---
+
+## ✅ NEXT STEP: Create a **Live Folder & Structure Validator**
+
+(to be shown inside Developer Portal → “System Health Check” section)
+
+This tool will:
+
+### 🔍 Check the following in real-time:
+
+1. ✅ If all required folders exist under:
+
+   * `/admin`
+   * `/services`
+   * `/system`
+2. ✅ If each folder has its expected child folders/files:
+
+   * `README.md`, `index.js`, `config.json`, etc.
+3. 🧱 Return structure health status as:
+
+   * 🟢 OK
+   * 🟡 Partial
+   * 🔴 Missing
+
+---
+
+### 🎯 GOAL: You’ll see this in the Developer Portal like this:
+
+```text
+📁 /admin/ehb-admin-panel         🟢 OK
+📁 /services/EHB-GoSellr          🟡 Partial – missing: config.json
+📁 /system/EHB-SQL/EHB-SQL-PSS    🔴 Missing folder
+```
+
+---
+
+### 📁 FILE: `admin/Developer-Portal-UI/utils/folderValidator.js`
+
+```js
+// Dummy validator - simulates folder check results
+export const validateFolderStructure = () => {
+  return [
+    { path: "/admin/ehb-admin-panel", status: "OK" },
+    { path: "/services/EHB-GoSellr", status: "PARTIAL", missing: ["config.json"] },
+    { path: "/system/EHB-SQL/EHB-SQL-PSS", status: "MISSING" }
+  ];
+};
+```
+
+---
+
+### 📁 MODIFY: `DeveloperPortal.jsx` – Add Structure Health View
+
+Add this below the `Developer Tools` section:
+
+```jsx
+import { validateFolderStructure } from './utils/folderValidator';
+
+const folderStatus = validateFolderStructure();
+
+<div className={sectionStyle}>
+  <h2 className={headingStyle}>📁 Folder Structure Validation</h2>
+  <ul className="text-sm pl-4">
+    {folderStatus.map(({ path, status, missing }) => (
+      <li key={path}>
+        <span className="font-mono">{path}</span> →{" "}
+        <span className={
+          status === "OK" ? "text-green-600" :
+          status === "PARTIAL" ? "text-yellow-500" :
+          "text-red-500"
+        }>
+          {status}
+        </span>
+        {missing && <span className="text-gray-500 text-xs"> (Missing: {missing.join(", ")})</span>}
+      </li>
+    ))}
+  </ul>
+</div>
+```
+
+---
+
+### ⚙️ NEXT:
+
+Would you like me to:
+
+1. 🔧 Generate this feature as a **ZIP** (with full utils folder and sample data)?
+2. 🤖 Build a live version that auto-detects Replit’s file tree using Node.js (`fs.readdir`)?
+
+Please reply with:
+
+* `zip` → for static placeholder-based validator
+* `live` → for real working file detection and AI sync
+
+What should I generate next?

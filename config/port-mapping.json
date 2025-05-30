@@ -1,0 +1,258 @@
+{
+  "frontendServices": {
+    "frontendServer": {
+      "port": 5000,
+      "workflow": "Frontend Server",
+      "description": "NextJS frontend server for the admin panel",
+      "path": "admin/ehb-admin-panel"
+    },
+    "ehbHome": {
+      "port": 5005,
+      "workflow": "EHB-HOME",
+      "description": "Main EHB HOME dashboard",
+      "path": "admin/EHB-HOME"
+    },
+    "developerPortal": {
+      "port": 5010,
+      "workflow": "Developer Portal",
+      "description": "Developer portal UI",
+      "path": "admin/EHB-Developer-Portal"
+    },
+    "adminDashboard": {
+      "port": 5020,
+      "workflow": "EHB-Admin-Dashboard",
+      "description": "AI Admin Dashboard",
+      "path": "services/SOT-Technologies/EHB-AI-Dev/admin-dashboard"
+    },
+    "playground": {
+      "port": 5050,
+      "workflow": "EHB-Playground",
+      "description": "Interactive code playground",
+      "path": "services/SOT-Technologies/EHB-AI-Dev/playground"
+    },
+    "goSellr": {
+      "port": 5002,
+      "workflow": "GoSellr Service",
+      "description": "GoSellr e-commerce service",
+      "path": "services/EHB-GoSellr"
+    }
+  },
+  "backendServices": {
+    "backendServer": {
+      "port": 5001,
+      "workflow": "Backend Server",
+      "description": "Main backend server with API endpoints",
+      "path": "admin/EHB-DASHBOARD/backend"
+    },
+    "langChainService": {
+      "port": 5100,
+      "workflow": "LangChain-AI-Service",
+      "description": "Python LangChain service for AI integration",
+      "path": "services/SOT-Technologies/EHB-AI-Dev/langchain-service"
+    },
+    "mongoDbApiService": {
+      "port": 5300,
+      "workflow": "MongoDB API Service",
+      "description": "MongoDB API service",
+      "path": "services/ehb-mongodb-api"
+    },
+    "s3UploadService": {
+      "port": 5310,
+      "workflow": "S3 Upload Service",
+      "description": "S3 Upload service",
+      "path": "services/ehb-s3-upload-service"
+    },
+    "aiIntegrationHub": {
+      "port": 5150,
+      "workflow": "AI-Integration-Hub",
+      "description": "AI Integration Hub for connecting AI services",
+      "path": "services/SOT-Technologies/EHB-AI-Dev/ai-integration-hub"
+    }
+  },
+  "agentServices": {
+    "aiAgentCore": {
+      "ports": [5123, 5122, 5121, 5124, 5120],
+      "primaryPort": 5123,
+      "workflow": "AI Agent Core",
+      "description": "Core AI agent service with redundancy",
+      "path": "services/SOT-Technologies/EHB-AI-Dev/ai-agent-core"
+    },
+    "ehbFreeAgent": {
+      "port": null,
+      "workflow": "EHB Free Agent",
+      "description": "Free tier AI agent",
+      "path": "services/SOT-Technologies/EHB-AI-Dev/ai-agent/ehb-free-agent.js"
+    },
+    "ehbFreeAgentApi": {
+      "port": 5130,
+      "workflow": "EHB Free Agent API",
+      "description": "API for the free tier agent",
+      "path": "services/SOT-Technologies/EHB-AI-Dev/ai-agent/basic-server.js"
+    },
+    "agentDashboard": {
+      "port": 5200,
+      "workflow": "Agent Dashboard",
+      "description": "Dashboard for managing agents",
+      "path": "agent/index.js"
+    },
+    "autonomousAgentSystem": {
+      "port": 5200,
+      "workflow": "Autonomous Agent System",
+      "description": "Autonomous agent system",
+      "path": "agent/main.js",
+      "notes": "Shares port with Agent Dashboard"
+    },
+    "whisperCommand": {
+      "port": null,
+      "workflow": "Whisper Command",
+      "description": "Whisper voice command processing",
+      "path": "services/SOT-Technologies/EHB-AI-Dev/ai-agent/whisperCommand.js"
+    }
+  },
+  "redirectors": {
+    "aiAgentCoreRedirector": {
+      "port": 4120,
+      "workflow": "AI-Agent-Core-Redirector",
+      "description": "Redirects to the available AI Agent Core instance",
+      "path": "ai-agent-core-redirector.js",
+      "target": 5123
+    },
+    "aiIntegrationHubRedirector": {
+      "port": 4200,
+      "workflow": "AI-Integration-Hub-Redirector",
+      "description": "Redirects to AI Integration Hub",
+      "path": "redirect-ai-integration-hub.js",
+      "target": 5150
+    },
+    "centralRedirector": {
+      "port": 3000,
+      "workflow": "EHB-Central-Redirector",
+      "description": "Central redirector for all services",
+      "path": "redirect-central-ehb.js",
+      "target": 5005
+    },
+    "developerPortalRedirector": {
+      "port": 4010,
+      "workflow": "Developer-Portal-Redirector",
+      "description": "Redirects to Developer Portal",
+      "path": "redirect-dev-portal.js",
+      "target": 5010
+    },
+    "goSellrRedirector": {
+      "port": 4000,
+      "workflow": "GoSellr-Redirector",
+      "description": "Redirects to GoSellr service",
+      "path": "redirect-gosellr.js",
+      "target": 5002
+    },
+    "ehbHomeMainRedirector": {
+      "port": null,
+      "workflow": "EHB-HOME-Main-Redirector",
+      "description": "Redirects to EHB HOME",
+      "path": "redirect-to-ehb-home.js",
+      "target": 5005
+    },
+    "portForwardingService": {
+      "port": 5040,
+      "workflow": "Port Forwarding Service",
+      "description": "General port forwarding service",
+      "path": "port-forwarding-service.js"
+    },
+    "portInternalRedirector": {
+      "ports": [5121, 5122, 5123],
+      "workflow": "Port Internal Redirector",
+      "description": "Forwards internal ports to be externally accessible",
+      "path": "port-internal-redirector.js"
+    },
+    "replitUrlRedirector": {
+      "port": 3000,
+      "workflow": "Replit-URL-Redirector",
+      "description": "Redirects main Replit URL to EHB-HOME",
+      "path": "replit-url-redirector.js",
+      "target": 5005,
+      "conflicts": ["centralRedirector"]
+    },
+    "port5000CentralRedirector": {
+      "port": 5000,
+      "workflow": "Port 5000 Central Redirector",
+      "description": "Redirector for the main port 5000",
+      "path": "port-redirector-5000.js",
+      "conflicts": ["frontendServer"]
+    },
+    "pathBasedRedirector": {
+      "port": null,
+      "workflow": "Path Based Redirector",
+      "description": "Redirects based on URL path",
+      "path": "port-redirector-5000.js"
+    },
+    "alternativeCentralRedirector": {
+      "port": 5060,
+      "workflow": "Alternative Central Redirector",
+      "description": "Alternative central redirector",
+      "path": "alt-central-redirector.js"
+    }
+  },
+  "installerServices": {
+    "ehbAgentInstaller": {
+      "port": null,
+      "workflow": "EHB-Agent-Installer",
+      "description": "Installer for EHB agent",
+      "path": "ehbAgentInstaller.js"
+    },
+    "freeAgentInstaller": {
+      "port": null,
+      "workflow": "Free Agent Installer",
+      "description": "Installer for free agent",
+      "path": "run-free-agent-installer.sh"
+    },
+    "sdkInstaller": {
+      "port": null,
+      "workflow": "SDK Installer",
+      "description": "SDK installer",
+      "path": "services/SOT-Technologies/EHB-AI-Dev/ai-agent/sdkInstaller.js"
+    },
+    "ehbTriggerSetup": {
+      "port": null,
+      "workflow": "EHB-Trigger-Setup",
+      "description": "Trigger for EHB setup",
+      "path": "triggerSetupPage.js"
+    }
+  },
+  "utilityServices": {
+    "ehbAutomaticFileProcessor": {
+      "port": null,
+      "workflow": "EHB-Automatic-File-Processor",
+      "description": "Processes uploaded files automatically",
+      "path": "auto_file_processor.js"
+    },
+    "ehbCreateTestZip": {
+      "port": null,
+      "workflow": "EHB-Create-Test-ZIP",
+      "description": "Creates test ZIP files",
+      "path": "createTestZip.js"
+    },
+    "structureVerification": {
+      "port": null,
+      "workflow": "Structure Verification",
+      "description": "Verifies the system structure",
+      "path": "scripts/verify-structure-startup.js"
+    }
+  },
+  "potentialConflicts": [
+    {
+      "port": 3000,
+      "services": ["centralRedirector", "replitUrlRedirector"],
+      "resolution": "Currently both are using port 3000, consider moving replitUrlRedirector to port 3001"
+    },
+    {
+      "port": 5000,
+      "services": ["frontendServer", "port5000CentralRedirector"],
+      "resolution": "Both are using port 5000, but this appears to be intentional"
+    },
+    {
+      "port": 5200,
+      "services": ["agentDashboard", "autonomousAgentSystem"],
+      "resolution": "Both are using port 5200, but this appears to be intentional and working correctly"
+    }
+  ]
+}

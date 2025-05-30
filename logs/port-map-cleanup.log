@@ -1,0 +1,42 @@
+# EHB Port Mapping Cleanup Log
+## Date: 2025-05-15
+
+## Summary
+- Created /configs/port-mapping.json documenting all current port bindings in the system
+- Fixed port conflicts by removing port 5130 from port-internal-redirector.js
+- Identified and documented other port conflicts in the port mapping file
+
+## Port Conflicts Identified
+1. Port 3000 conflict between:
+   - centralRedirector (EHB-Central-Redirector)
+   - replitUrlRedirector (Replit-URL-Redirector)
+   
+2. Port 5130 conflict between:
+   - ehbFreeAgentApi (EHB Free Agent API)
+   - portInternalRedirector (Port Internal Redirector)
+   
+3. Port 5200 sharing (intentional) between:
+   - agentDashboard (Agent Dashboard)
+   - autonomousAgentSystem (Autonomous Agent System)
+
+## Actions Taken
+1. Modified port-internal-redirector.js to remove port 5130 binding
+   - Removed entry: `{ internalPort: 5130, externalPort: 5130, name: 'EHB Free Agent API' }`
+   - Added comment explaining removal
+   
+2. Added port documentation in /configs/port-mapping.json
+   - Organized by service type
+   - Listed potential conflicts
+   - Added workflow names and file paths for reference
+
+## AI Agent Core Redundancy Implementation
+- Primary port: 5123
+- Backup ports: 5121, 5122, 5124
+- AI Agent Core Redirector properly configured to check and use these ports
+- Modified Whisper Command to connect to correct AI Agent Core port (5123)
+
+## Next Steps
+1. Restart Port Internal Redirector workflow to apply changes
+2. Consider moving Replit-URL-Redirector to a different port (e.g., 3001 or 3005)
+3. Ensure EHB Free Agent is configured to register with the AI Agent Core on port 5123
+4. Update EHB Free Agent Config to use AI Agent Core on port 5123 instead of 5121

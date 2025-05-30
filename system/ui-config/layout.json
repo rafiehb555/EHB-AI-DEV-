@@ -1,0 +1,122 @@
+{
+  "layout": {
+    "header": {
+      "height": "64px",
+      "position": "fixed",
+      "zIndex": 1000,
+      "showBranding": true,
+      "showNavigation": false,
+      "showUserMenu": true,
+      "showNotifications": true,
+      "showSearch": true,
+      "showThemeSwitch": true
+    },
+    "sidebar": {
+      "width": {
+        "collapsed": "80px",
+        "expanded": "240px"
+      },
+      "position": "fixed",
+      "zIndex": 1000,
+      "defaultCollapsed": false,
+      "showBranding": true,
+      "showUserInfo": true,
+      "showFooter": true,
+      "animation": {
+        "duration": 300,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      }
+    },
+    "content": {
+      "maxWidth": "1600px",
+      "padding": {
+        "desktop": "24px",
+        "tablet": "16px",
+        "mobile": "12px"
+      },
+      "minHeight": "calc(100vh - 64px)"
+    },
+    "footer": {
+      "height": "48px",
+      "position": "relative",
+      "showCopyright": true,
+      "showLinks": true,
+      "showVersion": true
+    },
+    "grid": {
+      "columns": {
+        "xs": 4,
+        "sm": 8,
+        "md": 12,
+        "lg": 12,
+        "xl": 12
+      },
+      "spacing": {
+        "xs": "8px",
+        "sm": "16px",
+        "md": "24px",
+        "lg": "32px",
+        "xl": "40px"
+      }
+    },
+    "cards": {
+      "borderRadius": "8px",
+      "padding": {
+        "small": "12px",
+        "medium": "16px",
+        "large": "24px"
+      },
+      "elevation": "md",
+      "header": {
+        "padding": "16px",
+        "separatorLine": true
+      },
+      "footer": {
+        "padding": "16px",
+        "separatorLine": true
+      }
+    },
+    "tables": {
+      "rowHeight": "48px",
+      "headerHeight": "56px",
+      "borderRadius": "8px",
+      "padding": {
+        "cell": "16px"
+      },
+      "zebraStripes": false,
+      "hoverable": true,
+      "borders": {
+        "horizontal": true,
+        "vertical": false
+      }
+    },
+    "forms": {
+      "labelPosition": "top",
+      "spacing": "24px",
+      "inputHeight": "40px",
+      "borderRadius": "4px"
+    },
+    "responsive": {
+      "breakpoints": {
+        "xs": 0,
+        "sm": 600,
+        "md": 960,
+        "lg": 1280,
+        "xl": 1920
+      },
+      "sidebarBreakpoint": "md",
+      "contentMaxWidthBreakpoint": "xl"
+    },
+    "animation": {
+      "pageTransition": {
+        "enabled": true,
+        "duration": 300,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "contentLoading": {
+        "enabled": true,
+        "shimmerEffect": true
+      }
+    }
+  }
+}

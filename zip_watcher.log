@@ -1,0 +1,307 @@
+[2025-05-10T06:29:55.896Z] Starting ZIP file watcher service
+[2025-05-10T06:29:55.901Z] Chokidar already installed
+[2025-05-10T06:29:55.901Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T06:29:55.903Z] Watcher started successfully
+[2025-05-10T06:29:55.904Z] ZIP watcher service started successfully
+[2025-05-10T06:30:32.538Z] Starting ZIP file watcher service
+[2025-05-10T06:30:32.549Z] Chokidar already installed
+[2025-05-10T06:30:32.561Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T06:30:32.585Z] Watcher started successfully
+[2025-05-10T06:30:32.591Z] ZIP watcher service started successfully
+[2025-05-10T06:32:15.910Z] Starting ZIP file watcher service
+[2025-05-10T06:32:15.917Z] Chokidar already installed
+[2025-05-10T06:32:15.918Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T06:32:15.919Z] Watcher started successfully
+[2025-05-10T06:32:15.920Z] ZIP watcher service started successfully
+[2025-05-10T06:33:41.214Z] Starting ZIP file watcher service
+[2025-05-10T06:33:41.219Z] Chokidar already installed
+[2025-05-10T06:33:41.219Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T06:33:41.227Z] Watcher started successfully
+[2025-05-10T06:33:41.227Z] ZIP watcher service started successfully
+[2025-05-10T06:35:53.599Z] Starting ZIP file watcher service
+[2025-05-10T06:35:53.604Z] Chokidar already installed
+[2025-05-10T06:35:53.605Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T06:35:53.607Z] Watcher started successfully
+[2025-05-10T06:35:53.607Z] ZIP watcher service started successfully
+[2025-05-10T06:36:42.982Z] Starting ZIP file watcher service
+[2025-05-10T06:36:42.985Z] Chokidar already installed
+[2025-05-10T06:36:42.986Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T06:36:42.988Z] Watcher started successfully
+[2025-05-10T06:36:42.988Z] ZIP watcher service started successfully
+[2025-05-10T06:37:23.759Z] Starting ZIP file watcher service
+[2025-05-10T06:37:23.763Z] Chokidar already installed
+[2025-05-10T06:37:23.764Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T06:37:23.766Z] Watcher started successfully
+[2025-05-10T06:37:23.766Z] ZIP watcher service started successfully
+[2025-05-10T06:38:29.108Z] Starting ZIP file watcher service
+[2025-05-10T06:38:29.112Z] Chokidar already installed
+[2025-05-10T06:38:29.113Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T06:38:29.115Z] Watcher started successfully
+[2025-05-10T06:38:29.115Z] ZIP watcher service started successfully
+[2025-05-10T06:39:21.728Z] Starting ZIP file watcher service
+[2025-05-10T06:39:21.732Z] Chokidar already installed
+[2025-05-10T06:39:21.735Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T06:39:21.736Z] Watcher started successfully
+[2025-05-10T06:39:21.736Z] ZIP watcher service started successfully
+[2025-05-10T06:48:34.789Z] Starting ZIP file watcher service
+[2025-05-10T06:48:34.793Z] Chokidar already installed
+[2025-05-10T06:48:34.793Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T06:48:34.800Z] Watcher started successfully
+[2025-05-10T06:48:34.800Z] ZIP watcher service started successfully
+[2025-05-10T06:52:06.950Z] Starting ZIP file watcher service
+[2025-05-10T06:52:06.953Z] Chokidar already installed
+[2025-05-10T06:52:06.955Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T06:52:06.958Z] Watcher started successfully
+[2025-05-10T06:52:06.959Z] ZIP watcher service started successfully
+[2025-05-10T06:56:11.938Z] Starting ZIP file watcher service
+[2025-05-10T06:56:11.942Z] Chokidar already installed
+[2025-05-10T06:56:11.943Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T06:56:11.946Z] Watcher started successfully
+[2025-05-10T06:56:11.947Z] ZIP watcher service started successfully
+[2025-05-10T06:58:47.514Z] Starting ZIP file watcher service
+[2025-05-10T06:58:47.518Z] Chokidar already installed
+[2025-05-10T06:58:47.518Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T06:58:47.521Z] Watcher started successfully
+[2025-05-10T06:58:47.521Z] ZIP watcher service started successfully
+[2025-05-10T07:01:19.468Z] Starting ZIP file watcher service
+[2025-05-10T07:01:19.472Z] Chokidar already installed
+[2025-05-10T07:01:19.473Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T07:01:19.475Z] Watcher started successfully
+[2025-05-10T07:01:19.475Z] ZIP watcher service started successfully
+[2025-05-10T07:18:18.744Z] Starting ZIP file watcher service
+[2025-05-10T07:18:18.749Z] Chokidar already installed
+[2025-05-10T07:18:18.755Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T07:18:18.759Z] Watcher started successfully
+[2025-05-10T07:18:18.759Z] ZIP watcher service started successfully
+[2025-05-10T07:31:45.817Z] Starting ZIP file watcher service
+[2025-05-10T07:31:45.830Z] Chokidar already installed
+[2025-05-10T07:31:45.831Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T07:31:45.837Z] Watcher started successfully
+[2025-05-10T07:31:45.837Z] ZIP watcher service started successfully
+[2025-05-10T07:47:09.502Z] Starting ZIP file watcher service
+[2025-05-10T07:47:09.509Z] Chokidar already installed
+[2025-05-10T07:47:09.510Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T07:47:09.518Z] Watcher started successfully
+[2025-05-10T07:47:09.518Z] ZIP watcher service started successfully
+[2025-05-10T07:52:24.685Z] Starting ZIP file watcher service
+[2025-05-10T07:52:24.706Z] Chokidar already installed
+[2025-05-10T07:52:24.727Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T07:52:24.733Z] Watcher started successfully
+[2025-05-10T07:52:24.733Z] ZIP watcher service started successfully
+[2025-05-10T07:58:27.845Z] Starting ZIP file watcher service
+[2025-05-10T07:58:27.853Z] Chokidar already installed
+[2025-05-10T07:58:27.854Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T07:58:27.866Z] Watcher started successfully
+[2025-05-10T07:58:27.867Z] ZIP watcher service started successfully
+[2025-05-10T08:00:36.002Z] Starting ZIP file watcher service
+[2025-05-10T08:00:36.008Z] Chokidar already installed
+[2025-05-10T08:00:36.009Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T08:00:36.010Z] Watcher started successfully
+[2025-05-10T08:00:36.011Z] ZIP watcher service started successfully
+[2025-05-10T08:53:53.573Z] Starting ZIP file watcher service
+[2025-05-10T08:53:53.578Z] Chokidar already installed
+[2025-05-10T08:53:53.578Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T08:53:53.580Z] Watcher started successfully
+[2025-05-10T08:53:53.581Z] ZIP watcher service started successfully
+[2025-05-10T08:54:27.617Z] Starting ZIP file watcher service
+[2025-05-10T08:54:27.624Z] Chokidar already installed
+[2025-05-10T08:54:27.624Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T08:54:27.626Z] Watcher started successfully
+[2025-05-10T08:54:27.626Z] ZIP watcher service started successfully
+[2025-05-10T09:19:00.745Z] Starting ZIP file watcher service
+[2025-05-10T09:19:00.766Z] Chokidar already installed
+[2025-05-10T09:19:00.772Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T09:19:00.785Z] Watcher started successfully
+[2025-05-10T09:19:00.792Z] ZIP watcher service started successfully
+[2025-05-10T09:19:01.374Z] Starting ZIP file watcher service
+[2025-05-10T09:19:01.442Z] Chokidar already installed
+[2025-05-10T09:19:01.446Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T09:19:01.474Z] Watcher started successfully
+[2025-05-10T09:19:01.475Z] ZIP watcher service started successfully
+[2025-05-10T09:40:23.233Z] Starting ZIP file watcher service
+[2025-05-10T09:40:23.237Z] Chokidar already installed
+[2025-05-10T09:40:23.237Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T09:40:23.239Z] Watcher started successfully
+[2025-05-10T09:40:23.240Z] ZIP watcher service started successfully
+[2025-05-10T10:16:08.056Z] Starting ZIP file watcher service
+[2025-05-10T10:16:08.063Z] Chokidar already installed
+[2025-05-10T10:16:08.064Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T10:16:08.065Z] Watcher started successfully
+[2025-05-10T10:16:08.067Z] ZIP watcher service started successfully
+[2025-05-10T10:23:50.478Z] Starting ZIP file watcher service
+[2025-05-10T10:23:50.487Z] Chokidar already installed
+[2025-05-10T10:23:50.488Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T10:23:50.490Z] Watcher started successfully
+[2025-05-10T10:23:50.490Z] ZIP watcher service started successfully
+[2025-05-10T10:26:09.424Z] Starting ZIP file watcher service
+[2025-05-10T10:26:09.429Z] Chokidar already installed
+[2025-05-10T10:26:09.430Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T10:26:09.444Z] Watcher started successfully
+[2025-05-10T10:26:09.444Z] ZIP watcher service started successfully
+[2025-05-10T10:29:35.401Z] Starting ZIP file watcher service
+[2025-05-10T10:29:35.410Z] Chokidar already installed
+[2025-05-10T10:29:35.411Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T10:29:35.420Z] Watcher started successfully
+[2025-05-10T10:29:35.425Z] ZIP watcher service started successfully
+[2025-05-10T10:33:44.261Z] Starting ZIP file watcher service
+[2025-05-10T10:33:44.271Z] Chokidar already installed
+[2025-05-10T10:33:44.272Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T10:33:44.274Z] Watcher started successfully
+[2025-05-10T10:33:44.274Z] ZIP watcher service started successfully
+[2025-05-10T10:36:35.660Z] Starting ZIP file watcher service
+[2025-05-10T10:36:35.688Z] Chokidar already installed
+[2025-05-10T10:36:35.692Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T10:36:35.695Z] Watcher started successfully
+[2025-05-10T10:36:35.698Z] ZIP watcher service started successfully
+[2025-05-10T10:41:00.703Z] Starting ZIP file watcher service
+[2025-05-10T10:41:00.715Z] Chokidar already installed
+[2025-05-10T10:41:00.716Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T10:41:00.728Z] Watcher started successfully
+[2025-05-10T10:41:00.728Z] ZIP watcher service started successfully
+[2025-05-10T10:46:17.927Z] Starting ZIP file watcher service
+[2025-05-10T10:46:17.942Z] Chokidar already installed
+[2025-05-10T10:46:17.943Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T10:46:17.952Z] Watcher started successfully
+[2025-05-10T10:46:17.952Z] ZIP watcher service started successfully
+[2025-05-10T11:11:42.354Z] Starting ZIP file watcher service
+[2025-05-10T11:11:42.363Z] Chokidar already installed
+[2025-05-10T11:11:42.364Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T11:11:42.370Z] Watcher started successfully
+[2025-05-10T11:11:42.370Z] ZIP watcher service started successfully
+[2025-05-10T11:12:35.806Z] Starting ZIP file watcher service
+[2025-05-10T11:12:35.810Z] Chokidar already installed
+[2025-05-10T11:12:35.811Z] Starting watcher on directory: ./attached_assets
+[2025-05-10T11:12:35.814Z] Watcher started successfully
+[2025-05-10T11:12:35.814Z] ZIP watcher service started successfully
+[2025-05-10T11:17:17.988Z] Starting ZIP file watcher service
+[2025-05-10T11:17:17.995Z] Chokidar already installed
+[2025-05-10T11:17:17.995Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T11:17:17.996Z] ZIP watcher service started successfully
+[2025-05-10T11:33:49.616Z] Starting ZIP file watcher service
+[2025-05-10T11:33:49.622Z] Chokidar already installed
+[2025-05-10T11:33:49.622Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T11:33:49.630Z] ZIP watcher service started successfully
+[2025-05-10T11:36:16.966Z] Starting ZIP file watcher service
+[2025-05-10T11:36:16.973Z] Chokidar already installed
+[2025-05-10T11:36:16.973Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T11:36:16.975Z] ZIP watcher service started successfully
+[2025-05-10T11:37:54.559Z] Starting ZIP file watcher service
+[2025-05-10T11:37:54.565Z] Chokidar already installed
+[2025-05-10T11:37:54.565Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T11:37:54.570Z] ZIP watcher service started successfully
+[2025-05-10T11:40:48.534Z] Starting ZIP file watcher service
+[2025-05-10T11:40:48.540Z] Chokidar already installed
+[2025-05-10T11:40:48.543Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T11:40:48.546Z] ZIP watcher service started successfully
+[2025-05-10T11:45:49.958Z] Starting ZIP file watcher service
+[2025-05-10T11:45:49.970Z] Chokidar already installed
+[2025-05-10T11:45:49.972Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T11:45:49.978Z] ZIP watcher service started successfully
+[2025-05-10T11:57:26.346Z] Starting ZIP file watcher service
+[2025-05-10T11:57:26.353Z] Chokidar already installed
+[2025-05-10T11:57:26.353Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T11:57:26.358Z] ZIP watcher service started successfully
+[2025-05-10T12:02:49.558Z] Starting ZIP file watcher service
+[2025-05-10T12:02:49.613Z] Chokidar already installed
+[2025-05-10T12:02:49.613Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T12:02:49.637Z] ZIP watcher service started successfully
+[2025-05-10T12:04:24.881Z] Starting ZIP file watcher service
+[2025-05-10T12:04:24.894Z] Chokidar already installed
+[2025-05-10T12:04:24.894Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T12:04:24.898Z] ZIP watcher service started successfully
+[2025-05-10T12:44:52.860Z] Starting ZIP file watcher service
+[2025-05-10T12:44:52.866Z] Chokidar already installed
+[2025-05-10T12:44:52.867Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T12:44:52.868Z] ZIP watcher service started successfully
+[2025-05-10T12:46:33.323Z] Starting ZIP file watcher service
+[2025-05-10T12:46:33.330Z] Chokidar already installed
+[2025-05-10T12:46:33.331Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T12:46:33.344Z] ZIP watcher service started successfully
+[2025-05-10T12:51:10.629Z] Starting ZIP file watcher service
+[2025-05-10T12:51:10.638Z] Chokidar already installed
+[2025-05-10T12:51:10.638Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T12:51:10.641Z] ZIP watcher service started successfully
+[2025-05-10T12:54:55.251Z] Starting ZIP file watcher service
+[2025-05-10T12:54:55.264Z] Chokidar already installed
+[2025-05-10T12:54:55.264Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T12:54:55.286Z] ZIP watcher service started successfully
+[2025-05-10T12:56:39.649Z] Starting ZIP file watcher service
+[2025-05-10T12:56:39.654Z] Chokidar already installed
+[2025-05-10T12:56:39.654Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T12:56:39.657Z] ZIP watcher service started successfully
+[2025-05-10T12:58:54.929Z] Starting ZIP file watcher service
+[2025-05-10T12:58:54.942Z] Chokidar already installed
+[2025-05-10T12:58:54.943Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T12:58:54.950Z] ZIP watcher service started successfully
+[2025-05-10T13:00:23.371Z] Starting ZIP file watcher service
+[2025-05-10T13:00:23.376Z] Chokidar already installed
+[2025-05-10T13:00:23.376Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T13:00:23.377Z] ZIP watcher service started successfully
+[2025-05-10T16:46:10.380Z] Starting ZIP file watcher service
+[2025-05-10T16:46:10.389Z] Chokidar already installed
+[2025-05-10T16:46:10.390Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T16:46:10.393Z] ZIP watcher service started successfully
+[2025-05-10T16:49:05.410Z] Starting ZIP file watcher service
+[2025-05-10T16:49:05.419Z] Chokidar already installed
+[2025-05-10T16:49:05.419Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T16:49:05.424Z] ZIP watcher service started successfully
+[2025-05-10T16:51:22.233Z] Starting ZIP file watcher service
+[2025-05-10T16:51:22.240Z] Chokidar already installed
+[2025-05-10T16:51:22.240Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T16:51:22.242Z] ZIP watcher service started successfully
+[2025-05-10T16:54:40.508Z] Starting ZIP file watcher service
+[2025-05-10T16:54:40.521Z] Chokidar already installed
+[2025-05-10T16:54:40.521Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T16:54:40.523Z] ZIP watcher service started successfully
+[2025-05-10T16:56:33.805Z] Starting ZIP file watcher service
+[2025-05-10T16:56:33.821Z] Chokidar already installed
+[2025-05-10T16:56:33.821Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T16:56:33.844Z] ZIP watcher service started successfully
+[2025-05-10T17:00:39.480Z] Starting ZIP file watcher service
+[2025-05-10T17:00:39.487Z] Chokidar already installed
+[2025-05-10T17:00:39.487Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T17:00:39.492Z] ZIP watcher service started successfully
+[2025-05-10T17:03:10.393Z] Starting ZIP file watcher service
+[2025-05-10T17:03:10.406Z] Chokidar already installed
+[2025-05-10T17:03:10.416Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T17:03:10.424Z] ZIP watcher service started successfully
+[2025-05-10T17:30:32.453Z] Starting ZIP file watcher service
+[2025-05-10T17:30:32.461Z] Chokidar already installed
+[2025-05-10T17:30:32.461Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T17:30:32.463Z] ZIP watcher service started successfully
+[2025-05-10T17:40:45.200Z] Starting ZIP file watcher service
+[2025-05-10T17:40:45.219Z] Chokidar already installed
+[2025-05-10T17:40:45.232Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T17:40:45.239Z] ZIP watcher service started successfully
+[2025-05-10T17:56:35.682Z] Starting ZIP file watcher service
+[2025-05-10T17:56:35.703Z] Chokidar already installed
+[2025-05-10T17:56:35.703Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T17:56:35.723Z] ZIP watcher service started successfully
+[2025-05-10T18:12:28.556Z] Starting ZIP file watcher service
+[2025-05-10T18:12:28.562Z] Chokidar already installed
+[2025-05-10T18:12:28.562Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T18:12:28.564Z] ZIP watcher service started successfully
+[2025-05-10T18:49:26.777Z] Starting ZIP file watcher service
+[2025-05-10T18:49:26.798Z] Chokidar already installed
+[2025-05-10T18:49:26.798Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T18:49:26.810Z] ZIP watcher service started successfully
+[2025-05-10T18:52:30.593Z] Starting ZIP file watcher service
+[2025-05-10T18:52:30.603Z] Chokidar already installed
+[2025-05-10T18:52:30.604Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T18:52:30.609Z] ZIP watcher service started successfully
+[2025-05-10T18:55:37.354Z] Starting ZIP file watcher service
+[2025-05-10T18:55:37.360Z] Chokidar already installed
+[2025-05-10T18:55:37.360Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T18:55:37.362Z] ZIP watcher service started successfully
+[2025-05-10T19:14:58.717Z] Starting ZIP file watcher service
+[2025-05-10T19:14:58.726Z] Chokidar already installed
+[2025-05-10T19:14:58.726Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T19:14:58.729Z] ZIP watcher service started successfully
+[2025-05-10T19:16:55.176Z] Starting ZIP file watcher service
+[2025-05-10T19:16:55.184Z] Chokidar already installed
+[2025-05-10T19:16:55.184Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T19:16:55.196Z] ZIP watcher service started successfully
+[2025-05-10T19:22:54.946Z] Starting ZIP file watcher service
+[2025-05-10T19:22:54.951Z] Chokidar already installed
+[2025-05-10T19:22:54.951Z] Starting watcher on directory: /home/runner/workspace/attached_assets
+[2025-05-10T19:22:54.959Z] ZIP watcher service started successfully

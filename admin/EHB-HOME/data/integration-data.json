@@ -1,0 +1,147 @@
+{
+  "system_name": "Enterprise Hybrid Blockchain (EHB)",
+  "version": "1.0.0",
+  "last_updated": "2025-05-15T20:35:28.833Z",
+  "components": {
+    "sqlDepartments": {
+      "pss": {
+        "name": "PSS",
+        "path": "/home/runner/workspace/system/EHB-SQL/EHB-SQL-PSS",
+        "status": "connected",
+        "last_checked": "2025-05-15T20:35:28.833Z"
+      },
+      "edr": {
+        "name": "EDR",
+        "path": "/home/runner/workspace/system/EHB-SQL/EHB-SQL-EDR",
+        "status": "connected",
+        "last_checked": "2025-05-15T20:35:28.833Z"
+      },
+      "emo": {
+        "name": "EMO",
+        "path": "/home/runner/workspace/system/EHB-SQL/EHB-SQL-EMO",
+        "status": "connected",
+        "last_checked": "2025-05-15T20:35:28.833Z"
+      }
+    },
+    "services": {
+      "gosellr": {
+        "name": "GOSELLR",
+        "path": "/home/runner/workspace/services/EHB-GoSellr",
+        "status": "connected",
+        "last_checked": "2025-05-15T20:35:28.833Z"
+      },
+      "jps": {
+        "name": "JPS",
+        "path": "/home/runner/workspace/services/JPS-Job-Providing-Service",
+        "status": "connected",
+        "last_checked": "2025-05-15T20:35:28.833Z"
+      }
+    },
+    "system": {
+      "blockchain": {
+        "name": "BLOCKCHAIN",
+        "path": "/home/runner/workspace/system/EHB-Blockchain",
+        "status": "connected",
+        "last_checked": "2025-05-15T20:35:28.833Z"
+      },
+      "franchise": {
+        "name": "FRANCHISE",
+        "path": "/home/runner/workspace/system/franchise-system",
+        "status": "connected",
+        "last_checked": "2025-05-15T20:35:28.833Z"
+      }
+    },
+    "admin": {
+      "adminPanel": {
+        "name": "ADMINPANEL",
+        "path": "/home/runner/workspace/admin/ehb-admin-panel",
+        "status": "connected",
+        "last_checked": "2025-05-15T20:35:28.833Z"
+      },
+      "dashboard": {
+        "name": "DASHBOARD",
+        "path": "/home/runner/workspace/admin/EHB-DASHBOARD",
+        "status": "connected",
+        "last_checked": "2025-05-15T20:35:28.833Z"
+      },
+      "wallet": {
+        "name": "WALLET",
+        "path": "/home/runner/workspace/admin/ehb-wallet",
+        "status": "connected",
+        "last_checked": "2025-05-15T20:35:28.834Z"
+      }
+    }
+  },
+  "services": [
+    {
+      "id": "pss",
+      "name": "PSS",
+      "category": "sqlDepartments",
+      "status": "active",
+      "url": "/system/sqlDepartments/pss"
+    },
+    {
+      "id": "edr",
+      "name": "EDR",
+      "category": "sqlDepartments",
+      "status": "active",
+      "url": "/system/sqlDepartments/edr"
+    },
+    {
+      "id": "emo",
+      "name": "EMO",
+      "category": "sqlDepartments",
+      "status": "active",
+      "url": "/system/sqlDepartments/emo"
+    },
+    {
+      "id": "gosellr",
+      "name": "GOSELLR",
+      "category": "services",
+      "status": "active",
+      "url": "/system/services/gosellr"
+    },
+    {
+      "id": "jps",
+      "name": "JPS",
+      "category": "services",
+      "status": "active",
+      "url": "/system/services/jps"
+    },
+    {
+      "id": "blockchain",
+      "name": "BLOCKCHAIN",
+      "category": "system",
+      "status": "active",
+      "url": "/system/system/blockchain"
+    },
+    {
+      "id": "franchise",
+      "name": "FRANCHISE",
+      "category": "system",
+      "status": "active",
+      "url": "/system/system/franchise"
+    },
+    {
+      "id": "adminPanel",
+      "name": "ADMINPANEL",
+      "category": "admin",
+      "status": "active",
+      "url": "/system/admin/adminPanel"
+    },
+    {
+      "id": "dashboard",
+      "name": "DASHBOARD",
+      "category": "admin",
+      "status": "active",
+      "url": "/system/admin/dashboard"
+    },
+    {
+      "id": "wallet",
+      "name": "WALLET",
+      "category": "admin",
+      "status": "active",
+      "url": "/system/admin/wallet"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[2025-05-10T06:31:31.485Z] Checking for required dependencies...
+[2025-05-10T06:31:31.496Z] adm-zip is already installed
+[2025-05-10T06:31:31.497Z] Starting automatic ZIP processing
+[2025-05-10T06:31:31.499Z] Found 1 ZIP files to process
+[2025-05-10T06:31:31.500Z] Processing ZIP file: attached_assets/test-module.zip
+[2025-05-10T06:31:31.526Z] Extracted folders: src
+[2025-05-10T06:31:31.532Z] Target directory determined: test-module
+[2025-05-10T06:31:31.535Z] Merged src into test-module
+[2025-05-10T06:31:31.538Z] Moved attached_assets/test-module.zip to attached_assets/processed/test-module.zip
+[2025-05-10T06:31:31.539Z] Successfully processed ZIP file: attached_assets/test-module.zip
+[2025-05-10T06:31:31.540Z] Processed 1 out of 1 ZIP files successfully
+[2025-05-10T06:37:05.013Z] Checking for required dependencies...
+[2025-05-10T06:37:05.024Z] adm-zip is already installed
+[2025-05-10T06:37:05.025Z] Starting automatic ZIP processing
+[2025-05-10T06:37:05.027Z] Found 2 ZIP files to process
+[2025-05-10T06:37:05.028Z] Processing ZIP file: attached_assets/EHB-HOME.zip
+[2025-05-10T06:37:05.040Z] Extracted folders: 
+[2025-05-10T06:37:05.051Z] Target directory determined: EHB-HOME
+[2025-05-10T06:37:05.055Z] Moved attached_assets/EHB-HOME.zip to attached_assets/processed/EHB-HOME.zip
+[2025-05-10T06:37:05.062Z] Successfully processed ZIP file: attached_assets/EHB-HOME.zip
+[2025-05-10T06:37:05.063Z] Processing ZIP file: attached_assets/test-module-Phase-3.zip
+[2025-05-10T06:37:05.069Z] Extracted folders: src
+[2025-05-10T06:37:05.071Z] Removed Phase-3 suffix from test-module-Phase-3 → test-module
+[2025-05-10T06:37:05.077Z] Target directory determined: test-module
+[2025-05-10T06:37:05.079Z] Merged src into test-module
+[2025-05-10T06:37:05.081Z] Moved attached_assets/test-module-Phase-3.zip to attached_assets/processed/test-module-Phase-3.zip
+[2025-05-10T06:37:05.082Z] Successfully processed ZIP file: attached_assets/test-module-Phase-3.zip
+[2025-05-10T06:37:05.082Z] Processed 2 out of 2 ZIP files successfully
+[2025-05-10T06:38:47.031Z] Checking for required dependencies...
+[2025-05-10T06:38:47.043Z] adm-zip is already installed
+[2025-05-10T06:38:47.047Z] Starting automatic ZIP processing
+[2025-05-10T06:38:47.050Z] Found 1 ZIP files to process
+[2025-05-10T06:38:47.051Z] Processing ZIP file: attached_assets/test-config-module.zip
+[2025-05-10T06:38:47.064Z] Found config.json with target directory: custom-target-dir
+[2025-05-10T06:38:47.064Z] Found module metadata in config.json: {"name":"TestConfigModule","version":"1.0.0","description":"A test module with config.json","capabilities":["testing","configuration"],"apiEndpoint":"http://localhost:5004/api"}
+[2025-05-10T06:38:47.067Z] Extracted folders: src
+[2025-05-10T06:38:47.067Z] Target directory determined: custom-target-dir
+[2025-05-10T06:38:47.068Z] Created target directory: custom-target-dir
+[2025-05-10T06:38:47.070Z] Merged src into custom-target-dir
+[2025-05-10T06:38:47.076Z] Attempting to register module with Integration Hub at http://localhost:5003/api/modules/register
+[2025-05-10T06:38:47.077Z] Registration payload: {"name":"TestConfigModule","version":"1.0.0","description":"A test module with config.json","capabilities":["testing","configuration"],"apiEndpoint":"http://localhost:5004/api","path":"/home/runner/workspace/custom-target-dir","registeredBy":"ZipProcessor","registrationTime":"2025-05-10T06:38:47.076Z"}
+[2025-05-10T06:38:47.103Z] Moved attached_assets/test-config-module.zip to attached_assets/processed/test-config-module.zip
+[2025-05-10T06:38:47.104Z] Successfully processed ZIP file: attached_assets/test-config-module.zip
+[2025-05-10T06:38:47.104Z] Processed 1 out of 1 ZIP files successfully
+[2025-05-10T06:38:47.113Z] Failed to register module. Status code: 404
+[2025-05-10T06:38:47.114Z] Response: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/modules/register</pre>
+</body>
+</html>
+

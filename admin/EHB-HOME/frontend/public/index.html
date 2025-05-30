@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EHB Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f9fafb;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background-color: #2563eb;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    .header-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .subtitle {
+      opacity: 0.9;
+      margin-top: 0.5rem;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .card-header {
+      background-color: #f3f4f6;
+      padding: 15px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .card-title {
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+    .card-icon {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    .card-body {
+      padding: 15px;
+    }
+    .card-description {
+      margin-bottom: 15px;
+      color: #4b5563;
+    }
+    .card-footer {
+      padding: 15px;
+      background-color: #f9fafb;
+      border-top: 1px solid #e5e7eb;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .status {
+      padding: 4px 8px;
+      border-radius: 50px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .status-active {
+      background-color: #dcfce7;
+      color: #166534;
+    }
+    .status-maintenance {
+      background-color: #fef9c3;
+      color: #854d0e;
+    }
+    .view-btn {
+      color: #2563eb;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .view-btn:hover {
+      text-decoration: underline;
+    }
+    .featured-card {
+      grid-column: span 2;
+      display: flex;
+      flex-direction: column;
+    }
+    .featured-header {
+      background-color: #dbeafe;
+      color: #1e40af;
+    }
+    .featured-content {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .featured-details {
+      flex: 1;
+      min-width: 300px;
+      padding: 15px;
+    }
+    .metrics {
+      flex: 1;
+      min-width: 300px;
+      padding: 15px;
+      background-color: #f8fafc;
+      border-left: 1px solid #e5e7eb;
+    }
+    .metric-item {
+      margin-bottom: 10px;
+    }
+    .metric-value {
+      font-weight: bold;
+      font-size: 24px;
+      color: #1e40af;
+    }
+    .metric-label {
+      font-size: 14px;
+      color: #64748b;
+    }
+    .feature-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .feature-list li {
+      padding: 5px 0;
+      padding-left: 24px;
+      position: relative;
+    }
+    .feature-list li:before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #2563eb;
+      font-weight: bold;
+    }
+    #loading {
+      text-align: center;
+      padding: 50px;
+      font-size: 18px;
+      color: #6b7280;
+    }
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .filter-btn {
+      padding: 8px 15px;
+      border: 1px solid #e5e7eb;
+      background-color: white;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.2s;
+    }
+    .filter-btn:hover {
+      background-color: #f3f4f6;
+    }
+    .filter-btn.active {
+      background-color: #2563eb;
+      color: white;
+      border-color: #2563eb;
+    }
+    .search-box {
+      flex: 1;
+      min-width: 200px;
+      padding: 8px 15px;
+      border: 1px solid #e5e7eb;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    footer {
+      margin-top: 50px;
+      padding: 20px 0;
+      background-color: #f3f4f6;
+      border-top: 1px solid #e5e7eb;
+      text-align: center;
+      font-size: 14px;
+      color: #6b7280;
+    }
+    @media (max-width: 768px) {
+      .featured-card {
+        grid-column: span 1;
+      }
+      .featured-content {
+        flex-direction: column;
+      }
+      .metrics {
+        border-left: none;
+        border-top: 1px solid #e5e7eb;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>EHB Home Dashboard</h1>
+      <p class="subtitle">Enterprise Hybrid Blockchain System</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div id="loading">Loading EHB services...</div>
+    
+    <div id="content" style="display: none;">
+      <div class="filters">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="e-commerce">E-commerce</button>
+        <button class="filter-btn" data-category="database">Database</button>
+        <button class="filter-btn" data-category="technology">Technology</button>
+        <button class="filter-btn" data-category="management">Management</button>
+        <button class="filter-btn" data-category="employment">Employment</button>
+        <button class="filter-btn" data-category="administration">Administration</button>
+        <button class="filter-btn" data-category="finance">Finance</button>
+        <input type="text" class="search-box" placeholder="Search services..." id="search-input">
+      </div>
+      
+      <div id="featured-container"></div>
+      <div id="cards-container" class="cards"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 EHB Technologies. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      try {
+        // Fetch services data
+        const servicesResponse = await fetch("/api/services");
+        const services = await servicesResponse.json();
+        
+        // Fetch GoSellr featured card
+        const gosellrResponse = await fetch("/api/featured/gosellr");
+        let gosellrData = null;
+        
+        try {
+          gosellrData = await gosellrResponse.json();
+        } catch (err) {
+          console.log("GoSellr featured card not available");
+        }
+        
+        // Hide loading indicator and show content
+        document.getElementById("loading").style.display = "none";
+        document.getElementById("content").style.display = "block";
+        
+        // Render services
+        renderServices(services);
+        
+        // Render featured card if available
+        if (gosellrData) {
+          renderFeaturedCard(gosellrData);
+        }
+        
+        // Set up filter functionality
+        setupFilters(services);
+      } catch (error) {
+        console.error("Error loading data:", error);
+        document.getElementById("loading").textContent = "Error loading EHB services. Please try again later.";
+      }
+    });
+    
+    function renderServices(services) {
+      const cardsContainer = document.getElementById("cards-container");
+      cardsContainer.innerHTML = "";
+      
+      services.forEach(service => {
+        const card = document.createElement("div");
+        card.className = "card";
+        card.dataset.category = service.category.toLowerCase();
+        
+        card.innerHTML = `
+          <div class="card-header">
+            <h2 class="card-title">
+              <span class="card-icon">${service.icon}</span>
+              ${service.name}
+            </h2>
+          </div>
+          <div class="card-body">
+            <p class="card-description">${service.description}</p>
+          </div>
+          <div class="card-footer">
+            <span class="status ${service.status === "active" ? "status-active" : "status-maintenance"}">
+              ${service.status.charAt(0).toUpperCase() + service.status.slice(1)}
+            </span>
+            <a href="${service.link}" class="view-btn">View →</a>
+          </div>
+        `;
+        
+        cardsContainer.appendChild(card);
+      });
+    }
+    
+    function renderFeaturedCard(card) {
+      const featuredContainer = document.getElementById("featured-container");
+      
+      const featuredCard = document.createElement("div");
+      featuredCard.className = "card featured-card";
+      
+      const metricsHTML = Object.entries(card.metrics)
+        .map(([key, value]) => `
+          <div class="metric-item">
+            <div class="metric-value">${value.toLocaleString()}</div>
+            <div class="metric-label">${key.charAt(0).toUpperCase() + key.slice(1)}</div>
+          </div>
+        `)
+        .join("");
+      
+      const featuresHTML = card.features
+        .map(feature => `<li>${feature}</li>`)
+        .join("");
+      
+      featuredCard.innerHTML = `
+        <div class="card-header featured-header">
+          <h2 class="card-title">
+            <span class="card-icon">${card.icon}</span>
+            ${card.name} - Featured Service
+          </h2>
+        </div>
+        <div class="featured-content">
+          <div class="featured-details">
+            <p class="card-description">${card.description}</p>
+            <h3>Key Features</h3>
+            <ul class="feature-list">
+              ${featuresHTML}
+            </ul>
+          </div>
+          <div class="metrics">
+            <h3>Current Metrics</h3>
+            ${metricsHTML}
+          </div>
+        </div>
+        <div class="card-footer">
+          <span class="status status-active">Active</span>
+          <a href="${card.url}" class="view-btn">Access Service →</a>
+        </div>
+      `;
+      
+      featuredContainer.appendChild(featuredCard);
+    }
+    
+    function setupFilters(services) {
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const searchInput = document.getElementById("search-input");
+      
+      // Filter by category
+      filterButtons.forEach(button => {
+        button.addEventListener("click", () => {
+          // Update active state
+          filterButtons.forEach(btn => btn.classList.remove("active"));
+          button.classList.add("active");
+          
+          const category = button.dataset.category;
+          
+          // Filter cards
+          filterCards(category, searchInput.value);
+        });
+      });
+      
+      // Filter by search term
+      searchInput.addEventListener("input", () => {
+        const activeCategory = document.querySelector(".filter-btn.active").dataset.category;
+        filterCards(activeCategory, searchInput.value);
+      });
+    }
+    
+    function filterCards(category, searchTerm = "") {
+      const cards = document.querySelectorAll("#cards-container .card");
+      const normalizedSearchTerm = searchTerm.toLowerCase();
+      
+      cards.forEach(card => {
+        const cardCategory = card.dataset.category;
+        const cardTitle = card.querySelector(".card-title").textContent.toLowerCase();
+        const cardDescription = card.querySelector(".card-description").textContent.toLowerCase();
+        
+        const matchesCategory = category === "all" || cardCategory === category;
+        const matchesSearch = normalizedSearchTerm === "" || 
+          cardTitle.includes(normalizedSearchTerm) || 
+          cardDescription.includes(normalizedSearchTerm);
+        
+        if (matchesCategory && matchesSearch) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    }
+  </script>
+</body>
+</html>

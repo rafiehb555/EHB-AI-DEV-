@@ -1,0 +1,59 @@
+{
+  "services": [
+    {
+      "name": "GUI-Launcher",
+      "url": "ws://localhost:5003/ehb-integration",
+      "options": {
+        "type": "system-service",
+        "serviceUrl": "http://localhost:5050",
+        "capabilities": ["service-management", "system-monitoring"],
+        "description": "GUI Launcher for managing EHB services",
+        "port": 5050
+      }
+    },
+    {
+      "name": "EHB-AI-Dev",
+      "url": "ws://localhost:5003/ehb-integration",
+      "options": {
+        "type": "core-service",
+        "serviceUrl": "http://localhost:5003",
+        "capabilities": ["ai", "integration", "management"],
+        "description": "Core AI and integration service for EHB system",
+        "port": 5003
+      }
+    },
+    {
+      "name": "EHB-Developer-Portal",
+      "url": "ws://localhost:5003/ehb-integration",
+      "options": {
+        "type": "developer-tool",
+        "serviceUrl": "http://localhost:5000",
+        "capabilities": ["documentation", "development"],
+        "description": "Developer Portal for EHB system",
+        "port": 5000
+      }
+    },
+    {
+      "name": "EHB-DASHBOARD",
+      "url": "ws://localhost:5003/ehb-integration",
+      "options": {
+        "type": "frontend-service",
+        "serviceUrl": "http://localhost:5006",
+        "capabilities": ["dashboard", "ui"],
+        "description": "Main Dashboard for EHB system",
+        "port": 5006
+      }
+    },
+    {
+      "name": "EHB-HOME",
+      "url": "ws://localhost:5003/ehb-integration",
+      "options": {
+        "type": "frontend-service",
+        "serviceUrl": "http://localhost:5005",
+        "capabilities": ["home", "ui"],
+        "description": "Home page for EHB system",
+        "port": 5005
+      }
+    }
+  ]
+}

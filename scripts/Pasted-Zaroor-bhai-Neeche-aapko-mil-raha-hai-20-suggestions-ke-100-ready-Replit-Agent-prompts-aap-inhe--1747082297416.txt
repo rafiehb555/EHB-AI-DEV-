@@ -1,0 +1,393 @@
+Zaroor bhai! Neeche aapko mil raha hai 20 suggestions ke 100% ready Replit Agent prompts — aap inhe Replit Agent, workflow assistant, ya command system me paste karke use kar sakte ho.
+
+---
+
+## 🧠 Full List: Replit Agent Prompts for Advanced Features
+
+---
+
+### 1️⃣ LangGraph integration for smart workflows
+
+``
+🧠 Setup LangGraph in agent
+
+1. Install:
+`bash
+pip install langgraph
+``
+
+2. Create file agent/langgraph_workflow.py
+
+* Add node logic, memory steps, and workflow flowchart
+
+✅ Result: Agent will follow multi-step memory-based process like GPT workflow pipeline.
+
+`
+
+---
+
+### 2️⃣ Auto feedback loop (Agent tests its own output)
+`
+
+🧪 Add Self-Evaluation Loop to agent
+
+1. After generating file, agent calls:
+
+`js
+const evalPrompt = Evaluate the quality of this function and suggest improvements:\n${generatedCode};
+`
+
+2. Use OpenAI + LangChain to respond and revise.
+
+✅ Result: Agent improves its own output via GPT loop.
+
+`
+
+---
+
+### 3️⃣ Error Debugger with AI Suggestions
+`
+
+🔍 Add auto error debugger
+
+1. Agent scans logs in .replit_logs or console.log
+2. Sends to GPT with:
+
+`js
+"What caused this error and how do I fix it?"
+`
+
+✅ Result: Agent provides targeted bug fix.
+
+`
+
+---
+
+### 4️⃣ Agent Web UI with Trigger Buttons
+`
+
+🖱️ Create Replit agent dashboard
+
+1. Add public/agent.html and basic buttons
+2. Each button fires /api/agent-task?type=createComponent
+3. API triggers respective agent logic
+
+✅ Result: Non-technical users can use agent via UI.
+
+`
+
+---
+
+### 5️⃣ Agent Memory (ChromaDB or local JSON)
+`
+
+🧠 Add agent memory
+
+1. Create agent/memory.json
+2. After each action, save:
+
+`js
+memory.push({ date, action, file, summary });
+`
+
+✅ Result: Agent remembers what it did before.
+
+`
+
+---
+
+### 6️⃣ Multi-agent team (AutoGen / CrewAI)
+`
+
+👥 Enable Multi-Agent Crew
+
+1. Install:
+
+`bash
+pip install autogen
+`
+
+2. Create roles: coder, tester, reviewer
+3. Let them collaborate on same task
+
+✅ Result: Multiple agents work together.
+
+`
+
+---
+
+### 7️⃣ Prompt chaining (LangChain Runnable flow)
+`
+
+🔗 Enable chained prompts
+
+1. Setup LangChain RunnableSequence:
+
+`js
+const chain = RunnableSequence.from([step1, step2, step3]);
+`
+
+✅ Result: GPT does multiple things in 1 go.
+
+`
+
+---
+
+### 8️⃣ Smart GitHub commit after test pass
+`
+
+📤 Auto commit via GitHub CLI
+
+1. Install GitHub CLI:
+
+`bash
+npm install -g gh
+`
+
+2. On success:
+
+`bash
+gh auth login
+git add .
+git commit -m "Auto: test passed"
+git push
+`
+
+✅ Result: Agent commits tested code itself.
+
+`
+
+---
+
+### 9️⃣ Slack/Telegram Bot Command Trigger
+`
+
+💬 Connect agent to Telegram/Slack
+
+1. Use webhook bot (e.g., node-telegram-bot-api)
+2. When message received, call:
+
+`js
+exec('node agent/index.js')
+`
+
+✅ Result: Remote control from phone!
+
+`
+
+---
+
+### 🔟 Read & Build from Jira or Trello Task
+`
+
+📋 Read Trello task and auto-build
+
+1. Connect via Trello API
+2. Extract card:
+
+`js
+GET https://api.trello.com/1/cards/{id}
+`
+
+3. Agent interprets and builds required file
+
+✅ Result: Agent converts task into code.
+
+`
+
+---
+
+### 1️⃣1️⃣ Auto Mongo/Postgres Schema Builder
+`
+
+🧱 Agent generates DB schema
+
+1. User prompt:
+   "Build a Mongo schema for Blog with title, tags, date"
+
+2. Agent creates:
+
+`js
+const schema = new mongoose.Schema({...})
+`
+
+✅ Result: Instant DB model.
+
+`
+
+---
+
+### 1️⃣2️⃣ Auto Deploy to Vercel
+`
+
+🚀 Agent deploys to Vercel
+
+1. Setup Vercel token
+2. Call:
+
+`bash
+npx vercel --prod --token $VERCEL_TOKEN
+`
+
+✅ Result: AI deploys full site automatically.
+
+`
+
+---
+
+### 1️⃣3️⃣ OpenAPI reader & API route generator
+`
+
+📜 Generate API routes from OpenAPI
+
+1. Upload OpenAPI spec (api-doc.json)
+2. Agent parses and creates routes in pages/api/
+
+✅ Result: Doc → Working code.
+
+`
+
+---
+
+### 1️⃣4️⃣ Folder Health/Structure Scanner
+`
+
+🧾 Agent checks structure
+
+1. Scan required folders:
+
+* /pages
+* /api
+* /tests
+* /contracts
+
+2. Log missing files
+
+✅ Result: Auto diagnostics of project health.
+
+`
+
+---
+
+### 1️⃣5️⃣ Voice to Code via Whisper
+`
+
+🎤 Add voice input
+
+1. Install:
+
+`bash
+pip install openai-whisper
+`
+
+2. Convert .mp3 to text:
+
+`bash
+whisper input.mp3 --model small
+`
+
+✅ Result: Speak to build code.
+
+`
+
+---
+
+### 1️⃣6️⃣ Visual DB or Code Flow with Mermaid
+`
+
+📈 Generate diagrams
+
+1. Install mermaid-cli
+2. Agent writes .mmd file
+3. Render:
+
+`bash
+mmdc -i input.mmd -o output.svg
+`
+
+✅ Result: Agent draws logic flow.
+
+`
+
+---
+
+### 1️⃣7️⃣ Smart Log Summarizer
+`
+
+📊 Log reader
+
+1. Agent reads last 50 lines from .log
+2. GPT prompt:
+   "Summarize what's failing and why"
+
+✅ Result: Quick debugging summary.
+
+`
+
+---
+
+### 1️⃣8️⃣ Trigger agent on crypto payment
+`
+
+💰 On-chain trigger
+
+1. Use wagmi or ethers.js to listen:
+
+`js
+provider.on('block', (block) => {...})
+`
+
+2. If payment event found, call agent task.
+
+✅ Result: Wallet triggers code action.
+
+`
+
+---
+
+### 1️⃣9️⃣ Parse PDFs, Excel, code dumps
+`
+
+📂 Add file parsers
+
+* PDF: pip install PyMuPDF
+* Excel: pip install openpyxl
+* Code: LangChain file loader
+
+✅ Result: Agent extracts content from anything.
+
+`
+
+---
+
+### 2️⃣0️⃣ Security scanner (static audit)
+`
+
+🔒 Add basic AI security scan
+
+1. Load .env, .js, .sol files
+2. Prompt GPT:
+   "Check for secrets, unsafe code, or exploits"
+
+✅ Result: Agent does mini audit.
+
+`
+
+---
+
+## ✅ Final Tips:
+
+- Use each as a named command or shell alias
+- Bundle top features in /agent/tools/
+- Maintain .env, /agent/memory.json to track actions
+
+---
+
+Bhai, agar aap chahen to main:
+- In sab prompts ka Master-Agent Enhancer ZIP bana dun
+- Har feature ke sath ready folders, shell scripts, sample files de dun
+
+To sirf likho:  
+"Make Master Enhancer Agent ZIP"  
+Mai turant ready karke de dunga ✅
+`

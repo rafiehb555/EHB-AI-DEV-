@@ -1,0 +1,12 @@
+[2025-05-10T10:11:31.913Z] [INFO] Starting EHB Workspace Organizer
+[2025-05-10T10:11:31.919Z] [INFO] Step 1: Creating necessary directories...
+[2025-05-10T10:11:31.923Z] [SUCCESS] Created directory: /home/runner/workspace/archived
+[2025-05-10T10:11:31.925Z] [SUCCESS] Created directory: /home/runner/workspace/services-root
+[2025-05-10T10:11:31.927Z] [SUCCESS] Created directory: /home/runner/workspace/shared
+[2025-05-10T10:11:31.933Z] [SUCCESS] Created directory: /home/runner/workspace/shared/utils
+[2025-05-10T10:11:31.934Z] [SUCCESS] Created directory: /home/runner/workspace/shared/components
+[2025-05-10T10:11:31.935Z] [SUCCESS] Created directory: /home/runner/workspace/shared/models
+[2025-05-10T10:11:31.936Z] [SUCCESS] Created directory: /home/runner/workspace/shared/api
+[2025-05-10T10:11:31.937Z] [SUCCESS] Created directory: /home/runner/workspace/shared/types
+[2025-05-10T10:11:31.938Z] [SUCCESS] Successfully created all needed directories
+[2025-05-10T10:11:31.940Z] [INFO] Step 2: Analyzing old directories for files to relocate...

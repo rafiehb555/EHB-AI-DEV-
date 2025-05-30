@@ -1,0 +1,89 @@
+
+📘 EHB SMART DEVELOPMENT RULEBOOK (Final Version)
+================================================
+
+🧠 VISION:
+Create a system that anyone — child, adult, elderly, literate or not — can use safely and smoothly.
+All modules must be AI-integrated, auto-documented, recoverable, responsive, and globally expandable.
+
+------------------------------------------------
+✅ SYSTEM STRUCTURE & FILE SAFETY RULES:
+
+1. /admin/EHB-HOME/ must never be deleted or renamed.
+2. /admin/EHB-DASHBOARD/ must remain linked to all services.
+3. All services must live in /services/<ServiceName>/
+4. Each service must include: frontend/, backend/, admin/, config/, models/
+5. No manual folder deletion without snapshot backup first.
+6. AI Agent must auto-create missing folders/files if structure incomplete.
+7. Developer logs and structure errors saved in /logs/
+8. Zip uploads must be named: <Service>-Phase-<X>.zip
+9. Extract ZIPs to matching /services/ folder, never root.
+
+------------------------------------------------
+🧠 USER & UI/UX ACCESSIBILITY RULES:
+
+10. All designs must be fully responsive across devices.
+11. Every card/page must include on-screen or tooltip guide.
+12. Language switcher (Urdu, English, Arabic) must be available.
+13. Layouts must support drag-and-drop customization.
+14. Dashboard cards must auto-update based on service integration.
+
+------------------------------------------------
+🔐 SECURITY & BACKUP RULES:
+
+15. Every file edit must generate a snapshot to /__snapshots__/
+16. Rollback system must support multi-level undo.
+17. Core files like EHB-HOME and AI-DEV must be file-locked.
+18. JWT auth must be applied on all admin/backend routes.
+19. Database access restricted by service role.
+
+------------------------------------------------
+⚙️ AI AGENT DEVELOPMENT RULES:
+
+20. Replit Agent and EHB AI Dev Agent must follow same logic.
+21. All suggestions made by AI must log before applying.
+22. AI must warn before overwriting anything.
+23. Agent should auto-sync dashboard cards after each integration.
+24. All Replit/Agent actions must be visible in Developer Portal.
+
+------------------------------------------------
+🧠 DEVELOPER PORTAL UI RULES:
+
+25. Show list of APIs, UI files, backend routes.
+26. Highlight any missing files with path and suggested fix.
+27. All services/cards visible by status: % complete, error, last edit.
+28. Rulebook must be editable from UI with logging.
+29. Manual editing allowed but warning must be shown before core edits.
+
+------------------------------------------------
+🌍 GLOBAL LAUNCH PREP RULES:
+
+30. System must support language, map, location-based service logic.
+31. SEO meta info must be editable per service.
+32. Legal documents (Privacy, TOS) must be attachable in dashboard.
+33. Launch checklist must be generated before live push.
+
+------------------------------------------------
+📌 HOW TO EDIT THIS RULEBOOK:
+
+File: /system/EHB-System-Development-Rules.txt
+
+Command to edit:
+nano /system/EHB-System-Development-Rules.txt
+
+OR use the Developer Portal UI > “Edit Rules” Section.
+
+------------------------------------------------
+🔁 INTEGRATION REMINDER:
+
+These rules must be read + followed by:
+- Replit Development Agent
+- EHB AI Development Agent (post-Replit)
+- Manual Developers (if assigned)
+- All new features or services
+
+------------------------------------------------
+✅ FINAL STATEMENT:
+Every future update, module, or API must honor this rulebook.
+Failing to do so may result in AI triggering rollback or freeze warning.
+

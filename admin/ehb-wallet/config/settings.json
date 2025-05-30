@@ -1,0 +1,22 @@
+{
+  "registerModules": [
+    "wallet",
+    "trusty-wallet",
+    "crypto-wallet"
+  ],
+  "moduleType": "admin-only",
+  "linkedWith": "ehb-dashboard",
+  "protected": true,
+  "description": "EHB Wallet System with standard, trusty, and crypto wallet modules",
+  "walletConfig": {
+    "activeWalletTypes": ["standard", "trusty", "crypto"],
+    "blockchainSupport": ["ERC20", "BEP20"],
+    "defaultWallet": "standard",
+    "requireAuth": true,
+    "minimumLockAmount": 100,
+    "validatorRequirements": {
+      "minimumReputation": 20,
+      "minimumLockAmount": 100
+    }
+  }
+}

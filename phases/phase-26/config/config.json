@@ -1,0 +1,11 @@
+{
+  "name": "Phase Module",
+  "version": "1.0.0",
+  "description": "Auto-generated configuration for Phase Module",
+  "enabled": true,
+  "dependencies": [],
+  "settings": {
+    "autoInit": true,
+    "logLevel": "info"
+  }
+}

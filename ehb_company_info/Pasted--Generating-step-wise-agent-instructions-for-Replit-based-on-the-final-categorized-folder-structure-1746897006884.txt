@@ -1,0 +1,122 @@
+# Generating step-wise agent instructions for Replit based on the final categorized folder structure
+from collections import OrderedDict
+import textwrap
+
+# Final folder structure again for generating instructions
+final_structure = OrderedDict({
+    "Franchise System": ["EHB-Franchise"],
+    "Dev Services": ["SOT-Technologies"],
+    "AI Services": ["EHB-AI-DEV"],
+    "Admin": ["EHB-Developer-Portal", "EHB-HOME", "EHB-DASHBOARD"],
+    "System": [
+        "EHB-Blockchain",
+        "EHB-TrustyWallet-System",
+        "EHB-SQL",
+        "EHB-Services-Departments-Flow (if public can view only)"
+    ],
+    "Services": [
+        "GoSellr-Ecommerce",
+        "WMS-World-Medical-Service",
+        "HPS-Education-Service",
+        "OLS-Online-Law-Service",
+        "JPS-Job-Providing-Service",
+        "EHB-Tube",
+        "EHB-AI-Marketplace",
+        "HMS-Machinery",
+        "EHB-Services-Departments-Flow (if service is provided)"
+    ]
+})
+
+# Generate a structured instruction text
+steps = []
+
+steps.append("📌 STEP 1: Prepare and clean existing folders")
+steps.append(textwrap.dedent("""
+- Identify all currently existing folders in root directory.
+- Preserve the following folders:
+  - EHB-Franchise
+  - SOT-Technologies
+  - EHB-AI-DEV
+  - EHB-Developer-Portal
+  - EHB-HOME
+  - EHB-DASHBOARD
+  - EHB-Blockchain
+  - EHB-TrustyWallet-System
+  - EHB-SQL
+  - GoSellr-Ecommerce
+  - WMS-World-Medical-Service
+  - HPS-Education-Service
+  - OLS-Online-Law-Service
+  - JPS-Job-Providing-Service
+  - EHB-Tube
+  - EHB-AI-Marketplace
+  - HMS-Machinery
+  - EHB-Services-Departments-Flow
+- Delete any duplicate or extra folders with similar names or old versions.
+- Do NOT delete any files inside these preserved folders.
+"""))
+
+steps.append("📌 STEP 2: Create main categories as directories if not exist")
+steps.append(textwrap.dedent("""
+- Create the following root folders:
+  - /franchise-system/
+  - /dev-services/
+  - /ai-services/
+  - /admin/
+  - /system/
+  - /services/
+"""))
+
+steps.append("📌 STEP 3: Move folders to categorized structure")
+steps.append(textwrap.dedent("""
+- Move EHB-Franchise → /franchise-system/
+- Move SOT-Technologies → /dev-services/
+- Move EHB-AI-DEV → /ai-services/
+- Move EHB-Developer-Portal, EHB-HOME, EHB-DASHBOARD → /admin/
+- Move EHB-Blockchain, EHB-TrustyWallet-System, EHB-SQL → /system/
+- Move EHB-Services-Departments-Flow → /system/ OR /services/ depending on use
+- Move all remaining services like GoSellr-Ecommerce, JPS, WMS, etc. → /services/
+"""))
+
+steps.append("📌 STEP 4: Save this folder mapping and flow permanently")
+steps.append(textwrap.dedent("""
+- Replit agent must store this structure permanently.
+- Auto-move new folders in future to the correct category.
+- Maintain this layout as source-of-truth for all EHB automation.
+"""))
+
+steps.append("📌 STEP 5: Setup internal API connections and linking")
+steps.append(textwrap.dedent("""
+- Connect the following folders to each other via internal API calls:
+  - /services/ ↔ /admin/ (Dashboard must fetch service states)
+  - /system/EHB-SQL/ ↔ all folders (for SQL-based level verification)
+  - /ai-services/EHB-AI-DEV/ ↔ all folders (AI agent/robot full read/write access)
+- EHB-AI-DEV should be able to scan, read, create, or modify any project file.
+"""))
+
+steps.append("📌 STEP 6: Home/Dashboard/Marketplace Sync")
+steps.append(textwrap.dedent("""
+- Sync all active services and departments with:
+  - /admin/EHB-HOME/
+  - /admin/EHB-DASHBOARD/
+  - /services/EHB-AI-Marketplace/
+- Every module should show a card or tile in these main UIs.
+"""))
+
+steps.append("📌 FINAL STEP: Confirm and Activate Flow")
+steps.append(textwrap.dedent("""
+- Confirm folder cleanup
+- Confirm API link testing
+- Confirm dashboard card visibility
+- Save this entire flow in EHB agent memory
+"""))
+
+# Join all steps
+full_instruction = "\n\n".join(steps)
+
+# Save as txt file for download
+file_path = "/mnt/data/EHB_Replit_Flow_Instructions.txt"
+with open(file_path, "w") as f:
+    f.write(full_instruction)
+
+file_path

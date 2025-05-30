@@ -1,0 +1,48 @@
+{
+  "title": "EHB System Architecture",
+  "description": "Enterprise Hybrid Blockchain System Architecture",
+  "components": [
+    {
+      "name": "EHB-HOME",
+      "type": "frontend",
+      "description": "Central dashboard for EHB system",
+      "dependencies": [
+        "EHB-AI-Dev-Fullstack"
+      ]
+    },
+    {
+      "name": "EHB-AI-Dev-Fullstack",
+      "type": "fullstack",
+      "description": "AI development hub and integration services",
+      "dependencies": [
+        "Database",
+        "Authentication"
+      ]
+    },
+    {
+      "name": "EHB-Developer-Portal",
+      "type": "frontend",
+      "description": "Documentation and resources for developers",
+      "dependencies": [
+        "EHB-AI-Dev-Fullstack"
+      ]
+    }
+  ],
+  "dataFlow": [
+    {
+      "from": "EHB-HOME",
+      "to": "EHB-AI-Dev-Fullstack",
+      "description": "User requests and dashboard data"
+    },
+    {
+      "from": "EHB-AI-Dev-Fullstack",
+      "to": "Database",
+      "description": "Data storage and retrieval"
+    },
+    {
+      "from": "EHB-Developer-Portal",
+      "to": "EHB-AI-Dev-Fullstack",
+      "description": "API documentation and usage examples"
+    }
+  ]
+}

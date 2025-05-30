@@ -1,0 +1,61 @@
+{
+  "departments": [
+    {
+      "id": "dept-1",
+      "name": "AI Development",
+      "services": [
+        "EHB-AI-Dev-Fullstack",
+        "EHB-AI-Marketplace"
+      ]
+    },
+    {
+      "id": "dept-2",
+      "name": "Finance",
+      "services": [
+        "EHB-TrustyWallet-System"
+      ]
+    },
+    {
+      "id": "dept-3",
+      "name": "Commerce",
+      "services": [
+        "GoSellr-Ecommerce"
+      ]
+    },
+    {
+      "id": "dept-4",
+      "name": "Healthcare",
+      "services": [
+        "WMS-World-Medical-Service"
+      ]
+    },
+    {
+      "id": "dept-5",
+      "name": "Education",
+      "services": [
+        "HPS-Education-Service"
+      ]
+    },
+    {
+      "id": "dept-6",
+      "name": "Legal",
+      "services": [
+        "OLS-Online-Law-Service"
+      ]
+    },
+    {
+      "id": "dept-7",
+      "name": "Employment",
+      "services": [
+        "JPS-Job-Providing-Service"
+      ]
+    },
+    {
+      "id": "dept-8",
+      "name": "Media",
+      "services": [
+        "EHB-Tube"
+      ]
+    }
+  ]
+}

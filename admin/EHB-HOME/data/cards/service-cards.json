@@ -1,0 +1,262 @@
+[
+  {
+    "id": "gosellr",
+    "name": "GoSellr E-commerce",
+    "description": "E-commerce platform with franchise management system for online sellers",
+    "icon": "🛒",
+    "link": "/services/EHB-GoSellr",
+    "category": "E-commerce",
+    "status": "active",
+    "port": 5002
+  },
+  {
+    "id": "jps",
+    "name": "Job Providing Service",
+    "description": "Job matching and career services for professionals",
+    "icon": "💼",
+    "link": "/services/JPS-Job-Providing-Service",
+    "category": "Employment",
+    "status": "active"
+  },
+  {
+    "id": "sql-pss",
+    "name": "SQL Product Sales System",
+    "description": "Database management for product inventory and sales",
+    "icon": "📊",
+    "link": "/system/EHB-SQL/EHB-SQL-PSS",
+    "category": "Database",
+    "status": "active"
+  },
+  {
+    "id": "sql-edr",
+    "name": "SQL E-commerce Data Repository",
+    "description": "Central data repository for e-commerce analytics",
+    "icon": "📈",
+    "link": "/system/EHB-SQL/EHB-SQL-EDR",
+    "category": "Database",
+    "status": "active"
+  },
+  {
+    "id": "sql-emo",
+    "name": "SQL Marketing Optimization",
+    "description": "Database tools for marketing campaign optimization",
+    "icon": "📱",
+    "link": "/system/EHB-SQL/EHB-SQL-EMO",
+    "category": "Database",
+    "status": "active"
+  },
+  {
+    "id": "blockchain",
+    "name": "Blockchain Services",
+    "description": "Distributed ledger technology for secure transactions",
+    "icon": "🔗",
+    "link": "/system/EHB-Blockchain",
+    "category": "Technology",
+    "status": "active"
+  },
+  {
+    "id": "franchise",
+    "name": "Franchise System",
+    "description": "Management platform for franchise operations",
+    "icon": "🏢",
+    "link": "/system/franchise-system",
+    "category": "Management",
+    "status": "active"
+  },
+  {
+    "id": "admin-panel",
+    "name": "Admin Panel",
+    "description": "Administrative controls for EHB system",
+    "icon": "⚙️",
+    "link": "/admin/ehb-admin-panel",
+    "category": "Administration",
+    "status": "active",
+    "port": 5000
+  },
+  {
+    "id": "wallet",
+    "name": "EHB Wallet",
+    "description": "Secure digital wallet for crypto and fiat transactions",
+    "icon": "💰",
+    "link": "/admin/ehb-wallet",
+    "category": "Finance",
+    "status": "active"
+  },
+  {
+    "id": "ai-integration-hub",
+    "name": "AI Integration Hub",
+    "description": "Central hub for all AI integrations and services",
+    "icon": "🤖",
+    "link": "http://localhost:5150/",
+    "directUrl": "http://localhost:5150/",
+    "category": "AI Services",
+    "status": "active",
+    "port": 5150
+  },
+  {
+    "id": "autonomous-agent",
+    "name": "Autonomous Agent System",
+    "description": "Intelligent agent system for automated tasks",
+    "icon": "🔄",
+    "link": "http://localhost:5200/",
+    "directUrl": "http://localhost:5200/",
+    "category": "AI Services",
+    "status": "active",
+    "port": 5200
+  },
+  {
+    "id": "backend-server",
+    "name": "Backend Server",
+    "description": "Main API server for EHB systems",
+    "icon": "🖥️",
+    "link": "http://localhost:5001/",
+    "directUrl": "http://localhost:5001/",
+    "category": "Core Services",
+    "status": "active",
+    "port": 5001
+  },
+  {
+    "id": "developer-portal",
+    "name": "Developer Portal",
+    "description": "Portal for developers to access EHB APIs and documentation",
+    "icon": "👩‍💻",
+    "link": "http://localhost:5010/",
+    "directUrl": "http://localhost:5010/",
+    "category": "Development",
+    "status": "active",
+    "port": 5010
+  },
+  {
+    "id": "admin-dashboard",
+    "name": "Admin Dashboard",
+    "description": "Administrative dashboard for EHB AI Dev",
+    "icon": "📊",
+    "link": "http://localhost:5020/",
+    "directUrl": "http://localhost:5020/",
+    "category": "Administration",
+    "status": "active",
+    "port": 5020
+  },
+  {
+    "id": "playground",
+    "name": "EHB Playground",
+    "description": "Interactive testing environment for EHB features",
+    "icon": "🧪",
+    "link": "http://localhost:5050/",
+    "directUrl": "http://localhost:5050/",
+    "category": "Development",
+    "status": "active",
+    "port": 5050
+  },
+  {
+    "id": "langchain-service",
+    "name": "LangChain AI Service",
+    "description": "AI service powered by LangChain",
+    "icon": "🧠",
+    "link": "http://localhost:5100/",
+    "directUrl": "http://localhost:5100/",
+    "category": "AI Services",
+    "status": "active",
+    "port": 5100
+  },
+  {
+    "id": "mongodb-api",
+    "name": "MongoDB API Service",
+    "description": "API service for MongoDB data access",
+    "icon": "🗃️",
+    "link": "http://localhost:5300/",
+    "directUrl": "http://localhost:5300/",
+    "category": "Database",
+    "status": "active",
+    "port": 5300
+  },
+  {
+    "id": "frontend-server",
+    "name": "Frontend Server",
+    "description": "Main frontend server for EHB",
+    "icon": "🌐",
+    "link": "http://localhost:5000/",
+    "directUrl": "http://localhost:5000/",
+    "category": "Core Services",
+    "status": "active",
+    "port": 5000
+  },
+  {
+    "id": "ai-agent-core",
+    "name": "AI Agent Core",
+    "description": "Central orchestration for all AI agents in the EHB system",
+    "icon": "🧠",
+    "link": "http://localhost:5128/",
+    "directUrl": "http://localhost:5128/",
+    "category": "AI Services",
+    "status": "active",
+    "port": 5128
+  },
+  {
+    "id": "ehb-free-agent",
+    "name": "EHB Free Agent",
+    "description": "Free-running autonomous agent for task automation",
+    "icon": "🤖",
+    "link": "http://localhost:5130/",
+    "directUrl": "http://localhost:5130/",
+    "category": "AI Services",
+    "status": "active",
+    "port": 5130
+  },
+  {
+    "id": "unified-admin-hub",
+    "name": "Unified Admin Hub",
+    "description": "Central access point for all EHB admin interfaces",
+    "icon": "🔗",
+    "link": "http://localhost:5000/admin/hub",
+    "directUrl": "http://localhost:5000/admin/hub",
+    "category": "Administration",
+    "status": "active",
+    "port": 5000
+  },
+  {
+    "id": "ehb-admin",
+    "name": "EHB Admin Dashboard",
+    "description": "Comprehensive administration dashboard for managing all EHB systems",
+    "icon": "🖥️",
+    "link": "https://64f8b65f-fbf1-4bb3-ad82-dc052d0ba0e1-00-2i8uq6f42qdss.picard.replit.dev:8008/dashboard",
+    "directUrl": "https://64f8b65f-fbf1-4bb3-ad82-dc052d0ba0e1-00-2i8uq6f42qdss.picard.replit.dev:8008/dashboard",
+    "category": "Administration",
+    "status": "active",
+    "port": 8008
+  },
+  {
+    "id": "developer-portal",
+    "name": "Developer Portal",
+    "description": "Access point for developers to manage API integrations and documentation",
+    "icon": "👨‍💻",
+    "link": "http://localhost:5010",
+    "directUrl": "http://localhost:5010",
+    "category": "Development",
+    "status": "active",
+    "port": 5010
+  },
+  {
+    "id": "sql-badge-system",
+    "name": "SQL Badge System",
+    "description": "Track and display SQL proficiency levels with achievement badges",
+    "icon": "🏆",
+    "link": "http://localhost:5005/api/sql-levels",
+    "directUrl": "http://localhost:5005/api/sql-levels",
+    "category": "Education",
+    "status": "active",
+    "port": 5005
+  },
+  {
+    "id": "ehb-ai-dev",
+    "name": "EHB AI Development",
+    "description": "Development environment for AI components and agents with advanced integration capabilities",
+    "icon": "🧠",
+    "link": "http://localhost:5006/api/",
+    "directUrl": "http://localhost:5006/api/",
+    "category": "AI Development",
+    "status": "active",
+    "port": 5006,
+    "highlighted": true
+  }
+]

@@ -1,0 +1,232 @@
+{
+  "name": "EHB Technology Stack System Architecture",
+  "version": "1.0",
+  "last_updated": "2025-05-10",
+  "overview": "A microservices-based architecture that combines blockchain technology with AI capabilities to provide secure, scalable enterprise solutions.",
+  "components": [
+    {
+      "name": "EHB-AI-Dev-Fullstack",
+      "type": "Core Integration Hub",
+      "description": "Central integration system that connects all services and enables cross-module communication.",
+      "tech_stack": ["Node.js", "Express", "WebSockets", "MongoDB"],
+      "repository": "EHB-AI-Dev-Fullstack",
+      "responsibilities": [
+        "Module registration and discovery",
+        "Real-time data synchronization",
+        "System-wide notification distribution",
+        "Company information management",
+        "Cross-module data transfer"
+      ],
+      "dependencies": ["MongoDB", "Redis"],
+      "ports": {
+        "HTTP": 5003,
+        "WebSocket": 8050
+      }
+    },
+    {
+      "name": "Frontend",
+      "type": "Web Frontend",
+      "description": "Next.js-based web interface that provides user access to all EHB services.",
+      "tech_stack": ["Next.js", "React", "Tailwind CSS", "Socket.io-client", "axios"],
+      "repository": "frontend",
+      "responsibilities": [
+        "User interface rendering",
+        "API proxy to backend services",
+        "User authentication and session management",
+        "Real-time notifications with WebSockets",
+        "Dashboard visualization"
+      ],
+      "dependencies": ["Backend Server", "EHB-AI-Dev-Fullstack"],
+      "ports": {
+        "HTTP": 5002
+      }
+    },
+    {
+      "name": "Backend Server",
+      "type": "API Server",
+      "description": "Express.js backend that provides API endpoints for the frontend and handles business logic.",
+      "tech_stack": ["Node.js", "Express", "MongoDB", "Supabase"],
+      "repository": "backend",
+      "responsibilities": [
+        "API routing and handling",
+        "Database operations",
+        "Business logic processing",
+        "Authentication and authorization",
+        "Third-party service integration"
+      ],
+      "dependencies": ["MongoDB", "Supabase", "EHB-AI-Dev-Fullstack"],
+      "ports": {
+        "HTTP": 5001,
+        "WebSocket": "/ws"
+      }
+    },
+    {
+      "name": "Developer Portal",
+      "type": "Documentation Hub",
+      "description": "Portal for developers to access documentation, API references, and development tools.",
+      "tech_stack": ["Node.js", "Express", "React"],
+      "repository": "EHB-Developer-Portal",
+      "responsibilities": [
+        "API documentation management",
+        "Code example hosting",
+        "System monitoring and status reporting",
+        "Developer resource management"
+      ],
+      "dependencies": ["EHB-AI-Dev-Fullstack"],
+      "ports": {
+        "HTTP": 5000
+      }
+    },
+    {
+      "name": "TrustyWallet System",
+      "type": "Blockchain Service",
+      "description": "Secure digital wallet system based on blockchain technology.",
+      "tech_stack": ["Node.js", "Express", "Web3.js", "MongoDB"],
+      "repository": "EHB-TrustyWallet-System",
+      "responsibilities": [
+        "Wallet creation and management",
+        "Blockchain transaction processing",
+        "Digital asset management",
+        "Security and encryption"
+      ],
+      "dependencies": ["EHB-AI-Dev-Fullstack", "MongoDB"],
+      "ports": {
+        "HTTP": 5005
+      }
+    },
+    {
+      "name": "GoSellr E-commerce",
+      "type": "E-commerce Platform",
+      "description": "End-to-end e-commerce solution with blockchain-based payment processing.",
+      "tech_stack": ["Node.js", "Express", "React", "MongoDB"],
+      "repository": "GoSellr-Ecommerce",
+      "responsibilities": [
+        "Product catalog management",
+        "Order processing",
+        "Buyer and seller interfaces",
+        "Payment integration with TrustyWallet"
+      ],
+      "dependencies": ["EHB-AI-Dev-Fullstack", "TrustyWallet System", "MongoDB"],
+      "ports": {
+        "HTTP": 8000
+      }
+    }
+  ],
+  "databases": [
+    {
+      "name": "MongoDB",
+      "type": "NoSQL",
+      "description": "Primary database for document storage across services.",
+      "used_by": ["EHB-AI-Dev-Fullstack", "Backend Server", "TrustyWallet System", "GoSellr E-commerce"],
+      "data_types": ["User Data", "Transactions", "Products", "Orders", "Notifications", "System Logs"]
+    },
+    {
+      "name": "Supabase",
+      "type": "PostgreSQL",
+      "description": "SQL database for structured data and relationships.",
+      "used_by": ["Backend Server"],
+      "data_types": ["User Profiles", "Analytics Data", "Company Information", "Departments"]
+    },
+    {
+      "name": "Redis",
+      "type": "In-memory",
+      "description": "In-memory database for caching and real-time operations.",
+      "used_by": ["EHB-AI-Dev-Fullstack"],
+      "data_types": ["Cache", "Session Data", "Real-time Metrics"]
+    }
+  ],
+  "integrations": [
+    {
+      "name": "OpenAI",
+      "type": "AI Service",
+      "description": "Integration with OpenAI API for AI-powered features.",
+      "used_by": ["Backend Server"],
+      "features": ["AI Assistant", "Content Generation", "Data Analysis"]
+    },
+    {
+      "name": "Anthropic",
+      "type": "AI Service",
+      "description": "Integration with Anthropic's Claude API for enhanced AI capabilities.",
+      "used_by": ["Backend Server"],
+      "features": ["Contextual Help", "Document Analysis", "Intelligent Search"]
+    },
+    {
+      "name": "Stripe",
+      "type": "Payment Gateway",
+      "description": "Payment processing integration for traditional payments.",
+      "used_by": ["GoSellr E-commerce"],
+      "features": ["Credit Card Processing", "Subscription Management", "Invoicing"]
+    },
+    {
+      "name": "Twilio",
+      "type": "Communication Service",
+      "description": "Integration for SMS and communication features.",
+      "used_by": ["Backend Server"],
+      "features": ["SMS Notifications", "Two-factor Authentication", "Voice Calls"]
+    }
+  ],
+  "communication_patterns": [
+    {
+      "name": "REST API",
+      "description": "Standard RESTful API communication between frontend and backend services."
+    },
+    {
+      "name": "WebSockets",
+      "description": "Real-time bidirectional communication for notifications and live updates."
+    },
+    {
+      "name": "Event-Based Communication",
+      "description": "Publish-subscribe pattern for inter-service communication through the Integration Hub."
+    },
+    {
+      "name": "Database Synchronization",
+      "description": "Data synchronization between services through shared database access and change streams."
+    }
+  ],
+  "security_measures": [
+    {
+      "name": "JWT Authentication",
+      "description": "JSON Web Token-based authentication for secure API access."
+    },
+    {
+      "name": "Role-Based Access Control",
+      "description": "Permission management based on user roles and capabilities."
+    },
+    {
+      "name": "Encryption",
+      "description": "Data encryption at rest and in transit."
+    },
+    {
+      "name": "Rate Limiting",
+      "description": "API rate limiting to prevent abuse and DDoS attacks."
+    },
+    {
+      "name": "Input Validation",
+      "description": "Strict input validation on all API endpoints."
+    }
+  ],
+  "scalability_approach": [
+    {
+      "name": "Horizontal Scaling",
+      "description": "Adding more instances of services to handle increased load."
+    },
+    {
+      "name": "Microservices Architecture",
+      "description": "Independent services that can be scaled individually."
+    },
+    {
+      "name": "Caching",
+      "description": "Implementing caching at various levels to improve performance."
+    },
+    {
+      "name": "Load Balancing",
+      "description": "Distributing traffic across multiple service instances."
+    }
+  ],
+  "deployment_model": {
+    "environment": "Cloud-based",
+    "containerization": "Docker",
+    "orchestration": "Kubernetes (planned)",
+    "ci_cd": "GitHub Actions"
+  }
+}

@@ -1,0 +1,28 @@
+[2025-05-10T10:12:31.302Z] Starting EHB Workspace Organizer - Step 1
+[2025-05-10T10:12:31.312Z] Creating necessary directories...
+[2025-05-10T10:12:31.313Z] Successfully created all needed directories
+[2025-05-10T10:12:31.313Z] Creating data directories for all services...
+[2025-05-10T10:12:31.331Z] Created data directories for Delivery-Service
+[2025-05-10T10:12:31.339Z] Created data directories for EHB-AI-Dev-Fullstack
+[2025-05-10T10:12:31.340Z] Created data directories for EHB-AI-Marketplace
+[2025-05-10T10:12:31.340Z] Created data directories for EHB-AM-AFFILIATE-SYSTEM
+[2025-05-10T10:12:31.341Z] Created data directories for EHB-Blockchain
+[2025-05-10T10:12:31.341Z] Created data directories for EHB-DASHBOARD
+[2025-05-10T10:12:31.344Z] Created data directories for EHB-Developer-Portal
+[2025-05-10T10:12:31.345Z] Created data directories for EHB-Franchise
+[2025-05-10T10:12:31.345Z] Created data directories for EHB-HOME
+[2025-05-10T10:12:31.346Z] Created data directories for EHB-SQL
+[2025-05-10T10:12:31.346Z] Created data directories for EHB-Services-Departments-Flow
+[2025-05-10T10:12:31.346Z] Created data directories for EHB-TrustyWallet-System
+[2025-05-10T10:12:31.347Z] Created data directories for EHB-Tube
+[2025-05-10T10:12:31.347Z] Created data directories for GoSellr-Ecommerce
+[2025-05-10T10:12:31.348Z] Created data directories for HPS-Education-Service
+[2025-05-10T10:12:31.349Z] Created data directories for JPS-Job-Providing-Service
+[2025-05-10T10:12:31.349Z] Created data directories for OLS-Online-Law-Service
+[2025-05-10T10:12:31.349Z] Created data directories for WMS-World-Medical-Service
+[2025-05-10T10:12:31.350Z] Setting up service information for dashboards...
+[2025-05-10T10:12:31.396Z] Created service_info.json for EHB-HOME: /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:12:31.397Z] Created service_info.json for EHB-DASHBOARD: /home/runner/workspace/EHB-DASHBOARD/data/service_info.json
+[2025-05-10T10:12:31.398Z] Created structure_overview.md: /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:12:31.399Z] Service information has been set up for dashboards
+[2025-05-10T10:12:31.399Z] EHB Workspace Organizer - Step 1 completed successfully

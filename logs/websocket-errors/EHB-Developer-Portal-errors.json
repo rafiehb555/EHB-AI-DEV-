@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2025-05-10T20:50:40.041Z",
+    "error": "connect ECONNREFUSED 127.0.0.1:5003",
+    "code": "ECONNREFUSED",
+    "url": "ws://localhost:5003/ehb-integration",
+    "retryCount": 0
+  }
+]

@@ -1,0 +1,72 @@
+Excellent! Here's:
+
+---
+
+### ✅ PHASE 3 of 5 – Replit Agent Prompt for `Developer Portal Setup` (Advanced Services + Utility Tools)
+
+> **REPLIT AGENT INSTRUCTION – PHASE 3**
+
+Enhance the Developer Portal further by organizing advanced tools, testing modules, themes, and rollback managers into the UI and system structure.
+
+---
+
+### 🔄 1. Add These Services to Developer Portal Page
+
+| Label                     | Path                                     |
+| ------------------------- | ---------------------------------------- |
+| HMS Machinery             | `/services/HMS-Machinery`                |
+| Home Dashboard Linker     | `/services/Home-Dashboard-Linker`        |
+| Integration Test          | `/services/integration-test`             |
+| Language Theme Manager    | `/services/Language-Theme-Manager`       |
+| Logs & Health Viewer      | `/services/Logs-Health-Viewer`           |
+| Multi-ZIP Upload Handler  | `/services/Multi-ZIP-Upload-Handler`     |
+| Option A (Shell Trigger)  | `/services/Option-A-Shell-Based-Trigger` |
+| Option B (GUI Trigger)    | `/services/Option-B-GUI-Based-Trigger`   |
+| Rule Editor UI            | `/services/Rule-Editor-UI`               |
+| Sample Module JSON        | `/services/sample-module-json`           |
+| Snapshot Rollback Manager | `/services/Snapshot-Rollback-Manager`    |
+| SOT Technologies          | `/services/SOT-Technologies`             |
+| EHB-AI-Dev (under SOT)    | `/services/SOT-Technologies/EHB-AI-Dev`  |
+
+> 🧠 Tag each card with `[TOOLS]`, `[DEV]`, or `[AI]` where applicable
+
+---
+
+### 📂 2. Developer Portal Sections
+
+Group these into a **“DevOps & Automation”** tab inside the portal UI:
+
+* 🔄 File Management
+* 🧪 Testing & Deployment
+* 💬 Logs & Health Monitoring
+* ⚙️ Rule-based Configuration
+
+Enable filter/sort by:
+
+* Service Type (Tool, Module, Dev)
+* Parent Folder
+* AI/Manual Script
+
+---
+
+### 🧱 3. Validate Folder Existence & Structure in `/services/`
+
+For each listed module above:
+
+* Check if folder exists, create if missing
+* Add `README.md`, `index.js`, or metadata file
+* For AI modules, ensure `/config.json` or `/instructions.txt` is present inside folder
+
+---
+
+### 🔗 4. Connect to Developer Portal Dynamic Engine
+
+* Auto-link each card to its folder
+* If developer clicks, show folder preview or details popup
+* Use icons and color codes for tool category
+
+---
+
+✅ All advanced tools and developer-side microservices are now integrated.
+
+Say **next** for Phase 4, which will focus on **System Layer (SQL, Blockchain, Config)**.

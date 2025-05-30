@@ -1,0 +1,54 @@
+{
+  "workflows": [
+    {
+      "name": "Backend Server",
+      "command": "cd admin/EHB-DASHBOARD/backend && node server.js",
+      "description": "Runs the EHB Dashboard backend server"
+    },
+    {
+      "name": "Frontend Server",
+      "command": "cd admin/EHB-DASHBOARD && npm run dev",
+      "description": "Runs the EHB Dashboard frontend server"
+    },
+    {
+      "name": "Integration Hub",
+      "command": "cd ai-services/EHB-AI-Dev && node index.js",
+      "description": "Runs the Integration Hub for cross-service communication"
+    },
+    {
+      "name": "Developer Portal",
+      "command": "cd admin/EHB-Developer-Portal && PORT=5000 node index.js",
+      "description": "Runs the Developer Portal for documentation and tools"
+    },
+    {
+      "name": "JPS Affiliate Service",
+      "command": "cd services/JPS-Job-Providing-Service && PORT=5000 node backend/server.js",
+      "description": "Runs the Job Providing Service"
+    },
+    {
+      "name": "EHB Home",
+      "command": "cd admin/EHB-HOME && npm run dev",
+      "description": "Runs the EHB Home module, the central dashboard"
+    },
+    {
+      "name": "ZIP Watcher",
+      "command": "node scripts/watch-assets.js",
+      "description": "Monitors for new assets and ZIP files"
+    },
+    {
+      "name": "Dev Agent System",
+      "command": "node scripts/dev-agent-workflow.js",
+      "description": "Runs the AI-powered developer agent system"
+    },
+    {
+      "name": "Multi Service Dashboard",
+      "command": "node scripts/multi-service-dashboard-server.js",
+      "description": "Runs the multi-service monitoring dashboard"
+    },
+    {
+      "name": "EHB Home Integrator",
+      "command": "node scripts/ehb-home-integrator.js",
+      "description": "Integrates all services with EHB Home module"
+    }
+  ]
+}

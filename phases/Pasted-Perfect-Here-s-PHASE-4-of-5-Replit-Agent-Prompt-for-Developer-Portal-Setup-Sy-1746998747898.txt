@@ -1,0 +1,73 @@
+Perfect! Here’s:
+
+---
+
+### ✅ PHASE 4 of 5 – Replit Agent Prompt for `Developer Portal Setup` (System Layer: SQL, Blockchain, Configs)
+
+> **REPLIT AGENT INSTRUCTION – PHASE 4**
+
+Now extend the Developer Portal by connecting all system-level folders including SQL layers, blockchain structure, franchise logic, and UI configs.
+
+---
+
+### 🧩 1. Add These System Folders as Cards/Sections
+
+| Label                       | Path                                    | Tags              |
+| --------------------------- | --------------------------------------- | ----------------- |
+| System Config               | `/system/config`                        | \[SYSTEM]         |
+| Blockchain Core (EHB)       | `/system/EHB-Blockchain`                | \[BLOCKCHAIN]     |
+| Services & Departments Flow | `/system/EHB-Services-Departments-Flow` | \[SYSTEM]         |
+| Franchise System            | `/system/franchise-system`              | \[FRANCHISE]      |
+| Rules Engine                | `/system/rules`                         | \[SYSTEM]         |
+| Snapshot Manager            | `/system/snapshots`                     | \[SYSTEM]         |
+| UI Config Manager           | `/system/ui-config`                     | \[UI]             |
+| Structure Maintainer Script | `/system/structure-maintainer.js`       | \[SYSTEM, SCRIPT] |
+| System Structure JSON       | `/system/structure.json`                | \[STRUCTURE]      |
+
+> 🧠 Show each as a **horizontal card list** under a “System Core” section on the portal.
+
+---
+
+### 🧠 2. EHB-SQL Layers (Add as Sub-Components)
+
+Under a collapsible panel or tab labeled **"Service Quality Layers (SQL)"**, include the following:
+
+| SQL Category  | Path                          | Department |
+| ------------- | ----------------------------- | ---------- |
+| PSS SQL Layer | `/system/EHB-SQL/EHB-SQL-PSS` | PSS        |
+| EDR SQL Layer | `/system/EHB-SQL/EHB-SQL-EDR` | EDR        |
+| EMO SQL Layer | `/system/EHB-SQL/EHB-SQL-EMO` | EMO        |
+
+* Display SQL Level (Free → VIP) if file references available inside folders
+* Mark any missing SQL folders or files as red ⚠️ in structure checker
+
+---
+
+### 🧪 3. Portal Diagnostic Features (System Section)
+
+In the System section of the Developer Portal page:
+
+* ✅ Status Chips: Config, Blockchain, Franchise, UI, Rules
+* 🔍 Show broken/missing configs
+* 📦 Load recent edits from JSON or JS config files
+* 🗂️ Show system folder sizes, last update date (if accessible)
+
+---
+
+### 📂 4. Ensure Folder Health & Placeholder Files
+
+For all `/system/` paths:
+
+* Create missing folders or scripts if not present
+* For `structure-maintainer.js`, add template if file is broken
+* Highlight essential config files in a "must exist" list:
+
+  * `structure.json`
+  * `rules/index.js` or `rules.md`
+  * `ui-config.json`
+
+---
+
+✅ Your entire backend config and blockchain setup is now connected visually and structurally.
+
+Say **next** to proceed to the **final Phase 5**, covering admin folders, static assets, and portal root enhancements.

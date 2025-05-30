@@ -1,0 +1,843 @@
+[2025-05-10T09:28:20.138Z] Starting EHB Data Flow Manager
+[2025-05-10T09:28:20.150Z] Created directory: /home/runner/workspace/Delivery-Service/data
+[2025-05-10T09:28:20.150Z] Created directory: /home/runner/workspace/Delivery-Service/data/company_info
+[2025-05-10T09:28:20.150Z] Created directory: /home/runner/workspace/Delivery-Service/data/user_data
+[2025-05-10T09:28:20.151Z] Created directory: /home/runner/workspace/Delivery-Service/data/analytics
+[2025-05-10T09:28:20.151Z] Created directory: /home/runner/workspace/Delivery-Service/data/transactions
+[2025-05-10T09:28:20.151Z] Created directory: /home/runner/workspace/Delivery-Service/data/media
+[2025-05-10T09:28:20.151Z] Created directory: /home/runner/workspace/Delivery-Service/data/documents
+[2025-05-10T09:28:20.151Z] Created directory: /home/runner/workspace/EHB-AI-Dev-Fullstack/data
+[2025-05-10T09:28:20.152Z] Created directory: /home/runner/workspace/EHB-AI-Dev-Fullstack/data/company_info
+[2025-05-10T09:28:20.152Z] Created directory: /home/runner/workspace/EHB-AI-Dev-Fullstack/data/user_data
+[2025-05-10T09:28:20.153Z] Created directory: /home/runner/workspace/EHB-AI-Dev-Fullstack/data/analytics
+[2025-05-10T09:28:20.153Z] Created directory: /home/runner/workspace/EHB-AI-Dev-Fullstack/data/transactions
+[2025-05-10T09:28:20.153Z] Created directory: /home/runner/workspace/EHB-AI-Dev-Fullstack/data/media
+[2025-05-10T09:28:20.153Z] Created directory: /home/runner/workspace/EHB-AI-Dev-Fullstack/data/documents
+[2025-05-10T09:28:20.153Z] Created directory: /home/runner/workspace/EHB-AI-Marketplace/data
+[2025-05-10T09:28:20.154Z] Created directory: /home/runner/workspace/EHB-AI-Marketplace/data/company_info
+[2025-05-10T09:28:20.154Z] Created directory: /home/runner/workspace/EHB-AI-Marketplace/data/user_data
+[2025-05-10T09:28:20.154Z] Created directory: /home/runner/workspace/EHB-AI-Marketplace/data/analytics
+[2025-05-10T09:28:20.155Z] Created directory: /home/runner/workspace/EHB-AI-Marketplace/data/transactions
+[2025-05-10T09:28:20.155Z] Created directory: /home/runner/workspace/EHB-AI-Marketplace/data/media
+[2025-05-10T09:28:20.155Z] Created directory: /home/runner/workspace/EHB-AI-Marketplace/data/documents
+[2025-05-10T09:28:20.155Z] Created directory: /home/runner/workspace/EHB-AM-AFFILIATE-SYSTEM/data
+[2025-05-10T09:28:20.156Z] Created directory: /home/runner/workspace/EHB-AM-AFFILIATE-SYSTEM/data/company_info
+[2025-05-10T09:28:20.156Z] Created directory: /home/runner/workspace/EHB-AM-AFFILIATE-SYSTEM/data/user_data
+[2025-05-10T09:28:20.156Z] Created directory: /home/runner/workspace/EHB-AM-AFFILIATE-SYSTEM/data/analytics
+[2025-05-10T09:28:20.156Z] Created directory: /home/runner/workspace/EHB-AM-AFFILIATE-SYSTEM/data/transactions
+[2025-05-10T09:28:20.156Z] Created directory: /home/runner/workspace/EHB-AM-AFFILIATE-SYSTEM/data/media
+[2025-05-10T09:28:20.156Z] Created directory: /home/runner/workspace/EHB-AM-AFFILIATE-SYSTEM/data/documents
+[2025-05-10T09:28:20.157Z] Created directory: /home/runner/workspace/EHB-Affiliate-System/data
+[2025-05-10T09:28:20.157Z] Created directory: /home/runner/workspace/EHB-Affiliate-System/data/company_info
+[2025-05-10T09:28:20.157Z] Created directory: /home/runner/workspace/EHB-Affiliate-System/data/user_data
+[2025-05-10T09:28:20.157Z] Created directory: /home/runner/workspace/EHB-Affiliate-System/data/analytics
+[2025-05-10T09:28:20.157Z] Created directory: /home/runner/workspace/EHB-Affiliate-System/data/transactions
+[2025-05-10T09:28:20.157Z] Created directory: /home/runner/workspace/EHB-Affiliate-System/data/media
+[2025-05-10T09:28:20.158Z] Created directory: /home/runner/workspace/EHB-Affiliate-System/data/documents
+[2025-05-10T09:28:20.158Z] Created directory: /home/runner/workspace/EHB-Blockchain/data
+[2025-05-10T09:28:20.158Z] Created directory: /home/runner/workspace/EHB-Blockchain/data/company_info
+[2025-05-10T09:28:20.158Z] Created directory: /home/runner/workspace/EHB-Blockchain/data/user_data
+[2025-05-10T09:28:20.158Z] Created directory: /home/runner/workspace/EHB-Blockchain/data/analytics
+[2025-05-10T09:28:20.158Z] Created directory: /home/runner/workspace/EHB-Blockchain/data/transactions
+[2025-05-10T09:28:20.159Z] Created directory: /home/runner/workspace/EHB-Blockchain/data/media
+[2025-05-10T09:28:20.159Z] Created directory: /home/runner/workspace/EHB-Blockchain/data/documents
+[2025-05-10T09:28:20.159Z] Created directory: /home/runner/workspace/EHB-DASHBOARD/data
+[2025-05-10T09:28:20.159Z] Created directory: /home/runner/workspace/EHB-DASHBOARD/data/company_info
+[2025-05-10T09:28:20.159Z] Created directory: /home/runner/workspace/EHB-DASHBOARD/data/user_data
+[2025-05-10T09:28:20.159Z] Created directory: /home/runner/workspace/EHB-DASHBOARD/data/analytics
+[2025-05-10T09:28:20.160Z] Created directory: /home/runner/workspace/EHB-DASHBOARD/data/transactions
+[2025-05-10T09:28:20.161Z] Created directory: /home/runner/workspace/EHB-DASHBOARD/data/media
+[2025-05-10T09:28:20.161Z] Created directory: /home/runner/workspace/EHB-DASHBOARD/data/documents
+[2025-05-10T09:28:20.161Z] Created directory: /home/runner/workspace/EHB-Developer-Portal/data
+[2025-05-10T09:28:20.161Z] Created directory: /home/runner/workspace/EHB-Developer-Portal/data/company_info
+[2025-05-10T09:28:20.161Z] Created directory: /home/runner/workspace/EHB-Developer-Portal/data/user_data
+[2025-05-10T09:28:20.161Z] Created directory: /home/runner/workspace/EHB-Developer-Portal/data/analytics
+[2025-05-10T09:28:20.162Z] Created directory: /home/runner/workspace/EHB-Developer-Portal/data/transactions
+[2025-05-10T09:28:20.162Z] Created directory: /home/runner/workspace/EHB-Developer-Portal/data/media
+[2025-05-10T09:28:20.162Z] Created directory: /home/runner/workspace/EHB-Developer-Portal/data/documents
+[2025-05-10T09:28:20.162Z] Created directory: /home/runner/workspace/EHB-Franchise/data
+[2025-05-10T09:28:20.162Z] Created directory: /home/runner/workspace/EHB-Franchise/data/company_info
+[2025-05-10T09:28:20.162Z] Created directory: /home/runner/workspace/EHB-Franchise/data/user_data
+[2025-05-10T09:28:20.162Z] Created directory: /home/runner/workspace/EHB-Franchise/data/analytics
+[2025-05-10T09:28:20.163Z] Created directory: /home/runner/workspace/EHB-Franchise/data/transactions
+[2025-05-10T09:28:20.163Z] Created directory: /home/runner/workspace/EHB-Franchise/data/media
+[2025-05-10T09:28:20.163Z] Created directory: /home/runner/workspace/EHB-Franchise/data/documents
+[2025-05-10T09:28:20.163Z] Created directory: /home/runner/workspace/EHB-HOME/data
+[2025-05-10T09:28:20.163Z] Created directory: /home/runner/workspace/EHB-HOME/data/company_info
+[2025-05-10T09:28:20.164Z] Created directory: /home/runner/workspace/EHB-HOME/data/user_data
+[2025-05-10T09:28:20.164Z] Created directory: /home/runner/workspace/EHB-HOME/data/analytics
+[2025-05-10T09:28:20.164Z] Created directory: /home/runner/workspace/EHB-HOME/data/transactions
+[2025-05-10T09:28:20.164Z] Created directory: /home/runner/workspace/EHB-HOME/data/media
+[2025-05-10T09:28:20.164Z] Created directory: /home/runner/workspace/EHB-HOME/data/documents
+[2025-05-10T09:28:20.164Z] Created directory: /home/runner/workspace/EHB-SQL/data
+[2025-05-10T09:28:20.164Z] Created directory: /home/runner/workspace/EHB-SQL/data/company_info
+[2025-05-10T09:28:20.165Z] Created directory: /home/runner/workspace/EHB-SQL/data/user_data
+[2025-05-10T09:28:20.165Z] Created directory: /home/runner/workspace/EHB-SQL/data/analytics
+[2025-05-10T09:28:20.165Z] Created directory: /home/runner/workspace/EHB-SQL/data/transactions
+[2025-05-10T09:28:20.165Z] Created directory: /home/runner/workspace/EHB-SQL/data/media
+[2025-05-10T09:28:20.165Z] Created directory: /home/runner/workspace/EHB-SQL/data/documents
+[2025-05-10T09:28:20.165Z] Created directory: /home/runner/workspace/EHB-Services-Departments-Flow/data
+[2025-05-10T09:28:20.165Z] Created directory: /home/runner/workspace/EHB-Services-Departments-Flow/data/company_info
+[2025-05-10T09:28:20.166Z] Created directory: /home/runner/workspace/EHB-Services-Departments-Flow/data/user_data
+[2025-05-10T09:28:20.166Z] Created directory: /home/runner/workspace/EHB-Services-Departments-Flow/data/analytics
+[2025-05-10T09:28:20.166Z] Created directory: /home/runner/workspace/EHB-Services-Departments-Flow/data/transactions
+[2025-05-10T09:28:20.166Z] Created directory: /home/runner/workspace/EHB-Services-Departments-Flow/data/media
+[2025-05-10T09:28:20.166Z] Created directory: /home/runner/workspace/EHB-Services-Departments-Flow/data/documents
+[2025-05-10T09:28:20.166Z] Created directory: /home/runner/workspace/EHB-TrustyWallet-System/data
+[2025-05-10T09:28:20.167Z] Created directory: /home/runner/workspace/EHB-TrustyWallet-System/data/company_info
+[2025-05-10T09:28:20.167Z] Created directory: /home/runner/workspace/EHB-TrustyWallet-System/data/user_data
+[2025-05-10T09:28:20.167Z] Created directory: /home/runner/workspace/EHB-TrustyWallet-System/data/analytics
+[2025-05-10T09:28:20.167Z] Created directory: /home/runner/workspace/EHB-TrustyWallet-System/data/transactions
+[2025-05-10T09:28:20.169Z] Created directory: /home/runner/workspace/EHB-TrustyWallet-System/data/media
+[2025-05-10T09:28:20.169Z] Created directory: /home/runner/workspace/EHB-TrustyWallet-System/data/documents
+[2025-05-10T09:28:20.169Z] Created directory: /home/runner/workspace/EHB-Tube/data
+[2025-05-10T09:28:20.169Z] Created directory: /home/runner/workspace/EHB-Tube/data/company_info
+[2025-05-10T09:28:20.169Z] Created directory: /home/runner/workspace/EHB-Tube/data/user_data
+[2025-05-10T09:28:20.169Z] Created directory: /home/runner/workspace/EHB-Tube/data/analytics
+[2025-05-10T09:28:20.170Z] Created directory: /home/runner/workspace/EHB-Tube/data/transactions
+[2025-05-10T09:28:20.170Z] Created directory: /home/runner/workspace/EHB-Tube/data/media
+[2025-05-10T09:28:20.170Z] Created directory: /home/runner/workspace/EHB-Tube/data/documents
+[2025-05-10T09:28:20.170Z] Created directory: /home/runner/workspace/GoSellr-Ecommerce/data
+[2025-05-10T09:28:20.170Z] Created directory: /home/runner/workspace/GoSellr-Ecommerce/data/company_info
+[2025-05-10T09:28:20.170Z] Created directory: /home/runner/workspace/GoSellr-Ecommerce/data/user_data
+[2025-05-10T09:28:20.171Z] Created directory: /home/runner/workspace/GoSellr-Ecommerce/data/analytics
+[2025-05-10T09:28:20.171Z] Created directory: /home/runner/workspace/GoSellr-Ecommerce/data/transactions
+[2025-05-10T09:28:20.171Z] Created directory: /home/runner/workspace/GoSellr-Ecommerce/data/media
+[2025-05-10T09:28:20.171Z] Created directory: /home/runner/workspace/GoSellr-Ecommerce/data/documents
+[2025-05-10T09:28:20.171Z] Created directory: /home/runner/workspace/HPS-Education-Service/data
+[2025-05-10T09:28:20.171Z] Created directory: /home/runner/workspace/HPS-Education-Service/data/company_info
+[2025-05-10T09:28:20.171Z] Created directory: /home/runner/workspace/HPS-Education-Service/data/user_data
+[2025-05-10T09:28:20.172Z] Created directory: /home/runner/workspace/HPS-Education-Service/data/analytics
+[2025-05-10T09:28:20.172Z] Created directory: /home/runner/workspace/HPS-Education-Service/data/transactions
+[2025-05-10T09:28:20.172Z] Created directory: /home/runner/workspace/HPS-Education-Service/data/media
+[2025-05-10T09:28:20.172Z] Created directory: /home/runner/workspace/HPS-Education-Service/data/documents
+[2025-05-10T09:28:20.172Z] Created directory: /home/runner/workspace/JPS-Job-Providing-Service/data
+[2025-05-10T09:28:20.172Z] Created directory: /home/runner/workspace/JPS-Job-Providing-Service/data/company_info
+[2025-05-10T09:28:20.172Z] Created directory: /home/runner/workspace/JPS-Job-Providing-Service/data/user_data
+[2025-05-10T09:28:20.172Z] Created directory: /home/runner/workspace/JPS-Job-Providing-Service/data/analytics
+[2025-05-10T09:28:20.173Z] Created directory: /home/runner/workspace/JPS-Job-Providing-Service/data/transactions
+[2025-05-10T09:28:20.173Z] Created directory: /home/runner/workspace/JPS-Job-Providing-Service/data/media
+[2025-05-10T09:28:20.173Z] Created directory: /home/runner/workspace/JPS-Job-Providing-Service/data/documents
+[2025-05-10T09:28:20.173Z] Created directory: /home/runner/workspace/OLS-Online-Law-Service/data
+[2025-05-10T09:28:20.173Z] Created directory: /home/runner/workspace/OLS-Online-Law-Service/data/company_info
+[2025-05-10T09:28:20.173Z] Created directory: /home/runner/workspace/OLS-Online-Law-Service/data/user_data
+[2025-05-10T09:28:20.173Z] Created directory: /home/runner/workspace/OLS-Online-Law-Service/data/analytics
+[2025-05-10T09:28:20.173Z] Created directory: /home/runner/workspace/OLS-Online-Law-Service/data/transactions
+[2025-05-10T09:28:20.174Z] Created directory: /home/runner/workspace/OLS-Online-Law-Service/data/media
+[2025-05-10T09:28:20.174Z] Created directory: /home/runner/workspace/OLS-Online-Law-Service/data/documents
+[2025-05-10T09:28:20.174Z] Created directory: /home/runner/workspace/WMS-World-Medical-Service/data
+[2025-05-10T09:28:20.174Z] Created directory: /home/runner/workspace/WMS-World-Medical-Service/data/company_info
+[2025-05-10T09:28:20.174Z] Created directory: /home/runner/workspace/WMS-World-Medical-Service/data/user_data
+[2025-05-10T09:28:20.175Z] Created directory: /home/runner/workspace/WMS-World-Medical-Service/data/analytics
+[2025-05-10T09:28:20.175Z] Created directory: /home/runner/workspace/WMS-World-Medical-Service/data/transactions
+[2025-05-10T09:28:20.175Z] Created directory: /home/runner/workspace/WMS-World-Medical-Service/data/media
+[2025-05-10T09:28:20.175Z] Created directory: /home/runner/workspace/WMS-World-Medical-Service/data/documents
+[2025-05-10T09:28:20.175Z] Created data directories for 19 modules
+[2025-05-10T09:28:20.178Z] Removed 0 duplicate files
+[2025-05-10T09:28:20.188Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:28:20.201Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:28:20.209Z] Started watching for new data files in attached_assets directory
+[2025-05-10T09:28:20.210Z] EHB Data Flow Manager started successfully
+[2025-05-10T09:28:20.234Z] Processed file: New Text Document (2).txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.235Z] Moved New Text Document (2).txt to processed directory
+[2025-05-10T09:28:20.236Z] Processed file: New Text Document (3).txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.236Z] Moved New Text Document (3).txt to processed directory
+[2025-05-10T09:28:20.237Z] Processed file: New Text Document (4).txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.237Z] Moved New Text Document (4).txt to processed directory
+[2025-05-10T09:28:20.243Z] Processed file: New Text Document (5).txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.244Z] Moved New Text Document (5).txt to processed directory
+[2025-05-10T09:28:20.245Z] Processed file: Pasted-Great-we-re-now-entering-the-core-development-phase-of-the-EHB-Homepage-and-Dashboard--1746792862891.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.245Z] Moved Pasted-Great-we-re-now-entering-the-core-development-phase-of-the-EHB-Homepage-and-Dashboard--1746792862891.txt to processed directory
+[2025-05-10T09:28:20.253Z] Processed file: Pasted-app-loading-k-error-ko-auto-man-fix-krain-or-server-ko-run-krain-or-project-k-ander-auto-man-error-1746769034459.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.254Z] Moved Pasted-app-loading-k-error-ko-auto-man-fix-krain-or-server-ko-run-krain-or-project-k-ander-auto-man-error-1746769034459.txt to processed directory
+[2025-05-10T09:28:20.255Z] Processed file: Pasted-from-zipfile-import-ZipFile-import-os-Define-folder-paths-for-the-modules-to-be-zipped-base-p-1746793186544.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.255Z] Moved Pasted-from-zipfile-import-ZipFile-import-os-Define-folder-paths-for-the-modules-to-be-zipped-base-p-1746793186544.txt to processed directory
+[2025-05-10T09:28:20.258Z] Processed file: Pasted-from-zipfile-import-ZipFile-import-os-Define-folder-paths-for-the-modules-to-be-zipped-base-p-1746793222787.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.258Z] Moved Pasted-from-zipfile-import-ZipFile-import-os-Define-folder-paths-for-the-modules-to-be-zipped-base-p-1746793222787.txt to processed directory
+[2025-05-10T09:28:20.267Z] Processed file: image_1746822609950.png -> EHB-AI-Dev-Fullstack/media
+[2025-05-10T09:28:20.267Z] Moved image_1746822609950.png to processed directory
+[2025-05-10T09:28:20.273Z] Processing ZIP file: ApiTestModule.zip
+[2025-05-10T09:28:20.274Z] Created directory: /home/runner/workspace/temp/extract_1746869300274
+[2025-05-10T09:28:20.281Z] Extracted 4 files from ApiTestModule.zip
+[2025-05-10T09:28:20.281Z] Processed file: apiTestRoute.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.282Z] Processed file: config.json -> EHB-AI-Dev-Fullstack/company_info
+[2025-05-10T09:28:20.282Z] Processed file: README.md -> EHB-AI-Dev-Fullstack/company_info
+[2025-05-10T09:28:20.282Z] Processed file: ApiTestComponent.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.284Z] Successfully processed 4 files from ApiTestModule.zip
+[2025-05-10T09:28:20.284Z] Moved ApiTestModule.zip to processed directory
+[2025-05-10T09:28:20.284Z] Processing ZIP file: EHB-AI-Dev-FullStack-Phase-1.zip
+[2025-05-10T09:28:20.285Z] Created directory: /home/runner/workspace/temp/extract_1746869300284
+[2025-05-10T09:28:20.288Z] Extracted 5 files from EHB-AI-Dev-FullStack-Phase-1.zip
+[2025-05-10T09:28:20.288Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.288Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.289Z] Processed file: db.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.289Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.289Z] Processed file: AITask.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.290Z] Successfully processed 5 files from EHB-AI-Dev-FullStack-Phase-1.zip
+[2025-05-10T09:28:20.290Z] Moved EHB-AI-Dev-FullStack-Phase-1.zip to processed directory
+[2025-05-10T09:28:20.291Z] Processing ZIP file: EHB-Affiliate-System.zip
+[2025-05-10T09:28:20.291Z] Created directory: /home/runner/workspace/temp/extract_1746869300291
+[2025-05-10T09:28:20.294Z] Extracted 5 files from EHB-Affiliate-System.zip
+[2025-05-10T09:28:20.294Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.294Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.295Z] Processed file: db.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.295Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.295Z] Processed file: User.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.297Z] Successfully processed 5 files from EHB-Affiliate-System.zip
+[2025-05-10T09:28:20.297Z] Moved EHB-Affiliate-System.zip to processed directory
+[2025-05-10T09:28:20.297Z] Processing ZIP file: EHB-DASHBOARD.zip
+[2025-05-10T09:28:20.297Z] Created directory: /home/runner/workspace/temp/extract_1746869300297
+[2025-05-10T09:28:20.300Z] Extracted 5 files from EHB-DASHBOARD.zip
+[2025-05-10T09:28:20.300Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.300Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.300Z] Processed file: db.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.300Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.301Z] Processed file: DashboardCard.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.302Z] Successfully processed 5 files from EHB-DASHBOARD.zip
+[2025-05-10T09:28:20.302Z] Moved EHB-DASHBOARD.zip to processed directory
+[2025-05-10T09:28:20.302Z] Processing ZIP file: EHB-HOME.zip
+[2025-05-10T09:28:20.302Z] Created directory: /home/runner/workspace/temp/extract_1746869300302
+[2025-05-10T09:28:20.305Z] Extracted 6 files from EHB-HOME.zip
+[2025-05-10T09:28:20.306Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.306Z] Processed file: auth.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.306Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.306Z] Processed file: db.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.307Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.307Z] Processed file: User.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.308Z] Successfully processed 6 files from EHB-HOME.zip
+[2025-05-10T09:28:20.308Z] Moved EHB-HOME.zip to processed directory
+[2025-05-10T09:28:20.308Z] Processing ZIP file: EHB-SQL.zip
+[2025-05-10T09:28:20.308Z] Created directory: /home/runner/workspace/temp/extract_1746869300308
+[2025-05-10T09:28:20.311Z] Extracted 5 files from EHB-SQL.zip
+[2025-05-10T09:28:20.311Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.311Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.311Z] Processed file: db.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.311Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.312Z] Processed file: UserSQL.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.313Z] Successfully processed 5 files from EHB-SQL.zip
+[2025-05-10T09:28:20.313Z] Moved EHB-SQL.zip to processed directory
+[2025-05-10T09:28:20.313Z] Processing ZIP file: EHB-TrustyWallet-System.zip
+[2025-05-10T09:28:20.313Z] Created directory: /home/runner/workspace/temp/extract_1746869300313
+[2025-05-10T09:28:20.316Z] Extracted 6 files from EHB-TrustyWallet-System.zip
+[2025-05-10T09:28:20.316Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.316Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.316Z] Processed file: db.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.317Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.317Z] Processed file: Transaction.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.317Z] Processed file: Wallet.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.319Z] Successfully processed 6 files from EHB-TrustyWallet-System.zip
+[2025-05-10T09:28:20.319Z] Moved EHB-TrustyWallet-System.zip to processed directory
+[2025-05-10T09:28:20.319Z] Processing ZIP file: EHB-Tube.zip
+[2025-05-10T09:28:20.319Z] Created directory: /home/runner/workspace/temp/extract_1746869300319
+[2025-05-10T09:28:20.321Z] Extracted 5 files from EHB-Tube.zip
+[2025-05-10T09:28:20.322Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.322Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.322Z] Processed file: db.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.322Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.322Z] Processed file: Video.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.323Z] Successfully processed 5 files from EHB-Tube.zip
+[2025-05-10T09:28:20.324Z] Moved EHB-Tube.zip to processed directory
+[2025-05-10T09:28:20.324Z] Processing ZIP file: GoSellr-Core-Phase-2.zip
+[2025-05-10T09:28:20.324Z] Created directory: /home/runner/workspace/temp/extract_1746869300324
+[2025-05-10T09:28:20.329Z] Extracted 1 files from GoSellr-Core-Phase-2.zip
+[2025-05-10T09:28:20.329Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.330Z] Successfully processed 1 files from GoSellr-Core-Phase-2.zip
+[2025-05-10T09:28:20.330Z] Moved GoSellr-Core-Phase-2.zip to processed directory
+[2025-05-10T09:28:20.331Z] Processing ZIP file: GoSellr-Core-Phase-3.zip
+[2025-05-10T09:28:20.331Z] Created directory: /home/runner/workspace/temp/extract_1746869300331
+[2025-05-10T09:28:20.335Z] Extracted 1 files from GoSellr-Core-Phase-3.zip
+[2025-05-10T09:28:20.335Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.337Z] Successfully processed 1 files from GoSellr-Core-Phase-3.zip
+[2025-05-10T09:28:20.337Z] Moved GoSellr-Core-Phase-3.zip to processed directory
+[2025-05-10T09:28:20.338Z] Processing ZIP file: GoSellr-Core-Phase-4.zip
+[2025-05-10T09:28:20.338Z] Created directory: /home/runner/workspace/temp/extract_1746869300338
+[2025-05-10T09:28:20.340Z] Extracted 3 files from GoSellr-Core-Phase-4.zip
+[2025-05-10T09:28:20.340Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.341Z] Processed file: analyzeComplaint.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.341Z] Processed file: CoinLock.sol -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.342Z] Successfully processed 3 files from GoSellr-Core-Phase-4.zip
+[2025-05-10T09:28:20.342Z] Moved GoSellr-Core-Phase-4.zip to processed directory
+[2025-05-10T09:28:20.342Z] Processing ZIP file: GoSellr-Ecommerce.zip
+[2025-05-10T09:28:20.342Z] Created directory: /home/runner/workspace/temp/extract_1746869300342
+[2025-05-10T09:28:20.344Z] Extracted 5 files from GoSellr-Ecommerce.zip
+[2025-05-10T09:28:20.345Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.345Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.345Z] Processed file: db.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.345Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.346Z] Processed file: Product.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.347Z] Successfully processed 5 files from GoSellr-Ecommerce.zip
+[2025-05-10T09:28:20.347Z] Moved GoSellr-Ecommerce.zip to processed directory
+[2025-05-10T09:28:20.347Z] Processing ZIP file: HPS-Education-Service.zip
+[2025-05-10T09:28:20.348Z] Created directory: /home/runner/workspace/temp/extract_1746869300347
+[2025-05-10T09:28:20.352Z] Extracted 5 files from HPS-Education-Service.zip
+[2025-05-10T09:28:20.352Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.352Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.353Z] Processed file: db.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.353Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.353Z] Processed file: Student.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.354Z] Successfully processed 5 files from HPS-Education-Service.zip
+[2025-05-10T09:28:20.355Z] Moved HPS-Education-Service.zip to processed directory
+[2025-05-10T09:28:20.355Z] Processing ZIP file: JPS-Affiliate-Phase-1.zip
+[2025-05-10T09:28:20.355Z] Created directory: /home/runner/workspace/temp/extract_1746869300355
+[2025-05-10T09:28:20.362Z] Extracted 13 files from JPS-Affiliate-Phase-1.zip
+[2025-05-10T09:28:20.363Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.363Z] Processed file: authController.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.363Z] Processed file: Referral.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.363Z] Processed file: User.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.363Z] Processed file: auth.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.364Z] Processed file: token.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.364Z] Processed file: db.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.364Z] Processed file: LoginForm.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.364Z] Processed file: RegisterForm.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.365Z] Processed file: dashboard.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.365Z] Processed file: login.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.365Z] Processed file: register.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.366Z] Processed file: jps.css -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.368Z] Successfully processed 13 files from JPS-Affiliate-Phase-1.zip
+[2025-05-10T09:28:20.368Z] Moved JPS-Affiliate-Phase-1.zip to processed directory
+[2025-05-10T09:28:20.368Z] Processed file: New Text Document (2).txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.369Z] Moved New Text Document (2).txt to processed directory
+[2025-05-10T09:28:20.369Z] Processed file: New Text Document (3).txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.369Z] Moved New Text Document (3).txt to processed directory
+[2025-05-10T09:28:20.373Z] Processed file: New Text Document (4).txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.373Z] Moved New Text Document (4).txt to processed directory
+[2025-05-10T09:28:20.373Z] Processed file: New Text Document (5).txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.374Z] Moved New Text Document (5).txt to processed directory
+[2025-05-10T09:28:20.374Z] Processing ZIP file: OLS-Online-Law-Service.zip
+[2025-05-10T09:28:20.374Z] Created directory: /home/runner/workspace/temp/extract_1746869300374
+[2025-05-10T09:28:20.375Z] Extracted 5 files from OLS-Online-Law-Service.zip
+[2025-05-10T09:28:20.376Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.376Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.376Z] Processed file: db.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.376Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.376Z] Processed file: Lawyer.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.377Z] Successfully processed 5 files from OLS-Online-Law-Service.zip
+[2025-05-10T09:28:20.377Z] Moved OLS-Online-Law-Service.zip to processed directory
+[2025-05-10T09:28:20.378Z] Processed file: Pasted-Great-we-re-now-entering-the-core-development-phase-of-the-EHB-Homepage-and-Dashboard--1746792862891.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.378Z] Moved Pasted-Great-we-re-now-entering-the-core-development-phase-of-the-EHB-Homepage-and-Dashboard--1746792862891.txt to processed directory
+[2025-05-10T09:28:20.378Z] Processed file: Pasted-app-loading-k-error-ko-auto-man-fix-krain-or-server-ko-run-krain-or-project-k-ander-auto-man-error-1746769034459.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.378Z] Moved Pasted-app-loading-k-error-ko-auto-man-fix-krain-or-server-ko-run-krain-or-project-k-ander-auto-man-error-1746769034459.txt to processed directory
+[2025-05-10T09:28:20.378Z] Processed file: Pasted-from-zipfile-import-ZipFile-import-os-Define-folder-paths-for-the-modules-to-be-zipped-base-p-1746793186544.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.378Z] Moved Pasted-from-zipfile-import-ZipFile-import-os-Define-folder-paths-for-the-modules-to-be-zipped-base-p-1746793186544.txt to processed directory
+[2025-05-10T09:28:20.379Z] Processed file: Pasted-from-zipfile-import-ZipFile-import-os-Define-folder-paths-for-the-modules-to-be-zipped-base-p-1746793222787.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.379Z] Moved Pasted-from-zipfile-import-ZipFile-import-os-Define-folder-paths-for-the-modules-to-be-zipped-base-p-1746793222787.txt to processed directory
+[2025-05-10T09:28:20.379Z] Processing ZIP file: SOT-Technologies.zip
+[2025-05-10T09:28:20.379Z] Created directory: /home/runner/workspace/temp/extract_1746869300379
+[2025-05-10T09:28:20.381Z] Extracted 5 files from SOT-Technologies.zip
+[2025-05-10T09:28:20.382Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.382Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.382Z] Processed file: db.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.382Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.383Z] Processed file: Developer.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.384Z] Successfully processed 5 files from SOT-Technologies.zip
+[2025-05-10T09:28:20.384Z] Moved SOT-Technologies.zip to processed directory
+[2025-05-10T09:28:20.384Z] Processing ZIP file: TestModule.zip
+[2025-05-10T09:28:20.384Z] Created directory: /home/runner/workspace/temp/extract_1746869300384
+[2025-05-10T09:28:20.386Z] Extracted 3 files from TestModule.zip
+[2025-05-10T09:28:20.386Z] Processed file: testRoute.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.386Z] Processed file: config.json -> EHB-AI-Dev-Fullstack/company_info
+[2025-05-10T09:28:20.386Z] Processed file: TestComponent.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.387Z] Successfully processed 3 files from TestModule.zip
+[2025-05-10T09:28:20.387Z] Moved TestModule.zip to processed directory
+[2025-05-10T09:28:20.388Z] Processing ZIP file: TestModuleV2.zip
+[2025-05-10T09:28:20.388Z] Created directory: /home/runner/workspace/temp/extract_1746869300388
+[2025-05-10T09:28:20.389Z] Extracted 3 files from TestModuleV2.zip
+[2025-05-10T09:28:20.390Z] Processed file: testRoute.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.390Z] Processed file: config.json -> EHB-AI-Dev-Fullstack/company_info
+[2025-05-10T09:28:20.390Z] Processed file: TestComponent.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.391Z] Successfully processed 3 files from TestModuleV2.zip
+[2025-05-10T09:28:20.391Z] Moved TestModuleV2.zip to processed directory
+[2025-05-10T09:28:20.391Z] Processing ZIP file: WMS-World-Medical-Service.zip
+[2025-05-10T09:28:20.391Z] Created directory: /home/runner/workspace/temp/extract_1746869300391
+[2025-05-10T09:28:20.393Z] Extracted 5 files from WMS-World-Medical-Service.zip
+[2025-05-10T09:28:20.394Z] Processed file: README.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.394Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.394Z] Processed file: db.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.394Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.395Z] Processed file: Doctor.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.396Z] Successfully processed 5 files from WMS-World-Medical-Service.zip
+[2025-05-10T09:28:20.396Z] Moved WMS-World-Medical-Service.zip to processed directory
+[2025-05-10T09:28:20.396Z] Processed file: image_1746822609950.png -> EHB-AI-Dev-Fullstack/media
+[2025-05-10T09:28:20.396Z] Moved image_1746822609950.png to processed directory
+[2025-05-10T09:28:20.396Z] Processing ZIP file: test-config-module.zip
+[2025-05-10T09:28:20.396Z] Created directory: /home/runner/workspace/temp/extract_1746869300396
+[2025-05-10T09:28:20.397Z] Extracted 3 files from test-config-module.zip
+[2025-05-10T09:28:20.397Z] Processed file: config.json -> EHB-AI-Dev-Fullstack/company_info
+[2025-05-10T09:28:20.398Z] Processed file: package.json -> EHB-AI-Dev-Fullstack/company_info
+[2025-05-10T09:28:20.398Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.398Z] Successfully processed 3 files from test-config-module.zip
+[2025-05-10T09:28:20.398Z] Moved test-config-module.zip to processed directory
+[2025-05-10T09:28:20.398Z] Processing ZIP file: test-module-Phase-1.zip
+[2025-05-10T09:28:20.399Z] Created directory: /home/runner/workspace/temp/extract_1746869300398
+[2025-05-10T09:28:20.399Z] Extracted 2 files from test-module-Phase-1.zip
+[2025-05-10T09:28:20.399Z] Processed file: package.json -> EHB-AI-Dev-Fullstack/company_info
+[2025-05-10T09:28:20.399Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.400Z] Successfully processed 2 files from test-module-Phase-1.zip
+[2025-05-10T09:28:20.400Z] Moved test-module-Phase-1.zip to processed directory
+[2025-05-10T09:28:20.400Z] Processing ZIP file: test-module-Phase-3.zip
+[2025-05-10T09:28:20.400Z] Created directory: /home/runner/workspace/temp/extract_1746869300400
+[2025-05-10T09:28:20.401Z] Extracted 2 files from test-module-Phase-3.zip
+[2025-05-10T09:28:20.401Z] Processed file: package.json -> EHB-AI-Dev-Fullstack/company_info
+[2025-05-10T09:28:20.401Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.402Z] Successfully processed 2 files from test-module-Phase-3.zip
+[2025-05-10T09:28:20.402Z] Moved test-module-Phase-3.zip to processed directory
+[2025-05-10T09:28:20.402Z] Processing ZIP file: test-module-phase-2.zip
+[2025-05-10T09:28:20.402Z] Created directory: /home/runner/workspace/temp/extract_1746869300402
+[2025-05-10T09:28:20.403Z] Extracted 2 files from test-module-phase-2.zip
+[2025-05-10T09:28:20.403Z] Processed file: package.json -> EHB-AI-Dev-Fullstack/company_info
+[2025-05-10T09:28:20.403Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.403Z] Successfully processed 2 files from test-module-phase-2.zip
+[2025-05-10T09:28:20.403Z] Moved test-module-phase-2.zip to processed directory
+[2025-05-10T09:28:20.404Z] Processing ZIP file: test-module.zip
+[2025-05-10T09:28:20.404Z] Created directory: /home/runner/workspace/temp/extract_1746869300404
+[2025-05-10T09:28:20.405Z] Extracted 2 files from test-module.zip
+[2025-05-10T09:28:20.405Z] Processed file: package.json -> EHB-AI-Dev-Fullstack/company_info
+[2025-05-10T09:28:20.405Z] Processed file: index.js -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T09:28:20.405Z] Successfully processed 2 files from test-module.zip
+[2025-05-10T09:28:20.405Z] Moved test-module.zip to processed directory
+[2025-05-10T09:28:50.239Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:28:50.249Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:29:20.266Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:29:20.272Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:29:50.296Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:29:50.302Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:30:20.326Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:30:20.332Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:30:50.355Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:30:50.362Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:31:20.366Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:31:20.376Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:31:50.395Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:31:50.404Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:32:20.428Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:32:20.436Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:32:50.455Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:32:50.462Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:33:20.487Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:33:20.495Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:33:50.495Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:33:50.510Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:34:20.524Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:34:20.537Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:34:50.551Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:34:50.557Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:35:20.580Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:35:20.586Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:35:50.610Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:35:50.616Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:36:20.641Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:36:20.650Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:36:50.670Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:36:50.678Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:37:20.700Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:37:20.705Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:37:50.720Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:37:50.770Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:38:20.727Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:38:20.734Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:38:50.736Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:38:50.745Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:39:20.764Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:39:20.770Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:39:50.798Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:39:50.808Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:40:20.824Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:40:20.831Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:40:50.854Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:40:50.860Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:41:20.888Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:41:20.914Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:41:50.915Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:41:50.923Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:42:20.944Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:42:20.953Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:42:50.975Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:42:50.985Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:43:20.991Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:43:21.003Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:43:51.020Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:43:51.029Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:44:21.052Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:44:21.058Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:44:51.080Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:44:51.086Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:45:21.110Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:45:21.118Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:45:51.140Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:45:51.148Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:46:21.170Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:46:21.178Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:46:51.201Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:46:51.209Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:47:21.230Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:47:21.236Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:47:51.261Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:47:51.267Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:48:21.293Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:48:21.300Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:48:51.321Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:48:51.330Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:49:21.353Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:49:21.360Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:49:51.380Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:49:51.386Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:50:21.411Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:50:21.418Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:50:51.440Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:50:51.446Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:51:21.459Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:51:21.465Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:51:51.464Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:51:51.471Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:52:21.478Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:52:21.487Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:52:51.506Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:52:51.514Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:53:21.537Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:53:21.545Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:53:51.570Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:53:51.585Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:54:21.596Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:54:21.604Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:54:51.628Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:54:51.638Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:55:21.656Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:55:21.664Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:55:51.659Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:55:51.667Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:56:21.691Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:56:21.699Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:56:51.719Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:56:51.727Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:57:21.750Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:57:21.756Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:57:51.780Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:57:51.786Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:58:21.810Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:58:21.817Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:58:51.841Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:58:51.856Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:59:21.870Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:59:21.876Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T09:59:51.902Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:59:51.910Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:00:21.930Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:00:21.938Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:00:51.959Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:00:51.964Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:01:21.993Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:01:22.001Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:01:51.999Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:01:52.006Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:02:22.028Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:02:22.035Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:02:52.057Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:02:52.063Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:03:22.087Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:03:22.093Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:03:52.118Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:03:52.126Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:04:22.147Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:04:22.153Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:04:52.178Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:04:52.184Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:05:22.207Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:05:22.215Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:05:52.237Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:05:52.244Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:06:22.268Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:06:22.276Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:06:52.297Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:06:52.305Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:07:22.327Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:07:22.333Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:07:52.358Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:07:52.365Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:08:22.388Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:08:22.394Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:08:52.417Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:08:52.424Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:09:22.450Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:09:22.458Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:09:52.480Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:09:52.494Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:10:22.508Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:10:22.516Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:10:52.537Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:10:52.545Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:11:22.567Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:11:22.573Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:11:52.598Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:11:52.606Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:12:22.631Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:12:22.640Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:12:52.657Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:12:52.663Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:13:22.687Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:13:22.693Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:13:52.718Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:13:52.725Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:14:22.751Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:14:22.760Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:14:52.779Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:14:52.787Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:15:22.808Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:15:22.816Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:15:52.840Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:15:52.857Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:16:22.868Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:16:22.875Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:16:52.897Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:16:52.904Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:17:22.927Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:17:22.936Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:17:52.958Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:17:52.966Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:18:22.987Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:18:22.994Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:18:52.991Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:18:52.999Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:19:23.023Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:19:23.032Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:19:53.031Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:19:53.040Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:20:23.060Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:20:23.066Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:20:53.088Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:20:53.096Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:21:23.121Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:21:23.131Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:21:53.148Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:21:53.154Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:22:23.181Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:22:23.192Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:22:53.206Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:22:53.213Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:23:23.236Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:23:23.243Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:23:53.267Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:23:53.273Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:24:23.298Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:24:23.305Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:24:53.332Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:24:53.338Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:25:23.358Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:25:23.367Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:25:53.386Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:25:53.394Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:26:23.417Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:26:23.426Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:26:53.446Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:26:53.455Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:27:23.478Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:27:23.487Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:27:53.509Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:27:53.517Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:28:23.547Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:28:23.563Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:28:53.567Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:28:53.582Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:29:23.612Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:29:23.620Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:29:53.629Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:29:53.639Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:30:23.657Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:30:23.665Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:30:53.686Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:30:53.693Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:31:23.717Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:31:23.725Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:31:53.747Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:31:53.753Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:32:23.776Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:32:23.786Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:32:53.806Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:32:53.813Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:33:23.837Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:33:23.848Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:33:53.866Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:33:53.874Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:34:23.896Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:34:23.905Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:34:53.927Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:34:53.936Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:35:23.957Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:35:23.966Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:35:53.995Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:35:54.010Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:36:24.017Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:36:24.037Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:36:54.049Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:36:54.057Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:37:24.079Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:37:24.088Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:37:54.106Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:37:54.115Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:38:24.141Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:38:24.147Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:38:54.166Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:38:54.173Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:39:24.197Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:39:24.209Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:39:54.227Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:39:54.251Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:40:24.250Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:40:24.258Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:40:54.281Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:40:54.302Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:41:24.308Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:41:24.314Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:41:54.338Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:41:54.343Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:42:24.368Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:42:24.374Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:42:54.398Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:42:54.403Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:43:24.429Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:43:24.437Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:43:54.461Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:43:54.467Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:44:24.489Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:44:24.499Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:44:54.497Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:44:54.508Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:45:24.507Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:45:24.515Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:45:54.536Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:45:54.550Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:46:24.570Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:46:24.583Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:46:54.599Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:46:54.606Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:47:24.626Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:47:24.635Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:47:54.659Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:47:54.681Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:48:24.686Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:48:24.694Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:48:54.719Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:48:54.729Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:49:24.745Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:49:24.754Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:49:54.775Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:49:54.783Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:50:24.808Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:50:24.816Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:50:54.835Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:50:54.844Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:51:24.866Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:51:24.872Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:51:54.897Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:51:54.906Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:52:24.925Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:52:24.932Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:52:54.943Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:52:54.951Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:53:24.974Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:53:24.981Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:53:55.004Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:53:55.010Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:54:25.033Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:54:25.039Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:54:55.064Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:54:55.073Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:55:25.093Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:55:25.099Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:55:55.126Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:55:55.134Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:56:25.153Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:56:25.159Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:56:55.184Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:56:55.192Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:57:25.214Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:57:25.220Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:57:55.244Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:57:55.250Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:58:25.273Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:58:25.279Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:58:55.304Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:58:55.309Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:59:14.307Z] Processed file: Pasted-Please-now-upgrade-the-EHB-UI-UX-experience-with-the-following-actions-1-Reset-Project--1746874753327.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T10:59:14.308Z] Moved Pasted-Please-now-upgrade-the-EHB-UI-UX-experience-with-the-following-actions-1-Reset-Project--1746874753327.txt to processed directory
+[2025-05-10T10:59:14.314Z] Processed file: Pasted-Please-now-upgrade-the-EHB-UI-UX-experience-with-the-following-actions-1-Reset-Project--1746874753327.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T10:59:14.314Z] Moved Pasted-Please-now-upgrade-the-EHB-UI-UX-experience-with-the-following-actions-1-Reset-Project--1746874753327.txt to processed directory
+[2025-05-10T10:59:25.315Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:59:25.320Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T10:59:55.345Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T10:59:55.353Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:00:25.377Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:00:25.385Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:00:55.404Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:00:55.412Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:01:25.435Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:01:25.443Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:01:55.465Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:01:55.474Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:02:25.494Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:02:25.503Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:02:43.790Z] Processed file: Pasted-Please-finalize-the-intelligent-auto-dashboard-system-with-the-following-upgrades-1-Project--1746874963110.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T11:02:43.791Z] Moved Pasted-Please-finalize-the-intelligent-auto-dashboard-system-with-the-following-upgrades-1-Project--1746874963110.txt to processed directory
+[2025-05-10T11:02:43.793Z] Processed file: Pasted-Please-finalize-the-intelligent-auto-dashboard-system-with-the-following-upgrades-1-Project--1746874963110.txt -> EHB-AI-Dev-Fullstack/documents
+[2025-05-10T11:02:43.794Z] Moved Pasted-Please-finalize-the-intelligent-auto-dashboard-system-with-the-following-upgrades-1-Project--1746874963110.txt to processed directory
+[2025-05-10T11:02:55.507Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:02:55.515Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:03:25.537Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:03:25.544Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:03:55.567Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:03:55.573Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:04:25.598Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:04:25.608Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:04:55.627Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:04:55.635Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:05:25.668Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:05:25.677Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:05:55.686Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:05:55.692Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:06:25.716Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:06:25.724Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:06:55.746Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:06:55.756Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:07:25.776Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:07:25.784Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:07:55.806Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:07:55.815Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:08:25.837Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:08:25.843Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:08:55.867Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:08:55.875Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:09:25.900Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:09:25.915Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:09:55.930Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:09:55.940Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:10:25.960Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:10:25.971Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:10:55.988Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:10:55.995Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:11:26.017Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:11:26.026Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:11:56.046Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:11:56.055Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:12:26.078Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:12:26.111Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:12:56.106Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:12:56.114Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:13:26.139Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:13:26.150Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:13:56.166Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:13:56.174Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:14:26.196Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:14:26.205Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:14:56.226Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:14:56.235Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:15:26.259Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:15:26.266Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:15:56.287Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:15:56.295Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:16:26.317Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:16:26.325Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:16:56.346Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:16:56.355Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:17:26.379Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:17:26.393Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md
+[2025-05-10T11:17:56.406Z] Updated service info in /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T11:17:56.414Z] Created structure overview in /home/runner/workspace/EHB-HOME/data/structure_overview.md

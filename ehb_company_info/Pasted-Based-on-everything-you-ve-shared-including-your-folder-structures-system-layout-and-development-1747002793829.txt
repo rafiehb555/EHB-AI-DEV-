@@ -1,0 +1,147 @@
+Based on everything you’ve shared — including your folder structures, system layout, and development goals — here's the **Final Replit Agent Prompt** that introduces the EHB Technologies system to Replit **as a full company-wide ecosystem with structured folders, flow logic, and dynamic handling**.
+
+---
+
+## 🧠 FINAL FULL COMPANY INTRODUCTION PROMPT FOR REPLIT AGENT
+
+(You can paste this in one shot or assign it as a master setup instruction.)
+
+---
+
+### 📢 **REPLIT AGENT INSTRUCTION: EHB Technologies Limited – Ecosystem Integration & Flow Setup**
+
+> You are now managing the development environment for **EHB Technologies Limited**, a global AI + Blockchain-based service ecosystem. This project is structured across multiple folders representing services, admin panels, system configs, and department-level logic.
+
+---
+
+### 🏢 **Company Introduction**
+
+**EHB Technologies Limited** is a multi-service platform offering:
+
+* ✅ 700+ AI-verified services
+* ✅ Global e-commerce
+* ✅ Government-level SQL verification (Free → VIP)
+* ✅ Blockchain validator system
+* ✅ Franchise-based real-world deployment
+* ✅ Multi-department models: PSS, EMO, EDR, etc.
+
+EHB operates across 3 main folder roots:
+
+```
+📁 /admin
+📁 /services
+📁 /system
+```
+
+These must be respected as isolated + linked modules.
+
+---
+
+### 🧭 **STRUCTURE FLOW (ROOT FOLDERS)**
+
+#### 📁 /admin → For all UI, dashboards, management panels
+
+* `ehb-admin-panel/` → Full admin logic
+* `Developer-Portal-UI/` → Main control center
+* `EHB-HOME/` & `EHB-DASHBOARD/` → Core routing
+* `ehb-wallet/`, `User-flow/`, `integration-script.js` → Wallet & flow engines
+
+#### 📁 /services → For all modular services (Product + Features)
+
+Includes:
+
+* `EHB-GoSellr/`, `EHB-AI-Marketplace/`, `WMS-World-Medical-Service/`
+* `AI-Agent-Execution-Script/`, `Auto-ZIP-Handler-Agent/`, `JPS-Job-Providing-Service/`
+* `HPS-Education-Service/`, `OLS-Online-Law-Service/`, and more
+
+> Each service is self-contained, with subfolders and routing logic. They are AI-searchable.
+
+#### 📁 /system → Core backend, blockchain, SQL logic
+
+Contains:
+
+* SQL Verification Engines → `EHB-SQL-PSS`, `EHB-SQL-EDR`, `EHB-SQL-EMO`
+* Blockchain Flow → `EHB-Blockchain/`, `structure-maintainer.js`
+* Rules + UI Configs → `rules/`, `ui-config/`, `structure.json`
+
+---
+
+### 🧠 **FLOW LOGIC (AGENT TASK LIST)**
+
+1. ✅ **Scan all folders** under `/admin`, `/services`, `/system`
+2. ✅ Auto-create missing subfolders using templates:
+
+   * Must contain `README.md` + `index.js` or `config.json`
+3. ✅ If any file is in the wrong place:
+
+   * Move it to the proper folder without deletion
+4. ✅ Respect URL mappings exactly as provided
+5. ✅ Enable dynamic card generation inside `Developer-Portal-UI` for:
+
+   * All service folders
+   * System modules
+   * SQL engines
+6. ✅ Run auto structure validation every session and display results in the Developer Portal dashboard
+
+---
+
+### 🖥️ **DEFAULT LOADING PAGE**
+
+> When the app or project is opened, Replit must load:
+
+```
+/admin/Developer-Portal-UI/
+```
+
+This portal shows:
+
+* Folder health
+* Real-time file changes
+* AI agent instructions
+* Quick links to GoSellr, Wallet, Franchise, Blockchain, etc.
+* Dashboard cards grouped by SQL Level and system role
+
+---
+
+### ⚙️ **KEY LOGIC FOR REPLIT TO FOLLOW**
+
+| Task                                  | Action                                            |
+| ------------------------------------- | ------------------------------------------------- |
+| Loose file detected (e.g., `page.js`) | Move to related folder like `/admin/pages/`       |
+| New service ZIP added                 | Auto-extract and map to `/services/ServiceName/`  |
+| SQL file dropped in root              | Route to `/system/EHB-SQL/` and tag by department |
+| Unknown folder added                  | Ask AI agent to classify and place it             |
+| Missing link in Portal                | Flag red in UI, show "Fix Now" option             |
+
+---
+
+### 🔗 **EXAMPLE: How Replit should treat a new service**
+
+> If `EHB-Speech-Translator.zip` is uploaded:
+
+* Extract to `/services/EHB-Speech-Translator/`
+* Generate Developer Portal card
+* Add route `/services/EHB-Speech-Translator/README.md`
+* Tag as `[AI][TRANSLATION]`
+
+---
+
+### ✅ CONCLUSION
+
+This Replit environment represents a **live operating system** for EHB Technologies. Maintain it like a modular blockchain ecosystem:
+
+* Do **not delete** files.
+* Always respect `folder-role > sub-role > linked route`.
+* Sync instructions with AI logs.
+* Alert developer if conflict occurs between folder mapping.
+
+---
+
+Would you like me to now generate the **DeveloperPortal.jsx code** that matches this prompt, including:
+
+* Full card grid
+* System status viewer
+* Dynamic folder + route linking
+* Health check + missing flag UI?
+
+Just say **"Generate Developer Portal Code"**.

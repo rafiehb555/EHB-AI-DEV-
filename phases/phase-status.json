@@ -1,0 +1,488 @@
+{
+  "phases": [
+    {
+      "id": "0",
+      "number": 0,
+      "name": "EHB AI Dev Phase 0",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "1",
+      "number": 1,
+      "subPhase": null,
+      "name": "EHB AI Dev Phase 1",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": false
+    },
+    {
+      "id": "2",
+      "number": 2,
+      "subPhase": null,
+      "name": "EHB AI Dev Phase 2",
+      "status": "Completed",
+      "active": true,
+      "placeholder": false
+    },
+    {
+      "id": "3",
+      "number": 3,
+      "subPhase": null,
+      "name": "EHB AI Dev Phase 3",
+      "status": "Completed",
+      "active": true,
+      "placeholder": false
+    },
+    {
+      "id": "4",
+      "number": 4,
+      "subPhase": null,
+      "name": "EHB AI Dev Phase 4",
+      "status": "Completed",
+      "active": true,
+      "placeholder": false
+    },
+    {
+      "id": "5",
+      "number": 5,
+      "subPhase": null,
+      "name": "EHB AI Dev Phase 5",
+      "status": "Completed",
+      "active": true,
+      "placeholder": false
+    },
+    {
+      "id": "6",
+      "number": 6,
+      "name": "EHB AI Dev Phase 6",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "7",
+      "number": 7,
+      "subPhase": null,
+      "name": "EHB AI Dev Phase 7",
+      "status": "Completed",
+      "active": true,
+      "placeholder": false
+    },
+    {
+      "id": "8",
+      "number": 8,
+      "name": "EHB AI Dev Phase 8",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "9",
+      "number": 9,
+      "name": "EHB AI Dev Phase 9",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "10",
+      "number": 10,
+      "subPhase": null,
+      "name": "EHB AI Dev Phase 10",
+      "status": "Completed",
+      "active": true,
+      "placeholder": false
+    },
+    {
+      "id": "11",
+      "number": 11,
+      "name": "EHB AI Dev Phase 11",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "12",
+      "number": 12,
+      "subPhase": null,
+      "name": "EHB AI Dev Phase 12",
+      "status": "Completed",
+      "active": true,
+      "placeholder": false
+    },
+    {
+      "id": "13",
+      "number": 13,
+      "subPhase": null,
+      "name": "EHB AI Dev Phase 13",
+      "status": "Completed",
+      "active": true,
+      "placeholder": false
+    },
+    {
+      "id": "14",
+      "number": 14,
+      "name": "EHB AI Dev Phase 14",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "15",
+      "number": 15,
+      "name": "EHB AI Dev Phase 15",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "16",
+      "number": 16,
+      "name": "EHB AI Dev Phase 16",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "17",
+      "number": 17,
+      "name": "EHB AI Dev Phase 17",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "18",
+      "number": 18,
+      "name": "EHB AI Dev Phase 18",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "19",
+      "number": 19,
+      "name": "EHB AI Dev Phase 19",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "20",
+      "number": 20,
+      "name": "EHB AI Dev Phase 20",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "21",
+      "number": 21,
+      "name": "EHB AI Dev Phase 21",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "22",
+      "number": 22,
+      "name": "EHB AI Dev Phase 22",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "23",
+      "number": 23,
+      "name": "EHB AI Dev Phase 23",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "24",
+      "number": 24,
+      "subPhase": null,
+      "name": "EHB AI Dev Phase 24",
+      "status": "Completed",
+      "active": true,
+      "placeholder": false
+    },
+    {
+      "id": "25",
+      "number": 25,
+      "subPhase": null,
+      "name": "EHB AI Dev Phase 25",
+      "status": "Completed",
+      "active": true,
+      "placeholder": false
+    },
+    {
+      "id": "26",
+      "number": 26,
+      "subPhase": null,
+      "name": "EHB AI Dev Phase 26",
+      "status": "Completed",
+      "active": true,
+      "placeholder": false
+    },
+    {
+      "id": "27",
+      "number": 27,
+      "name": "EHB AI Dev Phase 27",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "28",
+      "number": 28,
+      "name": "EHB AI Dev Phase 28",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "29",
+      "number": 29,
+      "name": "EHB AI Dev Phase 29",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "30",
+      "number": 30,
+      "name": "EHB AI Dev Phase 30",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "31",
+      "number": 31,
+      "name": "EHB AI Dev Phase 31",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "32",
+      "number": 32,
+      "name": "EHB AI Dev Phase 32",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "33",
+      "number": 33,
+      "name": "EHB AI Dev Phase 33",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "34",
+      "number": 34,
+      "name": "EHB AI Dev Phase 34",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "35",
+      "number": 35,
+      "name": "EHB AI Dev Phase 35",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "36",
+      "number": 36,
+      "name": "EHB AI Dev Phase 36",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "37",
+      "number": 37,
+      "name": "EHB AI Dev Phase 37",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "38",
+      "number": 38,
+      "name": "EHB AI Dev Phase 38",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "39",
+      "number": 39,
+      "name": "EHB AI Dev Phase 39",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "40",
+      "number": 40,
+      "name": "EHB AI Dev Phase 40",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "41",
+      "number": 41,
+      "name": "EHB AI Dev Phase 41",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "42",
+      "number": 42,
+      "name": "EHB AI Dev Phase 42",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "43",
+      "number": 43,
+      "name": "EHB AI Dev Phase 43",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "44",
+      "number": 44,
+      "name": "EHB AI Dev Phase 44",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "45",
+      "number": 45,
+      "name": "EHB AI Dev Phase 45",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "46",
+      "number": 46,
+      "name": "EHB AI Dev Phase 46",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "47",
+      "number": 47,
+      "name": "EHB AI Dev Phase 47",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "48",
+      "number": 48,
+      "name": "EHB AI Dev Phase 48",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "49",
+      "number": 49,
+      "name": "EHB AI Dev Phase 49",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "50",
+      "number": 50,
+      "name": "EHB AI Dev Phase 50",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "51",
+      "number": 51,
+      "name": "EHB AI Dev Phase 51",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "52",
+      "number": 52,
+      "name": "EHB AI Dev Phase 52",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "53",
+      "number": 53,
+      "name": "EHB AI Dev Phase 53",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "54",
+      "number": 54,
+      "name": "EHB AI Dev Phase 54",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "55",
+      "number": 55,
+      "name": "EHB AI Dev Phase 55",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "56",
+      "number": 56,
+      "name": "EHB AI Dev Phase 56",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "57",
+      "number": 57,
+      "name": "EHB AI Dev Phase 57",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    },
+    {
+      "id": "58",
+      "number": 58,
+      "name": "EHB AI Dev Phase 58",
+      "status": "Not Started",
+      "active": true,
+      "placeholder": true
+    }
+  ]
+}

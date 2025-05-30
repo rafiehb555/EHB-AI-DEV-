@@ -1,0 +1,97 @@
+{
+  "version": "2.1",
+  "lastUpdated": "2025-05-12T15:35:00.000Z",
+  "rootEntryPoint": "EHB-HOME",
+  "homePort": 5005,
+  "timestamp": 1747019700000,
+  "directories": {
+    "admin": {
+      "EHB-HOME": {
+        "type": "ui",
+        "port": 5005,
+        "status": "active"
+      },
+      "EHB-DASHBOARD": {
+        "frontend": {
+          "type": "ui",
+          "port": 5006,
+          "status": "active"
+        },
+        "backend": {
+          "type": "api",
+          "port": 5001,
+          "status": "active"
+        }
+      },
+      "ehb-admin-panel": {
+        "type": "ui",
+        "port": 5000,
+        "status": "active"
+      },
+      "EHB-Developer-Portal": {
+        "type": "ui",
+        "port": 5010,
+        "status": "active"
+      },
+      "ehb-wallet": {
+        "type": "service",
+        "status": "active"
+      },
+      "User-flow": {
+        "type": "component",
+        "status": "active"
+      },
+      "EHB-information": {
+        "type": "documentation",
+        "status": "active"
+      }
+    },
+    "services": {
+      "EHB-GoSellr": {
+        "type": "service",
+        "port": 5002,
+        "status": "active"
+      },
+      "Auto-ZIP-Handler-Agent": {
+        "type": "agent",
+        "status": "active"
+      },
+      "Home-Dashboard-Linker": {
+        "type": "integration",
+        "status": "active"
+      }
+    },
+    "system": {
+      "EHB-Blockchain": {
+        "type": "blockchain",
+        "status": "active"
+      },
+      "EHB-Services-Departments-Flow": {
+        "type": "flow",
+        "status": "active"
+      },
+      "EHB-SQL": {
+        "type": "database",
+        "status": "active"
+      },
+      "ui-config": {
+        "type": "configuration",
+        "status": "active"
+      }
+    }
+  },
+  "redirectors": {
+    "EHB-Central-Redirector": {
+      "target": "EHB-HOME",
+      "status": "active"
+    },
+    "GoSellr-Redirector": {
+      "target": "EHB-GoSellr",
+      "status": "active" 
+    },
+    "Developer-Portal-Redirector": {
+      "target": "EHB-Developer-Portal",
+      "status": "active"
+    }
+  }
+}

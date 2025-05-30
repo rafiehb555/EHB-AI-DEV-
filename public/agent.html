@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EHB Agent Dashboard</title>
+    <style>
+        :root {
+            --primary: #4a6bff;
+            --primary-dark: #3a59e0;
+            --secondary: #6c757d;
+            --success: #28a745;
+            --danger: #dc3545;
+            --warning: #ffc107;
+            --info: #17a2b8;
+            --light: #f8f9fa;
+            --dark: #343a40;
+            --white: #ffffff;
+            --gray-100: #f8f9fa;
+            --gray-200: #e9ecef;
+            --gray-300: #dee2e6;
+            --gray-400: #ced4da;
+            --gray-500: #adb5bd;
+            --gray-600: #6c757d;
+            --gray-700: #495057;
+            --gray-800: #343a40;
+            --gray-900: #212529;
+            --font-sans: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--gray-100);
+            color: var(--gray-900);
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: var(--white);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 15px 0;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+        }
+
+        .logo i {
+            margin-right: 8px;
+        }
+
+        .navigation {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navigation a {
+            color: var(--gray-700);
+            text-decoration: none;
+            padding: 5px 0;
+            position: relative;
+            transition: color 0.2s;
+        }
+
+        .navigation a:hover {
+            color: var(--primary);
+        }
+
+        .navigation a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: var(--primary);
+            transition: width 0.3s;
+        }
+
+        .navigation a:hover::after {
+            width: 100%;
+        }
+
+        .main-content {
+            margin-top: 30px;
+        }
+
+        .card {
+            background-color: var(--white);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card-header {
+            border-bottom: 1px solid var(--gray-200);
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--gray-800);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: var(--primary);
+            color: var(--white);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+
+        .btn:hover {
+            background-color: var(--primary-dark);
+        }
+
+        .btn:active {
+            transform: translateY(1px);
+        }
+
+        .btn-secondary {
+            background-color: var(--secondary);
+        }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+
+        .btn-success {
+            background-color: var(--success);
+        }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+
+        .btn-danger {
+            background-color: var(--danger);
+        }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+        .btn-warning {
+            background-color: var(--warning);
+            color: var(--dark);
+        }
+
+        .btn-warning:hover {
+            background-color: #e0a800;
+        }
+
+        .btn-block {
+            display: block;
+            width: 100%;
+        }
+
+        .task-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .task-card {
+            background-color: var(--white);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .task-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .task-card-header {
+            margin-bottom: 15px;
+        }
+
+        .task-card-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--gray-800);
+        }
+
+        .task-card-description {
+            font-size: 0.9rem;
+            color: var(--gray-600);
+            margin-bottom: 15px;
+            flex-grow: 1;
+        }
+
+        .task-card-actions {
+            margin-top: auto;
+        }
+
+        .task-card-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: var(--gray-700);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 8px 12px;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: var(--gray-700);
+            background-color: var(--white);
+            background-clip: padding-box;
+            border: 1px solid var(--gray-400);
+            border-radius: 4px;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        .form-control:focus {
+            border-color: var(--primary);
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(74, 107, 255, 0.25);
+        }
+
+        textarea.form-control {
+            height: auto;
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        .console {
+            background-color: var(--gray-900);
+            color: var(--gray-200);
+            font-family: var(--font-mono);
+            padding: 15px;
+            border-radius: 4px;
+            overflow: auto;
+            max-height: 400px;
+            white-space: pre-wrap;
+        }
+
+        .console-line {
+            line-height: 1.4;
+        }
+
+        .console-success {
+            color: #4caf50;
+        }
+
+        .console-error {
+            color: #f44336;
+        }
+
+        .console-warning {
+            color: #ff9800;
+        }
+
+        .console-info {
+            color: #2196f3;
+        }
+
+        .console-system {
+            color: #9c27b0;
+        }
+
+        .progress {
+            height: 8px;
+            overflow: hidden;
+            background-color: var(--gray-200);
+            border-radius: 4px;
+            margin-bottom: 5px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background-color: var(--primary);
+            border-radius: 4px;
+            transition: width 0.6s ease;
+        }
+
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: var(--gray-600);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25em 0.6em;
+            font-size: 75%;
+            font-weight: 700;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: 10rem;
+            color: var(--white);
+            background-color: var(--secondary);
+        }
+
+        .badge-primary {
+            background-color: var(--primary);
+        }
+
+        .badge-success {
+            background-color: var(--success);
+        }
+
+        .badge-warning {
+            background-color: var(--warning);
+            color: var(--dark);
+        }
+
+        .badge-danger {
+            background-color: var(--danger);
+        }
+
+        .badge-info {
+            background-color: var(--info);
+        }
+
+        .alert {
+            position: relative;
+            padding: 12px 20px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+
+        .alert-success {
+            color: #155724;
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+        }
+
+        .alert-danger {
+            color: #721c24;
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+        }
+
+        .alert-warning {
+            color: #856404;
+            background-color: #fff3cd;
+            border-color: #ffeeba;
+        }
+
+        .alert-info {
+            color: #0c5460;
+            background-color: #d1ecf1;
+            border-color: #bee5eb;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: var(--white);
+            margin: 10% auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--gray-200);
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        .modal-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        .modal-close {
+            cursor: pointer;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--gray-600);
+            border: none;
+            background: transparent;
+        }
+
+        .modal-body {
+            margin-bottom: 15px;
+        }
+
+        .modal-footer {
+            border-top: 1px solid var(--gray-200);
+            padding-top: 15px;
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 2rem;
+            height: 2rem;
+            vertical-align: text-bottom;
+            border: 0.25em solid currentColor;
+            border-right-color: transparent;
+            border-radius: 50%;
+            animation: spinner 0.75s linear infinite;
+        }
+
+        @keyframes spinner {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .task-status {
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .tabs {
+            display: flex;
+            border-bottom: 1px solid var(--gray-300);
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            margin-right: 10px;
+            transition: all 0.3s;
+        }
+
+        .tab.active {
+            border-bottom: 2px solid var(--primary);
+            font-weight: 500;
+            color: var(--primary);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .footer {
+            margin-top: 30px;
+            padding: 15px 0;
+            text-align: center;
+            color: var(--gray-600);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .header .container {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .task-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .modal-content {
+                width: 95%;
+                margin: 5% auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span>EHB Agent Dashboard</span>
+            </div>
+            <nav class="navigation">
+                <a href="#" class="active">Home</a>
+                <a href="#">Tasks</a>
+                <a href="#">History</a>
+                <a href="#">Settings</a>
+                <a href="#">Help</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="card-title">Agent Task Control Panel</h1>
+                <button class="btn btn-success" id="runAgentBtn">Run Full Diagnostics</button>
+            </div>
+            <div class="form-group">
+                <label for="customAgentPrompt">Custom Agent Instructions:</label>
+                <textarea class="form-control" id="customAgentPrompt" rows="2" placeholder="Enter custom instructions for the agent..."></textarea>
+            </div>
+            <div class="alert alert-info">
+                Select a task below or provide custom instructions to the agent.
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Agent Output</h2>
+                <button class="btn btn-secondary" id="clearConsoleBtn">Clear Console</button>
+            </div>
+            <div class="console" id="agentConsole">
+                <div class="console-line console-system">// Agent console initialized</div>
+                <div class="console-line console-info">// Select a task to begin</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Available Tasks</h2>
+            </div>
+            <div class="tabs">
+                <div class="tab active" data-target="development-tasks">Development</div>
+                <div class="tab" data-target="system-tasks">System</div>
+                <div class="tab" data-target="analysis-tasks">Analysis</div>
+                <div class="tab" data-target="deployment-tasks">Deployment</div>
+            </div>
+
+            <div class="tab-content active" id="development-tasks">
+                <div class="task-grid">
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">🧩</div>
+                            <h3 class="task-card-title">Create Component</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Generate a new React component with styling, props, and documentation.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="createComponent">Create Component</button>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">🔌</div>
+                            <h3 class="task-card-title">Generate API Route</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Create a new API endpoint with request validation and error handling.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="createApiRoute">Generate API</button>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">🧪</div>
+                            <h3 class="task-card-title">Create Test File</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Generate test cases for a component or function with full coverage.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="createTest">Create Tests</button>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">🗄️</div>
+                            <h3 class="task-card-title">Create Database Model</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Generate a database model with schema, validation, and relations.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="createModel">Create Model</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="system-tasks">
+                <div class="task-grid">
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">🔍</div>
+                            <h3 class="task-card-title">Debug Errors</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Automatically scan logs, find errors, and suggest fixes.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block btn-warning" data-task="debugErrors">Debug System</button>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">🧹</div>
+                            <h3 class="task-card-title">Clean Project</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Remove unused dependencies, files, and optimize project structure.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="cleanProject">Clean Project</button>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">📊</div>
+                            <h3 class="task-card-title">System Health Check</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Run diagnostics on all services and check for configuration issues.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="healthCheck">Health Check</button>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">📦</div>
+                            <h3 class="task-card-title">Install Dependencies</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Analyze project and suggest/install missing dependencies.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="installDeps">Install Dependencies</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="analysis-tasks">
+                <div class="task-grid">
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">📈</div>
+                            <h3 class="task-card-title">Code Quality Analysis</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Analyze code for quality issues, best practices, and security vulnerabilities.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="codeQuality">Analyze Code</button>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">📝</div>
+                            <h3 class="task-card-title">Generate Documentation</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Create comprehensive documentation for components, APIs, or the entire project.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="generateDocs">Generate Docs</button>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">🔒</div>
+                            <h3 class="task-card-title">Security Audit</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Perform a security audit of the codebase, dependencies, and configurations.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="securityAudit">Security Audit</button>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">📊</div>
+                            <h3 class="task-card-title">Performance Analysis</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Identify performance bottlenecks and suggest optimization strategies.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="performanceCheck">Check Performance</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="deployment-tasks">
+                <div class="task-grid">
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">🚀</div>
+                            <h3 class="task-card-title">Prepare Deployment</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Prepare the project for deployment by optimizing assets and configurations.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="prepDeploy">Prepare Deployment</button>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">📦</div>
+                            <h3 class="task-card-title">Build Project</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Build the project for production with optimized settings.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="buildProject">Build Project</button>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">🔄</div>
+                            <h3 class="task-card-title">Setup CI/CD</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Configure continuous integration and deployment workflows.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="setupCICD">Setup CI/CD</button>
+                        </div>
+                    </div>
+
+                    <div class="task-card">
+                        <div class="task-card-header">
+                            <div class="task-card-icon">🌐</div>
+                            <h3 class="task-card-title">Deploy to Vercel</h3>
+                        </div>
+                        <div class="task-card-description">
+                            Deploy the application to Vercel with production configuration.
+                        </div>
+                        <div class="task-card-actions">
+                            <button class="btn btn-block" data-task="deployVercel">Deploy to Vercel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="taskModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle">Task Configuration</h2>
+                <button class="modal-close" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <div class="form-group">
+                    <label for="taskOptions">Task Options:</label>
+                    <div id="taskOptionsContainer">
+                        <!-- Dynamically filled based on selected task -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="cancelTask">Cancel</button>
+                <button class="btn btn-primary" id="confirmTask">Run Task</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            EHB Agent Dashboard &copy; 2025 | v1.0.0
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Task handler
+            let currentTask = null;
+            const agentConsole = document.getElementById('agentConsole');
+            const clearConsoleBtn = document.getElementById('clearConsoleBtn');
+            const runAgentBtn = document.getElementById('runAgentBtn');
+            const customAgentPrompt = document.getElementById('customAgentPrompt');
+            const taskModal = document.getElementById('taskModal');
+            const closeModal = document.getElementById('closeModal');
+            const cancelTask = document.getElementById('cancelTask');
+            const confirmTask = document.getElementById('confirmTask');
+            const modalTitle = document.getElementById('modalTitle');
+            const taskOptionsContainer = document.getElementById('taskOptionsContainer');
+            
+            // Tab functionality
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    // Remove active class from all tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+                    
+                    // Hide all tab content
+                    document.querySelectorAll('.tab-content').forEach(content => {
+                        content.classList.remove('active');
+                    });
+                    
+                    // Show the corresponding tab content
+                    const target = this.getAttribute('data-target');
+                    document.getElementById(target).classList.add('active');
+                });
+            });
+            
+            // Console functions
+            function writeToConsole(message, type = 'info') {
+                const line = document.createElement('div');
+                line.className = `console-line console-${type}`;
+                line.textContent = message;
+                agentConsole.appendChild(line);
+                agentConsole.scrollTop = agentConsole.scrollHeight;
+            }
+            
+            clearConsoleBtn.addEventListener('click', function() {
+                agentConsole.innerHTML = '<div class="console-line console-system">// Console cleared</div>';
+            });
+            
+            // Modal functions
+            function openModal(title, taskType) {
+                modalTitle.textContent = title;
+                currentTask = taskType;
+                
+                // Clear previous options
+                taskOptionsContainer.innerHTML = '';
+                
+                // Add task-specific options
+                const options = getTaskOptions(taskType);
+                options.forEach(option => {
+                    const formGroup = document.createElement('div');
+                    formGroup.className = 'form-group';
+                    
+                    const label = document.createElement('label');
+                    label.setAttribute('for', option.id);
+                    label.textContent = option.label;
+                    
+                    let input;
+                    if (option.type === 'textarea') {
+                        input = document.createElement('textarea');
+                        input.rows = 3;
+                    } else if (option.type === 'select') {
+                        input = document.createElement('select');
+                        option.options.forEach(opt => {
+                            const optElement = document.createElement('option');
+                            optElement.value = opt.value;
+                            optElement.textContent = opt.label;
+                            input.appendChild(optElement);
+                        });
+                    } else {
+                        input = document.createElement('input');
+                        input.type = option.type || 'text';
+                    }
+                    
+                    input.className = 'form-control';
+                    input.id = option.id;
+                    input.name = option.id;
+                    if (option.placeholder) {
+                        input.placeholder = option.placeholder;
+                    }
+                    if (option.value) {
+                        input.value = option.value;
+                    }
+                    
+                    formGroup.appendChild(label);
+                    formGroup.appendChild(input);
+                    taskOptionsContainer.appendChild(formGroup);
+                });
+                
+                taskModal.style.display = 'block';
+            }
+            
+            function closeModalFunction() {
+                taskModal.style.display = 'none';
+                currentTask = null;
+            }
+            
+            closeModal.addEventListener('click', closeModalFunction);
+            cancelTask.addEventListener('click', closeModalFunction);
+            
+            // Task configuration options
+            function getTaskOptions(taskType) {
+                const commonOptions = [
+                    {
+                        id: 'taskDescription',
+                        label: 'Task Description',
+                        type: 'textarea',
+                        placeholder: 'Provide detailed instructions for this task...'
+                    }
+                ];
+                
+                const specificOptions = {
+                    createComponent: [
+                        {
+                            id: 'componentName',
+                            label: 'Component Name',
+                            type: 'text',
+                            placeholder: 'e.g., Button, UserCard, DataTable'
+                        },
+                        {
+                            id: 'componentType',
+                            label: 'Component Type',
+                            type: 'select',
+                            options: [
+                                { value: 'functional', label: 'Functional Component' },
+                                { value: 'class', label: 'Class Component' }
+                            ]
+                        }
+                    ],
+                    createApiRoute: [
+                        {
+                            id: 'routePath',
+                            label: 'API Route Path',
+                            type: 'text',
+                            placeholder: 'e.g., /api/users, /api/products/:id'
+                        },
+                        {
+                            id: 'httpMethod',
+                            label: 'HTTP Method',
+                            type: 'select',
+                            options: [
+                                { value: 'GET', label: 'GET' },
+                                { value: 'POST', label: 'POST' },
+                                { value: 'PUT', label: 'PUT' },
+                                { value: 'DELETE', label: 'DELETE' }
+                            ]
+                        }
+                    ],
+                    debugErrors: [
+                        {
+                            id: 'workflowName',
+                            label: 'Workflow to Debug',
+                            type: 'select',
+                            options: [
+                                { value: '', label: 'All Workflows' },
+                                { value: 'Frontend Server', label: 'Frontend Server' },
+                                { value: 'Backend Server', label: 'Backend Server' },
+                                { value: 'Developer Portal', label: 'Developer Portal' },
+                                { value: 'LangChain-AI-Service', label: 'LangChain AI Service' }
+                            ]
+                        },
+                        {
+                            id: 'autoFix',
+                            label: 'Auto Fix Issues',
+                            type: 'select',
+                            options: [
+                                { value: 'false', label: 'No (Analyze Only)' },
+                                { value: 'true', label: 'Yes (Apply Fixes)' }
+                            ]
+                        }
+                    ],
+                    // Add more task-specific options here
+                };
+                
+                return specificOptions[taskType] ? [...commonOptions, ...specificOptions[taskType]] : commonOptions;
+            }
+            
+            // Task execution functions
+            confirmTask.addEventListener('click', function() {
+                if (!currentTask) return;
+                
+                // Collect task options
+                const options = {};
+                const inputs = taskOptionsContainer.querySelectorAll('input, textarea, select');
+                inputs.forEach(input => {
+                    options[input.name] = input.value;
+                });
+                
+                // Close the modal
+                closeModalFunction();
+                
+                // Execute the task
+                executeTask(currentTask, options);
+            });
+            
+            function executeTask(task, options) {
+                writeToConsole(`// Executing task: ${task}`, 'system');
+                writeToConsole(`// Options: ${JSON.stringify(options)}`, 'system');
+                
+                // Simulate API call to execute the task
+                writeToConsole('// Connecting to agent service...', 'info');
+                
+                const taskDescriptions = {
+                    createComponent: 'Creating a new React component',
+                    createApiRoute: 'Generating a new API route',
+                    createTest: 'Creating test cases',
+                    createModel: 'Creating a database model',
+                    debugErrors: 'Debugging system errors',
+                    // Add more task descriptions
+                };
+                
+                const description = taskDescriptions[task] || 'Executing task';
+                
+                // Update console with starting message
+                writeToConsole(`// ${description}...`, 'info');
+                
+                // In a real implementation, this would be an actual API call
+                // For now, we'll simulate it with setTimeout
+                setTimeout(() => {
+                    fetch(`/api/agent-task?type=${task}`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(options)
+                    })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`API returned status ${response.status}`);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        // Success
+                        writeToConsole(`// Task completed successfully`, 'success');
+                        
+                        // Display results
+                        if (data.message) {
+                            writeToConsole(`// ${data.message}`, 'info');
+                        }
+                        
+                        if (data.files) {
+                            writeToConsole(`// Files created or modified:`, 'info');
+                            data.files.forEach(file => {
+                                writeToConsole(`//   - ${file}`, 'info');
+                            });
+                        }
+                        
+                        if (data.logs) {
+                            writeToConsole(`// Task logs:`, 'info');
+                            data.logs.forEach(log => {
+                                writeToConsole(`${log}`, 'info');
+                            });
+                        }
+                    })
+                    .catch(error => {
+                        // In development, simulate a success response
+                        writeToConsole(`// Simulating task response (development mode)`, 'warning');
+                        writeToConsole(`// Task completed successfully`, 'success');
+                        
+                        if (task === 'debugErrors') {
+                            writeToConsole(`// Debugging completed. Found 3 issues:`, 'info');
+                            writeToConsole(`1. Missing dependency in package.json - Added 'react-query'`, 'info');
+                            writeToConsole(`2. React Hook warning in UserProfile.jsx - Fixed dependency array`, 'info');
+                            writeToConsole(`3. Database connection timeout in server.js - Added retry logic`, 'info');
+                        } else {
+                            writeToConsole(`// Created file: ${task}-result.js`, 'info');
+                            writeToConsole(`// Added to project structure`, 'info');
+                        }
+                    });
+                }, 1500);
+            }
+            
+            // Button click handlers for task cards
+            document.querySelectorAll('[data-task]').forEach(button => {
+                button.addEventListener('click', function() {
+                    const task = this.getAttribute('data-task');
+                    const taskTitle = this.closest('.task-card').querySelector('.task-card-title').textContent;
+                    openModal(`Configure: ${taskTitle}`, task);
+                });
+            });
+            
+            // Run agent with custom prompt
+            runAgentBtn.addEventListener('click', function() {
+                const prompt = customAgentPrompt.value.trim();
+                if (prompt) {
+                    writeToConsole(`// Running agent with custom prompt`, 'system');
+                    writeToConsole(`// Prompt: ${prompt}`, 'info');
+                    
+                    // Simulate API call
+                    setTimeout(() => {
+                        writeToConsole(`// Agent is processing your request...`, 'info');
+                        
+                        // Simulate different stages of processing
+                        setTimeout(() => {
+                            writeToConsole(`// Analyzing project structure...`, 'info');
+                            
+                            setTimeout(() => {
+                                writeToConsole(`// Running diagnostics on all services...`, 'info');
+                                
+                                setTimeout(() => {
+                                    writeToConsole(`// Diagnostics complete. Found issues:`, 'success');
+                                    writeToConsole(`1. Developer Portal has configuration errors`, 'warning');
+                                    writeToConsole(`2. OpenAI API connection issues in LangChain service`, 'warning');
+                                    writeToConsole(`3. All other services are running correctly`, 'success');
+                                }, 1500);
+                            }, 1200);
+                        }, 1000);
+                    }, 500);
+                } else {
+                    writeToConsole(`// Please enter a prompt for the agent`, 'error');
+                }
+            });
+            
+            // Initial console message
+            writeToConsole(`// EHB Agent Dashboard initialized at ${new Date().toISOString()}`, 'system');
+            writeToConsole(`// Ready to execute tasks`, 'success');
+        });
+    </script>
+</body>
+</html>

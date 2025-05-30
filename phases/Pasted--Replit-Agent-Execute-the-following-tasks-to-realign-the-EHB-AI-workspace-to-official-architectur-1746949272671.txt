@@ -1,0 +1,44 @@
+🔁 Replit Agent: Execute the following tasks to realign the EHB-AI workspace to official architecture.
+
+🔹 1. CLEANUP DUPLICATES & EMPTY FOLDERS:
+    - Check for folders with same name but different casing (e.g., `EHB-HOME/` vs `ehb-home/`)
+    - If a folder is duplicate and has no data → delete
+    - If a folder has partial content → merge into the correct lowercase version and delete the wrong one
+
+🔹 2. MOVE MISPLACED FOLDERS TO CORRECT LOCATION:
+    - Move `franchise-system/` → `services/franchise-system/`
+    - Move `affiliate/` → `services/affiliate/`
+    - Move `EHB-AI-Dev/` → `services/SOT-Technologies/EHB-AI-Dev/`
+    - Move `frontend/` and `backend/` (from root) → into their related apps like `ehb-dashboard/`, `ehb-home/`, etc.
+    - If files already exist in destination → merge them carefully, avoid overwriting
+
+🔹 3. VERIFY AND CREATE REQUIRED STRUCTURE:
+    - For each folder (`ehb-home`, `ehb-dashboard`, `services/GoSellr`, etc.), ensure these subfolders exist:
+        - `frontend/`, `backend/`, `config/`, `public/`, `models/`, `components/`
+    - If missing → create them with empty `index.js` files or placeholders
+
+🔹 4. AUTO-INSTALL MODULE STARTERS:
+    - Add default `index.js`, `README.md`, or `settings.json` if a service or system module is empty
+    - Example: `services/affiliate/backend/index.js`, `system/sql/index.js`
+
+🔹 5. REGISTER CLEANED STRUCTURE INTERNALLY:
+    - Save all aligned folders into `.structure.json` or internal config
+    - Sync structure to agent memory so future ZIP or prompt data can auto-place into correct modules
+
+🔹 6. ACTIVATE SMART DETECTION:
+    - Enable smart placement system:
+        - If future ZIP uploads contain `GoSellr`, `JPS`, `WMS`, etc. → auto-place inside `services/`
+        - If uploads contain `sql/`, `pss/`, `edr/` → place inside `system/`
+        - If uploads are `pages/`, `logs/`, `tools/` → route to `admin/`
+    - Prevent Replit from making random new folders unless strictly needed
+
+🔹 7. VALIDATE & REPORT:
+    - After structure fix, show report with:
+        - ✔️ Fixed folders
+        - ➕ Created folders
+        - ♻️ Merged folders
+        - 🧱 Missing modules or warnings
+    - Ensure full structure is valid and locked for next phase
+
+✅ Confirmation expected: “Structure Verified ✅ Ready for AI Development and Deployment Flow”
+

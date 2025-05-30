@@ -1,0 +1,30 @@
+{
+  "id": "gosellr",
+  "name": "GoSellr E-commerce",
+  "description": "Complete e-commerce platform with franchise management and SQL integration",
+  "features": [
+    "Product management",
+    "Order processing",
+    "Franchise integration",
+    "JPS integration for job listings",
+    "SQL departments for data management"
+  ],
+  "connections": {
+    "sql": {
+      "pss": true,
+      "edr": true,
+      "emo": true
+    },
+    "jps": true,
+    "franchise": true
+  },
+  "metrics": {
+    "products": 250,
+    "orders": 12854,
+    "users": 5432,
+    "franchises": 27
+  },
+  "icon": "🛒",
+  "color": "#3B82F6",
+  "url": "/services/EHB-GoSellr"
+}

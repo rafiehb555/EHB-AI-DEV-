@@ -1,0 +1,20 @@
+{
+  "timestamp": "Sun 11 May 2025 07:46:17 AM UTC",
+  "ehb_structure": {
+    "admin": ["admin-dashboard-card-sync","Developer-Portal-UI","EHB-DASHBOARD","EHB-DASHBOARD-Phase-Complete","EHB-Developer-Portal","EHB-HOME","integration-script.js","Static-Admins"],
+    "services": ["affiliate","AG-Travelling","AI-Agent-Execution-Script","ai-deployment-chatbot","auto-frontend-run-preview","Auto-Service-Card-Generator","auto-watch-run","Auto-ZIP-Handler-Agent","Delivery-Service","EHB-AI-Marketplace","EHB-AM-AFFILIATE-SYSTEM","EHB-Smart-Development-Rulebook","EHB-System-Intro-Package","EHB-Tube","franchise-system","Frontend-Backend-Starter-Templates","Global-Launch-Config","GoSellr-Ecommerce","GUI-Launcher","HMS-Machinery","Home-Dashboard-Linker","HPS-Education-Service","integration-test","JPS-Job-Providing-Service","Language-Theme-Manager","Logs-Health-Viewer","Multi-ZIP-Upload-Handler","OLS-Online-Law-Service","Option-A-Shell-Based-Trigger","Option-B-GUI-Based-Trigger","Rule-Editor-UI","sample-module-json","Snapshot-Rollback-Manager","SOT-Technologies","WMS-World-Medical-Service"],
+    "system": ["config","EHB-Blockchain","EHB-Services-Departments-Flow","EHB-SQL","EHB-TrustyWallet-System","rules","snapshots","structure.json","structure-maintainer.js","ui-config"],
+    "shared": ["api","components","models","types","utils"]
+  },
+  "placement_rules": {
+    "GoSellr": "services/",
+    "JPS": "services/",
+    "WMS": "services/",
+    "sql": "system/",
+    "pss": "system/",
+    "edr": "system/",
+    "pages": "admin/",
+    "logs": "admin/",
+    "tools": "admin/"
+  }
+}

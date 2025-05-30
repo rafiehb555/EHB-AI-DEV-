@@ -1,0 +1,216 @@
+{"timestamp":"2025-05-14T11:46:37.171Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T11:46:37.199Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 127.0.0.1:5120"}
+{"timestamp":"2025-05-14T11:47:43.303Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T11:47:43.315Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T11:52:42.968Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T11:52:42.979Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T11:53:22.252Z","agent":"SDK-Installer","action":"START","details":"SDK-Installer v1.0.0 started"}
+{"timestamp":"2025-05-14T11:53:22.264Z","agent":"SDK-Installer","action":"ERROR","details":"Error in SDK Installer: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T11:53:27.937Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T11:53:27.953Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T11:55:14.299Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T11:55:14.312Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T11:59:50.204Z","agent":"SDK-Installer","action":"START","details":"SDK-Installer v1.0.0 started"}
+{"timestamp":"2025-05-14T11:59:50.216Z","agent":"SDK-Installer","action":"ERROR","details":"Error in SDK Installer: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T11:59:50.473Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T11:59:50.485Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:02:23.707Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T12:02:23.717Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:02:27.331Z","agent":"SDK-Installer","action":"START","details":"SDK-Installer v1.0.0 started"}
+{"timestamp":"2025-05-14T12:02:27.349Z","agent":"SDK-Installer","action":"ERROR","details":"Error in SDK Installer: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:03:23.094Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T12:03:23.104Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:07:58.773Z","agent":"SDK-Installer","action":"START","details":"SDK-Installer v1.0.0 started"}
+{"timestamp":"2025-05-14T12:07:58.790Z","agent":"SDK-Installer","action":"ERROR","details":"Error in SDK Installer: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:07:59.034Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T12:07:59.046Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:15:49.331Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T12:15:49.344Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:15:53.569Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T12:15:53.580Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:15:57.415Z","agent":"SDK-Installer","action":"START","details":"SDK-Installer v1.0.0 started"}
+{"timestamp":"2025-05-14T12:15:57.427Z","agent":"SDK-Installer","action":"ERROR","details":"Error in SDK Installer: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:17:41.428Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T12:17:41.438Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:22:17.177Z","agent":"SDK-Installer","action":"START","details":"SDK-Installer v1.0.0 started"}
+{"timestamp":"2025-05-14T12:22:17.192Z","agent":"SDK-Installer","action":"ERROR","details":"Error in SDK Installer: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:22:17.421Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T12:22:17.436Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:29:38.292Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T12:29:38.301Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:34:14.040Z","agent":"SDK-Installer","action":"START","details":"SDK-Installer v1.0.0 started"}
+{"timestamp":"2025-05-14T12:34:14.051Z","agent":"SDK-Installer","action":"ERROR","details":"Error in SDK Installer: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:34:14.316Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T12:34:14.327Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:41:37.489Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T12:41:37.504Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:46:13.407Z","agent":"SDK-Installer","action":"START","details":"SDK-Installer v1.0.0 started"}
+{"timestamp":"2025-05-14T12:46:13.424Z","agent":"SDK-Installer","action":"ERROR","details":"Error in SDK Installer: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T12:46:13.666Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T12:46:13.679Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T13:16:05.738Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T13:16:05.747Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T13:20:42.210Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T13:20:42.223Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T13:24:07.645Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T13:24:07.658Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T13:27:43.845Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T13:27:43.858Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T13:30:25.573Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T13:30:25.586Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T13:34:04.406Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T13:34:04.422Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T13:36:23.149Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T13:36:23.213Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T13:40:30.744Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T13:40:30.758Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T14:09:56.111Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T14:09:56.134Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T14:14:04.632Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T14:14:04.656Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T14:17:34.747Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T14:17:34.759Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T14:21:42.995Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T14:21:43.197Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T14:24:34.397Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T14:24:34.407Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T14:28:41.294Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T14:28:41.306Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T14:31:28.046Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T14:31:28.055Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T14:36:05.112Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T14:36:05.125Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T16:06:56.155Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T16:06:56.169Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T16:06:56.344Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T16:06:56.365Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T16:18:07.607Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T16:18:09.458Z","agent":"EHB-Free-Agent","action":"REGISTRATION","details":"Registration with AI Core failed"}
+{"timestamp":"2025-05-14T16:18:09.466Z","agent":"EHB-Free-Agent","action":"READY","details":"Agent is running and ready to process tasks"}
+{"timestamp":"2025-05-14T16:19:09.499Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T16:20:09.548Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T16:21:09.603Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T16:21:46.720Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T16:21:46.733Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T16:22:09.607Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T16:25:01.852Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T16:25:01.862Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T16:29:41.123Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T16:29:41.136Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5120"}
+{"timestamp":"2025-05-14T16:32:18.134Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T16:32:18.147Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5121"}
+{"timestamp":"2025-05-14T16:36:55.385Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T16:36:55.401Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5121"}
+{"timestamp":"2025-05-14T16:39:23.561Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T16:39:23.574Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 0.0.0.0:5121"}
+{"timestamp":"2025-05-14T16:44:02.515Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T16:44:02.530Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 0.0.0.0:5121"}
+{"timestamp":"2025-05-14T16:49:31.953Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T16:49:32.010Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 127.0.0.1:5121"}
+{"timestamp":"2025-05-14T16:54:14.343Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T16:54:14.365Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 127.0.0.1:5121"}
+{"timestamp":"2025-05-14T16:55:31.981Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T16:55:32.018Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 127.0.0.1:5121"}
+{"timestamp":"2025-05-14T17:11:48.990Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T17:11:49.019Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 127.0.0.1:5121"}
+{"timestamp":"2025-05-14T17:16:27.937Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T17:16:27.949Z","agent":"Whisper-Command","action":"ERROR","details":"Error in Whisper Command: connect ECONNREFUSED 127.0.0.1:5121"}
+{"timestamp":"2025-05-14T17:53:23.020Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T17:53:23.031Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 127.0.0.1:5121"}
+{"timestamp":"2025-05-14T17:58:00.986Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T17:58:13.031Z","agent":"Whisper-Command","action":"REGISTRATION","details":"Registered with AI Core successfully"}
+{"timestamp":"2025-05-14T17:58:13.032Z","agent":"Whisper-Command","action":"SETUP","details":"Created audio directory at ../../uploads/audio"}
+{"timestamp":"2025-05-14T17:58:13.032Z","agent":"Whisper-Command","action":"PROCESSING_COMPLETE","details":{"processed":0,"success":0,"failed":0}}
+{"timestamp":"2025-05-14T17:59:27.309Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T17:59:32.057Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T17:59:44.081Z","agent":"Whisper-Command","action":"REGISTRATION","details":"Registration with AI Core failed"}
+{"timestamp":"2025-05-14T17:59:44.082Z","agent":"Whisper-Command","action":"INFO","details":"No audio files found for processing"}
+{"timestamp":"2025-05-14T17:59:44.082Z","agent":"Whisper-Command","action":"PROCESSING_COMPLETE","details":{"processed":0,"success":0,"failed":0}}
+{"timestamp":"2025-05-14T18:01:26.979Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T18:01:26.990Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 127.0.0.1:5121"}
+{"timestamp":"2025-05-14T18:03:57.475Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T18:03:57.493Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 127.0.0.1:5121"}
+{"timestamp":"2025-05-14T18:03:58.684Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T18:04:01.894Z","agent":"Whisper-Command","action":"REGISTRATION","details":"Registered with AI Core successfully"}
+{"timestamp":"2025-05-14T18:04:01.895Z","agent":"Whisper-Command","action":"INFO","details":"No audio files found for processing"}
+{"timestamp":"2025-05-14T18:04:01.896Z","agent":"Whisper-Command","action":"PROCESSING_COMPLETE","details":{"processed":0,"success":0,"failed":0}}
+{"timestamp":"2025-05-14T18:05:31.144Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T18:05:31.183Z","agent":"EHB-Free-Agent","action":"REGISTRATION","details":"Registered with AI Core successfully"}
+{"timestamp":"2025-05-14T18:05:31.184Z","agent":"EHB-Free-Agent","action":"READY","details":"Agent is running and ready to process tasks"}
+{"timestamp":"2025-05-14T18:05:32.871Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T18:05:32.905Z","agent":"Whisper-Command","action":"REGISTRATION","details":"Registered with AI Core successfully"}
+{"timestamp":"2025-05-14T18:05:32.906Z","agent":"Whisper-Command","action":"INFO","details":"No audio files found for processing"}
+{"timestamp":"2025-05-14T18:05:32.906Z","agent":"Whisper-Command","action":"PROCESSING_COMPLETE","details":{"processed":0,"success":0,"failed":0}}
+{"timestamp":"2025-05-14T18:06:31.226Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T18:07:31.281Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T18:08:31.336Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T18:09:23.176Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T18:09:23.185Z","agent":"EHB-Free-Agent","action":"REGISTRATION","details":"Registered with AI Core successfully"}
+{"timestamp":"2025-05-14T18:09:23.186Z","agent":"EHB-Free-Agent","action":"READY","details":"Agent is running and ready to process tasks"}
+{"timestamp":"2025-05-14T18:10:23.240Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T18:11:23.260Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T18:12:23.315Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T18:12:59.890Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T18:13:08.929Z","agent":"Whisper-Command","action":"REGISTRATION","details":"Registered with AI Core successfully"}
+{"timestamp":"2025-05-14T18:13:08.930Z","agent":"Whisper-Command","action":"INFO","details":"No audio files found for processing"}
+{"timestamp":"2025-05-14T18:13:08.930Z","agent":"Whisper-Command","action":"PROCESSING_COMPLETE","details":{"processed":0,"success":0,"failed":0}}
+{"timestamp":"2025-05-14T18:13:23.370Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T18:14:23.240Z","agent":"EHB-Free-Agent","action":"MEMORY_SAVE","details":"Agent memory saved successfully"}
+{"timestamp":"2025-05-14T18:14:23.371Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T18:16:54.916Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T18:16:54.928Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 127.0.0.1:5121"}
+{"timestamp":"2025-05-14T18:21:32.433Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T18:21:44.454Z","agent":"Whisper-Command","action":"REGISTRATION","details":"Registration with AI Core failed"}
+{"timestamp":"2025-05-14T18:21:44.454Z","agent":"Whisper-Command","action":"INFO","details":"No audio files found for processing"}
+{"timestamp":"2025-05-14T18:21:44.454Z","agent":"Whisper-Command","action":"PROCESSING_COMPLETE","details":{"processed":0,"success":0,"failed":0}}
+{"timestamp":"2025-05-14T19:00:56.928Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T19:00:56.945Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 127.0.0.1:5121"}
+{"timestamp":"2025-05-14T19:05:07.180Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T19:05:19.207Z","agent":"Whisper-Command","action":"REGISTRATION","details":"Registration with AI Core failed"}
+{"timestamp":"2025-05-14T19:05:19.208Z","agent":"Whisper-Command","action":"INFO","details":"No audio files found for processing"}
+{"timestamp":"2025-05-14T19:05:19.209Z","agent":"Whisper-Command","action":"PROCESSING_COMPLETE","details":{"processed":0,"success":0,"failed":0}}
+{"timestamp":"2025-05-14T19:10:35.205Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T19:10:35.213Z","agent":"EHB-Free-Agent","action":"ERROR","details":"Error starting agent: connect ECONNREFUSED 127.0.0.1:5121"}
+{"timestamp":"2025-05-14T19:14:46.580Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T19:14:58.605Z","agent":"Whisper-Command","action":"REGISTRATION","details":"Registration with AI Core failed"}
+{"timestamp":"2025-05-14T19:14:58.605Z","agent":"Whisper-Command","action":"INFO","details":"No audio files found for processing"}
+{"timestamp":"2025-05-14T19:14:58.606Z","agent":"Whisper-Command","action":"PROCESSING_COMPLETE","details":{"processed":0,"success":0,"failed":0}}
+{"timestamp":"2025-05-14T19:18:26.667Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T19:18:34.559Z","agent":"EHB-Free-Agent","action":"REGISTRATION","details":"Registration with AI Core failed"}
+{"timestamp":"2025-05-14T19:18:34.559Z","agent":"EHB-Free-Agent","action":"READY","details":"Agent is running and ready to process tasks"}
+{"timestamp":"2025-05-14T19:19:34.613Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:20:34.658Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:21:34.706Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:22:05.817Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T19:22:34.746Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:22:51.510Z","agent":"Whisper-Command","action":"REGISTRATION","details":"Registration with AI Core failed"}
+{"timestamp":"2025-05-14T19:22:51.511Z","agent":"Whisper-Command","action":"INFO","details":"No audio files found for processing"}
+{"timestamp":"2025-05-14T19:22:51.511Z","agent":"Whisper-Command","action":"PROCESSING_COMPLETE","details":{"processed":0,"success":0,"failed":0}}
+{"timestamp":"2025-05-14T19:23:34.604Z","agent":"EHB-Free-Agent","action":"MEMORY_SAVE","details":"Agent memory saved successfully"}
+{"timestamp":"2025-05-14T19:23:34.747Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:24:34.792Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:24:50.102Z","agent":"EHB-Free-Agent","action":"START","details":"EHB-Free-Agent v1.0.0 started"}
+{"timestamp":"2025-05-14T19:24:59.294Z","agent":"EHB-Free-Agent","action":"REGISTRATION","details":"Registration with AI Core failed"}
+{"timestamp":"2025-05-14T19:24:59.295Z","agent":"EHB-Free-Agent","action":"READY","details":"Agent is running and ready to process tasks"}
+{"timestamp":"2025-05-14T19:25:59.349Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:26:59.395Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:27:59.442Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:28:29.966Z","agent":"Whisper-Command","action":"START","details":"Whisper-Command v1.0.0 started"}
+{"timestamp":"2025-05-14T19:28:59.496Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:29:15.084Z","agent":"Whisper-Command","action":"REGISTRATION","details":"Registration with AI Core failed"}
+{"timestamp":"2025-05-14T19:29:15.084Z","agent":"Whisper-Command","action":"INFO","details":"No audio files found for processing"}
+{"timestamp":"2025-05-14T19:29:15.084Z","agent":"Whisper-Command","action":"PROCESSING_COMPLETE","details":{"processed":0,"success":0,"failed":0}}
+{"timestamp":"2025-05-14T19:29:59.344Z","agent":"EHB-Free-Agent","action":"MEMORY_SAVE","details":"Agent memory saved successfully"}
+{"timestamp":"2025-05-14T19:29:59.496Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:30:59.540Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:31:59.588Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:32:59.634Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:33:59.680Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:34:59.385Z","agent":"EHB-Free-Agent","action":"MEMORY_SAVE","details":"Agent memory saved successfully"}
+{"timestamp":"2025-05-14T19:34:59.681Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:35:59.727Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:36:59.773Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:37:59.816Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:38:59.864Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}
+{"timestamp":"2025-05-14T19:39:59.432Z","agent":"EHB-Free-Agent","action":"MEMORY_SAVE","details":"Agent memory saved successfully"}
+{"timestamp":"2025-05-14T19:39:59.865Z","agent":"EHB-Free-Agent","action":"HEARTBEAT","details":"Sending heartbeat to AI Core"}

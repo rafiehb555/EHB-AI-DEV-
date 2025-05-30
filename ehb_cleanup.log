@@ -1,0 +1,22 @@
+# EHB Backup Cleaner Log
+
+[2025-05-12T02:32:48.545Z] 🧹 Starting backup files cleanup process...
+[2025-05-12T02:32:48.745Z] Removing backup file: .next/cache/webpack/client-development/index.pack.gz.old
+[2025-05-12T02:32:48.876Z] Removing backup directory: _replit_backup
+[2025-05-12T02:32:50.768Z] Removing backup file: admin/Developer-Portal-UI/.next/cache/webpack/client-development/index.pack.gz.old
+[2025-05-12T02:32:50.770Z] Removing backup file: admin/Developer-Portal-UI/.next/cache/webpack/client-development-fallback/index.pack.gz.old
+[2025-05-12T02:32:50.772Z] Removing backup file: admin/Developer-Portal-UI/.next/cache/webpack/server-development/index.pack.gz.old
+[2025-05-12T02:32:50.790Z] Removing backup file: admin/EHB-DASHBOARD/frontend/.next/cache/webpack/client-development/index.pack.gz.old
+[2025-05-12T02:32:50.791Z] Removing backup file: admin/EHB-DASHBOARD/frontend/.next/cache/webpack/client-development-fallback/index.pack.gz.old
+[2025-05-12T02:32:50.792Z] Removing backup file: admin/EHB-DASHBOARD/frontend/.next/cache/webpack/server-development/index.pack.gz.old
+[2025-05-12T02:32:50.837Z] Removing backup file: admin/ehb-admin-panel/.next/cache/webpack/client-development/index.pack.gz.old
+[2025-05-12T02:32:50.838Z] Removing backup file: admin/ehb-admin-panel/.next/cache/webpack/client-development-fallback/index.pack.gz.old
+[2025-05-12T02:32:50.840Z] Removing backup file: admin/ehb-admin-panel/.next/cache/webpack/server-development/index.pack.gz.old
+[2025-05-12T02:32:50.883Z] Removing backup directory: backup
+[2025-05-12T02:32:51.084Z] ✅ Removed 12 backup files
+[2025-05-12T02:32:51.086Z] ✅ Removed 0 old processed ZIP files
+[2025-05-12T02:32:51.087Z] Cleaning temporary directory: ./temp
+[2025-05-12T02:32:51.117Z] Cleaning temporary directory: ./temp_extract
+[2025-05-12T02:32:51.186Z] Cleaning temporary directory: ./temp_extract_phase2
+[2025-05-12T02:32:51.187Z] ✅ Cleaned 3 temporary directories
+[2025-05-12T02:32:51.217Z] Removing empty directory: .cache/replit/transfers

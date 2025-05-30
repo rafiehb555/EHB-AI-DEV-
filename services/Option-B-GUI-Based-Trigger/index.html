@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EHB GUI Trigger</title>
+</head>
+<body style="font-family:sans-serif;padding:30px;">
+  <h1>🚀 EHB Service Deployer</h1>
+  <input type="file" id="zipInput" /><br/><br/>
+  <button onclick="deploy()">Deploy Now</button>
+  <pre id="status" style="margin-top:20px;"></pre>
+
+  <script>
+    async function deploy() {
+      const zip = document.getElementById("zipInput").files[0];
+      document.getElementById("status").innerText = "📥 Uploading...";
+      await new Promise((r) => setTimeout(r, 1000));
+      document.getElementById("status").innerText = "🚀 Deploying Module...\n✅ Success!";
+    }
+  </script>
+</body>
+</html>

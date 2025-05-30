@@ -1,0 +1,65 @@
+/* Global styles for the Developer Portal */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 249, 250, 251;
+  --background-end-rgb: 255, 255, 255;
+  --primary-color: 59, 130, 246;
+  --secondary-color: 107, 114, 128;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl font-bold;
+  }
+  h2 {
+    @apply text-xl font-semibold;
+  }
+  h3 {
+    @apply text-lg font-medium;
+  }
+  a {
+    @apply text-blue-600 hover:text-blue-800;
+  }
+}
+
+.card {
+  @apply p-4 border rounded-lg shadow-sm bg-white hover:shadow-md transition-shadow;
+}
+
+.tag {
+  @apply inline-block px-2 py-1 text-xs font-medium rounded-full;
+}
+
+.status-ok {
+  @apply text-green-500;
+}
+
+.status-partial {
+  @apply text-yellow-500;
+}
+
+.status-missing {
+  @apply text-red-500;
+}

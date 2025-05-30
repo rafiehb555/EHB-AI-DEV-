@@ -1,0 +1,11 @@
+{
+  "service": "GoSellr E-commerce",
+  "integration_date": "2025-05-30T08:00:15.489Z",
+  "status": "active",
+  "features": [
+    "Product management",
+    "Order tracking",
+    "Customer analytics",
+    "Franchise management"
+  ]
+}

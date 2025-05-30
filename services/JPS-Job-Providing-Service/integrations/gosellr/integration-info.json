@@ -1,0 +1,11 @@
+{
+  "service": "GoSellr E-commerce",
+  "integration_date": "2025-05-30T08:00:15.594Z",
+  "status": "active",
+  "features": [
+    "Job postings for e-commerce roles",
+    "Job applications from GoSellr users",
+    "Franchise job listings",
+    "E-commerce skill matching"
+  ]
+}

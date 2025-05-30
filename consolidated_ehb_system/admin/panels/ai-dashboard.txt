@@ -1,0 +1,1 @@
+📍 Central control for showing active modules, used across EHB ecosystem. Auto-synced with backend module list.

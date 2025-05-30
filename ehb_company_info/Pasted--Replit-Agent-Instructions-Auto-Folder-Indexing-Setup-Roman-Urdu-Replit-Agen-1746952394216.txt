@@ -1,0 +1,86 @@
+✅ **Replit Agent Instructions – Auto Folder Indexing & Setup (Roman Urdu)**
+
+> 🧠 **📢 Replit Agent Ko Yeh Kaam Karna Chahiye Har Naye ya Updated Folder K Liye:**
+
+---
+
+### 🛠️ 1. **Auto Folder Indexing**
+
+* Har `services/`, `system/`, `admin/`, `backend/`, `frontend/`, `ehb-dashboard/`, `affiliate/`, `jps/`, `wallet/`, `franchise-system/` folder ko **auto scan** karo.
+* Har folder ke andar dekho kya required structure hai ya missing subfolders hain.
+
+---
+
+### 🛠️ 2. **Missing Subfolders & Files Auto-Banao**
+
+Agar koi folder empty hai ya required subfolders missing hain to Replit agent inko create kare:
+
+| Folder                                        | Required Subfolders                             | Required Files                      |
+| --------------------------------------------- | ----------------------------------------------- | ----------------------------------- |
+| `frontend/`                                   | `pages/`, `components/`, `styles/`              | `index.js`, `README.md`             |
+| `backend/`                                    | `routes/`, `controllers/`, `models/`            | `server.js`, `README.md`            |
+| `config/`                                     | —                                               | `config.js`, `settings.json`        |
+| `wallet/`, `trusty-wallet/`, `crypto-wallet/` | `api/`, `utils/`                                | `wallet.controller.js`, `README.md` |
+| `franchise-system/`                           | `levels/`, `complaints/`, `earnings/`           | `index.js`, `README.md`             |
+| `affiliate/`                                  | `referrals/`, `logic/`                          | `referralEngine.js`, `README.md`    |
+| `jps/`                                        | `profile/`, `verification/`                     | `index.js`, `README.md`             |
+| `ehb-dashboard/`                              | `frontend/`, `backend/`, `models/`, `config/`   | `README.md` in each                 |
+| `EHB-AI-Dev/`                                 | `ai-agent/`, `ai-robot/`, `local-pc-connector/` | `settings.json`, `index.js`         |
+
+---
+
+### 🛠️ 3. **Minimal Starter Files Har Folder Mein**
+
+Har major folder ke andar yeh 2 cheezein honi chahiye:
+
+* `README.md` → Folder ka role explain kare.
+* `index.js` ya `config.js` → Basic export ya setup logic rakhe.
+
+📄 Example:
+
+```js
+// index.js
+console.log("Module loaded: Wallet System");
+```
+
+```md
+# Franchise System
+Yeh module sub/master/corporate franchises handle karta hai.
+```
+
+---
+
+### 🛠️ 4. **Update `settings.json` Automatically**
+
+* Replit har naya ya move hua folder register kare:
+
+```json
+{
+  "registerModules": [
+    "franchise-system",
+    "ehb-wallet",
+    "affiliate",
+    "jps",
+    "ehb-dashboard",
+    "SOT-Technologies/EHB-AI-Dev"
+  ],
+  "linkedWith": "ehb-dashboard",
+  "protected": true
+}
+```
+
+* Agar `settings.json` missing hai to new file banai jaye inside `/config/` or relevant module folder.
+
+---
+
+### 🔁 Agent Final Task Summary
+
+```bash
+# Auto check karna:
+- Missing folders/subfolders
+- Missing minimal files
+- Create structure if empty
+- Register in settings.json
+```
+
+✅ **Agar chahen to main ek agent setup script de sakta hoon jo yeh sab kuch kar de – ready to run. Bataiye agar chahiye?**

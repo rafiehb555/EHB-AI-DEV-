@@ -1,0 +1,148 @@
+{
+  "services": [
+    {
+      "name": "Delivery-Service",
+      "type": "service",
+      "description": "Delivery-Service module for EHB system",
+      "url": "#",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "EHB-AI-Dev-Fullstack",
+      "type": "fullstack",
+      "description": "AI development hub and integration services",
+      "url": "http://localhost:5003",
+      "status": "online",
+      "dataFiles": 43
+    },
+    {
+      "name": "EHB-AI-Marketplace",
+      "type": "marketplace",
+      "description": "Marketplace for AI services and models",
+      "url": "#",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "EHB-AM-AFFILIATE-SYSTEM",
+      "type": "affiliate",
+      "description": "Advanced affiliate marketing system",
+      "url": "#",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "EHB-Blockchain",
+      "type": "blockchain",
+      "description": "Blockchain infrastructure services",
+      "url": "#",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "EHB-DASHBOARD",
+      "type": "dashboard",
+      "description": "Administrative dashboard for the EHB system",
+      "url": "http://localhost:5002",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "EHB-Developer-Portal",
+      "type": "frontend",
+      "description": "Documentation and resources for developers",
+      "url": "http://localhost:5000",
+      "status": "online",
+      "dataFiles": 1
+    },
+    {
+      "name": "EHB-Franchise",
+      "type": "service",
+      "description": "Franchise management system",
+      "url": "#",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "EHB-HOME",
+      "type": "frontend",
+      "description": "Central dashboard for the EHB system",
+      "url": "http://localhost:5005",
+      "status": "online",
+      "dataFiles": 2
+    },
+    {
+      "name": "EHB-SQL",
+      "type": "database",
+      "description": "Database services and SQL operations",
+      "url": "#",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "EHB-Services-Departments-Flow",
+      "type": "service",
+      "description": "Flow management for services and departments",
+      "url": "#",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "EHB-TrustyWallet-System",
+      "type": "wallet",
+      "description": "Blockchain wallet and payment system",
+      "url": "#",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "EHB-Tube",
+      "type": "media",
+      "description": "Video streaming and media services",
+      "url": "#",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "GoSellr-Ecommerce",
+      "type": "ecommerce",
+      "description": "E-commerce platform for online stores",
+      "url": "#",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "HPS-Education-Service",
+      "type": "service",
+      "description": "Educational services and learning platforms",
+      "url": "#",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "JPS-Job-Providing-Service",
+      "type": "service",
+      "description": "Employment and career services",
+      "url": "http://localhost:5000",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "OLS-Online-Law-Service",
+      "type": "service",
+      "description": "Legal services and consultation",
+      "url": "#",
+      "status": "online",
+      "dataFiles": 0
+    },
+    {
+      "name": "WMS-World-Medical-Service",
+      "type": "service",
+      "description": "Medical and healthcare services",
+      "url": "#",
+      "status": "online",
+      "dataFiles": 0
+    }
+  ]
+}

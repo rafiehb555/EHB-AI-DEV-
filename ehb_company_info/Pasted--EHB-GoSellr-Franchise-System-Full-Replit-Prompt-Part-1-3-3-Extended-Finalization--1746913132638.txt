@@ -1,0 +1,133 @@
+// 🔁 EHB GoSellr + Franchise System Full Replit Prompt (Part 1–3/3 + Extended Finalization)
+
+/**
+ * 🧠 Objective:
+ * Build GoSellr — a smart e-commerce platform under EHB Ecosystem.
+ * Platform should include frontend, backend, admin, sub-franchise dashboard,
+ * integrated with JPS (user profile), SQL system (PSS, EMO, EDR), and affiliate program.
+ * Entire system runs inside Replit. Prompt is structured in 3 stages for Replit agent.
+ */
+
+///////////////////////////////////////////////////////////////
+// 📦 STEP 1: Core Setup (User Flow + Folder Structure)
+///////////////////////////////////////////////////////////////
+
+folders = [
+  "/frontend/pages",
+  "/frontend/components",
+  "/backend/routes",
+  "/backend/models",
+  "/admin/pages",
+  "/franchise/sub-dashboard",
+  "/system/sql",
+  "/system/pss",
+  "/system/emo",
+  "/system/edr",
+  "/affiliate",
+  "/jps",
+  "/ehb-home",
+  "/ehb-dashboard"
+];
+
+pages = {
+  "/frontend/pages/index.js": "EHB HomePage with GoSellr entry card, SQL level, JPS access",
+  "/frontend/pages/gosellr.js": "Shop homepage showing products, SQL tier badge, user dashboard link",
+  "/admin/pages/index.js": "Admin dashboard with product approval, vendor overview",
+  "/franchise/sub-dashboard/index.js": "Sub-Franchise dashboard: orders, complaints, finance by zone"
+};
+
+apiRoutes = [
+  "/products", "/orders", "/complaints", "/users", "/sql-levels", "/referrals"
+];
+
+models = [
+  "User", "Product", "Order", "Complaint", "Franchise", "Referral", "SQLLevel"
+];
+
+logic = [
+  "Auto-register user via JPS upon visiting GoSellr",
+  "Assign Free SQL level by default",
+  "Enable user to upgrade SQL via /sql page using PSS/EDR/EMO",
+  "Sub-Franchise handles orders from their area only (use postal code or area ID)",
+  "Sub-Franchise can resolve complaints — else escalates to Master Franchise",
+  "Affiliate bonus from every order — 7 level chain",
+  "User job data pulled from JPS profile",
+  "All cards, earnings, orders shown in EHB-DASHBOARD"
+];
+
+///////////////////////////////////////////////////////////////
+// 🎨 STEP 2: Component & Backend Logic (UI + DB + Flow)
+///////////////////////////////////////////////////////////////
+
+components = [
+  "Header.js", "Footer.js", "ProductCard.js", "SQLBadge.js",
+  "DashboardCard.js", "OrderTable.js", "ComplaintStatus.js"
+];
+
+backendLogic = [
+  "GET /products → show only active, approved listings",
+  "POST /orders → save order, notify franchise by area",
+  "GET /orders/:franchiseId → return orders linked to area",
+  "POST /complaints → save complaint with area + auto notify",
+  "GET /sql-levels/:userId → return current SQL info",
+  "POST /sql-upgrade → update level if PSS+EMO+EDR pass",
+  "POST /referrals → log affiliate ref, update chain earnings"
+];
+
+aiEnhancement = [
+  "User suggestion engine based on last search/job skill",
+  "Auto mail sender on order success/job posting",
+  "Job alerts via AI inside user dashboard using JPS data",
+  "Auto SQL suggestion engine inside SQL upgrade UI",
+  "Voice-based AI FAQ inside GoSellr homepage"
+];
+
+///////////////////////////////////////////////////////////////
+// 🔗 STEP 3: SQL Logic, Referral Breakdown, Franchise-JPS Flow
+///////////////////////////////////////////////////////////////
+
+sqlLevels = [
+  { level: "Free", access: "Basic access only. No affiliate earnings." },
+  { level: "Basic", access: "Can refer friends, earn Level 1 bonuses" },
+  { level: "Normal", access: "Eligible for Level 1–3 affiliate bonuses" },
+  { level: "High", access: "Eligible for Level 1–5 + franchise apply" },
+  { level: "VIP", access: "All levels unlocked + delivery earning allowed" }
+];
+
+referralLogic = {
+  levels: 7,
+  bonusStructure: [10, 5, 3, 2, 1, 1, 1],
+  payoutTrigger: "Each order placement",
+  minSQLForFullBonus: "Normal or higher"
+};
+
+franchiseApplyFlow = [
+  "User visits franchise page → clicks 'Apply'",
+  "Redirect to JPS → Check if profile complete",
+  "If not complete → prompt to upload docs & verify",
+  "AI triggers skill interview for role",
+  "If passed → check current SQL level",
+  "SQL < High → block application, suggest upgrade",
+  "SQL ≥ High → submit to franchise system"
+];
+
+profileIntegration = [
+  "Every service registers user profile through JPS",
+  "SQL level stored in JPS, synced with SQL module",
+  "All earnings, job history, referrals linked to JPS ID",
+  "Marketplace & delivery apps fetch profile via JPS API"
+];
+
+///////////////////////////////////////////////////////////////
+// 📦 Final Output Checklist
+///////////////////////////////////////////////////////////////
+
+finalChecklist = [
+  "✅ GoSellr platform with product order, complaint, affiliate earning",
+  "✅ Franchise sub-dashboard filtered by zone/postal",
+  "✅ EHB Dashboard + Home Page cards for SQL/JPS",
+  "✅ Affiliate 7-level referral structure with earnings logs",
+  "✅ SQL management using PSS, EMO, EDR verification",
+  "✅ AI-driven job alerts, interview prompts, SQL suggestions",
+  "✅ One-click GoSellr ZIP setup ready for Replit integration"
+];

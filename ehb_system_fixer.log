@@ -1,0 +1,38 @@
+[2025-05-10T09:43:01.397Z] [INFO] Starting EHB System Fixer
+[2025-05-10T09:43:01.421Z] [INFO] Found 18 modules
+[2025-05-10T09:43:01.425Z] [SUCCESS] Created data directories for Delivery-Service
+[2025-05-10T09:43:01.429Z] [SUCCESS] Created directory: /home/runner/workspace/EHB-AI-Dev-Fullstack/data/user_data
+[2025-05-10T09:43:01.430Z] [SUCCESS] Created directory: /home/runner/workspace/EHB-AI-Dev-Fullstack/data/analytics
+[2025-05-10T09:43:01.432Z] [SUCCESS] Created directory: /home/runner/workspace/EHB-AI-Dev-Fullstack/data/transactions
+[2025-05-10T09:43:01.434Z] [SUCCESS] Created data directories for EHB-AI-Dev-Fullstack
+[2025-05-10T09:43:01.441Z] [SUCCESS] Created data directories for EHB-AI-Marketplace
+[2025-05-10T09:43:01.441Z] [SUCCESS] Created data directories for EHB-AM-AFFILIATE-SYSTEM
+[2025-05-10T09:43:01.442Z] [SUCCESS] Created data directories for EHB-Blockchain
+[2025-05-10T09:43:01.443Z] [SUCCESS] Created data directories for EHB-DASHBOARD
+[2025-05-10T09:43:01.444Z] [SUCCESS] Created data directories for EHB-Developer-Portal
+[2025-05-10T09:43:01.445Z] [SUCCESS] Created data directories for EHB-Franchise
+[2025-05-10T09:43:01.446Z] [SUCCESS] Created data directories for EHB-HOME
+[2025-05-10T09:43:01.447Z] [SUCCESS] Created data directories for EHB-SQL
+[2025-05-10T09:43:01.448Z] [SUCCESS] Created data directories for EHB-Services-Departments-Flow
+[2025-05-10T09:43:01.449Z] [SUCCESS] Created data directories for EHB-TrustyWallet-System
+[2025-05-10T09:43:01.450Z] [SUCCESS] Created data directories for EHB-Tube
+[2025-05-10T09:43:01.451Z] [SUCCESS] Created data directories for GoSellr-Ecommerce
+[2025-05-10T09:43:01.452Z] [SUCCESS] Created data directories for HPS-Education-Service
+[2025-05-10T09:43:01.456Z] [SUCCESS] Created data directories for JPS-Job-Providing-Service
+[2025-05-10T09:43:01.459Z] [SUCCESS] Created data directories for OLS-Online-Law-Service
+[2025-05-10T09:43:01.459Z] [SUCCESS] Created data directories for WMS-World-Medical-Service
+[2025-05-10T09:43:01.460Z] [SUCCESS] Updated EHB-HOME package.json
+[2025-05-10T09:43:01.461Z] [SUCCESS] Fixed EHB-HOME next.config.js
+[2025-05-10T09:43:01.475Z] [SUCCESS] Created service info file for EHB-HOME
+[2025-05-10T09:43:01.480Z] [SUCCESS] Created structure overview file for EHB-HOME
+[2025-05-10T09:43:01.482Z] [SUCCESS] Created index.js for EHB-HOME
+[2025-05-10T09:43:01.483Z] [SUCCESS] Created _app.js for EHB-HOME
+[2025-05-10T09:43:01.483Z] [SUCCESS] Created globals.css for EHB-HOME
+[2025-05-10T09:43:01.485Z] [SUCCESS] Created directory: /home/runner/workspace/backend/logs
+[2025-05-10T09:43:01.485Z] [SUCCESS] Created analytics log file: /home/runner/workspace/backend/logs/analytics_events.log
+[2025-05-10T09:43:01.505Z] [SUCCESS] Cleared potentially stuck processes
+[2025-05-10T09:43:01.506Z] [INFO] Installing EHB-HOME dependencies...
+[2025-05-10T09:43:01.515Z] [SUCCESS] EHB System Fixer completed
+[2025-05-10T09:43:01.581Z] [INFO] Attempted to kill processes on port 5002
+[2025-05-10T09:43:01.588Z] [INFO] Attempted to kill processes on port 5005
+[2025-05-10T09:43:06.396Z] [SUCCESS] EHB-HOME dependencies installed successfully

@@ -1,0 +1,11 @@
+{
+  "module_name": "ApiTestModule",
+  "module_type": "api-integration",
+  "target_directory": "ApiTestModule",
+  "register_with_integration_hub": true,
+  "file_mapping": {
+    "frontend": "frontend",
+    "backend": "backend",
+    "docs": "docs"
+  }
+}

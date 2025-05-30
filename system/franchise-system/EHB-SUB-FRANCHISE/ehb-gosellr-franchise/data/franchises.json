@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "GoSellr NYC",
+    "owner": "John Smith",
+    "location": "New York, NY",
+    "level": "premium",
+    "monthly_sales": 45750,
+    "commission_rate": 12.5,
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "GoSellr LA",
+    "owner": "Emily Johnson",
+    "location": "Los Angeles, CA",
+    "level": "standard",
+    "monthly_sales": 32450,
+    "commission_rate": 10,
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "GoSellr Chicago",
+    "owner": "Michael Williams",
+    "location": "Chicago, IL",
+    "level": "basic",
+    "monthly_sales": 18750,
+    "commission_rate": 8.5,
+    "status": "active"
+  }
+]

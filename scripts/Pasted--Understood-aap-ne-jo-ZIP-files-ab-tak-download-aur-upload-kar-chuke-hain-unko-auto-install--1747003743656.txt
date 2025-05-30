@@ -1,0 +1,81 @@
+💡 Understood — aap ne jo ZIP files ab tak download aur upload kar chuke hain unko **auto-install + Replit agent integration** ke sath activate karna chahte hain.
+
+---
+
+## ✅ 🎯 Goal:
+
+Jab aap `ZIP` upload karen, Replit system automatically:
+
+1. 📦 Extract kare correct folder mein
+2. 🧠 Identify module type (e.g., service, dashboard, utility)
+3. 🧰 Use `installer.js` to run auto-setup commands
+4. 🔗 Integrate with project flow (routes, links, validation tools)
+
+---
+
+## 🧠 Replit Agent Instruction Prompt
+
+Paste this inside Replit’s **Agent Setup Workflow** or call it in `agent.js`:
+
+```js
+// 🧠 EHB Agent Installer Prompt
+
+// 1. Check /temp or /uploads for ZIP files
+// 2. Auto-extract using `utils/zipImporter.js`
+// 3. Detect if ZIP contains:
+//     - `pages/` → then route it into /admin/... UI
+//     - `services/` → move to /services
+//     - `system/` → move to /system
+//     - `utils/`, `components/`, `api/` → inject into admin/Developer-Portal-UI
+// 4. Auto-run `utils/moduleInstaller.js` if folder is a service module
+// 5. After install, show message: ✅ "[Module Name] installed successfully!"
+
+module.exports = async function autoProcessAllUploads() {
+  const incomingZips = fs.readdirSync('./uploads').filter(f => f.endsWith('.zip'));
+
+  for (const zipFile of incomingZips) {
+    const zipPath = `./uploads/${zipFile}`;
+    const folderName = zipFile.replace('.zip', '');
+
+    await importZip(zipPath, `./temp/${folderName}`);
+
+    // Auto-detect folder type and run installer
+    const modulePath = `./temp/${folderName}`;
+    if (fs.existsSync(`${modulePath}/services`)) {
+      installModule(`${modulePath}/services`, "./services");
+    } else if (fs.existsSync(`${modulePath}/pages`)) {
+      fs.cpSync(modulePath, `./admin/Developer-Portal-UI`, { recursive: true });
+    } else if (fs.existsSync(`${modulePath}/utils`)) {
+      fs.cpSync(`${modulePath}/utils`, `./admin/Developer-Portal-UI/utils`, { recursive: true });
+    }
+
+    console.log(`✅ ${folderName} installed successfully.`);
+  }
+};
+```
+
+---
+
+## 📦 Folder Upload Instructions
+
+When uploading ZIPs to Replit:
+
+| ZIP Name                             | Upload To Folder | Auto Target Folder                |
+| ------------------------------------ | ---------------- | --------------------------------- |
+| `EHB-Developer-Portal.zip`           | `./uploads/`     | `admin/Developer-Portal-UI`       |
+| `EHB-Developer-Portal-Routing.zip`   | `./uploads/`     | `admin/Developer-Portal-UI/pages` |
+| `EHB-Developer-Portal-Validator.zip` | `./uploads/`     | `utils/`                          |
+| `EHB-Advanced-Developer-Tools.zip`   | `./uploads/`     | `utils/ + pages/admin + api`      |
+| `EHB-ZIP-Importer-And-Installer.zip` | `./uploads/`     | `utils/`                          |
+
+---
+
+## ✅ Next Step
+
+I can now:
+
+1. Bundle this full logic as a **`agent-auto-installer.js` ZIP**
+2. Link it to a one-click button in Developer Portal
+3. Auto-run agent when ZIP is uploaded
+
+Should I generate the `agent-auto-installer.zip` file for you now?

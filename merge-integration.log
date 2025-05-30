@@ -1,0 +1,35 @@
+--- EHB AI Dev Conflict Merge Log ---
+[2025-05-15T15:12:36.896Z] Starting conflict merge process...
+[2025-05-15T15:12:36.902Z] Processing controllers in services/SOT-Technologies/EHB-AI-Dev/backend/controllers
+[2025-05-15T15:12:36.903Z] Found 5 controller files with conflicts
+[2025-05-15T15:12:36.904Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/adminController_merged.js
+[2025-05-15T15:12:36.905Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/affiliateController_merged.js
+[2025-05-15T15:12:36.906Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/aiController_merged.js
+[2025-05-15T15:12:36.908Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/authController_merged.js
+[2025-05-15T15:12:36.909Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/testController_merged.js
+[2025-05-15T15:12:36.909Z] Successfully processed 5 out of 5 controller files
+[2025-05-15T15:12:37.271Z] Found 15 files with .new extension
+[2025-05-15T15:12:37.273Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/adminController_merged.js
+[2025-05-15T15:12:37.274Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/affiliateController_merged.js
+[2025-05-15T15:12:37.276Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/aiController_merged.js
+[2025-05-15T15:12:37.277Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/authController_merged.js
+[2025-05-15T15:12:37.279Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/testController_merged.js
+[2025-05-15T15:12:37.280Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/index_merged.js
+[2025-05-15T15:12:37.281Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/middleware/auth_merged.js
+[2025-05-15T15:12:37.282Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/routes/adminRoutes_merged.js
+[2025-05-15T15:12:37.283Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/routes/affiliateRoutes_merged.js
+[2025-05-15T15:12:37.284Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/routes/aiRoutes_merged.js
+[2025-05-15T15:12:37.286Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/routes/authRoutes_merged.js
+[2025-05-15T15:12:37.287Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/backend/routes/testRoutes_merged.js
+[2025-05-15T15:12:37.289Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/config/db_merged.js
+[2025-05-15T15:12:37.290Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/frontend/pages/index_merged.js
+[2025-05-15T15:12:37.292Z] Created merged file: services/SOT-Technologies/EHB-AI-Dev/models/User_merged.js
+[2025-05-15T15:12:37.292Z] Successfully processed 15 out of 15 conflict files
+[2025-05-15T15:12:37.292Z] Checking for empty controller files in services/SOT-Technologies/EHB-AI-Dev/backend/controllers
+[2025-05-15T15:12:37.293Z] Found 28 total controller files to check
+[2025-05-15T15:12:37.294Z] Fixed empty controller file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/certificateController.js
+[2025-05-15T15:12:37.295Z] Fixed empty controller file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/complaintController.js
+[2025-05-15T15:12:37.297Z] Fixed empty controller file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/sqlLevelController.js
+[2025-05-15T15:12:37.298Z] Fixed empty controller file: services/SOT-Technologies/EHB-AI-Dev/backend/controllers/subscriptionController.js
+[2025-05-15T15:12:37.299Z] Fixed 4 empty controller files
+[2025-05-15T15:12:37.300Z] Conflict merge process completed.

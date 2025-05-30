@@ -1,0 +1,36 @@
+{
+  "name": "ehb-developer-portal-ui",
+  "version": "1.0.0",
+  "description": "EHB Developer Portal - Central hub for all EHB services",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 5010",
+    "build": "next build",
+    "start": "next start -p 5010",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "ehb",
+    "developer",
+    "portal",
+    "dashboard"
+  ],
+  "author": "EHB Team",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "axios": "^1.6.2",
+    "framer-motion": "^10.16.12",
+    "next": "^14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.3"
+  }
+}

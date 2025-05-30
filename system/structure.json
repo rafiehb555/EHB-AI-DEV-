@@ -1,0 +1,39 @@
+{
+  "MAIN_PROJECT": "/services/SOT-Technologies/EHB-AI-Dev",
+  "EHB_AI_AGENT": "/services/SOT-Technologies/EHB-AI-Dev/ai-agent",
+  "ADMIN_MODULES": [
+    "/admin/EHB-HOME",
+    "/admin/ehb-admin-panel", 
+    "/admin/EHB-DASHBOARD",
+    "/admin/EHB-Developer-Portal",
+    "/admin/User-flow"
+  ],
+  "SERVICES": [
+    "/services/EHB-GoSellr",
+    "/services/JPS-Job-Providing-Service",
+    "/services/WMS-World-Medical-Service",
+    "/services/HPS-Education-Service",
+    "/services/OLS-Online-Law-Service"
+  ],
+  "SYSTEM": {
+    "CORE": "/system",
+    "SQL": [
+      "/system/EHB-SQL",
+      "/system/EHB-SQL/EHB-SQL-PSS",
+      "/system/EHB-SQL/EHB-SQL-EDR",
+      "/system/EHB-SQL/EHB-SQL-EMO"
+    ],
+    "CONFIG": "/system/config",
+    "RULES": "/system/rules",
+    "STRUCTURE": "/system/structure.json"
+  },
+  "RULES": [
+    "Kisi bhi folder ya file ko is structure ke bahar create ya move na kiya jaye.",
+    "Har new phase ya module sirf verified path ke andar banayein.",
+    "Agar koi import ya require() statement wrong folder ka use kare, error show karo.",
+    "Auto-verification on startup run ho: verify_structure.js"
+  ],
+  "LAST_UPDATED": "May 13, 2025",
+  "VERSION": "1.0.0",
+  "VERIFICATION_SCRIPT": "verify_structure.js"
+}

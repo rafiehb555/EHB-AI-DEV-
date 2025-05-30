@@ -1,0 +1,77 @@
+Great! Here's:
+
+---
+
+### ✅ PHASE 2 of 5 – Replit Agent Prompt for `Developer Portal Setup` (Services & System Expansion)
+
+> **REPLIT AGENT INSTRUCTION – PHASE 2**
+>
+> Continue enhancing the Developer Portal UI with the following integrations and structural mapping.
+
+---
+
+### 🔄 1. Add These Services to Developer Portal Page
+
+> Each should appear as a **card** with:
+>
+> * Icon (auto-detect if not specified)
+> * Title
+> * Route/path
+> * Tag: `[SERVICES]`
+
+| Label                       | Path                                           |
+| --------------------------- | ---------------------------------------------- |
+| AG-Travelling               | `/services/AG-Travelling`                      |
+| AI-Agent-Execution-Script   | `/services/AI-Agent-Execution-Script`          |
+| Auto Frontend Preview       | `/services/auto-frontend-run-preview`          |
+| Auto Service Card Generator | `/services/Auto-Service-Card-Generator`        |
+| Auto Watch Run              | `/services/auto-watch-run`                     |
+| Auto ZIP Handler Agent      | `/services/Auto-ZIP-Handler-Agent`             |
+| Delivery Service            | `/services/Delivery-Service`                   |
+| EHB-AI Marketplace          | `/services/EHB-AI-Marketplace`                 |
+| EHB-AM Affiliate System     | `/services/EHB-AM-AFFILIATE-SYSTEM`            |
+| EHB Smart Dev Rulebook      | `/services/EHB-Smart-Development-Rulebook`     |
+| EHB System Intro Package    | `/services/EHB-System-Intro-Package`           |
+| EHB-Tube                    | `/services/EHB-Tube`                           |
+| Frontend-Backend Templates  | `/services/Frontend-Backend-Starter-Templates` |
+| Global Launch Config        | `/services/Global-Launch-Config`               |
+| GUI Launcher                | `/services/GUI-Launcher`                       |
+
+> 🔹 Display these in a **scrollable responsive grid** under **"All Services"** section on the Developer Portal page.
+
+---
+
+### 🧠 2. Validate & Structure the Following Folders in `/services/`
+
+* Check each listed folder path above
+* If missing:
+
+  * Create the folder with `README.md`
+  * Optionally include `module.json` or `info.txt` with metadata (e.g., type, linked SQL)
+* Ensure all folders have linked dashboard cards on Developer Portal
+
+---
+
+### 🧩 3. Developer Portal Section Update
+
+* Group all services (from Phase 1 & 2) under:
+
+  * ✅ "Core EHB Modules"
+  * 📦 "Automations & Tools"
+  * 🌍 "Global Configs"
+* Use filters or tags for:
+
+  * \[Core], \[AI], \[UI], \[Automation], \[Business], \[Security]
+
+---
+
+### 🛠 4. Enable Click-to-Open Folder Access (Optional)
+
+* Enable developers to click a service card and be navigated inside that folder in Replit (if supported)
+* If not possible, link to `README.md` route or show quick info popup on hover
+
+---
+
+✅ Ready for **Phase 3**?
+
+Say “**next**” to continue.

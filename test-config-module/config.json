@@ -1,0 +1,1 @@
+{ "targetDirectory": "custom-target-dir", "module": { "name": "TestConfigModule", "version": "1.0.0", "description": "A test module with config.json", "capabilities": ["testing", "configuration"], "apiEndpoint": "http://localhost:5004/api" } }

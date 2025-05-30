@@ -1,0 +1,39 @@
+Agent hamesha ya rule yaad rakhe:
+
+- Agar `franchise-system` ka folder services mein milay, to use auto-move karo → system/franchise-system mein
+- Franchise system ko service na samjha jaye, yeh system layer ka part hai
+
+
+📦 EHB-WALLET system bana diya gaya hai `/admin/ehb-wallet/` ke andar, jismein teen wallet modules shamil hain: wallet, trusty-wallet, crypto-wallet.  
+🧪 Har wallet module ka backend, models, config aur logs folder properly setup ho gaya hai.
+
+🎯 Replit Agent ko chahiye:
+- Sab wallet folders ko register kare as admin-only module
+- In folders ke andar agar koi config, API route, ya model missing ho to auto-generate kare
+- Trusty-wallet ke andar locking rules + validator reward logic stub kare
+- Crypto-wallet ke andar ERC20 + BEP20 address validator setup kare
+
+🧾 Aaj kuch important structural changes complete ho chuki hain:
+
+1️⃣ Franchise System ab `/system/franchise-system/` mein chala gaya hai.  
+   - Replit is path ko "system-level" module samjhe  
+   - Isme franchise logic, zone handling, and escalation code hona chahiye  
+
+2️⃣ EHB-WALLET ab `/admin/ehb-wallet/` ke andar hai.  
+   - Isme 3 folders hain: `wallet`, `trusty-wallet`, `crypto-wallet`  
+   - Replit inme apna installation kare with rules, API samples, and setup helpers  
+   - `trusty-wallet` mein validator locking & fine engine banta hai  
+   - `crypto-wallet` mein ERC20/BEP20 address validator aur token transfer logic chahiye  
+
+3️⃣ `/ehb-dashboard/frontend_backend_models_config/` ban gaya hai  
+   - Yahan common frontend/backend code aayega  
+   - Replit ko yahan se auto detect karna chahiye agar koi service missing code paste kare  
+4️⃣ SOT-AI Developer module `/services/SOT-Technologies/EHB-AI-Dev/` mein maintain hoga  
+   - Yahan `ai-agent`, `ai-robot`, aur `local-pc-connector` ki config chahiye  
+   - Replit is folder ko AI-based automation hub samjhe  
+🛠️ Replit ko ye karna chahiye:
+✔️ In folders ko auto-index karna
+✔️ Missing subfolders ya files create karna
+✔️ Har folder ke andar minimal `README.md`, `index.js` ya `config.js` banana
+✔️ `settings.json` update karna to reflect new folder roles
+

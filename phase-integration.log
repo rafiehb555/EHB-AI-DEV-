@@ -1,0 +1,411 @@
+--- EHB AI Dev Phase Integration Log ---
+[2025-05-15T15:11:31.454Z] Starting phase integration process...
+[2025-05-15T15:11:31.465Z] Found 31 phase directories
+[2025-05-15T15:11:31.466Z] Processing phase directory: EHB-AI-Dev-Phase-1
+[2025-05-15T15:11:31.467Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.468Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.470Z] Copied: phases/EHB-AI-Dev-Phase-1/backend/controllers/aiController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/aiController.js
+[2025-05-15T15:11:31.476Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/index.js.new
+[2025-05-15T15:11:31.477Z] Copied: phases/EHB-AI-Dev-Phase-1/backend/routes/aiRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/aiRoutes.js
+[2025-05-15T15:11:31.477Z] Processing component directory: config -> services/SOT-Technologies/EHB-AI-Dev/config
+[2025-05-15T15:11:31.478Z] Copied: phases/EHB-AI-Dev-Phase-1/config/db.js -> services/SOT-Technologies/EHB-AI-Dev/config/db.js
+[2025-05-15T15:11:31.478Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.479Z] Copied: phases/EHB-AI-Dev-Phase-1/frontend/pages/index.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/index.js
+[2025-05-15T15:11:31.487Z] Copied: phases/EHB-AI-Dev-Phase-1/frontend/styles/globals.css -> services/SOT-Technologies/EHB-AI-Dev/frontend/styles/globals.css
+[2025-05-15T15:11:31.487Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.490Z] Copied: phases/EHB-AI-Dev-Phase-1/models/User.js -> services/SOT-Technologies/EHB-AI-Dev/models/User.js
+[2025-05-15T15:11:31.490Z] Completed processing phase directory: EHB-AI-Dev-Phase-1
+[2025-05-15T15:11:31.491Z] Processing phase directory: EHB-AI-Dev-Phase-2
+[2025-05-15T15:11:31.492Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.496Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.501Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/aiController.js.new
+[2025-05-15T15:11:31.502Z] Copied: phases/EHB-AI-Dev-Phase-2/backend/controllers/authController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/authController.js
+[2025-05-15T15:11:31.503Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/index.js.new
+[2025-05-15T15:11:31.504Z] Copied: phases/EHB-AI-Dev-Phase-2/backend/middleware/auth.js -> services/SOT-Technologies/EHB-AI-Dev/backend/middleware/auth.js
+[2025-05-15T15:11:31.506Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/routes/aiRoutes.js.new
+[2025-05-15T15:11:31.506Z] Copied: phases/EHB-AI-Dev-Phase-2/backend/routes/authRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/authRoutes.js
+[2025-05-15T15:11:31.507Z] Processing component directory: config -> services/SOT-Technologies/EHB-AI-Dev/config
+[2025-05-15T15:11:31.508Z] Skipped identical file: db.js
+[2025-05-15T15:11:31.508Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.509Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/frontend/pages/index.js.new
+[2025-05-15T15:11:31.510Z] Copied: phases/EHB-AI-Dev-Phase-2/frontend/pages/login.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/login.js
+[2025-05-15T15:11:31.511Z] Skipped identical file: globals.css
+[2025-05-15T15:11:31.511Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.512Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/models/User.js.new
+[2025-05-15T15:11:31.512Z] Completed processing phase directory: EHB-AI-Dev-Phase-2
+[2025-05-15T15:11:31.513Z] Processing phase directory: EHB-AI-Dev-Phase-3
+[2025-05-15T15:11:31.514Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.514Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.523Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/aiController.js.new
+[2025-05-15T15:11:31.525Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/authController.js.new
+[2025-05-15T15:11:31.526Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/index.js.new
+[2025-05-15T15:11:31.527Z] Skipped identical file: auth.js
+[2025-05-15T15:11:31.528Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/routes/aiRoutes.js.new
+[2025-05-15T15:11:31.529Z] Skipped identical file: authRoutes.js
+[2025-05-15T15:11:31.529Z] Processing component directory: config -> services/SOT-Technologies/EHB-AI-Dev/config
+[2025-05-15T15:11:31.529Z] Skipped identical file: db.js
+[2025-05-15T15:11:31.530Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.530Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/frontend/pages/index.js.new
+[2025-05-15T15:11:31.531Z] Skipped identical file: globals.css
+[2025-05-15T15:11:31.531Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.533Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/models/User.js.new
+[2025-05-15T15:11:31.534Z] Completed processing phase directory: EHB-AI-Dev-Phase-3
+[2025-05-15T15:11:31.534Z] Processing phase directory: EHB-AI-Dev-Phase-4
+[2025-05-15T15:11:31.534Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.535Z] Processing component directory: admin -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:31.537Z] Copied: phases/EHB-AI-Dev-Phase-4/admin/pages/recharge.js -> services/SOT-Technologies/EHB-AI-Dev/admin/pages/recharge.js
+[2025-05-15T15:11:31.537Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.540Z] Copied: phases/EHB-AI-Dev-Phase-4/backend/controllers/adminController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/adminController.js
+[2025-05-15T15:11:31.540Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/aiController.js.new
+[2025-05-15T15:11:31.541Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/authController.js.new
+[2025-05-15T15:11:31.543Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/index.js.new
+[2025-05-15T15:11:31.545Z] Skipped identical file: auth.js
+[2025-05-15T15:11:31.546Z] Copied: phases/EHB-AI-Dev-Phase-4/backend/routes/adminRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/adminRoutes.js
+[2025-05-15T15:11:31.547Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/routes/aiRoutes.js.new
+[2025-05-15T15:11:31.548Z] Skipped identical file: authRoutes.js
+[2025-05-15T15:11:31.548Z] Processing component directory: config -> services/SOT-Technologies/EHB-AI-Dev/config
+[2025-05-15T15:11:31.549Z] Skipped identical file: db.js
+[2025-05-15T15:11:31.549Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.550Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/frontend/pages/index.js.new
+[2025-05-15T15:11:31.552Z] Skipped identical file: globals.css
+[2025-05-15T15:11:31.553Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.555Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/models/User.js.new
+[2025-05-15T15:11:31.555Z] Completed processing phase directory: EHB-AI-Dev-Phase-4
+[2025-05-15T15:11:31.555Z] Processing phase directory: EHB-AI-Dev-Phase-5
+[2025-05-15T15:11:31.555Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.556Z] Processing component directory: admin -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:31.561Z] Copied: phases/EHB-AI-Dev-Phase-5/admin/pages/referrals.js -> services/SOT-Technologies/EHB-AI-Dev/admin/pages/referrals.js
+[2025-05-15T15:11:31.562Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.563Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/adminController.js.new
+[2025-05-15T15:11:31.564Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/aiController.js.new
+[2025-05-15T15:11:31.565Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/authController.js.new
+[2025-05-15T15:11:31.567Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/index.js.new
+[2025-05-15T15:11:31.569Z] Skipped identical file: auth.js
+[2025-05-15T15:11:31.570Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/routes/adminRoutes.js.new
+[2025-05-15T15:11:31.572Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/routes/aiRoutes.js.new
+[2025-05-15T15:11:31.573Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/routes/authRoutes.js.new
+[2025-05-15T15:11:31.574Z] Processing component directory: config -> services/SOT-Technologies/EHB-AI-Dev/config
+[2025-05-15T15:11:31.575Z] Skipped identical file: db.js
+[2025-05-15T15:11:31.575Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.576Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/frontend/pages/index.js.new
+[2025-05-15T15:11:31.577Z] Skipped identical file: globals.css
+[2025-05-15T15:11:31.578Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.579Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/models/User.js.new
+[2025-05-15T15:11:31.579Z] Completed processing phase directory: EHB-AI-Dev-Phase-5
+[2025-05-15T15:11:31.580Z] Processing phase directory: EHB-AI-Dev-Phase-6
+[2025-05-15T15:11:31.580Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.580Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.581Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/authController.js.new
+[2025-05-15T15:11:31.581Z] Copied: phases/EHB-AI-Dev-Phase-6/backend/controllers/testController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/testController.js
+[2025-05-15T15:11:31.582Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/index.js.new
+[2025-05-15T15:11:31.583Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/middleware/auth.js.new
+[2025-05-15T15:11:31.584Z] Skipped identical file: authRoutes.js
+[2025-05-15T15:11:31.584Z] Copied: phases/EHB-AI-Dev-Phase-6/backend/routes/testRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/testRoutes.js
+[2025-05-15T15:11:31.585Z] Processing component directory: config -> services/SOT-Technologies/EHB-AI-Dev/config
+[2025-05-15T15:11:31.585Z] Skipped identical file: db.js
+[2025-05-15T15:11:31.585Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.586Z] Copied: phases/EHB-AI-Dev-Phase-6/frontend/pages/test.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/test.js
+[2025-05-15T15:11:31.587Z] Skipped identical file: globals.css
+[2025-05-15T15:11:31.587Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.588Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/models/User.js.new
+[2025-05-15T15:11:31.588Z] Completed processing phase directory: EHB-AI-Dev-Phase-6
+[2025-05-15T15:11:31.588Z] Processing phase directory: EHB-AI-Dev-Phase-7
+[2025-05-15T15:11:31.588Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.588Z] Processing component directory: admin -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:31.590Z] Copied: phases/EHB-AI-Dev-Phase-7/admin/pages/analytics.js -> services/SOT-Technologies/EHB-AI-Dev/admin/pages/analytics.js
+[2025-05-15T15:11:31.590Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.591Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/adminController.js.new
+[2025-05-15T15:11:31.592Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/testController.js.new
+[2025-05-15T15:11:31.594Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/routes/adminRoutes.js.new
+[2025-05-15T15:11:31.595Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/routes/testRoutes.js.new
+[2025-05-15T15:11:31.595Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.596Z] Copied: phases/EHB-AI-Dev-Phase-7/frontend/pages/test-history.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/test-history.js
+[2025-05-15T15:11:31.596Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.597Z] Copied: phases/EHB-AI-Dev-Phase-7/models/TestRecord.js -> services/SOT-Technologies/EHB-AI-Dev/models/TestRecord.js
+[2025-05-15T15:11:31.597Z] Completed processing phase directory: EHB-AI-Dev-Phase-7
+[2025-05-15T15:11:31.598Z] Processing phase directory: EHB-AI-Dev-Phase-8
+[2025-05-15T15:11:31.598Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.599Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.600Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/authController.js.new
+[2025-05-15T15:11:31.601Z] Copied: phases/EHB-AI-Dev-Phase-8/backend/controllers/profileController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/profileController.js
+[2025-05-15T15:11:31.601Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/index.js.new
+[2025-05-15T15:11:31.603Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/middleware/auth.js.new
+[2025-05-15T15:11:31.603Z] Skipped identical file: authRoutes.js
+[2025-05-15T15:11:31.604Z] Copied: phases/EHB-AI-Dev-Phase-8/backend/routes/profileRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/profileRoutes.js
+[2025-05-15T15:11:31.605Z] Processing component directory: config -> services/SOT-Technologies/EHB-AI-Dev/config
+[2025-05-15T15:11:31.605Z] Skipped identical file: db.js
+[2025-05-15T15:11:31.605Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.606Z] Copied: phases/EHB-AI-Dev-Phase-8/frontend/pages/profile.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/profile.js
+[2025-05-15T15:11:31.607Z] Skipped identical file: globals.css
+[2025-05-15T15:11:31.607Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.608Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/models/User.js.new
+[2025-05-15T15:11:31.608Z] Completed processing phase directory: EHB-AI-Dev-Phase-8
+[2025-05-15T15:11:31.608Z] Processing phase directory: EHB-AI-Dev-Phase-9
+[2025-05-15T15:11:31.609Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.609Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.611Z] Copied: phases/EHB-AI-Dev-Phase-9/backend/controllers/chatController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/chatController.js
+[2025-05-15T15:11:31.613Z] Copied: phases/EHB-AI-Dev-Phase-9/backend/routes/chatRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/chatRoutes.js
+[2025-05-15T15:11:31.614Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.617Z] Copied: phases/EHB-AI-Dev-Phase-9/frontend/pages/chat.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/chat.js
+[2025-05-15T15:11:31.617Z] Skipped identical file: globals.css
+[2025-05-15T15:11:31.618Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.618Z] Copied: phases/EHB-AI-Dev-Phase-9/models/Chat.js -> services/SOT-Technologies/EHB-AI-Dev/models/Chat.js
+[2025-05-15T15:11:31.618Z] Completed processing phase directory: EHB-AI-Dev-Phase-9
+[2025-05-15T15:11:31.618Z] Processing phase directory: EHB-AI-Dev-Phase-10
+[2025-05-15T15:11:31.619Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.619Z] Processing component directory: admin -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:31.620Z] Copied: phases/EHB-AI-Dev-Phase-10/admin/pages/users.js -> services/SOT-Technologies/EHB-AI-Dev/admin/pages/users.js
+[2025-05-15T15:11:31.621Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.622Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/adminController.js.new
+[2025-05-15T15:11:31.623Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/routes/adminRoutes.js.new
+[2025-05-15T15:11:31.624Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.627Z] Copied: phases/EHB-AI-Dev-Phase-10/frontend/pages/leaderboard.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/leaderboard.js
+[2025-05-15T15:11:31.627Z] Skipped identical file: globals.css
+[2025-05-15T15:11:31.628Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.632Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/models/User.js.new
+[2025-05-15T15:11:31.632Z] Completed processing phase directory: EHB-AI-Dev-Phase-10
+[2025-05-15T15:11:31.632Z] Processing phase directory: EHB-AI-Dev-Phase-11
+[2025-05-15T15:11:31.632Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.632Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.633Z] Copied: phases/EHB-AI-Dev-Phase-11/backend/controllers/walletController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/walletController.js
+[2025-05-15T15:11:31.634Z] Copied: phases/EHB-AI-Dev-Phase-11/backend/routes/walletRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/walletRoutes.js
+[2025-05-15T15:11:31.634Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.635Z] Copied: phases/EHB-AI-Dev-Phase-11/frontend/pages/wallet.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/wallet.js
+[2025-05-15T15:11:31.636Z] Skipped identical file: globals.css
+[2025-05-15T15:11:31.636Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.637Z] Copied: phases/EHB-AI-Dev-Phase-11/models/Reward.js -> services/SOT-Technologies/EHB-AI-Dev/models/Reward.js
+[2025-05-15T15:11:31.639Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/models/User.js.new
+[2025-05-15T15:11:31.656Z] Completed processing phase directory: EHB-AI-Dev-Phase-11
+[2025-05-15T15:11:31.656Z] Processing phase directory: EHB-AI-Dev-Phase-12
+[2025-05-15T15:11:31.656Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.657Z] Processing component directory: admin -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:31.658Z] Copied: phases/EHB-AI-Dev-Phase-12/admin/pages/coin-control.js -> services/SOT-Technologies/EHB-AI-Dev/admin/pages/coin-control.js
+[2025-05-15T15:11:31.658Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.660Z] Copied: phases/EHB-AI-Dev-Phase-12/backend/controllers/adminCoinController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/adminCoinController.js
+[2025-05-15T15:11:31.662Z] Copied: phases/EHB-AI-Dev-Phase-12/backend/controllers/incomeController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/incomeController.js
+[2025-05-15T15:11:31.664Z] Copied: phases/EHB-AI-Dev-Phase-12/backend/routes/adminCoinRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/adminCoinRoutes.js
+[2025-05-15T15:11:31.664Z] Copied: phases/EHB-AI-Dev-Phase-12/backend/routes/incomeRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/incomeRoutes.js
+[2025-05-15T15:11:31.665Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.666Z] Copied: phases/EHB-AI-Dev-Phase-12/frontend/pages/income.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/income.js
+[2025-05-15T15:11:31.666Z] Completed processing phase directory: EHB-AI-Dev-Phase-12
+[2025-05-15T15:11:31.667Z] Processing phase directory: EHB-AI-Dev-Phase-13
+[2025-05-15T15:11:31.667Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.667Z] Processing component directory: admin -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:31.669Z] Copied: phases/EHB-AI-Dev-Phase-13/admin/pages/leader-income.js -> services/SOT-Technologies/EHB-AI-Dev/admin/pages/leader-income.js
+[2025-05-15T15:11:31.669Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.670Z] Copied: phases/EHB-AI-Dev-Phase-13/backend/controllers/leaderIncomeController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/leaderIncomeController.js
+[2025-05-15T15:11:31.670Z] Copied: phases/EHB-AI-Dev-Phase-13/backend/controllers/poolIncomeController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/poolIncomeController.js
+[2025-05-15T15:11:31.671Z] Copied: phases/EHB-AI-Dev-Phase-13/backend/routes/leaderRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/leaderRoutes.js
+[2025-05-15T15:11:31.672Z] Copied: phases/EHB-AI-Dev-Phase-13/backend/routes/poolRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/poolRoutes.js
+[2025-05-15T15:11:31.672Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.676Z] Copied: phases/EHB-AI-Dev-Phase-13/frontend/pages/pool-income.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/pool-income.js
+[2025-05-15T15:11:31.676Z] Completed processing phase directory: EHB-AI-Dev-Phase-13
+[2025-05-15T15:11:31.677Z] Processing phase directory: EHB-AI-Dev-Phase-14
+[2025-05-15T15:11:31.677Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.677Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.679Z] Copied: phases/EHB-AI-Dev-Phase-14/backend/controllers/roiController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/roiController.js
+[2025-05-15T15:11:31.688Z] Copied: phases/EHB-AI-Dev-Phase-14/backend/routes/roiRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/roiRoutes.js
+[2025-05-15T15:11:31.689Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.690Z] Copied: phases/EHB-AI-Dev-Phase-14/frontend/pages/roi-tracker.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/roi-tracker.js
+[2025-05-15T15:11:31.703Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.704Z] Copied: phases/EHB-AI-Dev-Phase-14/models/Investment.js -> services/SOT-Technologies/EHB-AI-Dev/models/Investment.js
+[2025-05-15T15:11:31.705Z] Copied: phases/EHB-AI-Dev-Phase-14/models/WeeklyEarning.js -> services/SOT-Technologies/EHB-AI-Dev/models/WeeklyEarning.js
+[2025-05-15T15:11:31.705Z] Completed processing phase directory: EHB-AI-Dev-Phase-14
+[2025-05-15T15:11:31.705Z] Processing phase directory: EHB-AI-Dev-Phase-15
+[2025-05-15T15:11:31.706Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.706Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.717Z] Copied: phases/EHB-AI-Dev-Phase-15/backend/controllers/stakeController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/stakeController.js
+[2025-05-15T15:11:31.718Z] Copied: phases/EHB-AI-Dev-Phase-15/backend/routes/stakeRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/stakeRoutes.js
+[2025-05-15T15:11:31.719Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.719Z] Copied: phases/EHB-AI-Dev-Phase-15/frontend/pages/staking.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/staking.js
+[2025-05-15T15:11:31.719Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.720Z] Copied: phases/EHB-AI-Dev-Phase-15/models/Staking.js -> services/SOT-Technologies/EHB-AI-Dev/models/Staking.js
+[2025-05-15T15:11:31.720Z] Completed processing phase directory: EHB-AI-Dev-Phase-15
+[2025-05-15T15:11:31.720Z] Processing phase directory: EHB-AI-Dev-Phase-16
+[2025-05-15T15:11:31.721Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.721Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.721Z] Copied: phases/EHB-AI-Dev-Phase-16/backend/controllers/promptController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/promptController.js
+[2025-05-15T15:11:31.722Z] Copied: phases/EHB-AI-Dev-Phase-16/backend/routes/promptRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/promptRoutes.js
+[2025-05-15T15:11:31.722Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.723Z] Copied: phases/EHB-AI-Dev-Phase-16/frontend/pages/prompt-bank.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/prompt-bank.js
+[2025-05-15T15:11:31.724Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.727Z] Copied: phases/EHB-AI-Dev-Phase-16/models/Prompt.js -> services/SOT-Technologies/EHB-AI-Dev/models/Prompt.js
+[2025-05-15T15:11:31.728Z] Completed processing phase directory: EHB-AI-Dev-Phase-16
+[2025-05-15T15:11:31.728Z] Processing phase directory: EHB-AI-Dev-Phase-17
+[2025-05-15T15:11:31.729Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.730Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.731Z] Copied: phases/EHB-AI-Dev-Phase-17/backend/controllers/toolController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/toolController.js
+[2025-05-15T15:11:31.732Z] Copied: phases/EHB-AI-Dev-Phase-17/backend/routes/toolRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/toolRoutes.js
+[2025-05-15T15:11:31.732Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.733Z] Copied: phases/EHB-AI-Dev-Phase-17/frontend/pages/ai-tools.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/ai-tools.js
+[2025-05-15T15:11:31.733Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.734Z] Copied: phases/EHB-AI-Dev-Phase-17/models/Tool.js -> services/SOT-Technologies/EHB-AI-Dev/models/Tool.js
+[2025-05-15T15:11:31.734Z] Completed processing phase directory: EHB-AI-Dev-Phase-17
+[2025-05-15T15:11:31.734Z] Processing phase directory: EHB-AI-Dev-Phase-18
+[2025-05-15T15:11:31.735Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.735Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.736Z] Copied: phases/EHB-AI-Dev-Phase-18/backend/controllers/apiServiceController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/apiServiceController.js
+[2025-05-15T15:11:31.745Z] Copied: phases/EHB-AI-Dev-Phase-18/backend/routes/apiServiceRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/apiServiceRoutes.js
+[2025-05-15T15:11:31.746Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.747Z] Copied: phases/EHB-AI-Dev-Phase-18/frontend/pages/api-marketplace.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/api-marketplace.js
+[2025-05-15T15:11:31.747Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.749Z] Copied: phases/EHB-AI-Dev-Phase-18/models/APIService.js -> services/SOT-Technologies/EHB-AI-Dev/models/APIService.js
+[2025-05-15T15:11:31.750Z] Completed processing phase directory: EHB-AI-Dev-Phase-18
+[2025-05-15T15:11:31.751Z] Processing phase directory: EHB-AI-Dev-Phase-19
+[2025-05-15T15:11:31.754Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.755Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.756Z] Copied: phases/EHB-AI-Dev-Phase-19/backend/controllers/invoiceController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/invoiceController.js
+[2025-05-15T15:11:31.757Z] Copied: phases/EHB-AI-Dev-Phase-19/backend/routes/invoiceRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/invoiceRoutes.js
+[2025-05-15T15:11:31.757Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.758Z] Copied: phases/EHB-AI-Dev-Phase-19/frontend/pages/invoices.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/invoices.js
+[2025-05-15T15:11:31.759Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.760Z] Copied: phases/EHB-AI-Dev-Phase-19/models/Invoice.js -> services/SOT-Technologies/EHB-AI-Dev/models/Invoice.js
+[2025-05-15T15:11:31.760Z] Completed processing phase directory: EHB-AI-Dev-Phase-19
+[2025-05-15T15:11:31.760Z] Processing phase directory: EHB-AI-Dev-Phase-20
+[2025-05-15T15:11:31.760Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.761Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.762Z] Copied: phases/EHB-AI-Dev-Phase-20/backend/controllers/translateController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/translateController.js
+[2025-05-15T15:11:31.763Z] Copied: phases/EHB-AI-Dev-Phase-20/backend/routes/translateRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/translateRoutes.js
+[2025-05-15T15:11:31.763Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.764Z] Copied: phases/EHB-AI-Dev-Phase-20/frontend/pages/multilingual.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/multilingual.js
+[2025-05-15T15:11:31.765Z] Completed processing phase directory: EHB-AI-Dev-Phase-20
+[2025-05-15T15:11:31.765Z] Processing phase directory: EHB-AI-Dev-Phase-21
+[2025-05-15T15:11:31.765Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.765Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.767Z] Copied: phases/EHB-AI-Dev-Phase-21/backend/controllers/affiliateController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/affiliateController.js
+[2025-05-15T15:11:31.768Z] Copied: phases/EHB-AI-Dev-Phase-21/backend/routes/affiliateRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/affiliateRoutes.js
+[2025-05-15T15:11:31.769Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.770Z] Copied: phases/EHB-AI-Dev-Phase-21/frontend/pages/affiliate-tree.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/affiliate-tree.js
+[2025-05-15T15:11:31.815Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.816Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/models/User.js.new
+[2025-05-15T15:11:31.816Z] Completed processing phase directory: EHB-AI-Dev-Phase-21
+[2025-05-15T15:11:31.818Z] Processing phase directory: EHB-AI-Dev-Phase-22
+[2025-05-15T15:11:31.819Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.819Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.820Z] Copied: phases/EHB-AI-Dev-Phase-22/backend/controllers/lessonController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/lessonController.js
+[2025-05-15T15:11:31.820Z] Copied: phases/EHB-AI-Dev-Phase-22/backend/routes/lessonRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/lessonRoutes.js
+[2025-05-15T15:11:31.820Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.821Z] Copied: phases/EHB-AI-Dev-Phase-22/frontend/pages/learning.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/learning.js
+[2025-05-15T15:11:31.821Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.822Z] Copied: phases/EHB-AI-Dev-Phase-22/models/Lesson.js -> services/SOT-Technologies/EHB-AI-Dev/models/Lesson.js
+[2025-05-15T15:11:31.822Z] Copied: phases/EHB-AI-Dev-Phase-22/models/UserBadge.js -> services/SOT-Technologies/EHB-AI-Dev/models/UserBadge.js
+[2025-05-15T15:11:31.823Z] Completed processing phase directory: EHB-AI-Dev-Phase-22
+[2025-05-15T15:11:31.823Z] Processing phase directory: EHB-AI-Dev-Phase-23
+[2025-05-15T15:11:31.823Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.823Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.824Z] Copied: phases/EHB-AI-Dev-Phase-23/backend/controllers/kycController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/kycController.js
+[2025-05-15T15:11:31.825Z] Copied: phases/EHB-AI-Dev-Phase-23/backend/routes/kycRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/kycRoutes.js
+[2025-05-15T15:11:31.825Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.826Z] Copied: phases/EHB-AI-Dev-Phase-23/frontend/pages/kyc.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/kyc.js
+[2025-05-15T15:11:31.826Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.827Z] Copied: phases/EHB-AI-Dev-Phase-23/models/KYC.js -> services/SOT-Technologies/EHB-AI-Dev/models/KYC.js
+[2025-05-15T15:11:31.827Z] Completed processing phase directory: EHB-AI-Dev-Phase-23
+[2025-05-15T15:11:31.827Z] Processing phase directory: EHB-AI-Dev-Phase-24
+[2025-05-15T15:11:31.827Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.827Z] Processing component directory: admin -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:31.828Z] Copied: phases/EHB-AI-Dev-Phase-24/admin/panels/coin-lock-tracking.txt -> services/SOT-Technologies/EHB-AI-Dev/admin/panels/coin-lock-tracking.txt
+[2025-05-15T15:11:31.831Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.834Z] Copied: phases/EHB-AI-Dev-Phase-24/backend/controllers/lockController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/lockController.js
+[2025-05-15T15:11:31.835Z] Copied: phases/EHB-AI-Dev-Phase-24/backend/routes/lockRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/lockRoutes.js
+[2025-05-15T15:11:31.835Z] Processing component directory: config -> services/SOT-Technologies/EHB-AI-Dev/config
+[2025-05-15T15:11:31.836Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/config/db.js.new
+[2025-05-15T15:11:31.931Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.932Z] Copied: phases/EHB-AI-Dev-Phase-24/frontend/pages/coin-lock.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/coin-lock.js
+[2025-05-15T15:11:31.933Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.934Z] Copied: phases/EHB-AI-Dev-Phase-24/models/CoinLock.js -> services/SOT-Technologies/EHB-AI-Dev/models/CoinLock.js
+[2025-05-15T15:11:31.934Z] Completed processing phase directory: EHB-AI-Dev-Phase-24
+[2025-05-15T15:11:31.934Z] Processing phase directory: EHB-AI-Dev-Phase-25
+[2025-05-15T15:11:31.934Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.935Z] Processing component directory: admin -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:31.936Z] Copied: phases/EHB-AI-Dev-Phase-25/admin/panels/validator-income-log.txt -> services/SOT-Technologies/EHB-AI-Dev/admin/panels/validator-income-log.txt
+[2025-05-15T15:11:31.936Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.937Z] Copied: phases/EHB-AI-Dev-Phase-25/backend/controllers/validatorController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/validatorController.js
+[2025-05-15T15:11:31.938Z] Copied: phases/EHB-AI-Dev-Phase-25/backend/routes/validatorRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/validatorRoutes.js
+[2025-05-15T15:11:31.938Z] Processing component directory: config -> services/SOT-Technologies/EHB-AI-Dev/config
+[2025-05-15T15:11:31.939Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/config/db.js.new
+[2025-05-15T15:11:31.939Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.940Z] Copied: phases/EHB-AI-Dev-Phase-25/frontend/pages/validator-earnings.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/validator-earnings.js
+[2025-05-15T15:11:31.941Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.941Z] Copied: phases/EHB-AI-Dev-Phase-25/models/ValidatorEarning.js -> services/SOT-Technologies/EHB-AI-Dev/models/ValidatorEarning.js
+[2025-05-15T15:11:31.942Z] Completed processing phase directory: EHB-AI-Dev-Phase-25
+[2025-05-15T15:11:31.942Z] Processing phase directory: EHB-AI-Dev-Phase-26
+[2025-05-15T15:11:31.942Z] Skipping README file: README.txt
+[2025-05-15T15:11:31.942Z] Processing component directory: admin -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:31.943Z] Copied: phases/EHB-AI-Dev-Phase-26/admin/panels/ai-training-log.txt -> services/SOT-Technologies/EHB-AI-Dev/admin/panels/ai-training-log.txt
+[2025-05-15T15:11:31.944Z] Processing component directory: backend -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.945Z] Copied: phases/EHB-AI-Dev-Phase-26/backend/controllers/aiLogController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/aiLogController.js
+[2025-05-15T15:11:31.948Z] Copied: phases/EHB-AI-Dev-Phase-26/backend/routes/aiLogRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/aiLogRoutes.js
+[2025-05-15T15:11:31.948Z] Processing component directory: config -> services/SOT-Technologies/EHB-AI-Dev/config
+[2025-05-15T15:11:31.949Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/config/db.js.new
+[2025-05-15T15:11:31.949Z] Processing component directory: frontend -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.950Z] Copied: phases/EHB-AI-Dev-Phase-26/frontend/pages/ai-training.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/ai-training.js
+[2025-05-15T15:11:31.950Z] Processing component directory: models -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.951Z] Copied: phases/EHB-AI-Dev-Phase-26/models/AILog.js -> services/SOT-Technologies/EHB-AI-Dev/models/AILog.js
+[2025-05-15T15:11:31.951Z] Completed processing phase directory: EHB-AI-Dev-Phase-26
+[2025-05-15T15:11:31.951Z] Processing phase directory: EHB-AI-Dev-Phase-27
+[2025-05-15T15:11:31.951Z] Skipping README file: README-phase27.txt
+[2025-05-15T15:11:31.952Z] Processing component directory: admin-phase27 -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:31.952Z] Copied: phases/EHB-AI-Dev-Phase-27/admin-phase27/pages/subscriptionAdmin.js -> services/SOT-Technologies/EHB-AI-Dev/admin/pages/subscriptionAdmin.js
+[2025-05-15T15:11:31.953Z] Processing component directory: backend-phase27 -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.953Z] Copied: phases/EHB-AI-Dev-Phase-27/backend-phase27/controllers/subscriptionController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/subscriptionController.js
+[2025-05-15T15:11:31.954Z] Copied: phases/EHB-AI-Dev-Phase-27/backend-phase27/routes/subscriptionRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/subscriptionRoutes.js
+[2025-05-15T15:11:31.954Z] Processing component directory: frontend-phase27 -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.955Z] Copied: phases/EHB-AI-Dev-Phase-27/frontend-phase27/pages/history.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/history.js
+[2025-05-15T15:11:31.956Z] Copied: phases/EHB-AI-Dev-Phase-27/frontend-phase27/pages/subscription.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/subscription.js
+[2025-05-15T15:11:31.957Z] Processing component directory: models-phase27 -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.957Z] Copied: phases/EHB-AI-Dev-Phase-27/models-phase27/PaymentHistory.js -> services/SOT-Technologies/EHB-AI-Dev/models/PaymentHistory.js
+[2025-05-15T15:11:31.961Z] Copied: phases/EHB-AI-Dev-Phase-27/models-phase27/Subscription.js -> services/SOT-Technologies/EHB-AI-Dev/models/Subscription.js
+[2025-05-15T15:11:31.961Z] Completed processing phase directory: EHB-AI-Dev-Phase-27
+[2025-05-15T15:11:31.962Z] Processing phase directory: EHB-AI-Dev-Phase-28
+[2025-05-15T15:11:31.962Z] Skipping README file: README-phase28.txt
+[2025-05-15T15:11:31.962Z] Processing component directory: admin-phase28 -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:31.964Z] Copied: phases/EHB-AI-Dev-Phase-28/admin-phase28/pages/affiliateAdmin.js -> services/SOT-Technologies/EHB-AI-Dev/admin/pages/affiliateAdmin.js
+[2025-05-15T15:11:31.964Z] Processing component directory: backend-phase28 -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.965Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/controllers/affiliateController.js.new
+[2025-05-15T15:11:31.967Z] Conflict: Saved newer version as services/SOT-Technologies/EHB-AI-Dev/backend/routes/affiliateRoutes.js.new
+[2025-05-15T15:11:31.967Z] Processing component directory: frontend-phase28 -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.968Z] Copied: phases/EHB-AI-Dev-Phase-28/frontend-phase28/pages/affiliate.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/affiliate.js
+[2025-05-15T15:11:31.968Z] Processing component directory: models-phase28 -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.970Z] Copied: phases/EHB-AI-Dev-Phase-28/models-phase28/Affiliate.js -> services/SOT-Technologies/EHB-AI-Dev/models/Affiliate.js
+[2025-05-15T15:11:31.971Z] Copied: phases/EHB-AI-Dev-Phase-28/models-phase28/Commission.js -> services/SOT-Technologies/EHB-AI-Dev/models/Commission.js
+[2025-05-15T15:11:31.971Z] Completed processing phase directory: EHB-AI-Dev-Phase-28
+[2025-05-15T15:11:31.971Z] Processing phase directory: EHB-AI-Dev-Phase-29
+[2025-05-15T15:11:31.972Z] Skipping README file: README-phase29.txt
+[2025-05-15T15:11:31.972Z] Processing component directory: admin-phase29 -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:31.973Z] Copied: phases/EHB-AI-Dev-Phase-29/admin-phase29/pages/issueCertificate.js -> services/SOT-Technologies/EHB-AI-Dev/admin/pages/issueCertificate.js
+[2025-05-15T15:11:31.974Z] Processing component directory: backend-phase29 -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.983Z] Copied: phases/EHB-AI-Dev-Phase-29/backend-phase29/controllers/certificateController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/certificateController.js
+[2025-05-15T15:11:31.984Z] Copied: phases/EHB-AI-Dev-Phase-29/backend-phase29/routes/certificateRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/certificateRoutes.js
+[2025-05-15T15:11:31.984Z] Processing component directory: frontend-phase29 -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.985Z] Copied: phases/EHB-AI-Dev-Phase-29/frontend-phase29/pages/certificates.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/certificates.js
+[2025-05-15T15:11:31.986Z] Processing component directory: models-phase29 -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:31.986Z] Copied: phases/EHB-AI-Dev-Phase-29/models-phase29/Certificate.js -> services/SOT-Technologies/EHB-AI-Dev/models/Certificate.js
+[2025-05-15T15:11:31.987Z] Completed processing phase directory: EHB-AI-Dev-Phase-29
+[2025-05-15T15:11:31.987Z] Processing phase directory: EHB-AI-Dev-Phase-30
+[2025-05-15T15:11:31.989Z] Skipping README file: README-phase30.txt
+[2025-05-15T15:11:31.989Z] Processing component directory: admin-phase30 -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:31.991Z] Copied: phases/EHB-AI-Dev-Phase-30/admin-phase30/pages/escalationBoard.js -> services/SOT-Technologies/EHB-AI-Dev/admin/pages/escalationBoard.js
+[2025-05-15T15:11:31.991Z] Processing component directory: backend-phase30 -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:31.997Z] Copied: phases/EHB-AI-Dev-Phase-30/backend-phase30/controllers/complaintController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/complaintController.js
+[2025-05-15T15:11:31.997Z] Copied: phases/EHB-AI-Dev-Phase-30/backend-phase30/routes/complaintRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/complaintRoutes.js
+[2025-05-15T15:11:31.998Z] Processing component directory: frontend-phase30 -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:31.999Z] Copied: phases/EHB-AI-Dev-Phase-30/frontend-phase30/pages/complaint.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/pages/complaint.js
+[2025-05-15T15:11:31.999Z] Processing component directory: models-phase30 -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:32.000Z] Copied: phases/EHB-AI-Dev-Phase-30/models-phase30/Complaint.js -> services/SOT-Technologies/EHB-AI-Dev/models/Complaint.js
+[2025-05-15T15:11:32.000Z] Completed processing phase directory: EHB-AI-Dev-Phase-30
+[2025-05-15T15:11:32.001Z] Processing phase directory: EHB-AI-Dev-Phase-31
+[2025-05-15T15:11:32.001Z] Skipping README file: README-phase31.txt
+[2025-05-15T15:11:32.001Z] Processing component directory: admin-phase31 -> services/SOT-Technologies/EHB-AI-Dev/admin
+[2025-05-15T15:11:32.003Z] Copied: phases/EHB-AI-Dev-Phase-31/admin-phase31/pages/sqlLevelControl.js -> services/SOT-Technologies/EHB-AI-Dev/admin/pages/sqlLevelControl.js
+[2025-05-15T15:11:32.003Z] Processing component directory: backend-phase31 -> services/SOT-Technologies/EHB-AI-Dev/backend
+[2025-05-15T15:11:32.005Z] Copied: phases/EHB-AI-Dev-Phase-31/backend-phase31/controllers/sqlLevelController.js -> services/SOT-Technologies/EHB-AI-Dev/backend/controllers/sqlLevelController.js
+[2025-05-15T15:11:32.007Z] Copied: phases/EHB-AI-Dev-Phase-31/backend-phase31/routes/sqlLevelRoutes.js -> services/SOT-Technologies/EHB-AI-Dev/backend/routes/sqlLevelRoutes.js
+[2025-05-15T15:11:32.007Z] Processing component directory: frontend-phase31 -> services/SOT-Technologies/EHB-AI-Dev/frontend
+[2025-05-15T15:11:32.009Z] Copied: phases/EHB-AI-Dev-Phase-31/frontend-phase31/components/sqlLevelBadge.js -> services/SOT-Technologies/EHB-AI-Dev/frontend/components/sqlLevelBadge.js
+[2025-05-15T15:11:32.010Z] Processing component directory: models-phase31 -> services/SOT-Technologies/EHB-AI-Dev/models
+[2025-05-15T15:11:32.011Z] Copied: phases/EHB-AI-Dev-Phase-31/models-phase31/UserSQL.js -> services/SOT-Technologies/EHB-AI-Dev/models/UserSQL.js
+[2025-05-15T15:11:32.023Z] Completed processing phase directory: EHB-AI-Dev-Phase-31
+[2025-05-15T15:11:32.023Z] Processed 31 out of 31 phase directories
+[2025-05-15T15:11:32.024Z] Integration completed successfully. Starting cleanup...
+[2025-05-15T15:11:32.024Z] Cleanup skipped. Please manually verify integration before deleting source files.
+[2025-05-15T15:11:32.024Z] Phase integration process completed.

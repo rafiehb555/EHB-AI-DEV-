@@ -1,0 +1,132 @@
+Aap ke diye gaye tamam latest screenshots aur current system flow ko dekhne ke baad, yahaan **Replit ke liye final automation instructions** hain jinka use aap `agent.sh`, `config.json`, ya Replit Agent instruction prompt ke through kar sakte hain taake:
+
+* Saare redirectors sahi bind hon
+* Port conflicts avoid hon
+* AI agent + EHB-AI-Dev properly run karein
+* Purane redirections clean ho jayein
+* Future live coding assistant properly attach ho
+
+---
+
+### ✅ **Replit Final Setup & Instruction Prompt for EHB Project**
+
+```bash
+# ✅ 1. Kill all conflicting ports to reset stuck redirectors
+kill-port 3000 5000 5050 5100 5130 5140 5150 5160 5200 5300 5400 5500 5800 5900 || echo "No ports running"
+
+# ✅ 2. Start EHB Main Redirector (redirects Replit main URL to EHB-HOME service)
+node redirect-central-ehb.js
+
+# ✅ 3. Set EHB-Central-Redirector to port 3000 manually
+chmod +x port-redirector-3000.js && node port-redirector-3000.js
+
+# ✅ 4. Set port-redirector-5000 to path-based routing on port 4100
+chmod +x port-redirector-5000.js && node port-redirector-5000.js
+
+# ✅ 5. Start main EHB-HOME service on port 5005
+cd dashboardCommandAgent-Final-Phase-3 && node home-main.js
+
+# ✅ 6. Start backend API services
+cd api && node index.js
+
+# ✅ 7. Start EHB-AI-Dev Code Agent
+cd agent && node ai-dev-agent.js
+
+# ✅ 8. Optional: Restart AI assistants for new updates
+cd ai && node reinit-assistants.js
+
+echo "✅ All components linked and running"
+```
+
+---
+
+### 🧠 **Current Verified Status Based on Your Images:**
+
+| Component                     | Status      | Port                       |
+| ----------------------------- | ----------- | -------------------------- |
+| ✅ `EHB-Central-Redirector`    | Running     | `3000`                     |
+| ✅ `Main Path-Redirector`      | Running     | `4100`                     |
+| ✅ `EHB-HOME Dashboard`        | Live & View | `5005`                     |
+| ✅ `Backend API (index.js)`    | OK          | `5001`                     |
+| ✅ `MongoDB + Supabase`        | Connected   | Atlas                      |
+| 🧠 `AI Agent` (dev assistant) | Connected   | Internally inside `agent/` |
+| 🧠 `EHB-AI-Dev Interface`     | Open        | Code Snippet UI visible    |
+
+---
+
+### 🔄 **Next Critical Steps (Recommend Immediately):**
+
+1. ✅ **Agent Integration Upgrade:**
+
+   * Move all active `AI Agents` to `EHB-AI-Dev/agent/`
+   * Centralize all logic into one unified `ai-dev-agent.js` and `core-dev-agent.js`
+   * Merge all assistants under one loop with module switching (coding, chat, voice, file analysis)
+
+2. ✅ **Live Coding via Agent (like Replit):**
+
+   * Give `ai-dev-agent.js` shell-level execution permission
+   * Inject live code suggestions + execution using `vm` module or `child_process`
+
+3. ✅ **Create Agent Boot File (ai-agent.sh):**
+
+   ```bash
+   #!/bin/bash
+   echo "Starting AI Agent Environment..."
+   node EHB-AI-Dev/agent/ai-dev-agent.js
+   ```
+
+4. 🛠️ **Error Recovery System:**
+
+   * Use `logs/` folder to record error.txt per service
+   * On failure, `agent.js` should auto-restart crashed module
+   * Sync status to `dashboard-status.json`
+
+---
+
+### ✅ Message for Replit Agent or Dev Assistant:
+
+```
+Please initialize the EHB development stack as follows:
+
+1. Kill all previously bound redirectors using port kill
+2. Start EHB Central Redirector → redirect-central-ehb.js
+3. Start main EHB-HOME system on port 5005
+4. Start backend API on port 5001
+5. Start path-based redirector on port 4100 → port-redirector-5000.js
+6. Start AI Developer Agent → ai-dev-agent.js (inside agent/)
+7. Start EHB-AI-Dev interface (main interactive playground)
+
+Make sure all workflows run using `pm2`, `forever`, or custom agent loops so nothing sleeps on idle.
+
+Also, begin syncing all AI robots under EHB-AI-Dev for centralized operation.
+
+```
+
+---
+
+Aap agla step ye rakhain:
+
+### 🔜 **NEXT STEP:**
+
+✅ `EHB-AI-Dev` ke andar **saare old AI folders** (jo ab tak kahin bhi scattered hain) ko move karain into:
+
+```
+EHB-AI-Dev/
+├── agent/
+│   ├── ai-dev-agent.js
+│   ├── auto-coder.js
+│   └── voice-assistant.js
+```
+
+Aur sab ko `agent.sh` ke zariye launch krwain.
+
+---
+
+Bataiye agar aap chahain to ye `ZIP` folder bana doon jisme:
+
+* `agent.sh`
+* `config.json`
+* `ai-dev-agent.js`
+* Final redirectors preconfigured
+
+Ready to import into Replit directly.

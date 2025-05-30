@@ -1,0 +1,57 @@
+🔁 Replit Agent: Carefully execute the following to complete all 10 phases of the EHB AI Agent Core system.
+
+⚠️ Important Instructions:
+🔒 Do NOT delete, overwrite, or disturb any functional code or services already working.
+🧠 If a file or folder already exists and is operational:
+   - Log it as "Already Working — Preserved"
+   - Only extend functionality if clearly missing
+   - Do not replace any configs or code unless merging is explicitly safe
+
+📦 Phase-by-Phase Setup Instructions:
+
+1. 📂 **Auto-Merge ZIP Phase Files**
+   - Detect files from `/uploads`, `/temp_extract_phaseX`, or manually extracted ZIPs
+   - Auto-merge cleanly into:
+     - `/phases/Phase-01` to `/Phase-10`
+     - `/services/ehb-agent-core/` and submodules
+   - Log each merge step into `logs/agent-core-loader.log`
+
+2. ⚙️ **Complete the Following 10 Phases**:
+   - ✅ **Phase 01**: AI Core setup (`/ai-core`) – confirm API routes, backend is running
+   - ✅ **Phase 02**: SDK Installer + Memory Loader – confirm AI brain modules initialize
+   - ✅ **Phase 03**: Voice Agent – create or validate `services/voice-agent/` to accept voice commands
+   - ✅ **Phase 04**: File Reader Agent – PDF/Image/Excel/Voice reader logic under `services/file-reader-agent/`
+   - ✅ **Phase 05**: Command Agent – text commands into actions, routing to proper service
+   - ✅ **Phase 06**: Redirector Agent – ensure `/ai-core` and related redirect paths work
+   - ✅ **Phase 07**: ZIP Auto Installer – detect imported ZIPs, extract, map to correct phases, then delete ZIPs
+   - ✅ **Phase 08**: Plugin/Phase Mapper – auto-register any new modules into system config
+   - ✅ **Phase 09**: Health Monitor – verify `/healthcheck`, restart failures, alert logs
+   - ✅ **Phase 10**: Smart Loader – manage memory refresh, optimize AI-core load balance
+
+3. 🧹 **Safe Cleanup & Post-Merge Actions**
+   - After merge, auto-delete only these folders: `/uploads`, `/temp_extract_phaseX`
+   - DO NOT delete anything else from `/phases/`, `/services/`, or `/shared/`
+   - Backup `settings.json`, `config.json`, and `assistant-configs.json` before writing
+
+4. 🧩 **Dashboard Integration**
+   - Auto-link all 10 completed phases into `/admin/EHB-AI-Dev`
+   - Update UI statuses:
+     - Mark as ✅ Completed
+     - Auto-update "Last Updated" date
+     - Recalculate "Completed Phase Count"
+
+5. 🧪 **Run Testing & Logs**
+   - Call test route: `/ai-core/test`
+   - Confirm logs from:
+     - Voice Agent
+     - File Reader
+     - Memory Watcher
+     - Command Agent
+   - Output test summary in `logs/phase-auto-final.log`
+
+⚠️ Final Safety:
+🔐 Preserve all active files
+📁 Merge carefully
+🛑 Abort any step if unexpected overwrite is detected
+
+✅ Proceed now with intelligent, non-destructive execution.

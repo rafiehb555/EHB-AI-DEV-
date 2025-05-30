@@ -1,0 +1,162 @@
+[2025-05-10T20:08:22.240Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:08:22.246Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:08:22.277Z] [ERROR] Failed to register with Integration Hub: Request failed with status code 500
+[2025-05-10T20:09:06.218Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:09:06.221Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:09:06.273Z] [ERROR] Failed to register with Integration Hub: Request failed with status code 500
+[2025-05-10T20:10:53.246Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:10:53.248Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:10:53.283Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:11:16.035Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:11:16.037Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:11:16.064Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:11:16.081Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:11:16.081Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:11:16.084Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:11:16.087Z] [WARN] Unknown message type from Integration Hub: connected
+[2025-05-10T20:11:16.087Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:12:16.385Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:12:16.390Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:12:16.470Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:14:26.244Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:14:26.250Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:14:26.276Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:14:26.279Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:14:26.279Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:14:26.283Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:14:26.285Z] [WARN] Unknown message type from Integration Hub: connected
+[2025-05-10T20:14:26.286Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:15:37.649Z] [WARN] Integration Hub WebSocket connection closed, will attempt to reconnect in 5 seconds
+[2025-05-10T20:15:39.229Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:15:39.234Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:15:39.271Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:15:39.275Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:15:39.276Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:15:39.282Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:15:39.284Z] [WARN] Unknown message type from Integration Hub: connected
+[2025-05-10T20:15:39.290Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:17:52.543Z] [WARN] Integration Hub WebSocket connection closed, will attempt to reconnect in 5 seconds
+[2025-05-10T20:17:53.840Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:17:53.846Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:17:53.882Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:17:53.885Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:17:53.885Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:17:53.888Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:17:53.891Z] [WARN] Unknown message type from Integration Hub: connected
+[2025-05-10T20:17:53.891Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:20:04.207Z] [WARN] Integration Hub WebSocket connection closed, will attempt to reconnect in 5 seconds
+[2025-05-10T20:20:06.121Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:20:06.131Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:20:06.207Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:20:06.211Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:20:06.213Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:20:06.228Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:20:06.234Z] [WARN] Unknown message type from Integration Hub: connected
+[2025-05-10T20:20:06.235Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:21:30.316Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:21:30.322Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:21:30.344Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:21:30.347Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:21:30.347Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:21:30.350Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:21:30.352Z] [WARN] Unknown message type from Integration Hub: connected
+[2025-05-10T20:21:30.352Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:21:43.553Z] [WARN] Integration Hub WebSocket connection closed, will attempt to reconnect in 5 seconds
+[2025-05-10T20:21:44.941Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:21:44.948Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:21:45.330Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:21:45.333Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:21:45.333Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:21:45.337Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:21:45.339Z] [WARN] Unknown message type from Integration Hub: connected
+[2025-05-10T20:21:45.340Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:28:33.597Z] [WARN] Integration Hub WebSocket connection closed, will attempt to reconnect in 5 seconds
+[2025-05-10T20:28:35.115Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:28:35.121Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:28:35.162Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:28:35.167Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:28:35.167Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:28:35.172Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:28:35.174Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:28:35.174Z
+[2025-05-10T20:28:35.175Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:29:47.333Z] [WARN] Integration Hub WebSocket connection closed, will attempt to reconnect in 5 seconds
+[2025-05-10T20:29:51.794Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:29:51.803Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:29:51.847Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:29:51.851Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:29:51.851Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:29:51.855Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:29:51.858Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:29:51.858Z
+[2025-05-10T20:29:51.858Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:29:51.858Z
+[2025-05-10T20:29:51.858Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:30:32.259Z] [WARN] Integration Hub WebSocket connection closed, will attempt to reconnect in 5 seconds
+[2025-05-10T20:30:33.977Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:30:33.987Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:30:34.048Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:30:34.054Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:30:34.055Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:30:34.058Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:30:34.062Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:30:34.062Z
+[2025-05-10T20:30:34.064Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:30:34.064Z
+[2025-05-10T20:30:34.065Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:32:43.815Z] [WARN] Integration Hub WebSocket connection closed, will attempt to reconnect in 5 seconds
+[2025-05-10T20:32:46.149Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:32:46.155Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:32:46.229Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:32:46.235Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:32:46.236Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:32:46.249Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:32:46.256Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:32:46.256Z
+[2025-05-10T20:32:46.256Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:32:46.256Z
+[2025-05-10T20:32:46.257Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:35:08.505Z] [WARN] Integration Hub WebSocket connection closed, will attempt to reconnect in 5 seconds
+[2025-05-10T20:35:09.926Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:35:09.931Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:35:09.967Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:35:09.971Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:35:09.972Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:35:09.975Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:35:09.977Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:35:09.977Z
+[2025-05-10T20:35:09.978Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:35:09.978Z
+[2025-05-10T20:35:09.978Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:37:04.732Z] [WARN] Integration Hub WebSocket connection closed, will attempt to reconnect in 5 seconds
+[2025-05-10T20:37:06.946Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:37:06.956Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:37:07.000Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:37:07.006Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:37:07.007Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:37:07.010Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:37:07.016Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:37:07.016Z
+[2025-05-10T20:37:07.017Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:37:07.017Z
+[2025-05-10T20:37:07.018Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:39:25.540Z] [WARN] Integration Hub WebSocket connection closed, will attempt to reconnect in 5 seconds
+[2025-05-10T20:39:27.610Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:39:27.616Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:39:27.700Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:39:27.712Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:39:27.713Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:39:27.718Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:39:27.721Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:39:27.721Z
+[2025-05-10T20:39:27.721Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:39:27.721Z
+[2025-05-10T20:39:27.722Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:42:03.957Z] [WARN] Integration Hub WebSocket connection closed, will attempt to reconnect in 5 seconds
+[2025-05-10T20:42:05.819Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:42:05.832Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:42:05.890Z] [INFO] Registered with Integration Hub: {"success":true,"moduleId":"GUI-Launcher"}
+[2025-05-10T20:42:05.894Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:42:05.895Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:42:05.900Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:42:05.903Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:42:05.903Z
+[2025-05-10T20:42:05.903Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:42:05.903Z
+[2025-05-10T20:42:05.904Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher
+[2025-05-10T20:50:39.966Z] [INFO] Starting GUI-Launcher...
+[2025-05-10T20:50:39.974Z] [INFO] Registering with Integration Hub...
+[2025-05-10T20:50:40.082Z] [ERROR] Failed to register with Integration Hub: connect ECONNREFUSED 127.0.0.1:5003
+[2025-05-10T20:50:40.166Z] [INFO] GUI-Launcher running on port 5050
+[2025-05-10T20:50:40.171Z] [INFO] Access the GUI at http://localhost:5050
+[2025-05-10T20:50:40.194Z] [ERROR] Integration Hub WebSocket error: connect ECONNREFUSED 127.0.0.1:5003
+[2025-05-10T20:50:40.202Z] [WARN] Integration Hub WebSocket connection closed, will attempt to reconnect in 5 seconds
+[2025-05-10T20:50:45.207Z] [INFO] Connected to Integration Hub WebSocket
+[2025-05-10T20:50:45.211Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:50:45.211Z
+[2025-05-10T20:50:45.212Z] [INFO] Connection established with Integration Hub at 2025-05-10T20:50:45.212Z
+[2025-05-10T20:50:45.212Z] [INFO] Successfully registered with Integration Hub as module GUI-Launcher

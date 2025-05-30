@@ -1,0 +1,613 @@
+run = "node index.js"
+modules = ["nodejs-20", "postgresql-16", "python3", "python-3.11"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Backend Server"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "GoSellr Service"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "EHB-HOME"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "EHB-Central-Redirector"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "GoSellr-Redirector"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Developer-Portal-Redirector"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "EHB-Agent-Installer"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "EHB-Trigger-Setup"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "EHB-Create-Test-ZIP"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Developer Portal"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "EHB-Playground"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "EHB-Admin-Dashboard"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "LangChain-AI-Service"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "AI-Integration-Hub"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "AI-Integration-Hub-Redirector"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Agent Dashboard"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Autonomous Agent System"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "MongoDB API Service"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "S3 Upload Service"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "EHB Free Agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Free Agent Installer"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Port Forwarding Service"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "EHB Free Agent API"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "EHB-HOME-Main-Redirector"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Port 5000 Central Redirector"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Alternative Central Redirector"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Main Replit URL Redirector"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Replit-URL-Redirector"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Path Based Redirector"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "AI Agent Core"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "AI-Agent-Core-Redirector"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "EHB-Automatic-File-Processor"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "SDK Installer"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Whisper Command"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Port Internal Redirector"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "AI-Agent-Core"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "AI-Agent-Stub"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "AI-Agent-Simple-Core"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "EHB-AI-Dev-Backend"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "AI-Agent-Core-Server"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "EHB-Simple-AI-Agent-Proxy"
+
+[[workflows.workflow]]
+name = "Backend Server"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd admin/EHB-DASHBOARD/backend && PORT=5001 node server.js"
+waitForPort = 5001
+
+[[workflows.workflow]]
+name = "GoSellr Service"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd services/EHB-GoSellr && node start.js"
+waitForPort = 5002
+
+[[workflows.workflow]]
+name = "EHB-HOME"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd admin/EHB-HOME && npm start"
+waitForPort = 5005
+
+[[workflows.workflow]]
+name = "EHB-Central-Redirector"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node redirect-central-ehb.js"
+waitForPort = 3000
+
+[[workflows.workflow]]
+name = "GoSellr-Redirector"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node redirect-gosellr.js"
+waitForPort = 4000
+
+[[workflows.workflow]]
+name = "Developer-Portal-Redirector"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node redirect-dev-portal.js"
+waitForPort = 4010
+
+[[workflows.workflow]]
+name = "EHB-Agent-Installer"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node ehbAgentInstaller.js"
+
+[[workflows.workflow]]
+name = "EHB-Trigger-Setup"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node triggerSetupPage.js"
+
+[[workflows.workflow]]
+name = "EHB-Create-Test-ZIP"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node createTestZip.js"
+
+[[workflows.workflow]]
+name = "Developer Portal"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd admin/EHB-Developer-Portal && npm run dev"
+waitForPort = 5010
+
+[[workflows.workflow]]
+name = "EHB-Playground"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd services/SOT-Technologies/EHB-AI-Dev/playground && node index.js"
+waitForPort = 5050
+
+[[workflows.workflow]]
+name = "EHB-Admin-Dashboard"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd services/SOT-Technologies/EHB-AI-Dev/admin-dashboard && node index.js"
+waitForPort = 5020
+
+[[workflows.workflow]]
+name = "LangChain-AI-Service"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd services/SOT-Technologies/EHB-AI-Dev/langchain-service && python start.py"
+waitForPort = 5100
+
+[[workflows.workflow]]
+name = "AI-Integration-Hub"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd services/SOT-Technologies/EHB-AI-Dev/ai-integration-hub && PORT=5150 node index.js"
+waitForPort = 5150
+
+[[workflows.workflow]]
+name = "AI-Integration-Hub-Redirector"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node redirect-ai-integration-hub.js"
+waitForPort = 4200
+
+[[workflows.workflow]]
+name = "Agent Dashboard"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd agent && node start.js"
+waitForPort = 5200
+
+[[workflows.workflow]]
+name = "Autonomous Agent System"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd agent && node main.js"
+waitForPort = 5200
+
+[[workflows.workflow]]
+name = "MongoDB API Service"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd services/ehb-mongodb-api && node index.js"
+
+[[workflows.workflow]]
+name = "S3 Upload Service"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd services/ehb-s3-upload-service && node direct-server.js"
+waitForPort = 5400
+
+[[workflows.workflow]]
+name = "EHB Free Agent"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd services/SOT-Technologies/EHB-AI-Dev/ai-agent && node ehb-free-agent.js"
+
+[[workflows.workflow]]
+name = "Free Agent Installer"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "bash run-free-agent-installer.sh"
+
+[[workflows.workflow]]
+name = "Port Forwarding Service"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node port-forwarding-service.js"
+waitForPort = 5040
+
+[[workflows.workflow]]
+name = "EHB Free Agent API"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd services/SOT-Technologies/EHB-AI-Dev/ai-agent && node basic-server.js"
+waitForPort = 5130
+
+[[workflows.workflow]]
+name = "EHB-HOME-Main-Redirector"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node redirect-to-ehb-home.js"
+waitForPort = 3003
+
+[[workflows.workflow]]
+name = "Port 5000 Central Redirector"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node port-redirector-5000.js"
+waitForPort = 5000
+
+[[workflows.workflow]]
+name = "Alternative Central Redirector"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node alt-central-redirector.js"
+waitForPort = 5060
+
+[[workflows.workflow]]
+name = "Main Replit URL Redirector"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node port-redirector-5000.js"
+waitForPort = 3100
+
+[[workflows.workflow]]
+name = "Replit-URL-Redirector"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node replit-url-redirector.js"
+waitForPort = 3000
+
+[[workflows.workflow]]
+name = "Path Based Redirector"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node port-redirector-5000.js"
+waitForPort = 4100
+
+[[workflows.workflow]]
+name = "AI Agent Core"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node ultra-simple-ai-core.js"
+waitForPort = 5128
+
+[[workflows.workflow]]
+name = "AI-Agent-Core-Redirector"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node ai-agent-core-redirector.js"
+waitForPort = 5130
+
+[[workflows.workflow]]
+name = "EHB-Automatic-File-Processor"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node auto_file_processor.js"
+
+[[workflows.workflow]]
+name = "SDK Installer"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd services/SOT-Technologies/EHB-AI-Dev/ai-agent && node sdkInstaller.js"
+
+[[workflows.workflow]]
+name = "Whisper Command"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd services/SOT-Technologies/EHB-AI-Dev/ai-agent && node whisperCommand.js"
+
+[[workflows.workflow]]
+name = "EHB-HOME-Service"
+author = 40738967
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd admin/EHB-HOME && npm run dev"
+
+[[workflows.workflow]]
+name = "Port Internal Redirector"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node port-internal-redirector.js"
+
+[[workflows.workflow]]
+name = "AI-Agent-Core"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node ai-agent-core-simple.js"
+waitForPort = 5128
+
+[[workflows.workflow]]
+name = "AI-Agent-Stub"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node ai-agent-stub.js"
+waitForPort = 5128
+
+[[workflows.workflow]]
+name = "AI-Agent-Simple-Core"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node ai-agent-simple-core.js"
+waitForPort = 5128
+
+[[workflows.workflow]]
+name = "EHB-AI-Dev-Backend"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd services/SOT-Technologies/EHB-AI-Dev/backend && PORT=5006 node index.js"
+waitForPort = 5006
+
+[[workflows.workflow]]
+name = "AI-Agent-Core-Server"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node ai-agent-stub.js"
+waitForPort = 5128
+
+[[workflows.workflow]]
+name = "EHB-Simple-AI-Agent-Proxy"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node ehb-ai-agent-service.js"
+waitForPort = 5131
+
+[deployment]
+run = ["sh", "-c", "cd admin/EHB-DASHBOARD/backend && PORT=5000 node server.js"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["bash", "mailutils", "nano", "try", "unzip", "jq", "psmisc", "zip"]
+
+[[ports]]
+localPort = 3000
+externalPort = 3001
+
+[[ports]]
+localPort = 3001
+externalPort = 6800
+
+[[ports]]
+localPort = 4000
+externalPort = 4200
+
+[[ports]]
+localPort = 4010
+externalPort = 6000
+
+[[ports]]
+localPort = 4200
+externalPort = 8081
+
+[[ports]]
+localPort = 5000
+externalPort = 5000
+
+[[ports]]
+localPort = 5001
+externalPort = 80
+
+[[ports]]
+localPort = 5002
+externalPort = 3002
+
+[[ports]]
+localPort = 5005
+externalPort = 3003
+
+[[ports]]
+localPort = 5006
+externalPort = 3000
+
+[[ports]]
+localPort = 5010
+externalPort = 5173
+
+[[ports]]
+localPort = 5020
+externalPort = 8008
+
+[[ports]]
+localPort = 5050
+externalPort = 8000
+
+[[ports]]
+localPort = 5100
+externalPort = 8080
+
+[[ports]]
+localPort = 5150
+externalPort = 9000
+
+[[ports]]
+localPort = 5200
+externalPort = 8099

@@ -1,0 +1,4093 @@
+{
+  "modules": [
+    {
+      "id": "ehb-home",
+      "name": "EHB-HOME",
+      "description": "Central hub for EHB system",
+      "type": "ui",
+      "path": "admin/EHB-HOME",
+      "url": "http://localhost:5005",
+      "version": "1.0.0",
+      "installed": "2025-05-10T10:00:00Z",
+      "lastUpdated": "2025-05-10T10:00:00Z",
+      "dependencies": []
+    },
+    {
+      "id": "ehb-dashboard",
+      "name": "EHB-DASHBOARD",
+      "description": "Administrative dashboard for EHB system",
+      "type": "ui",
+      "path": "admin/EHB-DASHBOARD",
+      "url": "http://localhost:5006",
+      "version": "1.0.0",
+      "installed": "2025-05-10T10:00:00Z",
+      "lastUpdated": "2025-05-10T10:00:00Z",
+      "dependencies": []
+    },
+    {
+      "id": "ehb-admin-panel",
+      "name": "ehb-admin-panel",
+      "description": "Advanced administration panel for system configuration",
+      "type": "ui",
+      "path": "admin/ehb-admin-panel",
+      "url": "http://localhost:5000",
+      "version": "1.0.0",
+      "installed": "2025-05-10T10:00:00Z",
+      "lastUpdated": "2025-05-10T10:00:00Z",
+      "dependencies": []
+    },
+    {
+      "id": "gosellr",
+      "name": "EHB-GoSellr",
+      "description": "E-commerce service for EHB platform",
+      "type": "service",
+      "path": "services/EHB-GoSellr",
+      "url": "http://localhost:5002",
+      "version": "1.0.0",
+      "installed": "2025-05-10T10:00:00Z",
+      "lastUpdated": "2025-05-10T10:00:00Z",
+      "dependencies": [
+        "EHB-SQL-PSS",
+        "EHB-SQL-EDR",
+        "EHB-SQL-EMO"
+      ]
+    },
+    {
+      "id": "ehb-blockchain",
+      "name": "EHB-Blockchain",
+      "description": "Blockchain integration for EHB system",
+      "type": "blockchain",
+      "path": "system/EHB-Blockchain",
+      "version": "1.0.0",
+      "installed": "2025-05-10T10:00:00Z",
+      "lastUpdated": "2025-05-10T10:00:00Z",
+      "dependencies": []
+    },
+    {
+      "id": "ehb-wallet",
+      "name": "ehb-wallet",
+      "description": "Digital wallet system for EHB platform",
+      "type": "blockchain",
+      "path": "admin/ehb-wallet",
+      "version": "1.0.0",
+      "installed": "2025-05-10T10:00:00Z",
+      "lastUpdated": "2025-05-10T10:00:00Z",
+      "dependencies": [
+        "EHB-Blockchain"
+      ]
+    },
+    {
+      "id": "ehb-test-service",
+      "name": "EHB-Test-Service",
+      "description": "Test service for EHB platform",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "version": "1.0.0",
+      "installed": "2025-05-12T14:30:00Z",
+      "lastUpdated": "2025-05-12T14:30:00Z",
+      "dependencies": []
+    },
+    {
+      "id": "home-dashboard-linker",
+      "name": "Home-Dashboard-Linker",
+      "description": "Integration service for EHB dashboards and interfaces",
+      "type": "service",
+      "path": "services/Home-Dashboard-Linker",
+      "version": "1.0.0",
+      "installed": "2025-05-12T14:45:00Z",
+      "lastUpdated": "2025-05-12T14:45:00Z",
+      "dependencies": []
+    },
+    {
+      "id": "auto-zip-handler-agent",
+      "name": "Auto-ZIP-Handler-Agent",
+      "description": "Automated ZIP file processing and installation service",
+      "type": "service",
+      "path": "services/Auto-ZIP-Handler-Agent",
+      "version": "1.0.0",
+      "installed": "2025-05-12T14:45:00Z",
+      "lastUpdated": "2025-05-12T14:45:00Z",
+      "dependencies": []
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T03:16:35.933Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T03:19:16.382Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T03:21:47.962Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T03:24:06.559Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T03:26:57.422Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T03:35:29.796Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "AI-Dashboard-Final-Phase-9",
+      "type": "admin",
+      "path": "admin/AI-Dashboard-Final-Phase-9",
+      "installedAt": "2025-05-12T03:52:43.636Z"
+    },
+    {
+      "name": "AICodingChat-Phase-3",
+      "type": "admin",
+      "path": "admin/AICodingChat-Phase-3",
+      "installedAt": "2025-05-12T03:52:43.649Z"
+    },
+    {
+      "name": "APK-BuildFlow-Phase-14",
+      "type": "service",
+      "path": "services/APK-BuildFlow-Phase-14",
+      "installedAt": "2025-05-12T03:52:43.651Z"
+    },
+    {
+      "name": "AutoCardGen-Phase-7",
+      "type": "admin",
+      "path": "admin/AutoCardGen-Phase-7",
+      "installedAt": "2025-05-12T03:52:43.659Z"
+    },
+    {
+      "name": "CodeSuggest-Phase-2",
+      "type": "admin",
+      "path": "admin/CodeSuggest-Phase-2",
+      "installedAt": "2025-05-12T03:52:43.668Z"
+    },
+    {
+      "name": "DashboardCommandAgent-Phase-11",
+      "type": "admin",
+      "path": "admin/DashboardCommandAgent-Phase-11",
+      "installedAt": "2025-05-12T03:52:43.673Z"
+    },
+    {
+      "name": "EHB-AI-Agent-Phase-1",
+      "type": "service",
+      "path": "services/EHB-AI-Agent-Phase-1",
+      "installedAt": "2025-05-12T03:52:43.678Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-1",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-1",
+      "installedAt": "2025-05-12T03:52:43.684Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-10",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-10",
+      "installedAt": "2025-05-12T03:52:43.690Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-11",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-11",
+      "installedAt": "2025-05-12T03:52:43.695Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-12",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-12",
+      "installedAt": "2025-05-12T03:52:43.701Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-13",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-13",
+      "installedAt": "2025-05-12T03:52:43.707Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-14",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-14",
+      "installedAt": "2025-05-12T03:52:43.714Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-15",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-15",
+      "installedAt": "2025-05-12T03:52:43.720Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-16",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-16",
+      "installedAt": "2025-05-12T03:52:43.725Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-17",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-17",
+      "installedAt": "2025-05-12T03:52:43.732Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-18",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-18",
+      "installedAt": "2025-05-12T03:52:43.740Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-19",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-19",
+      "installedAt": "2025-05-12T03:52:43.747Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-2",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-2",
+      "installedAt": "2025-05-12T03:52:43.765Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-20",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-20",
+      "installedAt": "2025-05-12T03:52:43.776Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-21",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-21",
+      "installedAt": "2025-05-12T03:52:43.781Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-22",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-22",
+      "installedAt": "2025-05-12T03:52:43.786Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-23",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-23",
+      "installedAt": "2025-05-12T03:52:43.790Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-24",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-24",
+      "installedAt": "2025-05-12T03:52:43.796Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-25",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-25",
+      "installedAt": "2025-05-12T03:52:43.802Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-26",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-26",
+      "installedAt": "2025-05-12T03:52:43.807Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-27",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-27",
+      "installedAt": "2025-05-12T03:52:43.817Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-28",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-28",
+      "installedAt": "2025-05-12T03:52:43.822Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-29",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-29",
+      "installedAt": "2025-05-12T03:52:43.827Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-3",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-3",
+      "installedAt": "2025-05-12T03:52:43.833Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-30",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-30",
+      "installedAt": "2025-05-12T03:52:43.838Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-31",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-31",
+      "installedAt": "2025-05-12T03:52:43.844Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-4",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-4",
+      "installedAt": "2025-05-12T03:52:43.855Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-5",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-5",
+      "installedAt": "2025-05-12T03:52:43.863Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-6",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-6",
+      "installedAt": "2025-05-12T03:52:43.869Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-7",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-7",
+      "installedAt": "2025-05-12T03:52:43.875Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-8",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-8",
+      "installedAt": "2025-05-12T03:52:43.881Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-9",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-9",
+      "installedAt": "2025-05-12T03:52:43.885Z"
+    },
+    {
+      "name": "EHB-AutoDashboard-System",
+      "type": "service",
+      "path": "services/EHB-AutoDashboard-System",
+      "installedAt": "2025-05-12T03:52:43.888Z"
+    },
+    {
+      "name": "EHB-MobileSync-Phase-13",
+      "type": "service",
+      "path": "services/EHB-MobileSync-Phase-13",
+      "installedAt": "2025-05-12T03:52:43.889Z"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T03:52:43.904Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "ModuleBuilder-Phase-1",
+      "type": "admin",
+      "path": "admin/ModuleBuilder-Phase-1",
+      "installedAt": "2025-05-12T03:52:43.913Z"
+    },
+    {
+      "name": "ReferralTree-Phase-6",
+      "type": "admin",
+      "path": "admin/ReferralTree-Phase-6",
+      "installedAt": "2025-05-12T03:52:43.919Z"
+    },
+    {
+      "name": "SQLBadgeSystem-Phase-5",
+      "type": "admin",
+      "path": "admin/SQLBadgeSystem-Phase-5",
+      "installedAt": "2025-05-12T03:52:43.925Z"
+    },
+    {
+      "name": "SmartAIAgent-Phase-10",
+      "type": "admin",
+      "path": "admin/SmartAIAgent-Phase-10",
+      "installedAt": "2025-05-12T03:52:43.930Z"
+    },
+    {
+      "name": "SmartAccessControl-Phase-15",
+      "type": "service",
+      "path": "services/SmartAccessControl-Phase-15",
+      "installedAt": "2025-05-12T03:52:43.932Z"
+    },
+    {
+      "name": "TestPassFail-Phase-8",
+      "type": "admin",
+      "path": "admin/TestPassFail-Phase-8",
+      "installedAt": "2025-05-12T03:52:43.938Z"
+    },
+    {
+      "name": "VoiceGPT-AIAgent-Phase-12",
+      "type": "service",
+      "path": "services/VoiceGPT-AIAgent-Phase-12",
+      "installedAt": "2025-05-12T03:52:43.949Z"
+    },
+    {
+      "name": "VoiceModuleGen-Phase-4",
+      "type": "admin",
+      "path": "admin/VoiceModuleGen-Phase-4",
+      "installedAt": "2025-05-12T03:52:43.962Z"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T04:00:26.708Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T04:28:04.718Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T04:30:35.380Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T04:35:29.971Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T04:37:13.142Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T04:43:59.317Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T04:45:57.732Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T05:07:24.273Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T05:22:11.715Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T05:58:10.646Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T06:25:31.836Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T06:32:24.979Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T06:38:34.494Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T06:57:13.024Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T07:11:06.759Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T07:31:03.692Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T07:36:05.205Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T07:45:34.034Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T07:55:25.909Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T08:19:10.954Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T08:19:19.000Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T08:43:22.073Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T08:56:19.906Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T09:22:53.413Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T09:25:31.228Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T09:32:20.311Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T09:36:47.975Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T09:39:55.251Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T09:50:58.290Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T09:53:50.396Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T10:13:16.510Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T10:23:46.787Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T10:25:55.171Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T10:27:27.745Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T10:29:28.068Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T10:31:19.128Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T10:33:31.545Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T10:36:02.893Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T10:54:29.131Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T10:56:12.566Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T10:58:32.286Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T11:18:34.857Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T11:21:17.466Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T11:36:09.017Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T11:38:47.214Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T11:45:14.241Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T11:49:11.009Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T11:51:57.112Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T11:55:43.494Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T11:59:48.669Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T14:14:19.545Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T15:03:07.449Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T15:09:38.075Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T15:37:03.085Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T15:42:03.809Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T16:07:43.171Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T16:31:44.479Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T16:36:07.185Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T16:41:09.188Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T17:09:25.888Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T17:10:26.351Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T17:17:28.783Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T17:50:12.622Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T17:52:20.775Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T17:55:15.592Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T17:57:38.108Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T18:01:46.391Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T18:23:14.648Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T18:30:44.060Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T18:36:57.560Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T18:48:04.753Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T18:50:49.057Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T18:58:04.882Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T19:05:03.433Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T19:08:21.579Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T19:45:15.676Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T19:48:12.389Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T19:51:01.386Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T19:54:30.033Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T19:57:29.506Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T20:05:14.911Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T20:10:29.767Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T20:13:51.649Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T20:18:33.416Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T20:20:56.845Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T20:22:48.425Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T20:25:10.298Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T20:34:23.566Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T20:37:19.716Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:03:29.314Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:08:24.234Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:09:43.790Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:11:20.829Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:19:46.914Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:22:00.978Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:24:03.325Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:25:37.944Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:32:20.327Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:34:42.159Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:39:47.424Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:41:52.453Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:45:01.274Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T21:51:07.987Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:01:33.583Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:05:17.341Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:09:24.546Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:18:10.888Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:27:59.313Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:32:40.279Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:34:46.258Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:39:00.751Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:41:15.338Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:44:12.541Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:45:59.987Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:48:58.278Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:53:41.825Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-12T22:56:20.579Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T03:42:16.740Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T06:38:25.673Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T06:45:39.961Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T08:09:13.662Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T08:14:29.864Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T10:01:46.150Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T10:01:55.885Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T10:02:05.167Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T10:02:11.902Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T10:50:25.818Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T10:53:06.426Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T10:55:04.863Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T10:57:20.806Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T11:00:30.499Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T11:10:46.610Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T12:11:17.383Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T12:14:46.244Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T12:17:13.574Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T12:19:56.993Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T12:22:43.523Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T12:22:49.062Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T12:22:49.111Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T12:26:19.710Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T12:35:51.468Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T12:35:53.191Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T13:22:22.767Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T13:24:14.453Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T13:50:48.193Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T13:58:04.971Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T13:59:00.794Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T14:00:58.126Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T16:04:14.523Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T16:29:22.054Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T16:32:26.415Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T16:38:16.903Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T16:54:37.755Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T16:56:57.602Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T16:59:15.454Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T17:21:04.966Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T17:24:00.801Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T17:25:41.701Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T18:23:51.662Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T18:27:28.729Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T18:32:02.780Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T18:49:56.094Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T19:00:28.024Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T19:08:05.036Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T19:11:16.394Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T19:19:37.519Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T19:22:50.450Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T19:26:30.619Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T19:33:56.245Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T19:56:40.441Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T20:05:31.535Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T20:09:09.640Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T20:12:05.247Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T20:15:44.206Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T20:35:43.363Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T20:56:57.822Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T20:58:16.980Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T21:00:38.441Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T21:03:19.174Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T21:05:54.877Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T21:09:49.338Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T21:13:28.718Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T21:44:13.587Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T22:21:34.709Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T22:25:08.743Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T22:29:31.801Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T22:34:41.983Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "SOT-Technologies",
+      "type": "admin",
+      "path": "services/SOT-Technologies",
+      "installedAt": "2025-05-13T22:59:06.499Z"
+    },
+    {
+      "name": "SOT-Technologies",
+      "type": "admin",
+      "path": "services/SOT-Technologies",
+      "installedAt": "2025-05-13T22:59:06.517Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase10",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase10",
+      "installedAt": "2025-05-13T22:59:06.532Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase2",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase2",
+      "installedAt": "2025-05-13T22:59:06.555Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase3",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase3",
+      "installedAt": "2025-05-13T22:59:06.598Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase4",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase4",
+      "installedAt": "2025-05-13T22:59:06.614Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase5",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase5",
+      "installedAt": "2025-05-13T22:59:06.637Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase6",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase6",
+      "installedAt": "2025-05-13T22:59:06.649Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase7",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase7",
+      "installedAt": "2025-05-13T22:59:06.671Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase8",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase8",
+      "installedAt": "2025-05-13T22:59:06.689Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase9",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase9",
+      "installedAt": "2025-05-13T22:59:06.708Z"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T23:03:51.216Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T23:08:26.916Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-13T23:12:15.459Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T00:16:33.868Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T00:20:53.246Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T00:23:49.862Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T00:28:21.625Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T00:39:24.799Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T00:43:14.179Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T00:47:03.958Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T00:50:59.957Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T00:55:34.318Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T00:59:41.740Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T01:04:09.842Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T01:53:48.232Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T01:54:03.555Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T02:24:28.245Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T02:40:41.512Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T02:45:48.731Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T02:51:37.911Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T02:57:50.592Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T03:06:34.308Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T03:13:15.024Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T03:31:37.896Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T03:41:18.026Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T03:49:28.698Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T03:59:42.829Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T04:08:51.950Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T04:15:47.675Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T04:22:44.616Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T04:44:31.342Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T04:45:29.981Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T04:45:31.938Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T04:58:12.669Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T05:05:18.975Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T05:17:11.379Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T05:26:27.981Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T05:33:26.451Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T05:40:48.662Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T05:48:29.737Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T06:49:19.607Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T06:57:12.599Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T07:04:20.639Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T09:04:27.328Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T11:32:40.884Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T11:33:59.680Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T11:38:18.849Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T11:46:55.846Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T11:54:25.851Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T12:02:37.901Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T12:16:54.409Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T12:28:52.413Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T12:40:50.285Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T13:15:19.637Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T13:23:21.031Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T13:29:38.873Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T13:35:38.747Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T14:08:58.861Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T14:16:50.193Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T14:23:49.563Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T14:30:42.636Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T16:06:56.534Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T16:24:11.496Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T16:31:30.945Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T16:38:36.745Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T16:48:39.050Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T17:10:56.495Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T17:52:35.676Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T18:00:40.235Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T18:03:58.696Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T18:08:38.598Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T18:16:06.717Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T19:00:12.205Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T19:09:40.002Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T19:17:36.486Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-14T19:24:03.103Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T03:51:43.333Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T04:17:40.323Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T04:30:58.597Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T04:38:57.792Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T04:46:24.950Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T05:35:32.475Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T05:42:55.130Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T05:51:21.124Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T05:59:25.158Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T06:36:57.813Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T06:44:20.623Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T06:52:19.564Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T07:00:33.903Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T07:43:06.252Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T07:47:30.150Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T08:06:38.849Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T08:08:56.873Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T08:27:09.563Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T08:34:47.804Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T08:44:00.452Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T08:51:40.526Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T09:01:35.792Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T09:30:12.205Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T09:52:38.456Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T10:46:01.188Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T10:53:33.506Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T10:59:55.543Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T11:19:13.237Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T11:46:12.725Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T11:59:32.179Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T12:13:59.735Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T12:21:21.828Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T12:30:09.067Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T12:37:39.949Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T13:02:47.492Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T13:19:24.058Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T14:02:54.751Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T14:09:56.254Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T14:37:31.549Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T15:05:25.594Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T15:13:39.975Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T15:24:08.180Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T15:31:33.744Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T16:24:43.102Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T16:33:49.799Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T16:41:34.540Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T16:50:09.203Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T17:00:42.134Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T17:17:50.131Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T17:27:52.879Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T17:35:06.283Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T17:53:23.684Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T18:01:02.736Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T18:04:07.385Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T18:05:19.290Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T18:35:16.149Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "DashboardCommandAgent-Phase-11",
+      "type": "admin",
+      "path": "admin/DashboardCommandAgent-Phase-11",
+      "installedAt": "2025-05-15T18:42:39.889Z"
+    },
+    {
+      "name": "EHB-AI-Agent-Phase-1",
+      "type": "service",
+      "path": "services/EHB-AI-Agent-Phase-1",
+      "installedAt": "2025-05-15T18:42:39.905Z"
+    },
+    {
+      "name": "EHB-AI-Agent",
+      "type": "service",
+      "path": "services/EHB-AI-Agent",
+      "installedAt": "2025-05-15T18:42:39.917Z"
+    },
+    {
+      "name": "EHB-AI-Dev-BaseFiles",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-BaseFiles",
+      "installedAt": "2025-05-15T18:42:39.926Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-1",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-1",
+      "installedAt": "2025-05-15T18:42:39.950Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-10",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-10",
+      "installedAt": "2025-05-15T18:42:39.959Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-11",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-11",
+      "installedAt": "2025-05-15T18:42:39.976Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-12",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-12",
+      "installedAt": "2025-05-15T18:42:39.992Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-13",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-13",
+      "installedAt": "2025-05-15T18:42:40.001Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-14",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-14",
+      "installedAt": "2025-05-15T18:42:40.010Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-15",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-15",
+      "installedAt": "2025-05-15T18:42:40.019Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-16",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-16",
+      "installedAt": "2025-05-15T18:42:40.035Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-17",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-17",
+      "installedAt": "2025-05-15T18:42:40.057Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-18",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-18",
+      "installedAt": "2025-05-15T18:42:40.069Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-19",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-19",
+      "installedAt": "2025-05-15T18:42:40.078Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-2",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-2",
+      "installedAt": "2025-05-15T18:42:40.092Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-20",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-20",
+      "installedAt": "2025-05-15T18:42:40.101Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-21",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-21",
+      "installedAt": "2025-05-15T18:42:40.111Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-22",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-22",
+      "installedAt": "2025-05-15T18:42:40.125Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-23",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-23",
+      "installedAt": "2025-05-15T18:42:40.136Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-24",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-24",
+      "installedAt": "2025-05-15T18:42:40.146Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-25",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-25",
+      "installedAt": "2025-05-15T18:42:40.159Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-26",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-26",
+      "installedAt": "2025-05-15T18:42:40.171Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-27",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-27",
+      "installedAt": "2025-05-15T18:42:40.187Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-28",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-28",
+      "installedAt": "2025-05-15T18:42:40.200Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-29",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-29",
+      "installedAt": "2025-05-15T18:42:40.211Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-3",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-3",
+      "installedAt": "2025-05-15T18:42:40.525Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-30",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-30",
+      "installedAt": "2025-05-15T18:42:40.541Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-31",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-31",
+      "installedAt": "2025-05-15T18:42:40.555Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-4",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-4",
+      "installedAt": "2025-05-15T18:42:40.583Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-5",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-5",
+      "installedAt": "2025-05-15T18:42:40.598Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-6",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-6",
+      "installedAt": "2025-05-15T18:42:40.609Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-7",
+      "type": "admin",
+      "path": "admin/EHB-AI-Dev-Phase-7",
+      "installedAt": "2025-05-15T18:42:40.631Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-8",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-8",
+      "installedAt": "2025-05-15T18:42:40.644Z"
+    },
+    {
+      "name": "EHB-AI-Dev-Phase-9",
+      "type": "service",
+      "path": "services/EHB-AI-Dev-Phase-9",
+      "installedAt": "2025-05-15T18:42:40.656Z"
+    },
+    {
+      "name": "EHB-Agent-All-Phases-1-to-40",
+      "type": "admin",
+      "path": "admin/EHB-Agent-All-Phases-1-to-40",
+      "installedAt": "2025-05-15T18:42:40.716Z"
+    },
+    {
+      "name": "EHB-Agent-Core-Setup",
+      "type": "service",
+      "path": "services/EHB-Agent-Core-Setup",
+      "installedAt": "2025-05-15T18:42:40.734Z"
+    },
+    {
+      "name": "SOT-Technologies",
+      "type": "admin",
+      "path": "services/SOT-Technologies",
+      "installedAt": "2025-05-15T18:42:40.761Z"
+    },
+    {
+      "name": "SOT-Technologies",
+      "type": "admin",
+      "path": "services/SOT-Technologies",
+      "installedAt": "2025-05-15T18:42:40.774Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase10",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase10",
+      "installedAt": "2025-05-15T18:42:40.783Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase11",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase11",
+      "installedAt": "2025-05-15T18:42:40.790Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase2",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase2",
+      "installedAt": "2025-05-15T18:42:40.797Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase3",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase3",
+      "installedAt": "2025-05-15T18:42:40.805Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase4",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase4",
+      "installedAt": "2025-05-15T18:42:40.815Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase5",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase5",
+      "installedAt": "2025-05-15T18:42:40.823Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase6",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase6",
+      "installedAt": "2025-05-15T18:42:40.840Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase7",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase7",
+      "installedAt": "2025-05-15T18:42:40.848Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase8",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase8",
+      "installedAt": "2025-05-15T18:42:40.858Z"
+    },
+    {
+      "name": "EHB-Free-Agent-Phase9",
+      "type": "admin",
+      "path": "admin/EHB-Free-Agent-Phase9",
+      "installedAt": "2025-05-15T18:42:40.865Z"
+    },
+    {
+      "name": "SmartAIAgent-Phase-10",
+      "type": "admin",
+      "path": "admin/SmartAIAgent-Phase-10",
+      "installedAt": "2025-05-15T18:42:40.875Z"
+    },
+    {
+      "name": "VoiceGPT-AIAgent-Phase-12",
+      "type": "service",
+      "path": "services/VoiceGPT-AIAgent-Phase-12",
+      "installedAt": "2025-05-15T18:42:40.878Z"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T19:00:41.348Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T19:09:22.969Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T19:37:55.535Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T20:02:50.549Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T20:26:29.053Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    },
+    {
+      "name": "EHB-Test-Service",
+      "type": "service",
+      "path": "services/EHB-Test-Service",
+      "installedAt": "2025-05-15T20:35:30.386Z",
+      "version": "1.0.0",
+      "description": "Sample service for testing EHB Agent Installer",
+      "author": "EHB Technologies",
+      "icon": "📦"
+    }
+  ]
+}

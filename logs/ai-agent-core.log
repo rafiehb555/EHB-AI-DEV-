@@ -1,0 +1,342 @@
+
+[2025-05-15T05:47:58.744Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+[ERROR] node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5125
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 5125
+}
+[ERROR] 
+Node.js v20.18.1
+
+[2025-05-15T05:47:58.953Z] AI Agent Core exited with code 1
+
+[2025-05-15T05:50:22.797Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5126
+
+[2025-05-15T05:55:44.791Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5126
+
+[2025-05-15T05:55:55.146Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5126
+
+[2025-05-15T06:03:52.497Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+[ERROR] node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5126
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 5126
+}
+[ERROR] 
+Node.js v20.18.1
+
+[2025-05-15T06:03:52.706Z] AI Agent Core exited with code 1
+
+[2025-05-15T06:41:21.315Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5126
+
+[2025-05-15T06:41:31.476Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5126
+
+[2025-05-15T06:44:03.744Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+[ERROR] node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5126
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 5126
+}
+
+Node.js v20.18.1
+
+[2025-05-15T06:44:03.880Z] AI Agent Core exited with code 1
+
+[2025-05-15T06:48:46.724Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+[ERROR] node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5126
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 5126
+}
+[ERROR] 
+Node.js v20.18.1
+
+[2025-05-15T06:48:46.894Z] AI Agent Core exited with code 1
+
+[2025-05-15T06:51:14.704Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+
+[2025-05-15T06:51:24.920Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+
+[2025-05-15T06:51:51.306Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+
+[2025-05-15T06:56:43.067Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+
+[2025-05-15T06:56:53.310Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+✅ Agent registered: EHB-Free-Agent v1.0.0
+
+[2025-05-15T06:59:01.330Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+✅ Agent registered: EHB-Free-Agent v1.0.0
+
+[2025-05-15T06:59:11.420Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+
+[2025-05-15T07:04:54.453Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+
+[2025-05-15T07:05:04.644Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+✅ Agent registered: EHB-Free-Agent v1.0.0
+
+[2025-05-15T07:36:51.900Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+
+[2025-05-15T07:43:05.645Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+✅ Agent registered: Whisper-Command v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+
+[2025-05-15T07:47:24.021Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+✅ Agent registered: Whisper-Command v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+
+[2025-05-15T08:06:37.253Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+✅ Agent registered: Whisper-Command v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+
+[2025-05-15T08:08:54.872Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: Whisper-Command v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+
+[2025-05-15T08:19:40.995Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+✅ Agent registered: Whisper-Command v1.0.0
+
+[2025-05-15T08:19:42.387Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+[ERROR] node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5128
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 5128
+}
+[ERROR] 
+Node.js v20.18.1
+
+[2025-05-15T08:19:42.833Z] AI Agent Core exited with code 1
+✅ Agent registered: Whisper-Command v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+✅ Agent registered: EHB-Free-Agent v1.0.0
+
+[2025-05-15T08:31:23.091Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+
+[2025-05-15T08:31:33.264Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+✅ Agent registered: EHB-Free-Agent v1.0.0
+
+[2025-05-15T08:39:06.108Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+
+[2025-05-15T08:39:16.316Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+✅ Agent registered: EHB-Free-Agent v1.0.0
+
+[2025-05-15T08:40:13.033Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+✅ Agent registered: Whisper-Command v1.0.0
+
+[2025-05-15T08:40:23.152Z] Starting AI Agent Core with direct launcher...
+🚀 Initializing AI Agent Core...
+✅ Initialized agent state
+🧠 AI Agent Core running at http://0.0.0.0:5128
+Port 5128 is now open and accessible
+✅ Agent registered: EHB-Free-Agent v1.0.0

@@ -1,0 +1,62 @@
+{
+  "name": "Auto-ZIP-Handler-Agent",
+  "version": "1.0.0",
+  "description": "Automated ZIP file processing and installation service for EHB platform",
+  "type": "service",
+  "enabled": true,
+  "settings": {
+    "watchDirectories": [
+      "./uploads",
+      "./ehb_zips"
+    ],
+    "extractBaseDir": "./temp_extract",
+    "autoInstall": true,
+    "deleteAfterInstall": true,
+    "validateModules": true,
+    "allowedTypes": [
+      "service",
+      "ui",
+      "blockchain",
+      "integration",
+      "data",
+      "utility"
+    ],
+    "targetPaths": {
+      "service": "./services",
+      "ui": "./admin",
+      "blockchain": "./system/EHB-Blockchain/modules",
+      "integration": "./system/integration",
+      "data": "./data",
+      "utility": "./utils"
+    },
+    "registrationEndpoint": "http://localhost:5010/api/modules",
+    "triggerSetupEndpoint": "http://localhost:5010/api/trigger-setup",
+    "maxConcurrentJobs": 3,
+    "pollingInterval": 5000
+  },
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "file": "./logs/zip-handler.log",
+    "consoleOutput": true,
+    "maxLogSize": 10485760,
+    "maxFiles": 5,
+    "format": "text"
+  },
+  "security": {
+    "validateSignature": false,
+    "signatureKey": "",
+    "validateChecksum": true,
+    "scanForMalware": false,
+    "allowedExtensions": [
+      ".zip"
+    ]
+  },
+  "notifications": {
+    "enabled": true,
+    "channels": {
+      "console": true,
+      "devPortal": true
+    }
+  }
+}

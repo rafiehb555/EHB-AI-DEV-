@@ -1,0 +1,26 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.51.0",
+    "autogen>=0.9.1.post0",
+    "beautifulsoup4>=4.13.4",
+    "flask-dance>=7.1.0",
+    "flask-login>=0.6.3",
+    "fs-extra>=0.0.4",
+    "google-search-results>=2.4.2",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "langchain-openai>=0.3.16",
+    "langgraph>=0.4.3",
+    "llama-index>=0.12.35",
+    "oauthlib>=3.2.2",
+    "openai>=1.78.0",
+    "pyjwt>=2.10.1",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+    "serpapi>=0.1.5",
+    "trafilatura>=2.0.0",
+]

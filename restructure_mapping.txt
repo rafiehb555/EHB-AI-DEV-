@@ -1,0 +1,37 @@
+# EHB System - Folder Structure Mapping
+
+## Main Categories
+
+1. franchise-system/
+   - EHB-Franchise
+
+2. dev-services/
+   - SOT-Technologies
+
+3. ai-services/
+   - EHB-AI-Dev
+   - EHB-AI-Dev-Fullstack
+
+4. admin/
+   - EHB-Developer-Portal
+   - EHB-HOME
+   - EHB-DASHBOARD
+
+5. system/
+   - EHB-Blockchain
+   - EHB-TrustyWallet-System
+   - EHB-SQL
+   - EHB-Services-Departments-Flow
+
+6. services/
+   - GoSellr-Ecommerce
+   - WMS-World-Medical-Service
+   - HPS-Education-Service
+   - OLS-Online-Law-Service
+   - JPS-Job-Providing-Service
+   - EHB-Tube
+   - EHB-AI-Marketplace
+   - HMS-Machinery
+   - AG-Travelling
+   - Delivery-Service
+   - EHB-AM-AFFILIATE-SYSTEM

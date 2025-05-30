@@ -1,0 +1,25 @@
+[2025-05-10T20:50:40.007Z] [ERROR] WebSocket error for GUI-Launcher: connect ECONNREFUSED 127.0.0.1:5003
+[2025-05-10T20:50:40.008Z] [ERROR] Connection refused for GUI-Launcher. The server might not be running.
+[2025-05-10T20:50:40.040Z] [ERROR] WebSocket error for EHB-Developer-Portal: connect ECONNREFUSED 127.0.0.1:5003
+[2025-05-10T20:50:40.041Z] [ERROR] Connection refused for EHB-Developer-Portal. The server might not be running.
+[2025-05-10T20:50:40.043Z] [ERROR] WebSocket error for EHB-AI-Dev: connect ECONNREFUSED 127.0.0.1:5003
+[2025-05-10T20:50:40.044Z] [ERROR] Connection refused for EHB-AI-Dev. The server might not be running.
+[2025-05-10T20:50:40.048Z] [ERROR] WebSocket error for EHB-DASHBOARD: connect ECONNREFUSED 127.0.0.1:5003
+[2025-05-10T20:50:40.048Z] [ERROR] Connection refused for EHB-DASHBOARD. The server might not be running.
+[2025-05-10T20:50:40.056Z] [ERROR] WebSocket error for EHB-HOME: connect ECONNREFUSED 127.0.0.1:5003
+[2025-05-10T20:50:40.056Z] [ERROR] Connection refused for EHB-HOME. The server might not be running.
+[2025-05-10T20:50:40.447Z] [ERROR] Service GUI-Launcher appears to be down (all direct checks failed). Attempting to restart.
+[2025-05-10T20:50:40.476Z] [ERROR] Service EHB-Developer-Portal appears to be down (all direct checks failed). Attempting to restart.
+[2025-05-10T20:50:40.487Z] [ERROR] Service EHB-AI-Dev appears to be down (all direct checks failed). Attempting to restart.
+[2025-05-10T20:50:40.553Z] [ERROR] Failed to restart GUI-Launcher via API: Request failed with status code 404
+[2025-05-10T20:50:40.568Z] [ERROR] Failed to restart GUI-Launcher using both methods
+[2025-05-10T20:50:40.602Z] [ERROR] Failed to restart EHB-Developer-Portal via API: Request failed with status code 404
+[2025-05-10T20:50:40.613Z] [ERROR] Failed to restart EHB-Developer-Portal using both methods
+[2025-05-10T20:50:40.626Z] [ERROR] Failed to restart EHB-AI-Dev via API: Request failed with status code 404
+[2025-05-10T20:50:40.632Z] [ERROR] Failed to restart EHB-AI-Dev using both methods
+[2025-05-10T20:50:40.681Z] [ERROR] Service EHB-DASHBOARD appears to be down (all direct checks failed). Attempting to restart.
+[2025-05-10T20:50:40.693Z] [ERROR] Failed to restart EHB-DASHBOARD via API: Request failed with status code 404
+[2025-05-10T20:50:40.700Z] [ERROR] Service EHB-HOME appears to be down (all direct checks failed). Attempting to restart.
+[2025-05-10T20:50:40.702Z] [ERROR] Failed to restart EHB-DASHBOARD using both methods
+[2025-05-10T20:50:40.719Z] [ERROR] Failed to restart EHB-HOME via API: Request failed with status code 404
+[2025-05-10T20:50:40.722Z] [ERROR] Failed to restart EHB-HOME using both methods

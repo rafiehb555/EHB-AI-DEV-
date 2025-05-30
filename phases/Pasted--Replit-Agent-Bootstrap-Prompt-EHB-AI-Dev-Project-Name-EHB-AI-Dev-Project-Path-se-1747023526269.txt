@@ -1,0 +1,104 @@
+🧠 Replit Agent Bootstrap Prompt — EHB-AI-Dev
+
+📦 Project Name: EHB-AI-Dev  
+📍 Project Path: /services/SOT-Technologies/EHB-AI-Dev/  
+
+You're handling an enterprise-level AI-powered system which has been divided into over 30 modular ZIP phases. Your job is to maintain full-stack intelligence, ensure no folder or file is missing, and every feature auto-runs or generates if skipped by the developer.
+
+---
+
+✅ Phase-wise Modules from ZIPs (Phase-1 to 31):
+
+| Phase # | Feature Name                          |
+|--------|----------------------------------------|
+| 1      | AI Agent Core Base                     |
+| 2      | Auto Dashboard Setup                   |
+| 3      | Module Builder                         |
+| 4      | Admin Coding Chat                      |
+| 5      | SQL Badge Logic                        |
+| 6      | Role/Right Management                  |
+| 7      | Auto Card Generator                    |
+| 8      | Test Pass/Fail Scoring                 |
+| 9      | Smart Agent AI                         |
+| 10     | Dashboard Command Management           |
+| 11     | VoiceGPT AI Agent                      |
+| 12     | VoiceGPT Audio Answer Matching         |
+| 13     | Mobile App Chat Assistant              |
+| 14     | APK Build View + Debug UI              |
+| 15     | Smart Access Control (Admin UI)        |
+| 16     | Wallet Lock System                     |
+| 17     | Trusty Wallet Core                     |
+| 18     | SQL Validator Config                   |
+| 19     | DPoS Voting Logic                      |
+| 20     | Franchise Earnings                     |
+| 21     | Affiliate Income Tree                  |
+| 22     | Test-Based Badge Grant System          |
+| 23     | KYC Document Verification Module       |
+| 24     | Product Verification & Report System   |
+| 25     | Blockchain Coding Interface            |
+| 26     | Parachain + Validator Join Flow        |
+| 27     | AI Robot Voice UI                      |
+| 28     | DAO + Voting Contract                  |
+| 29     | Revenue Distribution Logic             |
+| 30     | Dynamic Admin Panel Cards              |
+| 31     | Phase Map Routing + AI Status Tracker  |
+
+---
+
+📁 Folder Structure (auto-managed):
+
+- `/phases/phaseXX/` → contains `frontend/`, `backend/`, `models/`, `config/`, `admin/`, `README.txt`
+- `/shared/` → common utils like `auth/`, `constants/`, `middlewares/`, `utils/`
+- `/admin-dashboard/index.js` → auto-import routes from each `/phases/phaseXX/admin/`
+- `/public/` → shared files like `/assets`, `/badges`, `/certificates`, `/qr`
+
+---
+
+🛠️ What You Must Auto-Do:
+
+1. **Extract ZIPs** into correct `/phases/phaseXX/`
+2. **Rename folders** (`frontend/`, `backend/`, etc.)
+3. **Auto-generate files** if missing using `/shared/utils/templateFile.js`
+4. **Auto-import admin dashboards** in `/admin-dashboard/index.js`
+5. **Update developer portal logs** in `/EHB-Developer-Portal/pages/index.md`
+6. **Log status of each phase** with completion ✅ or ❌
+7. **Never delete** existing working folders or overwrite configs
+
+---
+
+🧠 Features to Always Enable in Replit:
+
+| Replit Tool                  | Status   |
+|-----------------------------|----------|
+| ✅ AI Ghostwriter            | ON       |
+| ✅ Shell Script Execution    | ON       |
+| ✅ Live Terminal Debugger    | ON       |
+| ✅ Console + Error Logs Fix  | ON       |
+| ✅ File Creator Auto Mode    | ON       |
+| ✅ GitHub Commit Assistant   | ON       |
+| ✅ Memory Snapshot Save      | Auto     |
+
+---
+
+🧬 Blockchain/Validator Support:
+
+- ✅ Enable Substrate Smart Contracts (ink!)
+- ✅ Integrate Moonbeam Testnet API
+- ✅ Validator Smart Contract File Creation
+- ✅ Parachain Support Setup
+- ✅ Wallet Logic Auto-Handler (locked balance, fine, staking)
+- ✅ Validator Logic (DPoS, staking reward, income share logic)
+
+---
+
+📘 Final Reminder:
+
+- Har ZIP ka `README.txt` explain karta hai kaunsa file kis kaam ka hai
+- Har shared util agar repeat ho to `/shared/` mein move karo
+- Har new feature auto-detect karo, aur `dev portal` update karta jao
+
+🤖 Agent should always:
+- Run missing script if one isn't present
+- Add fallback logic in `templateFile.js`
+- Keep developer notified via shell console logs
+

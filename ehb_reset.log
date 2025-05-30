@@ -1,0 +1,19 @@
+[2025-05-10T11:10:12.363Z] Starting EHB Project Reset...
+[2025-05-10T11:10:12.370Z] Creating backup of important files...
+[2025-05-10T11:10:12.415Z] Step 1: Deleting old and duplicate folders...
+[2025-05-10T11:10:12.421Z] Removing legacy directory: frontend
+[2025-05-10T11:11:00.852Z] Removing legacy directory: frontend
+[2025-05-10T11:11:02.237Z] Removing legacy directory: backend
+[2025-05-10T11:11:03.733Z] Removing legacy directory: admin
+[2025-05-10T11:11:03.739Z] Directory pages does not exist, skipping
+[2025-05-10T11:11:03.739Z] Directory app does not exist, skipping
+[2025-05-10T11:11:03.740Z] Removing legacy directory: public
+[2025-05-10T11:11:03.740Z] Removing legacy directory: custom-target-dir
+[2025-05-10T11:11:03.741Z] Removing legacy directory: TestModule
+[2025-05-10T11:11:03.752Z] Removing legacy directory: ApiTestModule
+[2025-05-10T11:11:03.757Z] Step 1: Old and duplicate folders deleted successfully
+[2025-05-10T11:11:12.548Z] Created root redirector HTML
+[2025-05-10T11:11:12.572Z] Created root redirector server
+[2025-05-10T11:11:12.573Z] Created system folder
+[2025-05-10T11:11:12.573Z] Created structure tracking file
+[2025-05-10T11:11:12.574Z] Step 5: Set EHB-HOME as the root entry point successfully

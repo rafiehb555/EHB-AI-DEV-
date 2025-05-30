@@ -1,0 +1,51 @@
+{
+  "name": "EHB-User-Flow",
+  "version": "1.0.0",
+  "description": "User flow management component for EHB platform",
+  "type": "component",
+  "dependencies": {
+    "EHB-HOME": "^1.0.0",
+    "EHB-DASHBOARD": "^1.0.0",
+    "ehb-admin-panel": "^1.0.0"
+  },
+  "settings": {
+    "trackInteractions": true,
+    "optimizePaths": true,
+    "saveUserPreferences": true,
+    "analyticsEnabled": true,
+    "persistenceStrategy": "localStorage",
+    "maxHistoryLength": 50
+  },
+  "paths": [
+    {
+      "name": "Dashboard",
+      "path": "/dashboard",
+      "expectedTimeSpent": 120,
+      "expectedNextPaths": ["/analytics", "/settings", "/profile"]
+    },
+    {
+      "name": "Settings",
+      "path": "/settings",
+      "expectedTimeSpent": 90,
+      "expectedNextPaths": ["/dashboard", "/profile"]
+    },
+    {
+      "name": "Profile",
+      "path": "/profile",
+      "expectedTimeSpent": 60,
+      "expectedNextPaths": ["/dashboard", "/settings"]
+    },
+    {
+      "name": "Analytics",
+      "path": "/analytics",
+      "expectedTimeSpent": 180,
+      "expectedNextPaths": ["/dashboard", "/reports"]
+    }
+  ],
+  "analytics": {
+    "storageKey": "ehb_user_flow_analytics",
+    "collectFrequency": "realtime",
+    "processFrequency": "daily",
+    "reportFrequency": "weekly"
+  }
+}

@@ -1,0 +1,51 @@
+2025-05-10 04:49:50,919 - ehb_auto_development - INFO - Starting auto development process
+2025-05-10 04:49:50,919 - ehb_auto_development - INFO - Checking environment setup
+2025-05-10 04:49:50,919 - ehb_auto_development - INFO - Environment check passed
+2025-05-10 04:49:50,919 - ehb_auto_development - INFO - Installing required dependencies
+2025-05-10 04:49:54,882 - ehb_auto_development - INFO - Successfully installed dependencies: ['openai']
+2025-05-10 04:49:54,884 - ehb_auto_development - INFO - Checking Node.js packages
+2025-05-10 04:49:56,403 - ehb_auto_development - INFO - Fetching data from OpenAI API
+2025-05-10 04:49:57,533 - ehb_ai_integrator - INFO - Starting full AI integration process
+2025-05-10 04:49:57,533 - ehb_ai_integrator - INFO - Fetching company data from OpenAI
+2025-05-10 04:49:57,732 - openai._base_client - INFO - Retrying request to /chat/completions in 0.438693 seconds
+2025-05-10 04:49:58,199 - openai._base_client - INFO - Retrying request to /chat/completions in 0.997002 seconds
+2025-05-10 04:49:59,224 - ehb_ai_integrator - ERROR - Error fetching company data: Connection error.
+2025-05-10 04:49:59,224 - ehb_ai_integrator - ERROR - Error in full integration process: Connection error.
+2025-05-10 04:49:59,224 - ehb_auto_development - ERROR - Error fetching data from OpenAI API: Connection error.
+2025-05-10 04:49:59,225 - ehb_auto_development - INFO - Scraping data from ChatGPT shared URLs
+2025-05-10 04:49:59,675 - ehb_chatgpt_scraper - INFO - Starting scraping process for 4 URLs
+2025-05-10 04:49:59,675 - ehb_chatgpt_scraper - INFO - Processing URL 1/4: https://chatgpt.com/share/681ed297-023c-8010-a11a-63ce64f5627d
+2025-05-10 04:49:59,675 - ehb_chatgpt_scraper - INFO - Scraping URL: https://chatgpt.com/share/681ed297-023c-8010-a11a-63ce64f5627d
+2025-05-10 04:50:00,732 - ehb_chatgpt_scraper - INFO - Successfully scraped and saved content to ehb_company_info/chatgpt_content/chatgpt_681ed297_023c_8010_a11a_63ce64f5627d.txt
+2025-05-10 04:50:00,732 - ehb_chatgpt_scraper - INFO - Processing ChatGPT content
+2025-05-10 04:50:00,732 - ehb_chatgpt_scraper - INFO - Extracting code snippets from content
+2025-05-10 04:50:00,732 - ehb_chatgpt_scraper - INFO - Extracted 0 code snippets
+2025-05-10 04:50:00,732 - ehb_chatgpt_scraper - INFO - Processed content into 1 sections
+2025-05-10 04:50:00,733 - ehb_chatgpt_scraper - INFO - Saved processed content to ehb_company_info/processed/processed_681ed297-023c-8010-a11a-63ce64f5627d.json
+2025-05-10 04:50:00,733 - ehb_chatgpt_scraper - INFO - Processing URL 2/4: https://chatgpt.com/gpts/editor/g-6756a6594f448191b44509b44c1bf628
+2025-05-10 04:50:00,733 - ehb_chatgpt_scraper - INFO - Scraping URL: https://chatgpt.com/gpts/editor/g-6756a6594f448191b44509b44c1bf628
+2025-05-10 04:50:00,752 - trafilatura.downloads - ERROR - not a 200 response: 403 for URL https://chatgpt.com/gpts/editor/g-6756a6594f448191b44509b44c1bf628
+2025-05-10 04:50:00,753 - ehb_chatgpt_scraper - ERROR - Failed to download content from URL: https://chatgpt.com/gpts/editor/g-6756a6594f448191b44509b44c1bf628
+2025-05-10 04:50:00,753 - ehb_chatgpt_scraper - INFO - Processing URL 3/4: https://chatgpt.com/share/681ed416-2280-8010-8414-dab4e29cf4bc
+2025-05-10 04:50:00,753 - ehb_chatgpt_scraper - INFO - Scraping URL: https://chatgpt.com/share/681ed416-2280-8010-8414-dab4e29cf4bc
+2025-05-10 04:50:01,063 - ehb_chatgpt_scraper - INFO - Successfully scraped and saved content to ehb_company_info/chatgpt_content/chatgpt_681ed416_2280_8010_8414_dab4e29cf4bc.txt
+2025-05-10 04:50:01,064 - ehb_chatgpt_scraper - INFO - Processing ChatGPT content
+2025-05-10 04:50:01,064 - ehb_chatgpt_scraper - INFO - Extracting code snippets from content
+2025-05-10 04:50:01,065 - ehb_chatgpt_scraper - INFO - Extracted 0 code snippets
+2025-05-10 04:50:01,065 - ehb_chatgpt_scraper - INFO - Processed content into 1 sections
+2025-05-10 04:50:01,065 - ehb_chatgpt_scraper - INFO - Saved processed content to ehb_company_info/processed/processed_681ed416-2280-8010-8414-dab4e29cf4bc.json
+2025-05-10 04:50:01,065 - ehb_chatgpt_scraper - INFO - Processing URL 4/4: https://chatgpt.com/share/681ed297-023c-8010-a11a-63ce64f5627d
+2025-05-10 04:50:01,065 - ehb_chatgpt_scraper - INFO - Scraping URL: https://chatgpt.com/share/681ed297-023c-8010-a11a-63ce64f5627d
+2025-05-10 04:50:01,611 - ehb_chatgpt_scraper - INFO - Successfully scraped and saved content to ehb_company_info/chatgpt_content/chatgpt_681ed297_023c_8010_a11a_63ce64f5627d.txt
+2025-05-10 04:50:01,611 - ehb_chatgpt_scraper - INFO - Processing ChatGPT content
+2025-05-10 04:50:01,611 - ehb_chatgpt_scraper - INFO - Extracting code snippets from content
+2025-05-10 04:50:01,611 - ehb_chatgpt_scraper - INFO - Extracted 0 code snippets
+2025-05-10 04:50:01,611 - ehb_chatgpt_scraper - INFO - Processed content into 1 sections
+2025-05-10 04:50:01,611 - ehb_chatgpt_scraper - INFO - Saved processed content to ehb_company_info/processed/processed_681ed297-023c-8010-a11a-63ce64f5627d.json
+2025-05-10 04:50:01,612 - ehb_chatgpt_scraper - INFO - Scraping complete. Processed 2/4 URLs successfully
+2025-05-10 04:50:01,612 - ehb_auto_development - INFO - Successfully scraped data from 2/4 ChatGPT URLs
+2025-05-10 04:50:01,612 - ehb_auto_development - INFO - Integrating code snippets
+2025-05-10 04:50:01,612 - ehb_auto_development - WARNING - No code snippets found to integrate
+2025-05-10 04:50:01,612 - ehb_auto_development - INFO - Generating development plan
+2025-05-10 04:50:01,612 - ehb_auto_development - INFO - Development plan generated successfully
+2025-05-10 04:50:01,613 - ehb_auto_development - INFO - Restarting workflows

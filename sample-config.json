@@ -1,0 +1,15 @@
+{
+  "module_name": "GoSellr-Ecommerce",
+  "module_type": "frontend",
+  "target_directory": "GoSellr-Ecommerce",
+  "register_with_integration_hub": true,
+  "file_mapping": {
+    "frontend": "frontend",
+    "backend": "backend",
+    "shared": "shared",
+    "docs": "docs"
+  },
+  "post_integration_scripts": [
+    "setup.js"
+  ]
+}

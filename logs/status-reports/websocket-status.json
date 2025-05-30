@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-05-10T21:47:43.204Z",
+  "totalServices": 5,
+  "connectedServices": 5,
+  "disconnectedServices": 0,
+  "errorServices": 0,
+  "serviceStatuses": [
+    {
+      "name": "GUI-Launcher",
+      "status": "connected",
+      "lastEvent": "2025-05-10T20:50:45.043Z",
+      "retries": 1,
+      "url": "ws://localhost:5003/ehb-integration"
+    },
+    {
+      "name": "EHB-AI-Dev",
+      "status": "connected",
+      "lastEvent": "2025-05-10T20:50:45.051Z",
+      "retries": 1,
+      "url": "ws://localhost:5003/ehb-integration"
+    },
+    {
+      "name": "EHB-Developer-Portal",
+      "status": "connected",
+      "lastEvent": "2025-05-10T20:50:45.047Z",
+      "retries": 1,
+      "url": "ws://localhost:5003/ehb-integration"
+    },
+    {
+      "name": "EHB-DASHBOARD",
+      "status": "connected",
+      "lastEvent": "2025-05-10T20:50:45.057Z",
+      "retries": 1,
+      "url": "ws://localhost:5003/ehb-integration"
+    },
+    {
+      "name": "EHB-HOME",
+      "status": "connected",
+      "lastEvent": "2025-05-10T20:50:45.064Z",
+      "retries": 1,
+      "url": "ws://localhost:5003/ehb-integration"
+    }
+  ]
+}

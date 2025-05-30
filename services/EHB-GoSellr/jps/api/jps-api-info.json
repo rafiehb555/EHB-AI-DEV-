@@ -1,0 +1,28 @@
+{
+  "service": "JPS-Job-Providing-Service",
+  "base_url": "http://localhost:5003/api",
+  "integration_date": "2025-05-30T08:00:15.594Z",
+  "status": "active",
+  "endpoints": [
+    {
+      "path": "/jobs",
+      "method": "GET",
+      "description": "Get all job listings"
+    },
+    {
+      "path": "/jobs/:id",
+      "method": "GET",
+      "description": "Get job details by ID"
+    },
+    {
+      "path": "/jobs/:id/apply",
+      "method": "POST",
+      "description": "Apply for a job"
+    },
+    {
+      "path": "/jobs",
+      "method": "POST",
+      "description": "Post a new job listing"
+    }
+  ]
+}

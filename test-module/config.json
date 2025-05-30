@@ -1,0 +1,10 @@
+{
+  "module_name": "TestModule",
+  "module_type": "full-stack",
+  "target_directory": "TestModule",
+  "register_with_integration_hub": true,
+  "file_mapping": {
+    "frontend": "frontend",
+    "backend": "backend"
+  }
+}

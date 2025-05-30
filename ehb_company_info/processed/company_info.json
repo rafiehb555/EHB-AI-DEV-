@@ -1,0 +1,71 @@
+{
+  "name": "EHB Technologies (Enterprise Hybrid Blockchain)",
+  "description": "EHB Technologies is a pioneering enterprise solutions provider that combines blockchain technology with AI-powered systems to create robust, secure, and efficient solutions for businesses across various industries.",
+  "mission": "To revolutionize enterprise operations through innovative blockchain and AI technologies that enhance security, transparency, and efficiency.",
+  "vision": "To become the global leader in enterprise blockchain solutions, creating a more connected, secure, and efficient business ecosystem.",
+  "values": [
+    "Innovation - Continuously pushing the boundaries of what's possible",
+    "Integrity - Maintaining the highest ethical standards in all operations",
+    "Security - Prioritizing data protection and system security",
+    "Collaboration - Working together with clients to create tailored solutions",
+    "Excellence - Striving for the highest quality in all products and services"
+  ],
+  "founded": "2022",
+  "headquarters": "Silicon Valley, California, USA",
+  "industries": [
+    "Enterprise Software",
+    "Blockchain Technology",
+    "Artificial Intelligence",
+    "Data Security",
+    "E-commerce Solutions",
+    "Financial Services"
+  ],
+  "products": [
+    {
+      "name": "EHB Core Platform",
+      "description": "The foundation of all EHB solutions, providing blockchain infrastructure and AI integration capabilities."
+    },
+    {
+      "name": "TrustyWallet System",
+      "description": "Secure digital wallet solution for enterprises with multi-currency support and advanced security features."
+    },
+    {
+      "name": "GoSellr E-commerce Suite",
+      "description": "End-to-end blockchain-powered e-commerce platform with integrated payment processing."
+    },
+    {
+      "name": "EHB Developer Portal",
+      "description": "Comprehensive development environment for creating custom blockchain applications."
+    }
+  ],
+  "services": [
+    {
+      "name": "WMS (World Medical Service)",
+      "description": "Blockchain-based solutions for the healthcare industry."
+    },
+    {
+      "name": "HPS (Education Service)",
+      "description": "Educational platforms built on blockchain technology."
+    },
+    {
+      "name": "JPS (Job Providing Service)",
+      "description": "Employment marketplace secured by blockchain."
+    },
+    {
+      "name": "OLS (Online Law Service)",
+      "description": "Legal services platform with blockchain-verified documentation."
+    }
+  ],
+  "team_size": "250+ employees",
+  "website": "https://www.ehbtechnologies.com",
+  "contact": {
+    "email": "info@ehbtechnologies.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "1234 Innovation Drive, Palo Alto, CA 94301, USA"
+  },
+  "social_media": {
+    "twitter": "https://twitter.com/ehbtechnologies",
+    "linkedin": "https://linkedin.com/company/ehbtechnologies",
+    "github": "https://github.com/ehbtechnologies"
+  }
+}

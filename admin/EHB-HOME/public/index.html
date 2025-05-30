@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EHB HOME - Enterprise Hybrid Blockchain</title>
+  <style>
+    :root {
+      --primary-color: #3B82F6;
+      --secondary-color: #1E40AF;
+      --bg-color: #F3F4F6;
+      --card-bg: #FFFFFF;
+      --text-color: #1F2937;
+      --text-light: #6B7280;
+      --success: #10B981;
+      --warning: #F59E0B;
+      --danger: #EF4444;
+      --border-radius: 8px;
+      --box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      
+      /* Category colors */
+      --ai-services-color: #8B5CF6;
+      --core-services-color: #2563EB;
+      --development-color: #10B981;
+      --administration-color: #F59E0B;
+      --database-color: #EF4444;
+      --ecommerce-color: #EC4899;
+      --employment-color: #14B8A6;
+      --technology-color: #6366F1;
+      --management-color: #F97316;
+      --finance-color: #84CC16;
+      --other-color: #6B7280;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 1.5rem 0;
+      margin-bottom: 2rem;
+      box-shadow: var(--box-shadow);
+    }
+    
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+    
+    .logo span {
+      margin-left: 0.5rem;
+    }
+    
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+    
+    nav ul li {
+      margin-left: 1.5rem;
+    }
+    
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: opacity 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+      opacity: 0.8;
+    }
+    
+    .hero {
+      background-color: var(--card-bg);
+      border-radius: var(--border-radius);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--box-shadow);
+      text-align: center;
+    }
+    
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: var(--primary-color);
+    }
+    
+    .hero p {
+      font-size: 1.2rem;
+      color: var(--text-light);
+      max-width: 800px;
+      margin: 0 auto 1.5rem;
+    }
+    
+    .btn {
+      display: inline-block;
+      background-color: var(--primary-color);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: var(--border-radius);
+      text-decoration: none;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+      border: none;
+    }
+    
+    .btn:hover {
+      background-color: var(--secondary-color);
+    }
+    
+    .btn-outline {
+      background-color: transparent;
+      border: 1px solid var(--primary-color);
+      color: var(--primary-color);
+    }
+    
+    .btn-outline:hover {
+      background-color: var(--primary-color);
+      color: white;
+    }
+    
+    .services {
+      margin-bottom: 2rem;
+    }
+    
+    .section-title {
+      font-size: 1.75rem;
+      margin-bottom: 1.5rem;
+      color: var(--text-color);
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+    
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 50px;
+      height: 3px;
+      background-color: var(--primary-color);
+    }
+    
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    
+    .service-category {
+      margin-bottom: 2rem;
+    }
+    
+    .category-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--primary-color);
+    }
+    
+    .category-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    
+    .service-port {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      margin-top: 0.5rem;
+      padding-top: 0.5rem;
+      border-top: 1px dashed #E5E7EB;
+    }
+    
+    .card {
+      background-color: var(--card-bg);
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      box-shadow: var(--box-shadow);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+    
+    .card-header {
+      padding: 1.5rem;
+      border-bottom: 1px solid #E5E7EB;
+      display: flex;
+      align-items: center;
+    }
+    
+    .card-icon {
+      font-size: 2rem;
+      margin-right: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      background-color: var(--bg-color);
+      border-radius: 50%;
+    }
+    
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    
+    .card-body {
+      padding: 1.5rem;
+    }
+    
+    .card-description {
+      color: var(--text-light);
+      margin-bottom: 1rem;
+    }
+    
+    .card-footer {
+      padding: 1rem 1.5rem;
+      background-color: #F9FAFB;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .status {
+      display: flex;
+      align-items: center;
+      font-size: 0.875rem;
+    }
+    
+    .status-icon {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 0.5rem;
+    }
+    
+    .status-active .status-icon {
+      background-color: var(--success);
+    }
+    
+    .status-maintenance .status-icon {
+      background-color: var(--warning);
+    }
+    
+    .featured-card {
+      background-color: var(--card-bg);
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      box-shadow: var(--box-shadow);
+      margin-bottom: 2rem;
+      border-left: 4px solid var(--primary-color);
+    }
+    
+    .featured-card-content {
+      padding: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .featured-card-left {
+      flex: 1;
+      min-width: 300px;
+    }
+    
+    .featured-card-right {
+      flex: 1;
+      min-width: 300px;
+      padding-left: 2rem;
+    }
+    
+    .featured-card-header {
+      margin-bottom: 1.5rem;
+    }
+    
+    .featured-icon {
+      font-size: 3rem;
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+    
+    .featured-title {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .featured-description {
+      color: var(--text-light);
+      margin-bottom: 1.5rem;
+      font-size: 1.1rem;
+    }
+    
+    .feature-list {
+      list-style: none;
+      margin-bottom: 1.5rem;
+    }
+    
+    .feature-list li {
+      padding: 0.5rem 0;
+      display: flex;
+      align-items: center;
+    }
+    
+    .feature-list li::before {
+      content: '✓';
+      color: var(--success);
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
+    
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .metric {
+      background-color: #F9FAFB;
+      padding: 1rem;
+      border-radius: var(--border-radius);
+      text-align: center;
+    }
+    
+    .metric-value {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--primary-color);
+    }
+    
+    .metric-label {
+      font-size: 0.875rem;
+      color: var(--text-light);
+    }
+    
+    footer {
+      background-color: #1F2937;
+      color: white;
+      padding: 3rem 0 2rem;
+      margin-top: 3rem;
+    }
+    
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+    
+    .footer-section h3 {
+      font-size: 1.25rem;
+      margin-bottom: 1.5rem;
+      color: #F3F4F6;
+    }
+    
+    .footer-links {
+      list-style: none;
+    }
+    
+    .footer-links li {
+      margin-bottom: 0.75rem;
+    }
+    
+    .footer-links a {
+      color: #D1D5DB;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    
+    .footer-links a:hover {
+      color: white;
+    }
+    
+    .footer-bottom {
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid #374151;
+      text-align: center;
+      color: #9CA3AF;
+    }
+    
+    .loading {
+      text-align: center;
+      padding: 2rem;
+      font-size: 1.25rem;
+      color: var(--text-light);
+    }
+    
+    .spinner {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border: 4px solid rgba(59, 130, 246, 0.2);
+      border-radius: 50%;
+      border-top-color: var(--primary-color);
+      animation: spin 1s linear infinite;
+      margin-bottom: 1rem;
+    }
+    
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    
+    .error-message {
+      background-color: #FEE2E2;
+      color: #B91C1C;
+      padding: 1rem;
+      border-radius: var(--border-radius);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+    }
+    
+    .error-message::before {
+      content: '⚠️';
+      margin-right: 0.5rem;
+      font-size: 1.25rem;
+    }
+    
+    @media (max-width: 768px) {
+      header .container {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      nav ul {
+        margin-top: 1rem;
+        justify-content: center;
+      }
+      
+      nav ul li {
+        margin: 0 0.75rem;
+      }
+      
+      .featured-card-right {
+        padding-left: 0;
+        padding-top: 2rem;
+      }
+      
+      .section-title {
+        text-align: center;
+      }
+      
+      .section-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        🔗 <span>Enterprise Hybrid Blockchain</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/dashboard">Dashboard</a></li>
+          <li><a href="/admin">Admin</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <h1>Welcome to EHB System</h1>
+      <p>Enterprise Hybrid Blockchain combines cutting-edge blockchain technology with traditional enterprise solutions for a secure, scalable, and efficient business platform.</p>
+      <a href="/dashboard" class="btn">Access Dashboard</a>
+    </section>
+
+    <section class="featured-service">
+      <h2 class="section-title">Featured Service</h2>
+      <div id="featured-service-container">
+        <div class="loading">
+          <div class="spinner"></div>
+          <p>Loading featured service...</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <h2 class="section-title">Our Services</h2>
+      <div id="services-container" class="card-grid">
+        <div class="loading">
+          <div class="spinner"></div>
+          <p>Loading services...</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3>Enterprise Hybrid Blockchain</h3>
+          <p>Advanced blockchain solutions for enterprise needs</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/dashboard">Dashboard</a></li>
+            <li><a href="/admin">Admin</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Core Systems</h3>
+          <ul class="footer-links">
+            <li><a href="/system/EHB-Blockchain">Blockchain</a></li>
+            <li><a href="/system/EHB-SQL">SQL Departments</a></li>
+            <li><a href="/system/franchise-system">Franchise System</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="/services/EHB-GoSellr">GoSellr</a></li>
+            <li><a href="/services/JPS-Job-Providing-Service">JPS</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Enterprise Hybrid Blockchain. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Fetch services data
+    async function fetchServices() {
+      try {
+        const response = await fetch('/api/services');
+        const data = await response.json();
+        
+        if (!data.success) {
+          throw new Error(data.error || 'Failed to load services');
+        }
+        
+        return data.services;
+      } catch (error) {
+        console.error('Error fetching services:', error);
+        return null;
+      }
+    }
+    
+    // Fetch featured GoSellr service
+    async function fetchFeaturedGoSellr() {
+      try {
+        const response = await fetch('/api/featured/gosellr');
+        const data = await response.json();
+        
+        if (!data.success) {
+          throw new Error(data.error || 'Failed to load featured service');
+        }
+        
+        return data.service;
+      } catch (error) {
+        console.error('Error fetching featured service:', error);
+        return null;
+      }
+    }
+    
+    // Render services
+    function renderServices(services) {
+      const container = document.getElementById('services-container');
+      
+      if (!services || !services.length) {
+        container.innerHTML = `
+          <div class="error-message">
+            No services available. Please check your connection.
+          </div>
+        `;
+        return;
+      }
+      
+      // Group services by category
+      const servicesByCategory = services.reduce((groups, service) => {
+        const category = service.category || 'Other';
+        if (!groups[category]) {
+          groups[category] = [];
+        }
+        groups[category].push(service);
+        return groups;
+      }, {});
+      
+      // Order categories with AI Services and Core Services first
+      const orderedCategories = [
+        'AI Services', 
+        'Core Services', 
+        'Development', 
+        'Administration', 
+        'Database',
+        'E-commerce',
+        'Employment',
+        'Technology',
+        'Management',
+        'Finance',
+        'Other'
+      ];
+      
+      // Filter to categories that actually have services
+      const availableCategories = orderedCategories
+        .filter(category => servicesByCategory[category] && servicesByCategory[category].length > 0);
+      
+      // Build HTML for all categories and their services
+      const html = availableCategories.map(category => `
+        <div class="service-category">
+          <h3 class="category-title">${category}</h3>
+          <div class="category-cards">
+            ${servicesByCategory[category].map(service => `
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-icon">${service.icon}</div>
+                  <h3 class="card-title">${service.name}</h3>
+                </div>
+                <div class="card-body">
+                  <p class="card-description">${service.description}</p>
+                  ${service.directUrl ? 
+                    `<a href="${service.directUrl}" class="btn btn-outline" target="_blank">Open Service</a>` : 
+                    `<a href="${service.link}" class="btn btn-outline">Access Service</a>`
+                  }
+                  ${service.port ? 
+                    `<p class="service-port">Port: ${service.port}</p>` : 
+                    ''
+                  }
+                </div>
+                <div class="card-footer">
+                  <div class="status status-${service.status}">
+                    <div class="status-icon"></div>
+                    <span>${service.status === 'active' ? 'Active' : 'Maintenance'}</span>
+                  </div>
+                  <span>${category}</span>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
+      
+      container.innerHTML = html;
+    }
+    
+    // Render featured GoSellr service
+    function renderFeaturedGoSellr(service) {
+      const container = document.getElementById('featured-service-container');
+      
+      if (!service) {
+        container.innerHTML = `
+          <div class="error-message">
+            Featured service not available.
+          </div>
+        `;
+        return;
+      }
+      
+      container.innerHTML = `
+        <div class="featured-card" style="border-color: ${service.color}">
+          <div class="featured-card-content">
+            <div class="featured-card-left">
+              <div class="featured-card-header">
+                <div class="featured-icon">${service.icon}</div>
+                <h3 class="featured-title">${service.name}</h3>
+                <p class="featured-description">${service.description}</p>
+              </div>
+              <a href="${service.url}" class="btn" style="background-color: ${service.color}">Open ${service.name}</a>
+            </div>
+            <div class="featured-card-right">
+              <h4>Key Features</h4>
+              <ul class="feature-list">
+                ${service.features.map(feature => `<li>${feature}</li>`).join('')}
+              </ul>
+              <h4>Key Metrics</h4>
+              <div class="metrics">
+                ${Object.entries(service.metrics).map(([key, value]) => `
+                  <div class="metric">
+                    <div class="metric-value">${value}</div>
+                    <div class="metric-label">${key.charAt(0).toUpperCase() + key.slice(1)}</div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+    
+    // Initialize on page load
+    async function init() {
+      // Fetch and render services
+      const services = await fetchServices();
+      renderServices(services);
+      
+      // Fetch and render featured GoSellr service
+      const featuredService = await fetchFeaturedGoSellr();
+      renderFeaturedGoSellr(featuredService);
+    }
+    
+    // Start loading data when page loads
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

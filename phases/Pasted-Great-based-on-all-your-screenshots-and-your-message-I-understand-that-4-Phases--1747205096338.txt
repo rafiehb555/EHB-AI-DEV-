@@ -1,0 +1,69 @@
+Great — based on all your screenshots and your message, I understand that:
+
+---
+
+### ✅ 4 Phases are Already Integrated in the Main Dashboard:
+
+1. **Phase 1: EHB AI Agent** ✅
+2. **Phase 2: CodeSuggest** ✅
+3. **Phase 3: AICodingChat** ✅
+4. **Phase 11: AutoDashboard** ✅
+
+---
+
+### 🔴 But the following modules are **still pending to auto-link and activate** in the EHB Main Dashboard:
+
+| Phase No. | Phase Name                 | Status                   |
+| --------- | -------------------------- | ------------------------ |
+| 0         | Init Phase                 | ❌ Not Linked             |
+| 2-02      | Secondary Phase            | ❌ Not Linked             |
+| 3-04      | Sub AICodingChat Extension | ❌ Not Linked             |
+| 4         | VoiceModuleGen             | ❌ Not Linked             |
+| 5         | SQLBadgeSystem             | ✅ Completed (not linked) |
+| 6         | ReferralTree               | ✅ Completed (not linked) |
+| 7         | AutoCardGen                | ✅ Completed (not linked) |
+| 8         | TestPassFail               | ✅ Completed (not linked) |
+| 9         | AI Dashboard               | ✅ Completed (linked?)    |
+| 10        | SmartAIAgent               | ✅ Completed (not linked) |
+| 11        | DashboardCommandAgent      | ✅ Completed (not linked) |
+| 12        | VoiceGPT AIAgent           | ✅ Completed (not linked) |
+| 13        | EHB MobileSync             | ✅ Completed (not linked) |
+| 14        | APK BuildFlow              | ✅ Completed (not linked) |
+
+> ⚠️ **Plus all the phases 15 to 28+** which show **“Not Started”** but are registered — they need auto-linking placeholders with status icons.
+
+---
+
+### 📦 Replit Agent Message (Auto Instruction)
+
+```bash
+📌 Replit Agent Instruction for EHB-AI System:
+
+Please perform the following actions to sync all pending phases into the EHB Main Dashboard automatically:
+
+1. 🔗 Auto-link all EHB-AI Dev modules from `phases/` folder (phase-0 to phase-58) into the main dashboard card list.
+   - Show their current status (Completed, In Progress, Not Started) from the phase’s config or backend JSON.
+   - Sync the status and progress bar from the source modules.
+
+2. 🧠 Check if a module is already in the dashboard:
+   - ✅ If **already linked**: skip.
+   - ❌ If **missing**: auto-add its dashboard card with the correct phase name and number.
+
+3. 🛠️ If a phase folder exists but is not initialized:
+   - Add a placeholder with “Not Started” badge and disabled "View Details" button.
+
+4. ⚙️ Ensure phase folders include:
+   - `README.md`, `index.js`, and optional `phase-config.json`
+   - Connect to status API if available.
+
+5. 🔄 After linking, auto-update the `main-dashboard.json` config (or relevant dashboard schema file).
+
+6. ✅ Confirm and log each phase that was synced.
+
+Goal: Ensure 100% EHB Phases (currently 62) appear in dashboard with correct tracking.
+
+```
+
+---
+
+Would you like me to prepare a code script or a `dashboard-auto-sync.js` file that can be run to automate this in your project?

@@ -1,0 +1,6 @@
+[2025-05-13T23:06:07.523Z] 🌐 EHB Free Agent API server running on port 5250
+[2025-05-13T23:06:07.526Z] 📡 API URL: http://0.0.0.0:5250/api
+[2025-05-13T23:06:07.526Z] 🩺 Health check: http://0.0.0.0:5250/health
+[2025-05-13T23:06:07.526Z] ==================================================
+[2025-05-13T23:06:08.528Z] Running example code generation to test the agent...
+[2025-05-13T23:06:08.530Z] ❌ Example failed: agent.generateCode is not a function

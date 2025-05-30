@@ -1,0 +1,143 @@
+Bhai, ab main aapko deta hoon Replit Agent ke liye 1-Click Prompts — jisse aap:
+
+✅ File change par AI Agent auto run kara sakte ho
+✅ Webhook se external system trigger connect kar sakte ho
+✅ Auto-generate test files for any API or component
+
+---
+
+## 🧠 Replit Agent Prompts (Copy-Paste Ready)
+
+---
+
+### 🔄 1. Enable Auto-Run on File Change
+
+``
+📦 Enable Auto Run on File Change
+
+1. Install chokidar:
+`bash
+npm install chokidar
+``
+
+2. Create file: /agent/watch.js
+
+`js
+import chokidar from 'chokidar';
+import { exec } from 'child_process';
+
+chokidar.watch('./contracts').on('change', (path) => {
+  console.log(📁 File changed: ${path});
+  exec('node agent/index.js', (err, stdout) => {
+    if (err) console.error(err);
+    else console.log(stdout);
+  });
+});
+`
+
+3. Add new script in package.json:
+
+`json
+"watch": "node agent/watch.js"
+`
+
+✅ Now agent will auto-run when any .sol or file in /contracts changes.
+
+`
+
+---
+
+### 🔗 2. Enable Webhook Trigger (from n8n or external)
+
+`
+
+🌐 Enable External Webhook Trigger for Replit Agent
+
+1. Create /webhooks/trigger.js with this content:
+
+`js
+import express from 'express';
+import { exec } from 'child_process';
+const app = express();
+app.use(express.json());
+
+app.post('/run-agent', (req, res) => {
+  console.log("📥 Webhook received, triggering agent...");
+  exec('node agent/index.js', (err, stdout) => {
+    if (err) return res.status(500).send(err.message);
+    res.send(stdout);
+  });
+});
+
+app.listen(3000, () => console.log('🌐 Webhook listener active on port 3000'));
+`
+
+2. Install:
+
+`bash
+npm install express
+`
+
+3. Run:
+
+`bash
+node webhooks/trigger.js
+`
+
+4. Your webhook URL will be:
+
+`
+https://REPLIT_PROJECT_NAME.REPL.co/run-agent
+`
+
+✅ Send POST requests to run your AI agent from anywhere (Zapier, n8n, etc.)
+
+`
+
+---
+
+### 🧪 3. Auto-Generate Test Files Using Agent
+
+`
+
+🧪 Auto-generate API test files using AI Agent
+
+1. Add script: /agent/test-writer.js
+
+`js
+import { readFileSync, writeFileSync } from 'fs';
+import { ChatOpenAI } from 'langchain/chat_models/openai';
+
+const llm = new ChatOpenAI({ modelName: 'gpt-4', temperature: 0 });
+
+const source = readFileSync('./pages/api/sample.js', 'utf-8');
+const prompt = Write a full Jest-based test file for this Next.js API:\n\n${source};
+
+const result = await llm.call([["user", prompt]]);
+writeFileSync('./tests/sample.test.js', result);
+
+console.log("✅ Test file created: tests/sample.test.js");
+`
+
+2. Add to package.json:
+
+`json
+"write:test": "node agent/test-writer.js"
+`
+
+✅ When you run npm run write:test, your agent will create a Jest test file based on your selected API route.
+
+`
+
+---
+
+## 📦 Result: Replit Agent Can Now...
+
+- 📂 Watch and react to file changes  
+- 🌐 Be triggered by any external system  
+- ✅ Automatically test new APIs or components
+
+---
+
+Bhai, agar chahen to main ye 3 features ek hi auto-agent-enhancer.js file mein combine kar dun?  
+Sirf boliye: "Give me bundled enhancer file" — main ZIP ke sath deliver kar dunga.

@@ -1,0 +1,83 @@
+{
+  "GUI-Launcher": {
+    "name": "GUI-Launcher",
+    "websocketUrl": "ws://localhost:5003/ehb-integration",
+    "serviceUrl": "http://localhost:5003",
+    "status": "registered",
+    "registeredAt": "2025-05-10T20:50:39.961Z",
+    "description": "GUI Launcher for managing EHB services",
+    "capabilities": [
+      "service-management",
+      "system-monitoring"
+    ],
+    "monitored": true,
+    "autoReconnect": true,
+    "maxRetries": 5,
+    "retryDelay": 5000
+  },
+  "EHB-AI-Dev": {
+    "name": "EHB-AI-Dev",
+    "websocketUrl": "ws://localhost:5003/ehb-integration",
+    "serviceUrl": "http://localhost:5003",
+    "status": "registered",
+    "registeredAt": "2025-05-10T20:50:39.968Z",
+    "description": "Core AI and integration service for EHB system",
+    "capabilities": [
+      "ai",
+      "integration",
+      "management"
+    ],
+    "monitored": true,
+    "autoReconnect": true,
+    "maxRetries": 5,
+    "retryDelay": 5000
+  },
+  "EHB-Developer-Portal": {
+    "name": "EHB-Developer-Portal",
+    "websocketUrl": "ws://localhost:5003/ehb-integration",
+    "serviceUrl": "http://localhost:5003",
+    "status": "registered",
+    "registeredAt": "2025-05-10T20:50:39.976Z",
+    "description": "Developer Portal for EHB system",
+    "capabilities": [
+      "documentation",
+      "development"
+    ],
+    "monitored": true,
+    "autoReconnect": true,
+    "maxRetries": 5,
+    "retryDelay": 5000
+  },
+  "EHB-DASHBOARD": {
+    "name": "EHB-DASHBOARD",
+    "websocketUrl": "ws://localhost:5003/ehb-integration",
+    "serviceUrl": "http://localhost:5003",
+    "status": "registered",
+    "registeredAt": "2025-05-10T20:50:39.981Z",
+    "description": "Main Dashboard for EHB system",
+    "capabilities": [
+      "dashboard",
+      "ui"
+    ],
+    "monitored": true,
+    "autoReconnect": true,
+    "maxRetries": 5,
+    "retryDelay": 5000
+  },
+  "EHB-HOME": {
+    "name": "EHB-HOME",
+    "websocketUrl": "ws://localhost:5003/ehb-integration",
+    "serviceUrl": "http://localhost:5003",
+    "status": "registered",
+    "registeredAt": "2025-05-10T20:50:39.991Z",
+    "description": "Home page for EHB system",
+    "capabilities": [
+      "home",
+      "ui"
+    ],
+    "monitored": true,
+    "autoReconnect": true,
+    "maxRetries": 5,
+    "retryDelay": 5000
+  }
+}

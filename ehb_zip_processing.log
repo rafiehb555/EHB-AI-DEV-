@@ -1,0 +1,294 @@
+[2025-05-09 20:04:15] Starting EHB zip file processing
+[2025-05-09 20:04:15] Found 4 zip files to process
+[2025-05-09 20:04:15] Processing zip file: attached_assets/GoSellr-Core-Phase-4.zip
+[2025-05-09 20:04:15] Extracted 8 files to temp/extract_1746821055
+[2025-05-09 20:04:15] No config.json file found in the zip archive
+[2025-05-09 20:04:15] Identified module type: unknown
+[2025-05-09 20:04:15] Target directory: GoSellr-Core-Phase-4
+[2025-05-09 20:04:15] Created target directory: GoSellr-Core-Phase-4
+[2025-05-09 20:04:15] Copied ai-dev to GoSellr-Core-Phase-4
+[2025-05-09 20:04:15] Copied blockchain to GoSellr-Core-Phase-4
+[2025-05-09 20:04:15] Successfully integrated GoSellr-Core-Phase-4 into the EHB system
+[2025-05-09 20:04:15] Moved GoSellr-Core-Phase-4.zip to attached_assets/processed
+[2025-05-09 20:04:15] Cleaned up temporary extraction directory
+[2025-05-09 20:04:15] Processing zip file: attached_assets/GoSellr-Core-Phase-3.zip
+[2025-05-09 20:04:15] Extracted 21 files to temp/extract_1746821055
+[2025-05-09 20:04:15] No config.json file found in the zip archive
+[2025-05-09 20:04:15] Identified module type: unknown
+[2025-05-09 20:04:15] Target directory: GoSellr-Core-Phase-3
+[2025-05-09 20:04:15] Created target directory: GoSellr-Core-Phase-3
+[2025-05-09 20:04:15] Copied admin to GoSellr-Core-Phase-3
+[2025-05-09 20:04:15] Copied ai-dev to GoSellr-Core-Phase-3
+[2025-05-09 20:04:15] Copied backend to GoSellr-Core-Phase-3
+[2025-05-09 20:04:15] Copied blockchain to GoSellr-Core-Phase-3
+[2025-05-09 20:04:15] Copied config to GoSellr-Core-Phase-3
+[2025-05-09 20:04:15] Copied frontend to GoSellr-Core-Phase-3
+[2025-05-09 20:04:15] Copied models to GoSellr-Core-Phase-3
+[2025-05-09 20:04:15] Copied public to GoSellr-Core-Phase-3
+[2025-05-09 20:04:15] Successfully integrated GoSellr-Core-Phase-3 into the EHB system
+[2025-05-09 20:04:15] Moved GoSellr-Core-Phase-3.zip to attached_assets/processed
+[2025-05-09 20:04:15] Cleaned up temporary extraction directory
+[2025-05-09 20:04:15] Processing zip file: attached_assets/GoSellr-Core-Phase-2.zip
+[2025-05-09 20:04:15] Extracted 17 files to temp/extract_1746821055
+[2025-05-09 20:04:15] No config.json file found in the zip archive
+[2025-05-09 20:04:15] Identified module type: unknown
+[2025-05-09 20:04:15] Target directory: GoSellr-Core-Phase-2
+[2025-05-09 20:04:15] Created target directory: GoSellr-Core-Phase-2
+[2025-05-09 20:04:15] Copied admin to GoSellr-Core-Phase-2
+[2025-05-09 20:04:15] Copied ai-dev to GoSellr-Core-Phase-2
+[2025-05-09 20:04:15] Copied backend to GoSellr-Core-Phase-2
+[2025-05-09 20:04:15] Copied blockchain to GoSellr-Core-Phase-2
+[2025-05-09 20:04:15] Copied config to GoSellr-Core-Phase-2
+[2025-05-09 20:04:15] Copied frontend to GoSellr-Core-Phase-2
+[2025-05-09 20:04:15] Copied models to GoSellr-Core-Phase-2
+[2025-05-09 20:04:15] Copied public to GoSellr-Core-Phase-2
+[2025-05-09 20:04:15] Successfully integrated GoSellr-Core-Phase-2 into the EHB system
+[2025-05-09 20:04:15] Moved GoSellr-Core-Phase-2.zip to attached_assets/processed
+[2025-05-09 20:04:15] Cleaned up temporary extraction directory
+[2025-05-09 20:04:15] Processing zip file: attached_assets/GoSellr-Core-Phase-1.zip
+[2025-05-09 20:04:15] Extracted 12 files to temp/extract_1746821055
+[2025-05-09 20:04:15] No config.json file found in the zip archive
+[2025-05-09 20:04:15] Identified module type: unknown
+[2025-05-09 20:04:15] Target directory: GoSellr-Core-Phase-1
+[2025-05-09 20:04:15] Created target directory: GoSellr-Core-Phase-1
+[2025-05-09 20:04:15] Copied admin to GoSellr-Core-Phase-1
+[2025-05-09 20:04:15] Copied backend to GoSellr-Core-Phase-1
+[2025-05-09 20:04:15] Copied config to GoSellr-Core-Phase-1
+[2025-05-09 20:04:15] Copied frontend to GoSellr-Core-Phase-1
+[2025-05-09 20:04:15] Copied models to GoSellr-Core-Phase-1
+[2025-05-09 20:04:15] Copied public to GoSellr-Core-Phase-1
+[2025-05-09 20:04:15] Successfully integrated GoSellr-Core-Phase-1 into the EHB system
+[2025-05-09 20:04:15] Moved GoSellr-Core-Phase-1.zip to attached_assets/processed
+[2025-05-09 20:04:15] Cleaned up temporary extraction directory
+[2025-05-09 20:04:15] Processed 4 out of 4 zip files
+[2025-05-09 20:04:15] Cleaning up empty directories
+[2025-05-09 20:04:15] Removed empty directory: ./.cache/replit/transfers
+[2025-05-09 20:04:16] Removed empty directory: ./backend/uploads/temp
+[2025-05-09 20:04:16] Removed empty directory: ./backend/uploads
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-TrustyWallet-System/frontend/components
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-TrustyWallet-System/models
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-TrustyWallet-System/config
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-TrustyWallet-System/wallet
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-TrustyWallet-System/blockchain
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-TrustyWallet-System/cron
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Services-Departments-Flow/services
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Services-Departments-Flow/departments
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Services-Departments-Flow/backend
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Services-Departments-Flow/models
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Services-Departments-Flow/config
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Affiliate-System/frontend
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Affiliate-System/backend
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Affiliate-System/models
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Affiliate-System/config
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-AM-AFFILIATE-SYSTEM/backend
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-AM-AFFILIATE-SYSTEM/config
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-AM-AFFILIATE-SYSTEM/frontend
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-AM-AFFILIATE-SYSTEM/models
+[2025-05-09 20:04:18] Removed empty directory: ./GoSellr-Ecommerce/frontend/context
+[2025-05-09 20:04:18] Removed empty directory: ./GoSellr-Ecommerce/config
+[2025-05-09 20:04:18] Removed empty directory: ./GoSellr-Ecommerce/models
+[2025-05-09 20:04:18] Removed empty directory: ./JPS-Job-Providing-Service/backend/routes
+[2025-05-09 20:04:18] Removed empty directory: ./JPS-Job-Providing-Service/frontend/components
+[2025-05-09 20:04:18] Removed empty directory: ./JPS-Job-Providing-Service/frontend/pages
+[2025-05-09 20:04:18] Removed empty directory: ./JPS-Job-Providing-Service/backend
+[2025-05-09 20:04:18] Removed empty directory: ./JPS-Job-Providing-Service/config
+[2025-05-09 20:04:18] Removed empty directory: ./JPS-Job-Providing-Service/frontend
+[2025-05-09 20:04:18] Removed empty directory: ./JPS-Job-Providing-Service/models
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/backend/models
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/frontend/components/dashboard
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/EHB-HOME-PAGE/frontend/components/Navbar
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/EHB-HOME-PAGE/frontend/components/HeroSlider
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/EHB-HOME-PAGE/frontend/components/ServiceBox
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/EHB-HOME-PAGE/frontend/components/FeaturedSection
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/EHB-HOME-PAGE/frontend/components/TrendingSection
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/EHB-HOME-PAGE/frontend/components/EHBStoreShowcase
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/EHB-HOME-PAGE/frontend/components/AISearchBar
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/EHB-HOME-PAGE/frontend/components/LandingCards
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/EHB-HOME-PAGE/frontend/components/Footer
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/EHB-HOME-PAGE/frontend/components/DashboardWidgets
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/EHB-HOME-PAGE/frontend/public/images
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/EHB-HOME-PAGE/frontend/public
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/EHB-HOME-PAGE/backend
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/blockchain
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/config
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/cron
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/models
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-DASHBOARD/wallet
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/PSS/backend
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/PSS/config
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/PSS/frontend
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/PSS/models
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/EMO/backend
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/EMO/config
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/EMO/frontend
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/EMO/models
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/EDR/backend
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/EDR/config
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/EDR/frontend
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/EDR/models
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/PSS
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/EMO
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-SQL/EDR
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Blockchain/backend/controllers
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Blockchain/frontend/components
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Blockchain/frontend/pages
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Blockchain/blockchain
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Blockchain/frontend
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Blockchain/models
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Blockchain/validator
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-Blockchain/wallet
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-AI-Marketplace/admin
+[2025-05-09 20:04:18] Removed empty directory: ./EHB-AI-Marketplace/public
+[2025-05-09 20:04:19] Removed empty directory: ./frontend/.next/cache/swc/plugins/v7_linux_x86_64_0.106.15
+[2025-05-09 20:04:19] Removed empty directory: ./frontend/.next/cache/swc/plugins
+[2025-05-09 20:04:19] Removed empty directory: ./frontend/.next/cache/swc
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/ai-dev/modules
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/backend/controllers
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/backend/middleware
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/backend/routes
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/blockchain/contracts
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/blockchain/utils
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/frontend/pages/api
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/frontend/components
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/frontend/hooks
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/frontend/lib
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/frontend/pages
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/frontend/styles
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/admin
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/ai-dev
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/backend
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/blockchain
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/config
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/frontend
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/models
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3/public
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/backend/controllers
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/backend/middleware
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/backend/routes
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/frontend/components
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/frontend/hooks
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/frontend/lib
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/frontend/pages
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/frontend/styles
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/admin
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/ai-dev
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/backend
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/blockchain
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/config
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/frontend
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/models
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2/public
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-1/backend/middleware
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-1/backend/routes
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-1/frontend/components
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-1/frontend/pages
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-1/frontend/styles
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-1/admin
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-1/backend
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-1/config
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-1/frontend
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-1/models
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-1/public
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-3
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-2
+[2025-05-09 20:04:19] Removed empty directory: ./GoSellr-Core-Phase-1
+[2025-05-09 20:08:01] Starting EHB zip file processing
+[2025-05-09 20:08:01] Looking for zip files in: /home/runner/workspace/attached_assets/*.zip
+[2025-05-09 20:08:01] Found zip file: /home/runner/workspace/attached_assets/TestModuleV2.zip
+[2025-05-09 20:08:01] Found 1 zip files to process
+[2025-05-09 20:08:01] Processing zip file: /home/runner/workspace/attached_assets/TestModuleV2.zip
+[2025-05-09 20:08:01] Extracted 7 files to temp/extract_1746821281
+[2025-05-09 20:08:01] Found configuration file: {'module_name': 'TestModule', 'module_type': 'full-stack', 'target_directory': 'TestModule', 'register_with_integration_hub': True, 'file_mapping': {'frontend': 'frontend', 'backend': 'backend'}}
+[2025-05-09 20:08:01] Identified module type: unknown
+[2025-05-09 20:08:01] Using config-specified module type: full-stack
+[2025-05-09 20:08:01] Using config-specified target directory: TestModule
+[2025-05-09 20:08:01] Target directory: TestModule
+[2025-05-09 20:08:01] Created target directory: TestModule
+[2025-05-09 20:08:01] Mapped frontend -> frontend
+[2025-05-09 20:08:01] Mapped backend -> backend
+[2025-05-09 20:08:01] Module should be registered with Integration Hub (not implemented yet)
+[2025-05-09 20:08:01] Successfully integrated TestModule into the EHB system
+[2025-05-09 20:08:01] Moved TestModuleV2.zip to /home/runner/workspace/attached_assets/processed
+[2025-05-09 20:08:01] Cleaned up temporary extraction directory
+[2025-05-09 20:08:01] Processed 1 out of 1 zip files
+[2025-05-09 20:08:01] Cleaning up empty directories
+[2025-05-09 20:08:02] Removed empty directory: ./backend/uploads/temp
+[2025-05-09 20:08:02] Removed empty directory: ./backend/uploads
+[2025-05-09 20:08:05] Removed empty directory: ./frontend/.next/cache/swc/plugins/v7_linux_x86_64_0.106.15
+[2025-05-09 20:08:05] Removed empty directory: ./frontend/.next/cache/swc/plugins
+[2025-05-09 20:08:05] Removed empty directory: ./frontend/.next/cache/swc
+[2025-05-09 20:12:27] Starting EHB zip file processing
+[2025-05-09 20:12:27] Looking for zip files in: /home/runner/workspace/attached_assets/*.zip
+[2025-05-09 20:12:27] Found zip file: /home/runner/workspace/attached_assets/ApiTestModule.zip
+[2025-05-09 20:12:27] Found 1 zip files to process
+[2025-05-09 20:12:27] Processing zip file: /home/runner/workspace/attached_assets/ApiTestModule.zip
+[2025-05-09 20:12:27] Extracted 9 files to temp/extract_1746821547
+[2025-05-09 20:12:27] Found configuration file: {'module_name': 'ApiTestModule', 'module_type': 'api-integration', 'target_directory': 'ApiTestModule', 'register_with_integration_hub': True, 'file_mapping': {'frontend': 'frontend', 'backend': 'backend', 'docs': 'docs'}}
+[2025-05-09 20:12:27] Identified module type: backend
+[2025-05-09 20:12:27] Using config-specified module type: api-integration
+[2025-05-09 20:12:27] Using config-specified target directory: ApiTestModule
+[2025-05-09 20:12:27] Target directory: ApiTestModule
+[2025-05-09 20:12:27] Created target directory: ApiTestModule
+[2025-05-09 20:12:27] Mapped frontend -> frontend
+[2025-05-09 20:12:27] Mapped backend -> backend
+[2025-05-09 20:12:27] Mapped docs -> docs
+[2025-05-09 20:12:27] Attempting to register module with Integration Hub: {"moduleId": "ApiTestModule", "name": "ApiTestModule", "type": "api-integration", "path": "/home/runner/workspace/ApiTestModule", "discoveredByZipProcessor": true, "registrationDate": "2025-05-09T20:12:27.992062", "capabilities": ["ui", "components", "api", "rest-api"]}
+[2025-05-09 20:12:28] Module registration successful: {'success': True, 'message': 'Module ApiTestModule registered successfully', 'moduleId': 'ApiTestModule'}
+[2025-05-09 20:12:28] Successfully registered ApiTestModule with Integration Hub
+[2025-05-09 20:12:28] Successfully integrated ApiTestModule into the EHB system
+[2025-05-09 20:12:28] Moved ApiTestModule.zip to /home/runner/workspace/attached_assets/processed
+[2025-05-09 20:12:28] Cleaned up temporary extraction directory
+[2025-05-09 20:12:28] Processed 1 out of 1 zip files
+[2025-05-09 20:12:28] Cleaning up empty directories
+[2025-05-09 20:12:29] Removed empty directory: ./backend/uploads/temp
+[2025-05-09 20:12:29] Removed empty directory: ./backend/uploads
+[2025-05-09 20:12:31] Removed empty directory: ./frontend/.next/cache/swc/plugins/v7_linux_x86_64_0.106.15
+[2025-05-09 20:12:31] Removed empty directory: ./frontend/.next/cache/swc/plugins
+[2025-05-09 20:12:31] Removed empty directory: ./frontend/.next/cache/swc
+[2025-05-10 05:27:29] Starting EHB zip file processing
+[2025-05-10 05:27:29] Looking for zip files in: /home/runner/workspace/attached_assets/*.zip
+[2025-05-10 05:27:29] No zip files found in the specified directory
+[2025-05-10 05:27:29] Found 0 zip files to process
+[2025-05-10 05:27:29] Processed 0 out of 0 zip files
+[2025-05-10 05:27:29] Cleaning up empty directories
+[2025-05-10 05:27:29] Removed empty directory: ./.cache/replit/transfers
+[2025-05-10 05:27:29] Starting EHB zip file processing
+[2025-05-10 05:27:29] Looking for zip files in: /home/runner/workspace/attached_assets/*.zip
+[2025-05-10 05:27:29] No zip files found in the specified directory
+[2025-05-10 05:27:29] Found 0 zip files to process
+[2025-05-10 05:27:29] Processed 0 out of 0 zip files
+[2025-05-10 05:27:29] Cleaning up empty directories
+[2025-05-10 05:27:30] Removed empty directory: ./backend/uploads/temp
+[2025-05-10 05:27:30] Removed empty directory: ./backend/uploads
+[2025-05-10 05:27:31] Error removing directory ./backend/uploads: [Errno 2] No such file or directory: './backend/uploads'
+[2025-05-10 05:27:32] Removed empty directory: ./JPS-Job-Providing-Service/frontend/pages
+[2025-05-10 05:27:32] Removed empty directory: ./JPS-Job-Providing-Service/backend/routes
+[2025-05-10 05:27:32] Removed empty directory: ./JPS-Job-Providing-Service/frontend
+[2025-05-10 05:27:32] Removed empty directory: ./JPS-Job-Providing-Service/backend
+[2025-05-10 05:27:32] Removed empty directory: ./EHB-SQL/backend/routes
+[2025-05-10 05:27:32] Error removing directory ./EHB-SQL/backend/routes: [Errno 2] No such file or directory: './EHB-SQL/backend/routes'
+[2025-05-10 05:27:32] Removed empty directory: ./EHB-SQL/backend
+[2025-05-10 05:27:32] Error removing directory ./EHB-SQL/backend: [Errno 2] No such file or directory: './EHB-SQL/backend'
+[2025-05-10 05:27:33] Removed empty directory: ./frontend/.next/cache/swc/plugins/v7_linux_x86_64_0.106.15
+[2025-05-10 05:27:33] Removed empty directory: ./frontend/.next/cache/swc/plugins
+[2025-05-10 05:27:33] Removed empty directory: ./frontend/.next/cache/swc
+[2025-05-10 05:27:33] Removed empty directory: ./frontend/public/sounds
+[2025-05-10 05:27:33] Removed empty directory: ./frontend/public
+[2025-05-10 05:27:33] Error removing directory ./frontend/public: [Errno 2] No such file or directory: './frontend/public'
+[2025-05-10 05:27:33] Removed empty directory: ./ehb_company_info/code_snippets
+[2025-05-10 05:27:50] Starting EHB zip file processing
+[2025-05-10 05:27:50] Looking for zip files in: /home/runner/workspace/attached_assets/*.zip
+[2025-05-10 05:27:50] No zip files found in the specified directory
+[2025-05-10 05:27:50] Found 0 zip files to process
+[2025-05-10 05:27:50] Processed 0 out of 0 zip files
+[2025-05-10 05:27:50] Cleaning up empty directories
+[2025-05-10 05:27:50] Removed empty directory: ./backend/uploads/temp
+[2025-05-10 05:27:50] Removed empty directory: ./backend/uploads
+[2025-05-10 05:28:54] Starting EHB zip file processing
+[2025-05-10 05:28:54] Looking for zip files in: /home/runner/workspace/attached_assets/*.zip
+[2025-05-10 05:28:54] No zip files found in the specified directory
+[2025-05-10 05:28:54] Found 0 zip files to process
+[2025-05-10 05:28:54] Processed 0 out of 0 zip files
+[2025-05-10 05:28:55] Cleaning up empty directories
+[2025-05-10 05:28:55] Removed empty directory: ./backend/uploads/temp
+[2025-05-10 05:28:55] Removed empty directory: ./backend/uploads

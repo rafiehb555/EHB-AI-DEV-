@@ -1,0 +1,88 @@
+{
+  "name": "ehb-system",
+  "version": "1.0.0",
+  "description": "Enterprise Hybrid Blockchain System",
+  "private": true,
+  "workspaces": [
+    "EHB-AI-Dev-Fullstack/*",
+    "EHB-Blockchain-Base/*",
+    "EHB-TrustyWallet-System/*",
+    "EHB-GoSellr-Franchise-JPS/*",
+    "EHB-Services-Departments-Flow/*",
+    "EHB-Affiliate-System/*",
+    "EHB-Homepage-Dashboard-UI/*",
+    "EHB-PSS-EMO-EDR-Dashboard/*"
+  ],
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && npm run install:modules",
+    "install:modules": "concurrently \"cd backend && npm install\" \"cd frontend && npm install\"",
+    "build": "concurrently \"cd backend && npm run build\" \"cd frontend && npm run build\"",
+    "test": "concurrently \"cd backend && npm test\" \"cd frontend && npm test\"",
+    "lint": "concurrently \"cd backend && npm run lint\" \"cd frontend && npm run lint\"",
+    "clean": "rimraf node_modules && rimraf */*/node_modules",
+    "zip:modules": "python zip-ehb-modules.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ehb-system/ehb-platform.git"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "rimraf": "^5.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "ehbModules": [
+    {
+      "name": "EHB-AI-Dev-Fullstack",
+      "description": "AI development and integration module",
+      "dependencies": ["openai", "anthropic", "supabase"]
+    },
+    {
+      "name": "EHB-Blockchain-Base", 
+      "description": "Foundational blockchain infrastructure",
+      "dependencies": ["moralis", "alchemy-sdk", "web3", "ethers"]
+    },
+    {
+      "name": "EHB-TrustyWallet-System",
+      "description": "Secure wallet and transaction system",
+      "dependencies": ["web3", "ethers", "crypto"]
+    },
+    {
+      "name": "EHB-GoSellr-Franchise-JPS",
+      "description": "E-commerce, franchise management, and job posting system",
+      "dependencies": ["stripe", "mongoose", "multer"]
+    },
+    {
+      "name": "EHB-Services-Departments-Flow",
+      "description": "Service integration between departments",
+      "dependencies": ["mongoose", "express", "socket.io"]
+    },
+    {
+      "name": "EHB-Affiliate-System",
+      "description": "Affiliate and referral management system",
+      "dependencies": ["mongoose", "express", "recharts"]
+    },
+    {
+      "name": "EHB-Homepage-Dashboard-UI",
+      "description": "Central user interface for the entire platform",
+      "dependencies": ["next", "react", "tailwindcss", "recharts"]
+    },
+    {
+      "name": "EHB-PSS-EMO-EDR-Dashboard",
+      "description": "Specialized department dashboards",
+      "dependencies": ["next", "react", "recharts", "react-hook-form"]
+    }
+  ]
+}

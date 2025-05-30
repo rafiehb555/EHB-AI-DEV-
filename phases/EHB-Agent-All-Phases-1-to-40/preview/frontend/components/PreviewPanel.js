@@ -1,0 +1,1 @@
+// Preview panel UI component

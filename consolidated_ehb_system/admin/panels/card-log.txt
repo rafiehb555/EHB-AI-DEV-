@@ -1,0 +1,1 @@
+🧾 Admin Panel: Tracks all module/service cards created for EHB-HOME and EHB-DASHBOARD auto-sync.

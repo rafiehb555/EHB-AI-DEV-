@@ -1,0 +1,35 @@
+{
+  "name": "EHB-Test-Service",
+  "version": "1.0.0",
+  "description": "Sample service for testing EHB Agent Installer",
+  "type": "service",
+  "author": "EHB Technologies",
+  "dependencies": [
+    "express",
+    "body-parser"
+  ],
+  "ports": {
+    "main": 5003
+  },
+  "routes": {
+    "base": "/api",
+    "endpoints": [
+      {
+        "path": "/status",
+        "method": "GET",
+        "description": "Check service status"
+      },
+      {
+        "path": "/info",
+        "method": "GET",
+        "description": "Get service information"
+      }
+    ]
+  },
+  "integration": {
+    "adminPanel": true,
+    "developerPortal": true,
+    "ehbHome": true
+  },
+  "icon": "📦"
+}

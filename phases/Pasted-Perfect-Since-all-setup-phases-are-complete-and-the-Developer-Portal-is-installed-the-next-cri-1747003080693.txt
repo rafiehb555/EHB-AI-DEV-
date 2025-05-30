@@ -1,0 +1,89 @@
+Perfect. Since all setup phases are complete, and the Developer Portal is installed — the **next critical step** is to **connect routing logic and sample dashboard navigation**.
+
+We'll now proceed with:
+
+---
+
+## ✅ Next Step: Routing & Navigation Setup for Developer Portal
+
+This includes:
+
+1. 🔗 Connecting `DeveloperPortal.jsx` to Replit’s app entry
+2. 🗂️ Setting up a working `pages/index.js` and `_app.js`
+3. 🔄 Redirecting `/` to Developer Portal automatically
+4. 🧪 Adding sample route for service dashboard (like GoSellr)
+
+---
+
+### 📁 File: `admin/Developer-Portal-UI/pages/_app.js`
+
+```jsx
+// admin/Developer-Portal-UI/pages/_app.js
+import '../styles/globals.css';
+
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />;
+}
+```
+
+---
+
+### 📁 File: `admin/Developer-Portal-UI/pages/index.js`
+
+```jsx
+// admin/Developer-Portal-UI/pages/index.js
+import dynamic from 'next/dynamic';
+
+const DeveloperPortal = dynamic(() => import('../DeveloperPortal'), {
+  ssr: false,
+});
+
+export default function Home() {
+  return <DeveloperPortal />;
+}
+```
+
+---
+
+### 📁 File: `admin/Developer-Portal-UI/next.config.js`
+
+```js
+// admin/Developer-Portal-UI/next.config.js
+module.exports = {
+  reactStrictMode: true,
+  swcMinify: true,
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/admin/Developer-Portal-UI',
+        permanent: false,
+      },
+    ];
+  },
+};
+```
+
+> 🛑 **Note:** Replit may not allow full redirects in `next.config.js`. If so, ignore that block and stick to `pages/index.js`.
+
+---
+
+### 🧪 Optional: Add Sample GoSellr Route
+
+**File:** `admin/Developer-Portal-UI/pages/gosellr.js`
+
+```jsx
+// admin/Developer-Portal-UI/pages/gosellr.js
+export default function GoSellr() {
+  return (
+    <div className="p-8">
+      <h1 className="text-2xl font-bold text-blue-700">🛍️ GoSellr Dashboard</h1>
+      <p className="text-sm text-gray-600 mt-2">This is a placeholder page for the GoSellr module.</p>
+    </div>
+  );
+}
+```
+
+---
+
+Would you like me to now bundle these routing files into a second **DeveloperPortal-Routing.zip** and send you that ZIP for Replit upload?

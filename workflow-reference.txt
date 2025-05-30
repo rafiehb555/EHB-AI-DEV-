@@ -1,0 +1,33 @@
+# Workflow Reference for Manual Updates
+
+The following commands should be used for each workflow in the Replit UI:
+
+- Backend Server:
+  cd admin/EHB-DASHBOARD/backend && node server.js
+
+- Frontend Server:
+  cd admin/EHB-DASHBOARD && npm run dev
+
+- Integration Hub:
+  cd ai-services/EHB-AI-Dev && node index.js
+
+- Developer Portal:
+  cd admin/EHB-Developer-Portal && PORT=5000 node index.js
+
+- JPS Affiliate Service:
+  cd services/JPS-Job-Providing-Service && PORT=5000 node backend/server.js
+
+- EHB Home:
+  cd admin/EHB-HOME && npm run dev
+
+- ZIP Watcher:
+  node scripts/watch-assets.js
+
+- Dev Agent System:
+  node scripts/dev-agent-workflow.js
+
+- Multi Service Dashboard:
+  node scripts/multi-service-dashboard-server.js
+
+- EHB Home Integrator:
+  node scripts/ehb-home-integrator.js

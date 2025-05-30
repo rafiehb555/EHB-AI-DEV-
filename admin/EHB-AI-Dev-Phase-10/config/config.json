@@ -1,0 +1,18 @@
+{
+    "name": "EHB-AI-Dev-Phase-10",
+    "version": "1.0.0",
+    "description": "EHB Development Phase 10 Module",
+    "status": "active",
+    "category": "development",
+    "dependencies": {
+        "frontend": ["react", "chakra-ui"],
+        "backend": ["express", "mongoose"],
+        "database": ["mongodb"]
+    },
+    "endpoints": {
+        "api": "/api/phase10",
+        "ui": "/dashboard/phase10"
+    },
+    "maintainers": ["EHB Development Team"],
+    "lastUpdated": "2025-05-12"
+}

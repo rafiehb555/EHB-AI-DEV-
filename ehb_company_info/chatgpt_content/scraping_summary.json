@@ -1,0 +1,14 @@
+{
+  "total_urls": 4,
+  "successful_scrapes": 2,
+  "conversations": [
+    {
+      "id": "681ed297-023c-8010-a11a-63ce64f5627d",
+      "url": "https://chatgpt.com/share/681ed297-023c-8010-a11a-63ce64f5627d"
+    },
+    {
+      "id": "681ed416-2280-8010-8414-dab4e29cf4bc",
+      "url": "https://chatgpt.com/share/681ed416-2280-8010-8414-dab4e29cf4bc"
+    }
+  ]
+}

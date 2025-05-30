@@ -1,0 +1,13 @@
+{
+  "name": "GoSellr",
+  "title": "Global Online Marketplace",
+  "description": "Buy and Sell Verified Products",
+  "sql": "VIP",
+  "homepage": true,
+  "adminview": true,
+  "icon": "🛒",
+  "category": "E-Commerce",
+  "requires": ["Wallet", "Franchise System"],
+  "version": "1.0.0",
+  "developedBy": "EHB Technologies Limited"
+}

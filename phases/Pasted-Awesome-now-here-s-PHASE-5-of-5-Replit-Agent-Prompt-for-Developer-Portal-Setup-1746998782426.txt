@@ -1,0 +1,88 @@
+Awesome — now here's:
+
+---
+
+### ✅ PHASE 5 of 5 – Replit Agent Prompt for `Developer Portal Setup`
+
+📦 **Admin Folders, Static Assets, Developer Home & Portal Boot Integration**
+
+> **REPLIT AGENT INSTRUCTION – PHASE 5**
+
+In this final phase, integrate all remaining admin tools, utility folders, and complete the homepage behavior of the Developer Portal.
+
+---
+
+### 🧩 1. Add These Admin Folders to Developer Portal View
+
+| Label                    | Path                                             | Tag          |
+| ------------------------ | ------------------------------------------------ | ------------ |
+| Admin Root               | `/admin`                                         | \[ADMIN]     |
+| AI Services              | `/ai-services`                                   | \[AI]        |
+| Archived                 | `/archived`                                      | \[UTILITY]   |
+| Attached Assets          | `/attached_assets`                               | \[STORAGE]   |
+| Processed Assets         | `/attached_assets/processed`                     | \[STORAGE]   |
+| Admin Dashboard ZIP Sync | `/attached_assets/admin-dashboard-card-sync.zip` | \[ZIP]       |
+| Always Save              | `/admin/Always save`                             | \[ADMIN]     |
+| Developer Portal UI      | `/admin/Developer-Portal-UI`                     | \[CORE]      |
+| EHB Admin Panel          | `/admin/ehb-admin-panel`                         | \[CORE]      |
+| EHB DASHBOARD            | `/admin/EHB-DASHBOARD`                           | \[DASHBOARD] |
+| Dashboard Phase Complete | `/admin/EHB-DASHBOARD-Phase-Complete`            | \[DASHBOARD] |
+| EHB Developer Portal     | `/admin/EHB-Developer-Portal`                    | \[CORE]      |
+| EHB HOME                 | `/admin/EHB-HOME`                                | \[HOME]      |
+| EHB Information          | `/admin/EHB-information`                         | \[INFO]      |
+| EHB Wallet               | `/admin/ehb-wallet`                              | \[WALLET]    |
+| Static Admins            | `/admin/Static-Admins`                           | \[CONFIG]    |
+| User Flow                | `/admin/User-flow`                               | \[UX FLOW]   |
+| Integration Script       | `/admin/integration-script.js`                   | \[SCRIPT]    |
+
+---
+
+### 🔧 2. Developer Portal Boot Behavior
+
+> Set the **default startup screen** on Replit to open:
+> 🔹 `/admin/Developer-Portal-UI`
+> (fallback: `/admin/EHB-Developer-Portal`)
+
+* On load, this page should:
+
+  * Render full dashboard cards from all 5 phases
+  * Show real-time system health & folder status
+  * Display latest agent instructions & file movement logs
+  * Enable developers to search any folder/service by name
+
+---
+
+### 🎛️ 3. Developer Tools Menu (Final Touch)
+
+Inside the portal header or sidebar, include:
+
+* 🔎 Global Folder Search
+* 📁 Toggle Folder Tree View
+* 🧠 Agent Instruction Log Viewer
+* ⚙️ Settings & Dev Config Viewer
+* 📤 ZIP Export/Import Tools
+* 🧩 Plugin or API Integrator Panel (for future expansion)
+
+---
+
+### ✅ 4. Final Folder Rules
+
+* All admin folders must have:
+
+  * `README.md`, `index.js` or `portalConfig.json` if applicable
+* Sort loose files (JS, JSON, TXT) into correct subfolders under `/admin/`
+* Archive anything old or unused into `/archived/`
+* Flag broken/missing links on portal page with 🟥 tag
+
+---
+
+✅ **Congratulations**:
+The Developer Portal is now fully structured, scalable, and linked to your entire EHB ecosystem (Admin + Services + System + Blockchain + Wallet + SQL + Tools + Logs).
+
+Would you like me to now generate the **final React Developer Portal page** with:
+
+* All sections,
+* All links/cards,
+* Live health mockup and placeholders?
+
+Just say **“Generate Portal Page Code”** to receive it in one message.

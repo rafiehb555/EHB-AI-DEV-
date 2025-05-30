@@ -1,0 +1,1 @@
+📈 Track validator income and loyalty bonuses. Future: Apply payout rules + validator ranking.

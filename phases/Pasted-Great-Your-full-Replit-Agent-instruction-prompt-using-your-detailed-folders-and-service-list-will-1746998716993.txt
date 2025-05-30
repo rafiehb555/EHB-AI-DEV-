@@ -1,0 +1,91 @@
+Great! Your full Replit Agent instruction prompt (using your detailed folders and service list) will be created in **5 structured phases**.
+
+Each phase will include:
+
+* A clear section of folders/services
+* Replit instructions for validation, linking, and organizing
+* Developer Portal card inclusion logic
+
+Let’s begin:
+
+---
+
+### ✅ PHASE 1 of 5 – Replit Agent Prompt for `Developer Portal Setup` (Admin + Basic Services)
+
+> **REPLIT AGENT INSTRUCTION – PHASE 1**
+>
+> You are the agent responsible for managing the structure, access, and developer view of the EHB Technologies project inside Replit. Start by executing the following:
+>
+> ---
+>
+> ### 🏗️ 1. Create or Validate These Folders:
+>
+> #### 📁 `admin/ehb-admin-panel/` and its subfolders:
+>
+> * `components/`
+> * `pages/`
+> * `styles/`
+> * `layouts/`
+> * `services/`
+> * `hooks/`
+> * `context/`
+> * `config/`
+> * `assets/`
+> * `middleware/`
+> * `utils/`
+> * `api/`
+> * `logs/`
+> * `analytics/`
+> * `dashboard-cards/`
+> * `franchise-control/`
+> * `user-management/`
+> * `settings/`
+>
+> 🔹 If any of the above folders are missing, create them with placeholder `README.md` and `index.js` files.
+> 🔹 Move misplaced files or folders into the correct paths.
+>
+> ---
+>
+> ### 🔄 2. Integrate These Services into Developer Portal Page:
+>
+> * 🏠 **EHB-HOME** → `/admin/EHB-HOME`
+> * 📊 **EHB-DASHBOARD** → `/admin/EHB-DASHBOARD`
+> * 🛍️ **GoSellr (E-Commerce)** → `/services/EHB-GoSellr`
+> * 👩‍⚕️ **WMS (Health)** → `/services/WMS-World-Medical-Service`
+> * ⚖️ **OLS (Law)** → `/services/OLS-Online-Law-Service`
+> * 📚 **HPS (Education)** → `/services/HPS-Education-Service`
+> * 🧾 **JPS (Jobs)** → `/services/JPS-Job-Providing-Service`
+> * 🔐 **PSS (Security)** → `/system/EHB-SQL/EHB-SQL-PSS`
+> * 🧪 **EDR (Skill Test)** → `/system/EHB-SQL/EHB-SQL-EDR`
+> * 🧠 **AI Services** → `/services/ai-deployment-chatbot`
+> * 💼 **EMO (Business Mgmt)** → `/system/EHB-SQL/EHB-SQL-EMO`
+> * 🪙 **EHB Wallet** → `/admin/ehb-wallet`
+> * 🌐 **Franchise System** → `/system/franchise-system`
+> * ⚙️ **Blockchain & Validator System** → `/system/EHB-Blockchain`
+>
+> 🔗 Add each as a **card** with:
+>
+> * Emoji icon
+> * Service label
+> * Folder URL as route
+> * Optional tag: \[SERVICES], \[SYSTEM], \[ADMIN]
+>
+> ---
+>
+> ### 🧠 3. Developer Portal Page Must Also Show:
+>
+> * Folder Health & Structure Summary for:
+>
+>   * `admin/`
+>   * `system/`
+>   * `services/`
+> * Last 10 file/folder changes (if available)
+> * AI Sync Logs (from ChatGPT/Replit actions)
+> * Missing Components & Suggest Fix buttons
+> * All cards and links generated dynamically
+>
+> ---
+>
+> ✅ Continue to **Phase 2** for next set of services and system folders.
+
+Shall I proceed with **Phase 2 of 5** now?

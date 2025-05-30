@@ -1,0 +1,42 @@
+EHB-AI-Dev-Phase Folders Missing Components Report
+Generated: May 12, 2025
+----------------------------------------
+Scanning EHB-AI-Dev-Phase-10
+✗ Missing components: config/ config.json
+
+Scanning EHB-AI-Dev-Phase-12
+✗ Missing components: models/ config/ config.json
+
+Scanning EHB-AI-Dev-Phase-13
+✗ Missing components: models/ config/ config.json
+
+Scanning EHB-AI-Dev-Phase-24
+✗ Missing components: config.json
+
+Scanning EHB-AI-Dev-Phase-25
+✗ Missing components: config.json
+
+Scanning EHB-AI-Dev-Phase-26
+✗ Missing components: config.json
+
+Scanning EHB-AI-Dev-Phase-4
+✗ Missing components: config.json
+
+Scanning EHB-AI-Dev-Phase-5
+✗ Missing components: config.json
+
+Scanning EHB-AI-Dev-Phase-7
+✗ Missing components: config/ config.json
+
+----------------------------------------
+Summary of phases with missing components:
+
+EHB-AI-Dev-Phase-10: 2 component(s) missing: config/ config.json
+EHB-AI-Dev-Phase-12: 3 component(s) missing: models/ config/ config.json
+EHB-AI-Dev-Phase-13: 3 component(s) missing: models/ config/ config.json
+EHB-AI-Dev-Phase-24: 1 component(s) missing: config.json
+EHB-AI-Dev-Phase-25: 1 component(s) missing: config.json
+EHB-AI-Dev-Phase-26: 1 component(s) missing: config.json
+EHB-AI-Dev-Phase-4: 1 component(s) missing: config.json
+EHB-AI-Dev-Phase-5: 1 component(s) missing: config.json
+EHB-AI-Dev-Phase-7: 2 component(s) missing: config/ config.json

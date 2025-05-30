@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "E-commerce Store Manager",
+    "company": "GoSellr Franchise",
+    "location": "Remote",
+    "description": "Manage online store operations and customer service for a GoSellr franchise.",
+    "requirements": [
+      "At least 2 years of e-commerce experience",
+      "Customer service background",
+      "Proficiency with digital marketing tools",
+      "Experience with inventory management"
+    ],
+    "benefits": [
+      "Flexible work hours",
+      "Health insurance",
+      "Paid time off",
+      "Employee discount"
+    ],
+    "salary": "$45,000 - $60,000",
+    "job_type": "Full-time",
+    "posted_date": "2025-05-25T08:00:15.594Z"
+  },
+  {
+    "id": 2,
+    "title": "Digital Marketing Specialist",
+    "company": "GoSellr Corporate",
+    "location": "New York, NY",
+    "description": "Create and manage marketing campaigns for our e-commerce platform.",
+    "requirements": [
+      "Bachelor's degree in Marketing or related field",
+      "Experience with social media marketing",
+      "Knowledge of SEO/SEM",
+      "Analytical skills for campaign measurement"
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Comprehensive benefits package",
+      "Career advancement opportunities",
+      "Collaborative work environment"
+    ],
+    "salary": "$55,000 - $70,000",
+    "job_type": "Full-time",
+    "posted_date": "2025-05-18T08:00:15.594Z"
+  },
+  {
+    "id": 3,
+    "title": "Inventory Manager",
+    "company": "GoSellr Logistics",
+    "location": "Chicago, IL",
+    "description": "Oversee inventory management for our e-commerce warehouses.",
+    "requirements": [
+      "Experience with inventory management systems",
+      "Strong organizational skills",
+      "Attention to detail",
+      "Supply chain knowledge"
+    ],
+    "benefits": [
+      "Competitive salary",
+      "Health and dental insurance",
+      "401(k) matching",
+      "Professional development opportunities"
+    ],
+    "salary": "$50,000 - $65,000",
+    "job_type": "Full-time",
+    "posted_date": "2025-05-27T08:00:15.594Z"
+  }
+]

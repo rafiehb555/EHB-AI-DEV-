@@ -1,0 +1,78 @@
+{
+  "name": "EHB Developer Portal",
+  "version": "1.0.0",
+  "description": "Central administration hub for the EHB platform",
+  "apiBase": "/api",
+  "appSettings": {
+    "theme": {
+      "primaryColor": "#2563EB",
+      "secondaryColor": "#7C3AED",
+      "accentColor": "#10B981",
+      "customTheme": false
+    },
+    "layout": {
+      "compactMode": false,
+      "sidebarWidth": 240,
+      "showNotifications": true,
+      "enableDarkMode": true,
+      "defaultDarkMode": false
+    },
+    "features": {
+      "moduleManagement": true,
+      "serviceMonitoring": true,
+      "databaseAdmin": true,
+      "userManagement": true,
+      "systemSettings": true,
+      "apiExplorer": true,
+      "blockchain": true,
+      "analytics": true
+    }
+  },
+  "integrations": {
+    "ehbHome": {
+      "url": "http://localhost:5005",
+      "enabled": true
+    },
+    "ehbDashboard": {
+      "url": "http://localhost:5006",
+      "enabled": true
+    },
+    "ehbAdminPanel": {
+      "url": "http://localhost:5000",
+      "enabled": true
+    },
+    "goSellr": {
+      "url": "http://localhost:5002",
+      "enabled": true
+    }
+  },
+  "modules": {
+    "paths": {
+      "services": "../../services",
+      "system": "../../system",
+      "admin": "../../admin"
+    },
+    "registryFile": "./modules.json"
+  },
+  "auth": {
+    "sessionTimeout": 3600,
+    "requireAuth": false,
+    "providers": ["local", "oauth"]
+  },
+  "api": {
+    "rateLimit": {
+      "enabled": true,
+      "maxRequests": 100,
+      "timeWindow": 60000
+    },
+    "cors": {
+      "enabled": true,
+      "origins": "*"
+    }
+  },
+  "logging": {
+    "level": "info",
+    "format": "json",
+    "path": "./logs"
+  }
+}

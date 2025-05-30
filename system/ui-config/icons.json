@@ -1,0 +1,136 @@
+{
+  "icons": {
+    "library": "react-icons",
+    "preferredSet": "fi",
+    "sets": {
+      "fi": {
+        "name": "Feather Icons",
+        "description": "Simple, elegant, consistent icon set",
+        "import": "@react-icons/fi",
+        "style": "line"
+      },
+      "hi": {
+        "name": "Heroicons",
+        "description": "Beautiful hand-crafted SVG icons",
+        "import": "@heroicons/react",
+        "style": "solid"
+      },
+      "fa": {
+        "name": "Font Awesome",
+        "description": "Comprehensive icon set with solid and regular variants",
+        "import": "@react-icons/fa",
+        "style": "solid"
+      },
+      "io": {
+        "name": "Ionicons",
+        "description": "Premium icons for web, iOS, Android, and desktop apps",
+        "import": "@react-icons/io",
+        "style": "sharp"
+      },
+      "md": {
+        "name": "Material Design Icons",
+        "description": "Google's Material Design icon set",
+        "import": "@react-icons/md",
+        "style": "filled"
+      }
+    },
+    "sizes": {
+      "xs": "16px",
+      "sm": "20px",
+      "md": "24px",
+      "lg": "32px",
+      "xl": "40px"
+    },
+    "common": {
+      "home": "FiHome",
+      "settings": "FiSettings",
+      "user": "FiUser",
+      "users": "FiUsers",
+      "search": "FiSearch",
+      "plus": "FiPlus",
+      "minus": "FiMinus",
+      "edit": "FiEdit",
+      "delete": "FiTrash2",
+      "check": "FiCheck",
+      "close": "FiX",
+      "menu": "FiMenu",
+      "more": "FiMoreVertical",
+      "chevronLeft": "FiChevronLeft",
+      "chevronRight": "FiChevronRight",
+      "chevronUp": "FiChevronUp",
+      "chevronDown": "FiChevronDown",
+      "arrowLeft": "FiArrowLeft",
+      "arrowRight": "FiArrowRight",
+      "arrowUp": "FiArrowUp",
+      "arrowDown": "FiArrowDown",
+      "calendar": "FiCalendar",
+      "clock": "FiClock",
+      "bell": "FiBell",
+      "info": "FiInfo",
+      "warning": "FiAlertTriangle",
+      "error": "FiAlertCircle",
+      "success": "FiCheckCircle",
+      "help": "FiHelpCircle",
+      "mail": "FiMail",
+      "phone": "FiPhone",
+      "globe": "FiGlobe",
+      "link": "FiLink",
+      "star": "FiStar",
+      "heart": "FiHeart",
+      "bookmark": "FiBookmark",
+      "tag": "FiTag",
+      "upload": "FiUpload",
+      "download": "FiDownload",
+      "share": "FiShare2",
+      "refresh": "FiRefreshCw",
+      "lock": "FiLock",
+      "unlock": "FiUnlock",
+      "eye": "FiEye",
+      "eyeOff": "FiEyeOff",
+      "filter": "FiFilter",
+      "sort": "FiList",
+      "grid": "FiGrid",
+      "list": "FiList"
+    },
+    "specialized": {
+      "blockchain": {
+        "blockchain": "FiDatabase",
+        "wallet": "FiCreditCard",
+        "token": "FiDisc",
+        "transaction": "FiRepeat",
+        "mining": "FiTool",
+        "node": "FiServer",
+        "contract": "FiFileText",
+        "key": "FiKey",
+        "address": "FiHash"
+      },
+      "dashboard": {
+        "dashboard": "FiActivity",
+        "analytics": "FiBarChart2",
+        "chart": "FiPieChart",
+        "stats": "FiTrendingUp",
+        "report": "FiFileText"
+      },
+      "ecommerce": {
+        "cart": "FiShoppingCart",
+        "shop": "FiShoppingBag",
+        "product": "FiPackage",
+        "order": "FiClipboard",
+        "payment": "FiCreditCard",
+        "shipping": "FiTruck",
+        "discount": "FiPercent"
+      },
+      "media": {
+        "image": "FiImage",
+        "video": "FiVideo",
+        "audio": "FiMusic",
+        "play": "FiPlay",
+        "pause": "FiPause",
+        "stop": "FiSquare",
+        "volume": "FiVolume2",
+        "mute": "FiVolumeX",
+        "camera": "FiCamera"
+      }
+    }
+  }
+}

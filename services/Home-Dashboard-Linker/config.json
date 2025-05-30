@@ -1,0 +1,117 @@
+{
+  "name": "Home-Dashboard-Linker",
+  "version": "1.0.0",
+  "description": "Integration service for EHB dashboards and interfaces",
+  "type": "integration",
+  "port": 5040,
+  "settings": {
+    "singleSignOn": true,
+    "syncPreferences": true,
+    "unifiedNotifications": true,
+    "centralNavigation": true,
+    "stateSharing": true,
+    "pollingInterval": 5000,
+    "cacheTimeout": 300000
+  },
+  "interfaces": {
+    "EHB-HOME": {
+      "url": "http://localhost:5005",
+      "type": "central",
+      "priority": 100,
+      "enabled": true
+    },
+    "EHB-DASHBOARD": {
+      "url": "http://localhost:5006",
+      "type": "admin",
+      "priority": 90,
+      "enabled": true
+    },
+    "ehb-admin-panel": {
+      "url": "http://localhost:5000",
+      "type": "admin",
+      "priority": 80,
+      "enabled": true
+    },
+    "EHB-Developer-Portal": {
+      "url": "http://localhost:5010",
+      "type": "developer",
+      "priority": 70,
+      "enabled": true
+    },
+    "EHB-GoSellr": {
+      "url": "http://localhost:5002",
+      "type": "service",
+      "priority": 60,
+      "enabled": true
+    }
+  },
+  "navigation": {
+    "primaryItems": [
+      {
+        "name": "Home",
+        "icon": "home",
+        "target": "EHB-HOME",
+        "path": "/"
+      },
+      {
+        "name": "Dashboard",
+        "icon": "dashboard",
+        "target": "EHB-DASHBOARD",
+        "path": "/"
+      },
+      {
+        "name": "Admin",
+        "icon": "settings",
+        "target": "ehb-admin-panel",
+        "path": "/"
+      },
+      {
+        "name": "Developer",
+        "icon": "code",
+        "target": "EHB-Developer-Portal",
+        "path": "/"
+      },
+      {
+        "name": "GoSellr",
+        "icon": "shopping-cart",
+        "target": "EHB-GoSellr",
+        "path": "/"
+      }
+    ],
+    "utilitiesItems": [
+      {
+        "name": "Settings",
+        "icon": "settings",
+        "target": "EHB-HOME",
+        "path": "/settings"
+      },
+      {
+        "name": "Profile",
+        "icon": "user",
+        "target": "EHB-HOME",
+        "path": "/profile"
+      },
+      {
+        "name": "Logout",
+        "icon": "log-out",
+        "target": "EHB-HOME",
+        "path": "/logout"
+      }
+    ]
+  },
+  "api": {
+    "cors": {
+      "enabled": true,
+      "origins": ["*"]
+    },
+    "rateLimit": {
+      "enabled": true,
+      "max": 100,
+      "timeWindow": 60000
+    }
+  },
+  "log": {
+    "level": "info",
+    "file": "./logs/dashboard-linker.log"
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "timestamp": "2025-05-10T20:50:40.041Z",
+    "service": "EHB-Developer-Portal",
+    "serviceUrl": "http://localhost:5003",
+    "wsUrl": "ws://localhost:5003/ehb-integration",
+    "actions": [
+      "hub-check-failed",
+      "direct-check-attempt",
+      "direct-check-failed"
+    ],
+    "integrationHubCheck": {
+      "success": false,
+      "error": "connect ECONNREFUSED 127.0.0.1:5003"
+    },
+    "directCheck": {
+      "success": false,
+      "results": [
+        {
+          "endpoint": "http://localhost:5003/health",
+          "success": false,
+          "error": "connect ECONNREFUSED 127.0.0.1:5003"
+        },
+        {
+          "endpoint": "http://localhost:5003/api/health",
+          "success": false,
+          "error": "connect ECONNREFUSED 127.0.0.1:5003"
+        },
+        {
+          "endpoint": "http://localhost:5003/status",
+          "success": false,
+          "error": "Request failed with status code 404"
+        },
+        {
+          "endpoint": "http://localhost:5003/api/status",
+          "success": false,
+          "error": "Request failed with status code 404"
+        },
+        {
+          "endpoint": "http://localhost:5003/",
+          "success": false,
+          "error": "Request failed with status code 404"
+        }
+      ]
+    }
+  }
+]

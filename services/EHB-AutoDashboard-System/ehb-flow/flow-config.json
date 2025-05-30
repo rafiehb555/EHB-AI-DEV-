@@ -1,0 +1,25 @@
+{
+  "structure_locked": true,
+  "routing_keywords": {
+    "GoSellr": "GoSellr",
+    "JPS": "JPS",
+    "WMS": "WMS",
+    "OBS": "OBS",
+    "EDR": "EDR",
+    "PSS": "PSS",
+    "AGTS": "AGTS",
+    "OLS": "OLS",
+    "WALLET": "EHB-WALLET",
+    "CORE": "EHB-CORE"
+  },
+  "auto_card_generation": true,
+  "dashboard_card_format": {
+    "title": "Module Name",
+    "status": "Live | Test | In Development",
+    "url": "auto-generated",
+    "target": "EHB-HOME + EHB-DASHBOARD"
+  },
+  "live_sync_enabled": true,
+  "version": "1.0.0",
+  "last_updated": "auto"
+}

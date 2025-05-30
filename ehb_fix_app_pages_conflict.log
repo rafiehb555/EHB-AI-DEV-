@@ -1,0 +1,38 @@
+[2025-05-10T10:17:29.871Z] Starting EHB-HOME app/pages conflict fix
+[2025-05-10T10:17:29.879Z] Fixing EHB-HOME app/pages conflict...
+[2025-05-10T10:17:29.885Z] Updated next.config.js with externalDir configuration
+[2025-05-10T10:17:29.886Z] Created/updated .babelrc file
+[2025-05-10T10:17:29.887Z] Created/updated jsconfig.json file
+[2025-05-10T10:17:29.887Z] Successfully fixed EHB-HOME app/pages conflict
+[2025-05-10T10:17:29.888Z] Fixing public data access...
+[2025-05-10T10:17:29.888Z] Created directory: /home/runner/workspace/EHB-HOME/public/EHB-HOME
+[2025-05-10T10:17:29.891Z] Created symlink from ../../data to /home/runner/workspace/EHB-HOME/public/EHB-HOME/data
+[2025-05-10T10:17:29.891Z] Successfully fixed public data access
+[2025-05-10T10:17:29.892Z] Fixing index.js fetch path...
+[2025-05-10T10:17:29.893Z] Updated fetch path in index.js
+[2025-05-10T10:17:29.893Z] Successfully fixed index.js fetch path
+[2025-05-10T10:17:29.894Z] Organizing services-root directory...
+[2025-05-10T10:17:29.901Z] Created symlink from ../Delivery-Service to /home/runner/workspace/services-root/Delivery-Service
+[2025-05-10T10:17:29.902Z] Created symlink from ../EHB-AI-Dev-Fullstack to /home/runner/workspace/services-root/EHB-AI-Dev-Fullstack
+[2025-05-10T10:17:29.903Z] Created symlink from ../EHB-AI-Marketplace to /home/runner/workspace/services-root/EHB-AI-Marketplace
+[2025-05-10T10:17:29.904Z] Created symlink from ../EHB-AM-AFFILIATE-SYSTEM to /home/runner/workspace/services-root/EHB-AM-AFFILIATE-SYSTEM
+[2025-05-10T10:17:29.904Z] Created symlink from ../EHB-Affiliate-System to /home/runner/workspace/services-root/EHB-Affiliate-System
+[2025-05-10T10:17:29.904Z] Created symlink from ../EHB-Blockchain to /home/runner/workspace/services-root/EHB-Blockchain
+[2025-05-10T10:17:29.905Z] Created symlink from ../EHB-DASHBOARD to /home/runner/workspace/services-root/EHB-DASHBOARD
+[2025-05-10T10:17:29.906Z] Created symlink from ../EHB-Developer-Portal to /home/runner/workspace/services-root/EHB-Developer-Portal
+[2025-05-10T10:17:29.908Z] Created symlink from ../EHB-Franchise to /home/runner/workspace/services-root/EHB-Franchise
+[2025-05-10T10:17:29.908Z] Created symlink from ../EHB-HOME to /home/runner/workspace/services-root/EHB-HOME
+[2025-05-10T10:17:29.909Z] Created symlink from ../EHB-SQL to /home/runner/workspace/services-root/EHB-SQL
+[2025-05-10T10:17:29.909Z] Created symlink from ../EHB-Services-Departments-Flow to /home/runner/workspace/services-root/EHB-Services-Departments-Flow
+[2025-05-10T10:17:29.910Z] Created symlink from ../EHB-TrustyWallet-System to /home/runner/workspace/services-root/EHB-TrustyWallet-System
+[2025-05-10T10:17:29.910Z] Created symlink from ../EHB-Tube to /home/runner/workspace/services-root/EHB-Tube
+[2025-05-10T10:17:29.911Z] Created symlink from ../GoSellr-Ecommerce to /home/runner/workspace/services-root/GoSellr-Ecommerce
+[2025-05-10T10:17:29.911Z] Created symlink from ../HPS-Education-Service to /home/runner/workspace/services-root/HPS-Education-Service
+[2025-05-10T10:17:29.911Z] Created symlink from ../JPS-Job-Providing-Service to /home/runner/workspace/services-root/JPS-Job-Providing-Service
+[2025-05-10T10:17:29.912Z] Created symlink from ../OLS-Online-Law-Service to /home/runner/workspace/services-root/OLS-Online-Law-Service
+[2025-05-10T10:17:29.912Z] Created symlink from ../WMS-World-Medical-Service to /home/runner/workspace/services-root/WMS-World-Medical-Service
+[2025-05-10T10:17:29.912Z] Successfully organized services-root directory
+[2025-05-10T10:17:29.912Z] Attempting to restart EHB-HOME workflow...
+[2025-05-10T10:17:29.920Z] EHB-HOME app/pages conflict fix completed successfully
+[2025-05-10T10:17:29.962Z] Stopped any existing EHB-HOME processes
+[2025-05-10T10:17:39.921Z] Started EHB-HOME workflow

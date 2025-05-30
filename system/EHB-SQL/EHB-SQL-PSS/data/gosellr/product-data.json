@@ -1,0 +1,26 @@
+{
+  "product_count": 250,
+  "categories": [
+    "Electronics",
+    "Clothing",
+    "Home & Kitchen",
+    "Fitness"
+  ],
+  "top_sellers": [
+    {
+      "id": 1,
+      "name": "Smartphone X",
+      "sales": 1245
+    },
+    {
+      "id": 2,
+      "name": "Wireless Headphones",
+      "sales": 987
+    },
+    {
+      "id": 3,
+      "name": "Designer T-Shirt",
+      "sales": 754
+    }
+  ]
+}

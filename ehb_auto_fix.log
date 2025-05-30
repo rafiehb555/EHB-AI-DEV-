@@ -1,0 +1,62 @@
+[2025-05-10T09:53:50.233Z] [INFO] Starting automatic fixes for all issues...
+[2025-05-10T09:53:50.240Z] [INFO] Fixing System Architecture page data loading...
+[2025-05-10T09:53:50.241Z] [SUCCESS] Created system architecture data file: /home/runner/workspace/EHB-Developer-Portal/data/system_architecture.json
+[2025-05-10T09:53:50.242Z] [SUCCESS] Created directory: /home/runner/workspace/EHB-Developer-Portal/api
+[2025-05-10T09:53:50.244Z] [SUCCESS] Created API route for system architecture: /home/runner/workspace/EHB-Developer-Portal/api/system-architecture.js
+[2025-05-10T09:53:50.244Z] [INFO] Fixing Next.js "ensurePageImpl" error...
+[2025-05-10T09:53:50.252Z] [SUCCESS] Updated Next.js config to fix directory structure issues
+[2025-05-10T09:53:50.254Z] [SUCCESS] Created/updated .babelrc file
+[2025-05-10T09:53:50.256Z] [INFO] Creating Integration Hub stub endpoints...
+[2025-05-10T09:53:50.258Z] [SUCCESS] Created directory: /home/runner/workspace/EHB-AI-Dev-Fullstack/api
+[2025-05-10T09:53:50.259Z] [SUCCESS] Created registration stub endpoint: /home/runner/workspace/EHB-AI-Dev-Fullstack/api/modules-register.js
+[2025-05-10T09:53:50.260Z] [SUCCESS] Created events stub endpoint: /home/runner/workspace/EHB-AI-Dev-Fullstack/api/hub-events.js
+[2025-05-10T09:53:50.260Z] [INFO] Fixing MongoDB connection issues...
+[2025-05-10T09:53:50.276Z] [SUCCESS] Updated MongoDB connection configuration: /home/runner/workspace/backend/config/db.js
+[2025-05-10T09:53:50.278Z] [INFO] Cleaning up folder structure...
+[2025-05-10T09:53:50.294Z] [SUCCESS] Cleaned up folder structure for Delivery-Service
+[2025-05-10T09:53:50.298Z] [SUCCESS] Cleaned up folder structure for EHB-AI-Dev-Fullstack
+[2025-05-10T09:53:50.300Z] [SUCCESS] Cleaned up folder structure for EHB-AI-Marketplace
+[2025-05-10T09:53:50.301Z] [SUCCESS] Cleaned up folder structure for EHB-AM-AFFILIATE-SYSTEM
+[2025-05-10T09:53:50.301Z] [SUCCESS] Cleaned up folder structure for EHB-Blockchain
+[2025-05-10T09:53:50.302Z] [SUCCESS] Cleaned up folder structure for EHB-DASHBOARD
+[2025-05-10T09:53:50.303Z] [SUCCESS] Cleaned up folder structure for EHB-Developer-Portal
+[2025-05-10T09:53:50.304Z] [SUCCESS] Cleaned up folder structure for EHB-Franchise
+[2025-05-10T09:53:50.308Z] [SUCCESS] Created directory: /home/runner/workspace/EHB-HOME/api
+[2025-05-10T09:53:50.309Z] [SUCCESS] Cleaned up folder structure for EHB-HOME
+[2025-05-10T09:53:50.310Z] [SUCCESS] Cleaned up folder structure for EHB-SQL
+[2025-05-10T09:53:50.310Z] [SUCCESS] Cleaned up folder structure for EHB-Services-Departments-Flow
+[2025-05-10T09:53:50.311Z] [SUCCESS] Cleaned up folder structure for EHB-TrustyWallet-System
+[2025-05-10T09:53:50.312Z] [SUCCESS] Cleaned up folder structure for EHB-Tube
+[2025-05-10T09:53:50.313Z] [SUCCESS] Cleaned up folder structure for GoSellr-Ecommerce
+[2025-05-10T09:53:50.314Z] [SUCCESS] Cleaned up folder structure for HPS-Education-Service
+[2025-05-10T09:53:50.315Z] [SUCCESS] Cleaned up folder structure for JPS-Job-Providing-Service
+[2025-05-10T09:53:50.316Z] [SUCCESS] Cleaned up folder structure for OLS-Online-Law-Service
+[2025-05-10T09:53:50.316Z] [SUCCESS] Cleaned up folder structure for WMS-World-Medical-Service
+[2025-05-10T09:53:50.317Z] [INFO] Fixing EHB-HOME dashboard loading...
+[2025-05-10T09:53:50.319Z] [SUCCESS] Created simplified index.js for EHB-HOME: /home/runner/workspace/EHB-HOME/pages/index.js
+[2025-05-10T09:53:50.320Z] [SUCCESS] Created _app.js for EHB-HOME: /home/runner/workspace/EHB-HOME/pages/_app.js
+[2025-05-10T09:53:50.320Z] [SUCCESS] Created globals.css for EHB-HOME: /home/runner/workspace/EHB-HOME/styles/globals.css
+[2025-05-10T09:53:50.321Z] [SUCCESS] Created tailwind.config.js for EHB-HOME: /home/runner/workspace/EHB-HOME/tailwind.config.js
+[2025-05-10T09:53:50.321Z] [SUCCESS] Created postcss.config.js for EHB-HOME: /home/runner/workspace/EHB-HOME/postcss.config.js
+[2025-05-10T09:53:50.322Z] [SUCCESS] Created/updated package.json for EHB-HOME: /home/runner/workspace/EHB-HOME/package.json
+[2025-05-10T09:53:50.331Z] [SUCCESS] Created service_info.json for EHB-HOME: /home/runner/workspace/EHB-HOME/data/service_info.json
+[2025-05-10T09:53:50.340Z] [SUCCESS] All issues fixed successfully!
+[2025-05-10T09:53:50.340Z] [INFO] Please restart the EHB-HOME workflow to apply changes.
+[2025-05-10T09:53:53.781Z] [SUCCESS] EHB-HOME dependencies installed successfully
+[2025-05-11T22:03:25.479Z] 🔄 Setting up automated error prevention to run every 10 minutes
+[2025-05-11T22:03:25.499Z] 🤖 Running automated error detection and prevention...
+[2025-05-11T22:03:25.500Z] Step 1: Running general JavaScript error scanner...
+[2025-05-11T22:03:25.504Z] ✨ Automated error prevention system is now active
+[2025-05-11T22:03:27.905Z] ✅ General auto-fix completed: fixed issues in 33/596 files
+[2025-05-11T22:03:27.906Z] Step 2: Running React-specific error scanner...
+[2025-05-12T02:32:43.186Z] ❌ Invalid interval specified. Using default of 10 minutes.
+[2025-05-12T02:32:43.204Z] 🔄 Setting up automated error prevention to run every 10 minutes
+[2025-05-12T02:32:43.205Z] 🤖 Running automated error detection and prevention...
+[2025-05-12T02:32:43.206Z] Step 1: Running general JavaScript error scanner...
+[2025-05-12T02:32:43.210Z] ✨ Automated error prevention system is now active
+[2025-05-12T02:32:45.074Z] ✅ General auto-fix completed: fixed issues in 21/605 files
+[2025-05-12T02:32:45.075Z] Step 2: Running React-specific error scanner...
+[2025-05-12T02:32:46.930Z] ✅ React auto-fix completed: fixed issues in 31/605 files
+[2025-05-12T02:32:46.933Z] Step 3: Running React DOM render fix for React 18 compatibility...
+[2025-05-12T02:32:48.542Z] ✓ No React DOM render issues found in 605 files
+[2025-05-12T02:32:48.543Z] Step 4: Running backup files and empty directory cleanup...

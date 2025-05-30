@@ -1,0 +1,71 @@
+📁 Target Base Path:
+All ZIPs must extract and deploy their files under:
+
+swift
+Copy
+Edit
+/services/SOT-Technologies/EHB-AI-Dev/
+🧠 What Replit Agent Should Do for Each ZIP:
+Detect ZIPs in /uploaded-zips/ folder
+
+Unzip → Only extract relevant files inside /services/SOT-Technologies/EHB-AI-Dev/Phase-[x]/
+
+✅ If extracted folder contains:
+
+frontend/ → move to .../Phase-[x]/frontend
+
+backend/ → move to .../Phase-[x]/backend
+
+admin/ → move to .../Phase-[x]/admin
+
+⚙️ Agent should log install success in /logs/free-agent.log
+
+🧹 After extraction:
+
+Delete ZIP file from /uploaded-zips/
+
+Delete temp extracted copy (if any)
+
+📌 Make sure each ZIP is self-contained (nothing should overwrite existing code)
+
+🗂️ File Handling by Phase:
+Phase	Destination Folder
+1	/services/SOT-Technologies/EHB-AI-Dev/Phase-1-Free-Agent/
+2	/services/SOT-Technologies/EHB-AI-Dev/Phase-2-Free-Agent/
+...	...
+10	/services/SOT-Technologies/EHB-AI-Dev/Phase-10-Free-Agent/
+
+🔁 Additional Agent Automation:
+🔄 On every Replit start:
+autoProcessZips() will:
+
+Scan /uploaded-zips/
+
+Unzip + validate folder
+
+Place code in correct /services/...
+
+Delete ZIP + extracted folder
+
+Log result
+
+✅ Required Agent Scripts (Already Created):
+/services/SOT-Technologies/EHB-AI-Dev/ai-agent/zipProcessor.js
+
+/services/SOT-Technologies/EHB-AI-Dev/ai-agent/verify_structure.js
+
+/services/SOT-Technologies/EHB-AI-Dev/ai-agent/autoRepairAgent.js
+
+🚦 Agent Action Summary
+bash
+Copy
+Edit
+# Replit Agent Job
+1. Scan /uploaded-zips
+2. For each ZIP:
+   - Unzip to temp folder
+   - Copy folders to: /services/SOT-Technologies/EHB-AI-Dev/Phase-[x]/
+   - Log install success
+   - Delete ZIP + temp extracted folder
+✅ Replit Auto Instructions (Message to Agent):
+"👋 Hello Replit Agent — please auto-install all ZIPs inside /uploaded-zips/ into their target structure under /services/SOT-Technologies/EHB-AI-Dev/Phase-[x]/. Delete ZIPs and extracted folders after use. Log everything in /logs/free-agent.log and verify structure.json after each phase install.
